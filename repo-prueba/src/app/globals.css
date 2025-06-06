@@ -22,8 +22,9 @@
 
 body {
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: white; /* si querés tener un fondo base por detrás */
+  font-family: var(--font-albert-sans), sans-serif;
+  background-color: white;
+  /* si querés tener un fondo base por detrás */
 }
 
 .bg-hero {
@@ -31,4 +32,3 @@ body {
   background-size: cover;
   background-position: center;
 }
-
