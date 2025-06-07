@@ -1,5 +1,5 @@
-import AccordionList from "@/components/Home/Servicios/AcordeonList"
 import Navbar from "../components/navBar/NavBar"
+import Servicios from "@/components/Home/Servicios/Servicios"
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         </section>
       </div>
       <div>
-        <AccordionList/>
+        <Servicios/>
       </div>
     </div>
   )
