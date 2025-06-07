@@ -16,7 +16,7 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="border-t border-[#D81FB9] mb-5">
+        <div className="border-t border-[#D81FB9]  mb-5">
             <button
                 onClick={() => setOpen(!open)}
                 className="w-full flex items-center justify-between px-4 py-3"
@@ -41,7 +41,7 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
                 <div className="px-16 pb-4 text-[40px] text-gray-800 ml-[40px]">
                     <p className="italic font-light  -mt-[14px]">{description}</p>
                     {link && (
-                        <p className="pt-1 font-bold text-[32px] ml-[3px] -mt-[7px] mb-1 text-[#D81FB9] hover:underline">
+                        <p className="pt-1 font-bold text-[32px] ml-[3px] -mt-[7px] mb-1 text-[#D81FB9]">
                             <a href={link}>(Leer más)</a>
                         </p>
                     )}
