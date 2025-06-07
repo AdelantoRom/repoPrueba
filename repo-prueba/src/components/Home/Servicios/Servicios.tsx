@@ -3,6 +3,7 @@
 
 import Image from "next/image";
 import ServicioItem from "./ServicioItem";
+import Enfoque from "../Enfoque/Enfoque";
 
 export default function Servicios() {
     return (
@@ -57,6 +58,9 @@ export default function Servicios() {
                         link="#"
                     />
                 </div>
+            </div>
+            <div>
+                <Enfoque/>
             </div>
         </div>
     );
