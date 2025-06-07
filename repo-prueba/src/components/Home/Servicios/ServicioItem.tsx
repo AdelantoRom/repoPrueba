@@ -31,9 +31,9 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
                     <span className="text-5xl font-normal ml-[31px] -mt-2">{title}</span>
                 </div>
                 {open ? (
-                    <ChevronUp className="text-[#D81FB9]" />
+                    <ChevronUp className="text-[#D81FB9] w-[55px] h-[55px] -mr-7" />
                 ) : (
-                    <ChevronDown className="text-[#D81FB9]" />
+                    <ChevronDown className="text-[#D81FB9] w-[55px] h-[55px] -mr-7" />
                 )}
             </button>
 
