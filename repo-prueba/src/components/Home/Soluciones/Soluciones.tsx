@@ -50,6 +50,32 @@ export default function Soluciones() {
           />
         </div>
       </div>
+
+ <div className="px-[143px] py-20 flex justify-between items-start">
+  {/* Columna izquierda con h3 y h4 */}
+  <div className="flex flex-col space-y-6 w-1/2 max-w-[629px]">
+    <h3 className="text-[32px] leading-[40px] font-medium">
+      Transformación Digital
+    </h3>
+    <h4 className="text-[24px] leading-[40px] font-normal">
+      En un entorno que evoluciona aceleradamente, la <br />
+      transformación digital permite a las empresas adaptarse <br />
+      rápidamente a las demandas del mercado. <strong>Rombux es tu <br />
+      socio estratégico en el mundo online</strong>, ofreciéndote <br />
+      soluciones integrales y personalizadas para impulsar tu <br />
+      crecimiento y consolidar tu posición.
+    </h4>
+  </div>
+
+  {/* Columna derecha con h2 */}
+  <div className="w-1/2 flex justify-end -mt-18">
+    <h2 className="text-[120px] leading-[120px] font-normal text-right max-w-[829px]">
+      Impulsando tus Negocios al Futuro
+    </h2>
+  </div>
+</div>
+
+
     </div>
   );
 }
