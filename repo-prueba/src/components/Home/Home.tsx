@@ -1,12 +1,12 @@
-import React from 'react'
-import Navbar from '../navBar/NavBar'
+// import React from 'react'
+// import Navbar from '../navBar/NavBar'
 
-function Home() {
-    return (
+// function Home() {
+//     return (
         
-        <><div>Página en construcción</div>
-        <Navbar /></>
-    )
-}
+//         <><div>Página en construcción</div>
+//         <Navbar /></>
+//     )
+// }
 
-export default Home
+// export default Home

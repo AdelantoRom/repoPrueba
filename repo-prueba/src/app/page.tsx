@@ -1,19 +1,19 @@
-import Navbar from "../components/navBar/NavBar"
-import Servicios from "@/components/Home/Servicios/Servicios"
+import Navbar from "../components/navBar/NavBar";
+import Servicios from "@/components/Home/Servicios/Servicios";
+import Soluciones from "@/components/Home/Soluciones/Soluciones";
 
 export default function Home() {
   return (
     <div>
-      <div className="bg-[url('/a10b28.png')] bg-cover bg-center min-h-screen">
-        <Navbar />
-        <section className="text-white p-10">
-          <h1>Contenido de la Sección 1</h1>
-          
-        </section>
-      </div>
-      <div>
-        <Servicios/>
-      </div>
+      <Navbar />
+
+     <div className="bg-[url('/gradiente1.png')] bg-no-repeat bg-cover w-full min-h-screen text-white pt-[150px]">
+  <Soluciones />
+</div>
+
+
+      {/* Secciones siguientes */}
+      <Servicios />
     </div>
-  )
+  );
 }
