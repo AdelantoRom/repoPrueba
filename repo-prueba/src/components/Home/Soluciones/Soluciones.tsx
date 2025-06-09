@@ -22,22 +22,29 @@ export default function Soluciones() {
               ¡Anótate ahora y participa de un sorteo con <br /> importantes beneficios para tu próxima campaña!
             </h3>
 
-            <div className="flex max-w-md items-end space-x-4 border-b border-white pb-0">
-              <div className="relative w-full">
-                <input
-                  type="email"
-                  placeholder=" "
-                  className="w-full bg-transparent border-none border-b-2 border-white text-white placeholder-transparent focus:outline-none focus:border-[#00CED1] peer text-2xl"
-                />
-                <label className="absolute left-0 -top-7 text-white text-2xl transition-all peer-placeholder-shown:top-2 peer-placeholder-shown:text-2xl peer-focus:-top-7 peer-focus:text-2xl peer-focus:text-[#00CED1]">
-                  Email
-                </label>
-              </div>
+          <div className="flex items-end">
+  {/* Campo de Email */}
+  <div className="relative" style={{ width: '439px' }}>
+  <label className="block text-white text-[24px] leading-[32px] mb-[6px]">
+    Email
+  </label>
+  <input
+    type="email"
+    placeholder=""
+    className="w-full bg-transparent border-b-[1px] border-white text-white focus:outline-none focus:border-[#00CED1] text-[24px] leading-[32px]"
+  />
+</div>
 
-              <button className="bg-white border-radius text-[#00CED1] font-medium text-2xl px-6 pb-1">
-                Enviar
-              </button>
-            </div>
+  {/* Botón */}
+  <button
+    className="bg-white text-[#19B7CC] font-bold text-[22px] leading-[32px] px-4 py-1 rounded"
+    style={{ minWidth: "64px", height: "40px" }}
+  >
+    Enviar
+  </button>
+</div>
+
+
           </div>
         </div>
 
