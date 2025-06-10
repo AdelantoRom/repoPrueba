@@ -9,7 +9,7 @@ function Enfoque() {
                 </h3>
             </div>
 
-            <div className='flex justify-evenly ml-4'>
+            <div className='flex justify-around ml-4'>
                 <div className='flex flex-col items-center  w-[466px]'>
                     <Image
                         src="/circulo.png"
