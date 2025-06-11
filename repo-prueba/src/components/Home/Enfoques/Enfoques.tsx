@@ -1,5 +1,6 @@
 import React from 'react'
 import Grid from './Grid'
+import Testimonios from './Testimonios'
 
 function Enfoques() {
     return (
@@ -17,6 +18,9 @@ function Enfoques() {
             </div>
             <div className='flex justify-center'>
                 <Grid/>
+            </div>
+            <div>
+                <Testimonios/>
             </div>
         </div>
     )
