@@ -27,6 +27,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-albert-sans), sans-serif;
   background-color: white;
+  overflow-x: hidden;
   /* si querés tener un fondo base por detrás */
 }
 

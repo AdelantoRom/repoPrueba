@@ -1,6 +1,7 @@
 import Navbar from "../components/navBar/NavBar";
 import Servicios from "@/components/Home/Servicios/Servicios";
 import Soluciones from "@/components/Home/Soluciones/Soluciones";
+import Carousel from "@/components/Home/Carousel/Carousel";
 import Formulario from "@/components/Home/Formulario/Formulario";
 
 export default function Home() {
@@ -8,14 +9,12 @@ export default function Home() {
     <div>
       <Navbar />
 
-     <div className="bg-[url('/gradiente1.png')] bg-no-repeat bg-cover w-full min-h-screen text-white pt-[150px]">
-  <Soluciones />
-</div>
+      <div className="bg-[url('/gradiente1.png')] bg-no-repeat bg-cover w-full min-h-screen text-white pt-[150px]">
+        <Soluciones />
+      </div>
 
-
-      {/* Secciones siguientes */}
+      <Carousel />
       <Servicios />
-
       <Formulario />
     </div>
   );
