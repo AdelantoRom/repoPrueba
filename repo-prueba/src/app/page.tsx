@@ -2,6 +2,7 @@ import Navbar from "../components/navBar/NavBar";
 import Servicios from "@/components/Home/Servicios/Servicios";
 import Soluciones from "@/components/Home/Soluciones/Soluciones";
 import Carousel from "@/components/Home/Carousel/Carousel";
+import Enfoques from "@/components/Home/Enfoques/Enfoques";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
       {/* Secciones siguientes */}
       <Servicios />
+      <Enfoques/>
     </div>
   );
 }
