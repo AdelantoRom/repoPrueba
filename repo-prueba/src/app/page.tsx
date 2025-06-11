@@ -1,6 +1,7 @@
 import Navbar from "../components/navBar/NavBar";
 import Servicios from "@/components/Home/Servicios/Servicios";
 import Soluciones from "@/components/Home/Soluciones/Soluciones";
+import Formulario from "@/components/Home/Formulario/Formulario";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
 
       {/* Secciones siguientes */}
       <Servicios />
+
+      <Formulario />
     </div>
   );
 }
