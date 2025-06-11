@@ -4,6 +4,7 @@ import { useKeenSlider, KeenSliderInstance } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
 import { useRef, useEffect } from 'react'
 
+
 const images = [
     { src: '/hp.jpg', alt: 'HP' },
     { src: '/equipos.png', alt: 'Equipos' },
@@ -12,7 +13,6 @@ const images = [
     { src: '/mandt.png', alt: 'MandT' },
 ]
 
-// 👇 duplicamos el array para loop visual real
 const loopedImages = [...images, ...images]
 
 export default function Carousel() {
