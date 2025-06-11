@@ -4,6 +4,7 @@ import Soluciones from "@/components/Home/Soluciones/Soluciones";
 import Carousel from "@/components/Home/Carousel/Carousel";
 
 import Formulario from "@/components/Home/Formulario/Formulario";
+import Enfoques from "@/components/Home/Enfoques/Enfoques";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
 
       <Carousel />
       <Servicios />
+      <Enfoques/>
 
       <Formulario />
 
