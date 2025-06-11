@@ -31,41 +31,52 @@ export default function Formulario() {
             />
           ))}
 
-          {/* Área de servicios */}
-          <div
-            className="w-[884px] border rounded-[5px] p-6 space-y-4"
-            style={{ borderColor: '#70707070' }}
-          >
-            <h4 className="text-[28px] font-semibold text-[#4B4B4B] mb-2">
-              Área/s de servicios requeridos*
-            </h4>
+        {/* Área de servicios */}
+<div
+  className="w-[884px] border rounded-[5px] p-6 space-y-4"
+  style={{ borderColor: '#70707070' }}
+>
+  <h4 className="text-[22px] font-semibold text-[#4B4B4B] mb-2 leading-[28px] tracking-normal">
+    Área/s de servicios requeridos*
+  </h4>
 
-            {[
-              'Benchmarking / Investigación de mercado y propuesta de valor.',
-              'Branding / Identidad, presencia digital, reputación.',
-              'Marketing Digital / Conexión y adquisición de clientes.',
-              'Growth / Crecimiento y posicionamiento de mercado.',
-              'Data + IA / Información clave y automatización de procesos.'
-            ].map((text, idx) => (
-              <label
-                key={idx}
-                className="flex items-center space-x-3 text-[24px] text-[#4B4B4B] font-semibold"
-              >
-                <input
-                  type="checkbox"
-                  className="w-5 h-5 accent-[#D81FB9]"
-                />
-                <span>{text}</span>
-              </label>
-            ))}
-          </div>
-
-          {/* Campo de mensaje */}
-          <textarea
-            placeholder="Mensaje*"
-            className="w-[884px] h-[220px] border rounded-[5px] px-4 py-4 font-semibold text-[28px] leading-[32px] tracking-normal placeholder:text-gray-500 text-[#4B4B4B] resize-none"
-            style={{ borderColor: '#70707070' }}
-          />
+  {[
+    {
+      bold: "Benchmarking",
+      rest: " / Investigación de mercado y propuesta de valor."
+    },
+    {
+      bold: "Branding",
+      rest: " / Identidad, presencia digital, reputación."
+    },
+    {
+      bold: "Marketing Digital",
+      rest: " / Conexión y adquisición de clientes."
+    },
+    {
+      bold: "Growth",
+      rest: " / Crecimiento y posicionamiento de mercado."
+    },
+    {
+      bold: "Data + IA",
+      rest: " / Información clave y automatización de procesos."
+    }
+  ].map(({ bold, rest }, idx) => (
+    <label
+      key={idx}
+      className="flex items-start space-x-3 text-[18px] text-[#4B4B4B]"
+    >
+      <input
+        type="checkbox"
+        className="mt-[3px] w-5 h-5 accent-[#D81FB9]"
+      />
+      <span>
+        <strong className="font-semibold">{bold}</strong>
+        {rest}
+      </span>
+    </label>
+  ))}
+</div>
 
           {/* Botón */}
           <button
@@ -78,14 +89,14 @@ export default function Formulario() {
       </div>
 
       {/* Columna derecha: Imagen */}
-      <div className="mt-[300px] ml-auto w-[900px] h-[900px]">
+      <div className="mt-[270px] ml-auto w-[800px] h-[800px]">
         <Image
           src="/grupoformulario.png"
           alt="Grupo Formulario"
           width={1150}
           height={1150}
           className="object-contain"
-           style={{ maxWidth: 'none', width: '900px', height: '900px' }}
+           style={{ maxWidth: 'none', width: '800px', height: '800px' }}
         />
 
       </div>
