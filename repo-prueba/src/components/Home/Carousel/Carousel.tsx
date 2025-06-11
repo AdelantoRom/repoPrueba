@@ -12,6 +12,9 @@ const images = [
     { src: '/mandt.png', alt: 'MandT' },
 ]
 
+// 👇 duplicamos el array para loop visual real
+const loopedImages = [...images, ...images]
+
 export default function Carousel() {
     const sliderInstance = useRef<KeenSliderInstance | null>(null)
 
@@ -58,15 +61,13 @@ export default function Carousel() {
 
     return (
         <div ref={sliderContainerRef} className="keen-slider w-full overflow-hidden">
-            {images.map((image, i) => (
+            {loopedImages.map((image, i) => (
                 <div
                     key={i}
-                    className="keen-slider__slide"
+                    className="keen-slider__slide shrink-0 flex items-center justify-center"
                     style={{
                         width: 'auto',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
+                        padding: '0px',
                     }}
                 >
                     <img
