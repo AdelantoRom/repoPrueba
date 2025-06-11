@@ -84,70 +84,19 @@ export default function Soluciones() {
         </div>
       </div>
 
-      {/* Logos al final del degradé */}
-      {/* <div className="w-full relative h-[180px] px-[93px] pb-20 pt-40"> */}
-        <div className="w-full relative h-[80px] pl-[15px] pr-[0px] pb-20 pt-40">
+     <div className="w-full relative px-[143px] pb-20 pt-40">
+  <div className="flex flex-wrap justify-center items-center gap-x-48 gap-y-32 mb-12">
+    <Image src="/image48.png" alt="Imagen 1" width={130} height={76} className="object-contain" />
+    <Image src="/image49.png" alt="Imagen 2" width={216} height={33} className="object-contain" />
+    <Image src="/image50.png" alt="Imagen 3" width={122} height={101} className="object-contain" />
+    <Image src="/image51.png" alt="Imagen 4" width={100} height={68} className="object-contain" />
+    <Image src="/image52.png" alt="Imagen 5" width={122} height={81} className="object-contain" />
+    <Image src="/image53.png" alt="Imagen 6" width={121} height={36} className="object-contain" />
+    <Image src="/image54.png" alt="Imagen 7" width={152} height={53} className="object-contain" />
+    <Image src="/image55.png" alt="Imagen 8" width={59} height={58} className="object-contain" />
+  </div>
+</div>
 
-  <div className="flex flex-wrap gap-x-6 gap-y-4 justify-start items-center">
-     
-          <Image
-            src="/image48.png"
-            alt="Imagen 1"
-            width={130}
-            height={76}
-            className="object-contain absolute top-[80px] ml-[137px]"
-          />
-          <Image
-            src="/image49.png"
-            alt="Imagen 2"
-            width={216}
-            height={33}
-            className="object-contain absolute top-[80px] ml-[356px]"
-          />
-          <Image
-            src="/image50.png"
-            alt="Imagen 3"
-            width={122}
-            height={101}
-            className="object-contain absolute top-[80px] ml-[661px]"
-          />
-          <Image
-            src="/image51.png"
-            alt="Imagen 4"
-            width={100}
-            height={68}
-            className="object-contain absolute top-[80px] ml-[890px]"
-          />
-          <Image
-            src="/image52.png"
-            alt="Imagen 5"
-            width={122}
-            height={81}
-            className="object-contain absolute top-[80px] ml-[1110px]"
-          />
-          <Image
-            src="/image53.png"
-            alt="Imagen 6"
-            width={121}
-            height={36}
-            className="object-contain absolute top-[80px] ml-[1350px]"
-          />
-          <Image
-            src="/image54.png"
-            alt="Imagen 7"
-            width={152}
-            height={53}
-            className="object-contain absolute top-[80px] ml-[1540px]"
-          />
-          <Image
-            src="/image55.png"
-            alt="Imagen 8"
-            width={59}
-            height={58}
-            className="object-contain absolute top-[80px] ml-[1800px]"
-          />
-        </div>
-      </div>
     </div>
   );
 }
