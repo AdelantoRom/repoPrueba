@@ -1,7 +1,7 @@
 
 export default function Grid() {
     return (
-        <div className="grid grid-cols-6 grid-rows-3 gap-1 w-[1300px] relative bg-gray-100 overflow-hidden rounded-3xl">
+        <div className="grid grid-cols-6 grid-rows-3 gap-1 w-[1639px] relative bg-gray-100 overflow-hidden rounded-3xl">
             <div className="col-span-4 row-span-1 bg-blue-300 h-[400px] relative z-10 translate-y-1/4 rounded-tl-[40px] rounded-br-[40px]">
                 area1
             </div> 
