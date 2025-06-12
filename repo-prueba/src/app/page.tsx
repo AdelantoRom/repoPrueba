@@ -3,6 +3,7 @@ import Servicios from "@/components/Home/Servicios/Servicios";
 import Soluciones from "@/components/Home/Soluciones/Soluciones";
 import Carousel from "@/components/Home/Carousel/Carousel";
 import Formulario from "@/components/Home/Formulario/Formulario";
+import Adn from "@/components/Home/Adn/Adn";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Carousel />
       <Servicios />
       <Formulario />
+      <Adn />
     </div>
   );
 }
