@@ -5,6 +5,7 @@ import Carousel from "@/components/Home/Carousel/Carousel";
 import Formulario from "@/components/Home/Formulario/Formulario";
 import Adn from "@/components/Home/Adn/Adn";
 import Enfoques from "@/components/Home/Enfoques/Enfoques";
+import Footer from "@/components/Home/Footer/Footer";
 
 export default function Home() {
   return (
@@ -18,10 +19,9 @@ export default function Home() {
       <Carousel />
       <Servicios />
       <Enfoques/>
-
       <Formulario />
-
       <Adn />
+      <Footer />
 
     </div>
   );
