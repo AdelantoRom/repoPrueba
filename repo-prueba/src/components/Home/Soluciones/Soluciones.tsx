@@ -12,38 +12,41 @@ export default function Soluciones() {
               Soluciones Digitales de Negocios
             </h2>
             <h1 className="text-[126px] font-normal leading-[132px] text-white">
-              Potenciamos tu Empresa en la Era Digital
+              Potenciamos<br/>tu Empresa<br/>en la Era Digital
             </h1>
           </div>
 
           {/* Formulario */}
-          <div className="flex flex-col space-y-10">
-            <h3 className="text-2xl text-white mt-4">
-              ¡Anótate ahora y participa de un sorteo con <br /> importantes beneficios para tu próxima campaña!
-            </h3>
+<div className="flex flex-col space-y-10">
+  <h3 className="text-2xl text-white mt-4">
+    ¡Anótate ahora y participa de un sorteo con <br /> importantes beneficios para tu próxima campaña!
+  </h3>
 
-            <div className="flex items-center">
+  <div className="flex flex-col space-y-8 max-w-[540px]">
+    {/* Campo de Email */}
+   <div className="relative w-full">
+ <div className="w-full">
+  <input
+    type="email"
+    placeholder="Email"
+    className="w-full bg-transparent border-b border-white text-white placeholder-white focus:outline-none focus:border-[#00CED1] text-[24px] leading-[32px] pb-2"
+  />
+</div>
 
-              {/* Campo de Email */}
-              <div className="relative" style={{ width: '439px' }}>
-                <label className="block text-white font-normal text-[24px] leading-[32px] relative top-[30px]">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  placeholder=""
-                  className="w-full bg-transparent border-b-[1px] border-white text-white focus:outline-none focus:border-[#00CED1] text-[24px] leading-[32px]"
-                />
-              </div>
+</div>
 
-              {/* Botón */}
-              <button
-                className="bg-white text-[#19B7CC] font-bold text-[22px] leading-[32px] h-[40px] min-w-[64px] px-4 py-1 rounded mt-6"
-              >
-                Enviar
-              </button>
-            </div>
-          </div>
+
+    {/* Botón */}
+    <button
+      type="submit"
+      className="bg-white text-[24px] font-bold h-[46px] w-[186px] rounded-[50px]"
+      style={{ color: "#19B7CC" }}
+    >
+      Enviar
+    </button>
+  </div>
+</div>
+
         </div>
 
         {/* Imagen a la derecha */}
@@ -59,7 +62,7 @@ export default function Soluciones() {
       </div>
 
       <div className="px-[143px] py-20 flex justify-between items-start">
-        {/* Columna izquierda con h3 y h4 */}
+       
         <div className="flex flex-col space-y-6 w-1/2 max-w-[629px]">
           <h3 className="text-[32px] leading-[40px] font-medium">Transformación Digital</h3>
           <h4 className="text-[24px] leading-[40px] font-normal">
@@ -76,7 +79,7 @@ export default function Soluciones() {
           </h4>
         </div>
 
-        {/* Columna derecha con h2 */}
+     
         <div className="w-1/2 flex justify-end -mt-18">
           <h2 className="text-[120px] leading-[120px] font-normal text-right max-w-[829px]">
             Impulsando tus Negocios al Futuro
