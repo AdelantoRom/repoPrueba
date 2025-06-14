@@ -16,7 +16,7 @@ function Enfoques() {
                     
                 </div>
             </div>
-            <div className='flex justify-center'>
+            <div className='flex justify-center mt-[90px] mb-[60px]'>
                 <Grid/>
             </div>
             <div>
