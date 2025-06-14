@@ -16,15 +16,39 @@ export default function Servicios() {
             </div>
 
             <div className="flex">
-                <div>
-                    <Image
-                        src="/redvioleta.png"
-                        width={891}
-                        height={500}
-                        alt="Decoración"
-                        className="-mt-[32px] -ml-[29px]"
-                    />
+                <div className="flex justify-center items-center min-h-screen pl-17 -mt-16 pr-[94px]">
+                    <div className="relative w-[700px] h-[630px] overflow-visible">
+
+                        {/* Hombreesfera con margin top para desplazar hacia abajo */}
+                        <div className="relative w-[583px] h-[555px] m-auto flex justify-center items-center mt-[40px]">
+                            <Image
+                                src="/hombreesfera.png"
+                                alt="Fondo"
+                                fill
+                                style={{ objectFit: 'contain' }}
+                                priority
+                            />
+                        </div>
+
+                        {/* Redfucsia girando y centrado */}
+                        <div className="absolute top-1/2 left-1/2 w-[700px] h-[630px] -translate-x-1/2 -translate-y-1/2 z-10 animate-spin [animation-duration:450s]">
+                            <Image
+                                src="/redfucsia.png"
+                                alt="Decoración giratoria"
+                                fill
+                                style={{ objectFit: 'contain' }}
+                                priority
+                            />
+                        </div>
+
+                    </div>
                 </div>
+
+
+
+
+
+
 
                 <div className="flex flex-col w-[866px] ml-[48px] mt-[113px] text-black ">
                     <ServicioItem
@@ -60,7 +84,7 @@ export default function Servicios() {
                 </div>
             </div>
             <div>
-                <Enfoque/>
+                <Enfoque />
             </div>
         </div>
     );
