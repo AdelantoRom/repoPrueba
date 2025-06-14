@@ -43,7 +43,7 @@ function Testimonios() {
                     <div>
                         <Image src="/eduardo.png" alt="" width={159} height={159} />
                         <p className='font-bold'>Ing. Eduardo Dubinsky</p>
-                        <p className='font-medium text-[18px]'>Consultor Técnico Internacional en</p>
+                        <p className='font-medium text-[19px]'>Consultor Técnico Internacional en</p>
                         <p className='font-medium text-[18px]'>Grasas y Aceites Comestibles</p>
                     </div>
                 </div>
