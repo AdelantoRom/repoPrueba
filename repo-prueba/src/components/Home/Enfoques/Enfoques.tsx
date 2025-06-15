@@ -1,6 +1,7 @@
 import React from 'react'
 import Grid from './Grid'
 import Testimonios from './Testimonios'
+import Button from './Marcas/Botón'
 
 function Enfoques() {
     return (
@@ -22,6 +23,7 @@ function Enfoques() {
             <div>
                 <Testimonios/>
             </div>
+            <Button/>
         </div>
     )
 }
