@@ -1,8 +1,9 @@
-// pages/index.tsx (o cualquier otro lugar donde quieras mostrarlo)
+"use client"
+
 import React, { useState } from 'react'
 import PopupModal from './Hp'
 
-export default function Home() {
+export default function Button() {
     const [showPopup, setShowPopup] = useState(false)
 
     return (
