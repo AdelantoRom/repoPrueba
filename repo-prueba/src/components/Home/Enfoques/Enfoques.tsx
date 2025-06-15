@@ -2,6 +2,7 @@ import React from 'react'
 import Grid from './Grid'
 import Testimonios from './Testimonios'
 import Button from './Marcas/HP/Botón'
+import ButtonChile from './Marcas/Chile/Botón'
 
 function Enfoques() {
     return (
@@ -24,6 +25,7 @@ function Enfoques() {
                 <Testimonios/>
             </div>
             <Button/>
+            <ButtonChile/>
         </div>
     )
 }
