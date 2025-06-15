@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from './Grid'
 import Testimonios from './Testimonios'
-import Button from './Marcas/Botón'
+import Button from './Marcas/HP/Botón'
 
 function Enfoques() {
     return (
