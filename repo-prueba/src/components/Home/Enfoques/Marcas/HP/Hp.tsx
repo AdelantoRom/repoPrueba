@@ -9,15 +9,14 @@ type Props = {
 
 const PopupModal = ({ onClose }: Props) => {
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+        <div className="fixed inset-0 bg-gray-400/90 flex justify-center items-center z-50">
             <div className="bg-white w-[1382px] rounded-3xl h-[828px] p-10 relative flex">
-
                 <button onClick={onClose} className="absolute top-4 right-4 text-2xl font-bold">
                     ×
                 </button>
                 <div className=' w-[650px] mx-4'>
-                    <div className='w-[600px] flex flex-col justify-around h-full'>
-                        <Link href={"/"} className='text-[#747474]'>Caso</Link>
+                    <div className='w-[600px] h-[679px] flex flex-col justify-around'>
+                        <Link href={"/"} className='text-[#747474] text-[22px]'>Caso</Link>
                         <h1 className="text-[36px] font-semibold mb-4">HP Programa Premier A3</h1>
                         <p className="mb-4 text-[20px] font-light">
                             En su búsqueda por reinventar el mercado de impresión en América Latina, HP ofrece el más completo
@@ -34,12 +33,10 @@ const PopupModal = ({ onClose }: Props) => {
                             <p>representante de HP</p>
                             <p>Premier A3 en Argentina.</p>
                         </div>
-                        <Image src="/logopremier.png" alt="Logo HP" width={163} height={89} />
+                        <Image src="/logopremier.png" alt="Logo HP" width={163} height={89} className='-mb-12' />
                     </div>
                 </div>
-
                 <div className="relative flex content-center w-[606px] h-[679px] mt-8">
-                    {/* Banner izquierdo */}
                     <Image
                         src="/BannerOjo.jpg"
                         alt="Banner Ojo"
@@ -47,8 +44,6 @@ const PopupModal = ({ onClose }: Props) => {
                         height={679}
                         className="rounded-l-3xl"
                     />
-
-                    {/* Banner derecho */}
                     <Image
                         src="/BannerMano.jpg"
                         alt="Banner Mano"
@@ -56,8 +51,6 @@ const PopupModal = ({ onClose }: Props) => {
                         height={679}
                         className="rounded-r-3xl"
                     />
-
-                    {/* Imagen centrada, al frente y al pie */}
                     <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-10">
                         <Image
                             src="/HP-3.jpg"
