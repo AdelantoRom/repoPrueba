@@ -1,9 +1,9 @@
 "use client"
 
 import React, { useState } from 'react'
-import PopupModalClinic from './Clinic'
+import PopupModalNatreon from './Natreon'
 
-export default function ButtonClinic() {
+export default function ButtonNatreon() {
     const [showPopup, setShowPopup] = useState(false)
 
     return (
@@ -12,10 +12,10 @@ export default function ButtonClinic() {
                 onClick={() => setShowPopup(true)}
                 className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
             >
-                Ver The Clinic
+                Ver Natreon
             </button>
 
-            {showPopup && <PopupModalClinic onClose={() => setShowPopup(false)} />}
+            {showPopup && <PopupModalNatreon onClose={() => setShowPopup(false)} />}
         </div>
     )
 }
