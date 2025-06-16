@@ -3,6 +3,8 @@ import Grid from './Grid'
 import Testimonios from './Testimonios'
 import Button from './Marcas/HP/Botón'
 import ButtonChile from './Marcas/Chile/Botón'
+import ButtonClinic from './Marcas/TheClinic/BotónClinic'
+import ButtonNatreon from './Marcas/Natreon/ButtonNatreon'
 
 function Enfoques() {
     return (
@@ -26,6 +28,8 @@ function Enfoques() {
             </div>
             <Button/>
             <ButtonChile/>
+            <ButtonClinic/>
+            <ButtonNatreon/>
         </div>
     )
 }
