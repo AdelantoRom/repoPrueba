@@ -80,23 +80,23 @@ export default function Soluciones() {
         </div>
 
      
-        <div className="w-1/2 flex justify-end -mt-18">
+        <div className="w-1/2 flex justify-end">
           <h2 className="text-[120px] leading-[120px] font-normal text-right max-w-[829px]">
             Impulsando tus Negocios al Futuro
           </h2>
         </div>
       </div>
 
-     <div className="w-full relative px-[143px] pb-20 pt-40">
-  <div className="flex flex-wrap justify-center items-center gap-x-48 gap-y-32 mb-12">
-    <Image src="/image48.png" alt="Imagen 1" width={130} height={76} className="object-contain" />
-    <Image src="/image49.png" alt="Imagen 2" width={216} height={33} className="object-contain" />
-    <Image src="/image50.png" alt="Imagen 3" width={122} height={101} className="object-contain" />
-    <Image src="/image51.png" alt="Imagen 4" width={100} height={68} className="object-contain" />
-    <Image src="/image52.png" alt="Imagen 5" width={122} height={81} className="object-contain" />
-    <Image src="/image53.png" alt="Imagen 6" width={121} height={36} className="object-contain" />
-    <Image src="/image54.png" alt="Imagen 7" width={152} height={53} className="object-contain" />
-    <Image src="/image55.png" alt="Imagen 8" width={59} height={58} className="object-contain" />
+     <div className="w-full relative px-[143px] pb-20 pt-10">
+  <div className="flex flex-wrap justify-center items-center gap-x-17 gap-y-32 mb-12">
+    <Image src="/HP blanco.png" alt="Imagen Ho" width={130} height={76} className="object-contain" />
+    <Image src="/DowAgro blanco.png" alt="Imagen Dow Agro" width={216} height={33} className="object-contain" />
+    <Image src="/SuperPollo blanco.png" alt="Imagen SuperPollo" width={122} height={101} className="object-contain" />
+    <Image src="/Amarula blanco.png" alt="Imagen Amarula" width={100} height={68} className="object-contain" />
+    <Image src="/Granix blanco.png" alt="Imagen Granix" width={122} height={81} className="object-contain" />
+    <Image src="/The Clinic blanco.png" alt="Imagen The Clinic" width={121} height={36} className="object-contain" />
+    <Image src="/Advanta blanco.png" alt="Imagen Advanta" width={152} height={53} className="object-contain" />
+    <Image src="/Bi blanco.png" alt="Imagen Bi" width={59} height={58} className="object-contain" />
   </div>
 </div>
 
