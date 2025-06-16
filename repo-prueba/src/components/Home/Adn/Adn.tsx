@@ -62,7 +62,7 @@ export default function Adn() {
   <div className="w-[1235px] flex justify-between items-start">
     {/* Ítem 1 */}
     <div className="flex flex-col items-center">
-      <Image src="/calendario.png" alt="Calendario" width={64} height={64} />
+      <Image src="/Calendly.gif" alt="Calendario" width={64} height={64} />
       <div className="mt-[24px] w-[132px] text-center text-white text-[24px] leading-[24px]">
         Agenda una reunión
       </div>
@@ -78,7 +78,7 @@ export default function Adn() {
 
     {/* Ítem 3 */}
     <div className="flex flex-col items-center">
-      <Image src="/dialogo.png" alt="Chat" width={64} height={64} />
+      <Image src="/Chat.gif" alt="Chat" width={64} height={64} />
       <div className="mt-[24px] w-[203px] text-center text-white text-[24px] leading-[24px]">
         Chatea con Romy, nuestro agente IA
       </div>
