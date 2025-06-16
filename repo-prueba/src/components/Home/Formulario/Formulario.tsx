@@ -58,14 +58,19 @@ export default function Formulario() {
               </label>
             ))}
           </div>
-
-          <div
-  className="w-[884px] h-[200px] border rounded-[5px] p-6"
+<div
+  className="w-[884px] h-[270px] border rounded-[5px] p-6"
   style={{ borderColor: "#70707070" }}
 >
-  <p className="text-[28px] font-semibold text-[#4B4B4B] leading-[28px] tracking-normal py-[30px]">
-    Mensaje*
-  </p>
+  <label htmlFor="mensaje" className=" block text-sm mb-2">
+  </label>
+  <textarea
+    id="mensaje"
+    name="mensaje"
+    required
+    className="w-full h-full p-2 text-[28px] font-bold  placeholder:text-gray-500 text-[#4B4B4B] resize-none focus:outline-none bg-transparent"
+    placeholder="Mensaje*"
+  />
 </div>
 
 
@@ -79,9 +84,9 @@ export default function Formulario() {
       </div>
 
      
-<div className="relative w-[875px] h-[875px] mt-[280px] ml-[-270px]">
+<div className="relative w-[500px] h-[500px] mt-[450px] ml-[-270px]">
   <Image
-    src="/grupoformulario.png"
+    src="/Grupo 1 esfera.png"
     alt="Grupo Formulario"
     fill
     className="object-cover"
