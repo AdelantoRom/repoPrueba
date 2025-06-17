@@ -11,8 +11,11 @@ const PopupModal = ({ onClose }: Props) => {
     return (
         <div className="fixed inset-0 bg-gray-400/90 flex justify-center items-center z-50">
             <div className="bg-white w-[1382px] rounded-3xl h-[828px] p-10 relative flex">
-                <button onClick={onClose} className="absolute top-4 right-4 text-2xl font-bold">
-                    ×
+                <button
+                    onClick={onClose}
+                    className="absolute top-4 right-4 text-3xl font-bold text-[#D81FB9] border border-[#D81FB9] rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#D81FB9]/10 transition"
+                >
+                    X
                 </button>
                 <div className=' w-[650px] mx-4'>
                     <div className='w-[600px] h-[679px] flex flex-col justify-around'>
