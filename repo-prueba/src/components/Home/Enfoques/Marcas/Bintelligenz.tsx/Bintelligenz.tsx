@@ -29,7 +29,7 @@ const PopupModalBintelligenz = ({ onClose }: Props) => {
                             En la imagen superior el “antes”
                             y en la inferior el “después”.
                         </p>
-                        <Image src="/binlogo.png" alt="Logo Hotel" width={340} height={98} className='-mb-44' />
+                        <Image src="/binlogo.png" alt="Logo Hotel" width={340} height={98} className='-mb-44 -ml-12' />
                     </div>
                 </div>
                 <div className="relative w-[606px] h-[679px] mt-8">
@@ -38,7 +38,7 @@ const PopupModalBintelligenz = ({ onClose }: Props) => {
                         alt="Hotel"
                         width={606}
                         height={680}
-                        className="rounded-3xl shadow-md"
+                        className="rounded-3xl shadow-xl"
                     />
                 </div>
             </div>

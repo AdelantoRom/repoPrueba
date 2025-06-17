@@ -22,7 +22,7 @@ const PopupModalChile = ({ onClose }: Props) => {
                         <Link href={"/"} className='text-[#747474] text-[22px]'>Caso</Link>
                         <h1 className="text-[36px] font-semibold mb-4">De Chile con Amor</h1>
                         <p className="mb-4 text-[20px] font-light">
-                            Nos propusimos llevar ese sabor entrañable de las comidas chilenas a compatriotas de todo el mundo. Creamos un sitio web donde podías postular a un ser querido y participar para que Súper Pollo se encargara de llevarle un plato típico de la gastronomía chilena a cualquier lugar del planeta. 
+                            Nos propusimos llevar ese sabor entrañable de las comidas chilenas a compatriotas de todo el mundo. Creamos un sitio web donde podías postular a un ser querido y participar para que Súper Pollo se encargara de llevarle un plato típico de la gastronomía chilena a cualquier lugar del planeta.
                         </p>
                         <p className="italic mb-4 text-[20px] font-medium">
                             Cientos de personas se inscribieron y un mes después viajamos a New York y Toronto, contactamos a dos chef chilenos y grabamos una linda sorpresa.
@@ -38,31 +38,13 @@ const PopupModalChile = ({ onClose }: Props) => {
                 </div>
                 <div className="relative flex content-center w-[606px] h-[679px] mt-8">
                     <Image
-                        src="/BannerOjo.jpg"
+                        src="/Chile.png"
                         alt="Banner Ojo"
-                        width={303}
-                        height={679}
-                        className="rounded-l-3xl"
+                        width={606}
+                        height={680}
+                        className="rounded-3xl shadow-xl"
                     />
-                    <Image
-                        src="/BannerMano.jpg"
-                        alt="Banner Mano"
-                        width={303}
-                        height={679}
-                        className="rounded-r-3xl"
-                    />
-                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-10">
-                        <Image
-                            src="/HP-3.jpg"
-                            alt="Logo HP"
-                            width={341}
-                            height={268}
-                            className="object-contain"
-                        />
-                    </div>
                 </div>
-
-
             </div>
         </div>
     )
