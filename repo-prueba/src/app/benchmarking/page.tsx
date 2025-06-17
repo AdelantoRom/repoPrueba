@@ -13,33 +13,40 @@ export default function page() {
     <SubNavBar />
 
 <div className="flex flex-col ml-[140px] mt-[40px] pt-[100px] space-y-2">
-  <h2 className="font-bold text-[64px] leading-[120px] text-[#D81FB9]">Benchmarking</h2>
+  <div>
+    <h2 className="font-bold text-[64px] leading-[120px] text-[#D81FB9]">Benchmarking</h2>
   <p className="font-light italic text-[36px] leading-[48px] text-[#000000]">
     Descubre y proyecta tu valor único.
   </p>
 
+  </div>
+  
+
    
 <div className="flex flex-wrap gap-8 mt-10">
+  <div className="relative w-full h-[800px]">
   <Image
     src="/Ellipse 1.png"
     alt="Ellipse"
-    width={300}
-    height={300}
-    className="object-contain"
+    width={23}
+    height={23}
+    className="object-contain absolute -mt-[161px] ml-[780px]"
   />
+</div>
+
   <Image
     src="/Line 7.png"
     alt="Line"
-    width={300}
-    height={300}
-    className="object-contain"
-  />
+    width={500}
+    height={2}
+    className="object-contain absolute -mt-[151px] ml-[800px]"
+  /> 
   <Image
     src="/Image 6.png"
     alt="Image 6"
-    width={803}
-    height={803}
-    className="object-contain -mt-[520px]" 
+    width={790}
+    height={790}
+    className="object-contain absolute -mt-[556px] ml-[860px]" 
   />
 </div>
   
