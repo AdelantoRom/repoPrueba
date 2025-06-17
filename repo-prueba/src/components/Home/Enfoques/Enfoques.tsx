@@ -5,6 +5,7 @@ import Button from './Marcas/HP/Botón'
 import ButtonChile from './Marcas/Chile/Botón'
 import ButtonClinic from './Marcas/TheClinic/BotónClinic'
 import ButtonNatreon from './Marcas/Natreon/ButtonNatreon'
+import ButtonHotel from './Marcas/Hotel/BotonHotel'
 
 function Enfoques() {
     return (
@@ -30,6 +31,7 @@ function Enfoques() {
             <ButtonChile/>
             <ButtonClinic/>
             <ButtonNatreon/>
+            <ButtonHotel/>
         </div>
     )
 }
