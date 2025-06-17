@@ -29,7 +29,6 @@ const PopupModalClinic = ({ onClose }: Props) => {
                         </p>
                         <div className="mb-4 text-[18px]">
                             <p>Hoy, con dos sencillos publicados bajo el nombre de CM Fresh, Midelson es considerado un pequeño trap star en la escena urbana chilena.</p>
-
                         </div>
                         <Image src="/theclinic.png" alt="Logo Clinic" width={180} height={55} className='-mb-12' />
                     </div>
@@ -59,8 +58,6 @@ const PopupModalClinic = ({ onClose }: Props) => {
                         />
                     </div>
                 </div>
-
-
             </div>
         </div>
     )
