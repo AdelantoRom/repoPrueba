@@ -41,31 +41,13 @@ const PopupModal = ({ onClose }: Props) => {
                 </div>
                 <div className="relative flex content-center w-[606px] h-[679px] mt-8">
                     <Image
-                        src="/BannerOjo.jpg"
-                        alt="Banner Ojo"
-                        width={303}
-                        height={679}
-                        className="rounded-l-3xl"
+                        src="/hp3.png"
+                        alt="HP"
+                        width={606}
+                        height={680}
+                        className="rounded-3xl shadow-xl"
                     />
-                    <Image
-                        src="/BannerMano.jpg"
-                        alt="Banner Mano"
-                        width={303}
-                        height={679}
-                        className="rounded-r-3xl"
-                    />
-                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-10">
-                        <Image
-                            src="/HP-3.jpg"
-                            alt="Logo HP"
-                            width={341}
-                            height={268}
-                            className="object-contain"
-                        />
-                    </div>
                 </div>
-
-
             </div>
         </div>
     )

@@ -38,7 +38,7 @@ const PopupModalHotel = ({ onClose }: Props) => {
                         alt="Hotel"
                         width={606}
                         height={680}
-                        className="rounded-3xl shadow-md"
+                        className="rounded-3xl shadow-xl"
                     />
                 </div>
             </div>
