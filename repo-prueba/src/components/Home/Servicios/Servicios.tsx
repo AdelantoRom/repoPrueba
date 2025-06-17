@@ -66,12 +66,14 @@ export default function Servicios() {
                         description="Escala tu negocio y consolida tu liderazgo."
                         link="#"
                     />
+                    <div className="border-b border-[#D81FB9]">
                     <ServicioItem
                         title="Data + IA"
                         icon="/cerebro.png"
                         description="Dirige tu expansión con información clave y conocimiento predictivo."
                         link="#"
                     />
+                    </div>
                 </div>
             </div>
             <div>
