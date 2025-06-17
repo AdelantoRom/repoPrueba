@@ -28,12 +28,6 @@ function Enfoques() {
             <div>
                 <Testimonios/>
             </div>
-            <Button/>
-            <ButtonChile/>
-            <ButtonClinic/>
-            <ButtonNatreon/>
-            <ButtonHotel/>
-            <ButtonBintelligenz/>
         </div>
     )
 }
