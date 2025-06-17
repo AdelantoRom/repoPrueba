@@ -38,7 +38,7 @@ function Enfoque() {
                 </div>
                 <div className='flex flex-col items-center w-[466px]'>
                     <Image
-                        src="/circulo.png"
+                        src="/viñeta 03.png"
                         alt=''
                         width={152}
                         height={152}
