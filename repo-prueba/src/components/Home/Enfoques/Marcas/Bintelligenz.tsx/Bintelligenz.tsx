@@ -17,7 +17,7 @@ const PopupModalBintelligenz = ({ onClose }: Props) => {
                     X
                 </button>
                 <div className=' w-[650px] mx-4'>
-                    <div className='w-[610px] h-[579px] flex flex-col justify-around'>
+                    <div className='w-[603px] h-[579px] flex flex-col justify-around'>
                         <Link href={"/"} className='text-[#747474] text-[22px] mt-4'>Caso</Link>
                         <h1 className="text-[36px] font-semibold mb-4 leading-[36px]">Bintelligenz (antes y después)</h1>
                         <p className="mb-1 text-[20px] font-light leading-[28px]">
@@ -25,11 +25,11 @@ const PopupModalBintelligenz = ({ onClose }: Props) => {
                         <p className="mb-1 text-[20px] font-light leading-[28px]">
                             El resultado fue un cambio profundo de su identidad, a partir de la adopción de la sigla “BI” en su logo, y la renovación completa de su imagen y sus activos digitales.
                         </p>
-                        <p className="italic mb-19 text-[20px] font-medium leading-[28px]">
+                        <p className="italic mb-25 text-[20px] font-medium leading-[28px] w-[300px]">
                             En la imagen superior el “antes”
                             y en la inferior el “después”.
                         </p>
-                        <Image src="/binlogo.png" alt="Logo Hotel" width={340} height={98} className='-mb-38' />
+                        <Image src="/binlogo.png" alt="Logo Hotel" width={340} height={98} className='-mb-44' />
                     </div>
                 </div>
                 <div className="relative w-[606px] h-[679px] mt-8">
