@@ -3,17 +3,18 @@
 import React, { useState } from 'react'
 import PopupModal from './Hp'
 
-export default function Button() {
+export default function ButtonHp() {
     const [showPopup, setShowPopup] = useState(false)
 
     return (
         <div className="p-10">
             <button
                 onClick={() => setShowPopup(true)}
-                className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                className="bg-white border border-[#D81FB9] text-[#D81FB9] text-[50px] font-light rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#D81FB9]/10 transition"
             >
-                Ver HP Premier A3
+                +
             </button>
+
 
             {showPopup && <PopupModal onClose={() => setShowPopup(false)} />}
         </div>
