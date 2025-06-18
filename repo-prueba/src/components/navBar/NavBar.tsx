@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full z-50 flex items-center justify-between py-[63px] px-[143px] bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top">
+    <nav className="fixed top-0 w-full z-50 flex items-center justify-between h-[150px] px-[143px] bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top">
       <Image
         src="/logo.png"
         alt="Logo Rombux"
