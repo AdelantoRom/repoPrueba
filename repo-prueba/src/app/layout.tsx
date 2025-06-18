@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Albert_Sans } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navBar/NavBar";
+import Navbar from "@/components/NavBar/NavBar";
 import Footer from "@/components/Footer/Footer";
 
 const geistSans = Geist({
@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${albertSans.variable} antialiased`}
       >
