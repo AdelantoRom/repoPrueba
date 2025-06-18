@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Soluciones() {
   return (
     <div className="w-full min-h-screen text-white">
-      <div className="flex items-start justify-between px-0 pt-[96px] pb-[40px]">
+      <div className="flex items-start justify-between px-0 pt-[96px] pb-[40px] relative">
         {/* Columna de texto + formulario */}
         <div className=" pl-[138px] pr-8 flex flex-col justify-start space-y-12 ">
           {/* Títulos */}
@@ -50,15 +50,17 @@ export default function Soluciones() {
         </div>
 
         {/* Imagen a la derecha */}
-        <div className="w-1/2 flex justify-end items-start">
+        <div className="absolute -right-[57px] -top-[153px] z-10 w-[1031px] h-[1031px] pointer-events-none">
           <Image
             src="/potenciamos.png"
             alt="Potenciamos"
-            width={1031}
-            height={1031}
-            className="object-contain -mt-[50px] h-full max-h-[1600px] w-auto"
+            fill
+            className="object-contain"
+            unoptimized
           />
         </div>
+
+
       </div>
 
       <div className="px-[143px] py-20 flex justify-between items-start">
