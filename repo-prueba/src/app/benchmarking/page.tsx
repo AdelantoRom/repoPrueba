@@ -2,7 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from '@/components/NavBar/NavBar';
 import SubNavBar from "@/app/benchmarking/SubNavBar";
-import Formulario2 from "@/app/benchmarking/Formulario2";
+import Analisis from  "@/app/benchmarking/Analisis";
+
 import Footer from '@/components/Footer/Footer';
 
 
@@ -12,7 +13,7 @@ export default function page() {
     <Navbar />
     <SubNavBar />
 
-<div className="flex flex-col ml-[140px] mt-[40px] pt-[100px] space-y-2">
+<div className="flex flex-col ml-[140px] mt-[255px] pt-[100px] space-y-2">
   <div>
     <h2 className="font-bold text-[64px] leading-[120px] text-[#D81FB9]">Benchmarking</h2>
   <p className="font-light italic text-[36px] leading-[48px] text-[#000000]">
@@ -30,16 +31,16 @@ export default function page() {
     alt="Ellipse"
     width={23}
     height={23}
-    className="object-contain absolute -mt-[161px] ml-[780px]"
+    className="object-contain absolute -mt-[161px] ml-[760px]"
   />
 </div>
 
   <Image
     src="/Line 7.png"
     alt="Line"
-    width={500}
+    width={565}
     height={2}
-    className="object-contain absolute -mt-[151px] ml-[800px]"
+    className="object-contain absolute -mt-[151px] ml-[760px]"
   /> 
   <Image
     src="/Image 6.png"
@@ -49,10 +50,21 @@ export default function page() {
     className="object-contain absolute -mt-[556px] ml-[860px]" 
   />
 </div>
-  
+ <Image
+  src="/Benchmarking.png"
+  alt="Benchmarking"
+  width={135}
+  height={135}
+  className="object-contain absolute ml-[700px]"
+  style={{ transform: 'translateY(300px)' }}
+/>
+
+  <Analisis />
 </div>
 
-<Formulario2 /> 
+
+
+
       <Footer />
     </div>
   )

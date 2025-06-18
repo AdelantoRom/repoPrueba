@@ -10,7 +10,7 @@ export default function SubNavBar() {
   ];
 
   return (
-    <nav className="w-full bg-[#FDF4FB] mt-[160px] z-40 relative  border-b border-black">
+    <nav className="fixed top-[0px] w-full bg-[#FDF4FB] mt-[160px] z-40  border-b border-black">
       <div className="flex ml-[65px] px-20 py-4  flex-wrap gap-x-52 gap-y-4">
         {items.map((label) => (
           <button

@@ -90,7 +90,7 @@ export default function Soluciones() {
      <div className="w-full relative px-[143px] pb-20 pt-10">
   <div className="flex flex-wrap justify-center items-center gap-x-17 gap-y-32 mb-12">
     <Image src="/HP blanco.png" alt="Imagen Ho" width={130} height={76} className="object-contain" />
-    <Image src="/DowAgro blanco.png" alt="Imagen Dow Agro" width={216} height={33} className="object-contain" />
+    <Image src="/DowAgro.png" alt="Imagen Dow Agro" width={216} height={33} className="object-contain" />
     <Image src="/SuperPollo blanco.png" alt="Imagen SuperPollo" width={122} height={101} className="object-contain" />
     <Image src="/Amarula blanco.png" alt="Imagen Amarula" width={100} height={68} className="object-contain" />
     <Image src="/Granix blanco.png" alt="Imagen Granix" width={122} height={81} className="object-contain" />
