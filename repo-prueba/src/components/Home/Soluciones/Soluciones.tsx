@@ -3,33 +3,33 @@ import Image from 'next/image';
 export default function Soluciones() {
   return (
     <div className="w-full min-h-screen text-white">
-      <div className="flex items-start justify-between px-0 pt-[120px] pb-[40px]">
+      <div className="flex items-start justify-between px-0 pt-[96px] pb-[40px]">
         {/* Columna de texto + formulario */}
-        <div className="w-1/2 pl-[143px] pr-8 flex flex-col justify-start space-y-12">
+        <div className=" pl-[138px] pr-8 flex flex-col justify-start space-y-12 ">
           {/* Títulos */}
-          <div className="flex flex-col">
+          <div className="flex flex-col w-[962px] h-[360px]">
             <h2 className="text-[32px] font-medium leading-[36px] text-white mb-10">
               Soluciones Digitales de Negocios
             </h2>
-            <h1 className="text-[126px] font-normal leading-[132px] text-white">
+            <h1 className="text-[120px] font-normal leading-[132px] text-white">
               Potenciamos<br />tu Empresa<br />en la Era Digital
             </h1>
           </div>
 
           {/* Formulario */}
-          <div className="flex flex-col space-y-10">
-            <h3 className="text-2xl text-white mt-4">
+          <div className="flex flex-col">
+            <h3 className="text-[22px] text-white mt-28 leading-[24px]">
               ¡Anótate ahora y participa de un sorteo con <br /> importantes beneficios para tu próxima campaña!
             </h3>
 
-            <div className="flex flex-col space-y-8 max-w-[540px]">
+            <div className="flex flex-col space-y-2 mt-7 max-w-[501px] ">
               {/* Campo de Email */}
               <div className="relative w-full">
                 <div className="w-full">
                   <input
                     type="email"
                     placeholder="Email"
-                    className="w-full bg-transparent border-b border-white text-white placeholder-white focus:outline-none focus:border-[#00CED1] text-[24px] leading-[32px] pb-2"
+                    className="w-full bg-transparent border rounded-md border-white text-white placeholder-white focus:outline-none focus:border-[#00CED1] text-[24px] leading-[32px] py-2 pl-4 h-[46px]"
                   />
                 </div>
 
@@ -39,7 +39,7 @@ export default function Soluciones() {
               {/* Botón */}
               <button
                 type="submit"
-                className="bg-white text-[24px] font-bold h-[46px] w-[186px] rounded-[50px]"
+                className="bg-white text-[24px] font-bold h-[46px] w-[186px] rounded-[50px] mt-13"
                 style={{ color: "#19B7CC" }}
               >
                 Enviar
