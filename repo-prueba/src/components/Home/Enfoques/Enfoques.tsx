@@ -1,12 +1,6 @@
 import React from 'react'
 import Grid from './Grid'
 import Testimonios from './Testimonios'
-import Button from './Marcas/HP/Botón'
-import ButtonChile from './Marcas/Chile/Botón'
-import ButtonClinic from './Marcas/TheClinic/BotónClinic'
-import ButtonNatreon from './Marcas/Natreon/ButtonNatreon'
-import ButtonHotel from './Marcas/Hotel/BotonHotel'
-import ButtonBintelligenz from './Marcas/Bintelligenz.tsx/BotonBintelligenz'
 
 function Enfoques() {
     return (

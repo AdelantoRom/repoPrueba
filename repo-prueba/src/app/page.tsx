@@ -15,13 +15,17 @@ export default function Home() {
       </div>
 
       <Carousel />
-      <Servicios />
-      <Enfoques/>
+      <div id="servicios">
+        <Servicios />
+      </div>
+      <div id="casos">
+        <Enfoques />
+      </div>
 
-
-      <Formulario />
+      <div id="contacto">
+        <Formulario />
+      </div>
       <Adn />
-
 
     </div>
   );
