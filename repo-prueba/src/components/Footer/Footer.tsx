@@ -12,7 +12,7 @@ export default function Footer() {
 
       {/* Imagen derechos centrada horizontalmente */}
       <div className="absolute left-268 bottom-[109px] -translate-x-1/2 text-[18px] w-[1255px]">
-        <p>© 2024 Rombus Global SAS. Todos los derechos reservados. Términos y Condiciones. Políticas de Privacidad y Protección de Datos Personales.</p>
+        <p>© 2024 Rombus Global SAS. Todos los derechos reservados. <a href="/tyc" className='hover:underline'>Términos y Condiciones.</a> <a href="/politicas" className='hover:underline'>Políticas de Privacidad y Protección de Datos Personales</a>.</p>
       </div>
 
       {/* logoin.png (derecha) */}
