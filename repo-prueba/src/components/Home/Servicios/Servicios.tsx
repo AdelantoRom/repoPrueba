@@ -46,7 +46,7 @@ export default function Servicios() {
                         title="Benchmarking"
                         icon="/diamante.png"
                         description="Descubre y proyecta tu valor único."
-                        link="#"
+                        link="/benchmarking"
                     />
                     <ServicioItem
                         title="Branding"

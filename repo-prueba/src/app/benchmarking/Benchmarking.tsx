@@ -23,21 +23,22 @@ export default function Benchmarking() {
             alt="Ellipse"
             width={23}
             height={23}
-            className="absolute top-[-155px] left-[760px]"
+            className="absolute top-[-165px] left-[760px]"
           />
           <Image
             src="/Line 7.png"
             alt="Line"
-            width={565}
+            width={665}
             height={2}
-            className="absolute top-[-145px] left-[760px]"
+            className="absolute top-[-155px] left-[760px]"
           />
           <Image
             src="/Image 6.png"
             alt="Image 6"
-            width={750}
-            height={750}
-            className="absolute top-[-530px] left-[900px]"
+            width={800}
+            height={800}
+            className="absolute top-[-565px] left-[966px]"
+            unoptimized
           />
         </div>
 
