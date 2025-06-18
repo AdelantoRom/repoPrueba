@@ -63,11 +63,11 @@ export default function Soluciones() {
 
       </div>
 
-      <div className="px-[143px] py-20 flex justify-between items-start">
+      <div className="px-[138px] mt-55 py-20 flex justify-between items-start">
 
-        <div className="flex flex-col space-y-6 w-1/2 max-w-[629px]">
-          <h3 className="text-[32px] leading-[40px] font-medium">Transformación Digital</h3>
-          <h4 className="text-[24px] leading-[40px] font-normal">
+        <div className="flex flex-col space-y-6 w-1/2 max-w-[629px] mt-17">
+          <h3 className="text-[32px] leading-[40px] font-medium mb-0">Transformación Digital</h3>
+          <h4 className="text-[24px] leading-[40px]">
             En un entorno que evoluciona aceleradamente, la <br />
             transformación digital permite a las empresas adaptarse <br />
             rápidamente a las demandas del mercado.{' '}
@@ -83,14 +83,14 @@ export default function Soluciones() {
 
 
         <div className="w-1/2 flex justify-end">
-          <h2 className="text-[120px] leading-[120px] font-normal text-right max-w-[829px]">
+          <h2 className="text-[120px] leading-[120px] text-right max-w-[829px]">
             Impulsando tus Negocios al Futuro
           </h2>
         </div>
       </div>
 
-      <div className="w-full relative px-[143px] pb-20 pt-10">
-        <div className="flex flex-wrap justify-center items-center gap-x-17 gap-y-32 mb-12">
+      <div className="w-full relative px-[125px] pb-20 pt-10">
+        <div className="flex flex-wrap justify-center items-center gap-x-22 gap-y-32 mb-12">
           <Image src="/HP blanco.png" alt="Imagen Ho" width={130} height={76} className="object-contain" />
           <Image src="/DowAgro.png" alt="Imagen Dow Agro" width={216} height={33} className="object-contain" />
           <Image src="/SuperPollo blanco.png" alt="Imagen SuperPollo" width={122} height={101} className="object-contain" />
