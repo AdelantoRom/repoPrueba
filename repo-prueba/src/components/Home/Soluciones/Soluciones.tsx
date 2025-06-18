@@ -7,11 +7,11 @@ export default function Soluciones() {
         {/* Columna de texto + formulario */}
         <div className=" pl-[138px] pr-8 flex flex-col justify-start space-y-12 ">
           {/* Títulos */}
-          <div className="flex flex-col w-[962px] h-[360px]">
+          <div className="flex flex-col w-[962px] h-[360px] ">
             <h2 className="text-[32px] font-medium leading-[36px] text-white mb-10">
               Soluciones Digitales de Negocios
             </h2>
-            <h1 className="text-[120px] font-normal leading-[132px] text-white">
+            <h1 className="text-[120px] font-normal leading-[120px] text-white mt-3">
               Potenciamos<br />tu Empresa<br />en la Era Digital
             </h1>
           </div>

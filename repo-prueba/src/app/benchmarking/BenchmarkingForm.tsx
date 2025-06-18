@@ -33,6 +33,7 @@ export default function BenchmarkingForm() {
           alt="Decoración Benchmarking"
           width={709}
           height={164}
+          unoptimized
         />
         <Image
           src="/logoin.png"
