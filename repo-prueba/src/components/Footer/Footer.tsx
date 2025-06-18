@@ -5,19 +5,19 @@ export default function Footer() {
     <div className="relative w-[1920px] h-[277px] bg-no-repeat bg-[length:100%_100%] bg-[url('/footer.png')] mx-auto">
       
       {/* Bloque izquierdo (logo + soluciones) */}
-      <div className="absolute left-[160px] bottom-[80px] flex flex-col">
+      <div className="absolute left-[139px] bottom-[109px] flex flex-col">
         <Image src="/Logo Rombux fucsia.png" alt="Logo Footer" width={245} height={39} />
         <Image className="-mt-5" src="/footersoluciones.png" alt="Soluciones" width={245} height={28} />
       </div>
 
       {/* Imagen derechos centrada horizontalmente */}
-      <div className="absolute left-1/2 bottom-[80px] -translate-x-1/2">
-        <Image src="/footerderechos.png" alt="Derechos" width={1255} height={28} />
+      <div className="absolute left-268 bottom-[109px] -translate-x-1/2 text-[18px] w-[1255px]">
+        <p>© 2024 Rombus Global SAS. Todos los derechos reservados. Términos y Condiciones. Políticas de Privacidad y Protección de Datos Personales.</p>
       </div>
 
       {/* logoin.png (derecha) */}
-      <div className="absolute right-[270px] bottom-[80px]">
-        <Image src="/logoin.png" alt="Logo IN" width={45} height={45} />
+      <div className="absolute right-[141px] bottom-[110px]">
+        <Image src="/logoin.png" alt="Logo IN" width={40} height={40} />
       </div>
     </div>
   );
