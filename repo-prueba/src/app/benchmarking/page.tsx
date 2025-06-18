@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Navbar from '@/components/NavBar/NavBar';
 import SubNavBar from "@/app/benchmarking/SubNavBar";
 import Analisis from  "@/app/benchmarking/Analisis";
 
@@ -10,7 +9,6 @@ import Footer from '@/components/Footer/Footer';
 export default function page() {
   return (
     <div>
-    <Navbar />
     <SubNavBar />
 
 <div className="flex flex-col ml-[140px] mt-[255px] pt-[100px] space-y-2">
