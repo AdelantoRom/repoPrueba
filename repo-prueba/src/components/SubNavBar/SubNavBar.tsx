@@ -1,26 +1,59 @@
 'use client';
 
+import Link from 'next/link';
+
 export default function SubNavBar() {
   const items = [
-    'Benchmarking',
-    'Branding',
-    'Marketing Digital',
-    'Growth',
-    'Data + IA',
+    { label: 'Benchmarking', path: '/benchmarking' },
+    { label: 'Branding', path: '/branding' },
+    { label: 'Marketing Digital', path: '/marketing' },
+    { label: 'Growth', path: '/growth' },
+    { label: 'Data + IA', path: '/data' },
   ];
 
   return (
-    <nav className="fixed top-[150px] w-full bg-[#FDF4FB] z-40  border-b border-black">
-      <div className="flex ml-[65px] px-20 py-4  flex-wrap gap-x-52 gap-y-4">
-        {items.map((label) => (
-          <button
+    <nav className="fixed top-[150px] w-full bg-[#FDF4FB] z-40 border-b border-black">
+      <div className="flex ml-[65px] px-20 py-4 flex-wrap gap-x-52 gap-y-4">
+        {items.map(({ label, path }) => (
+          <Link
             key={label}
+            href={path}
             className="text-[#000000] font-normal text-[24px] leading-[24px] hover:font-bold transition-all"
           >
             {label}
-          </button>
+          </Link>
         ))}
       </div>
     </nav>
   );
 }
+
+
+
+// 'use client';
+
+
+// export default function SubNavBar() {
+//   const items = [
+//     'Benchmarking',
+//     'Branding',
+//     'Marketing Digital',
+//     'Growth',
+//     'Data + IA',
+//   ];
+
+//   return (
+//     <nav className="fixed top-[150px] w-full bg-[#FDF4FB] z-40  border-b border-black">
+//       <div className="flex ml-[65px] px-20 py-4  flex-wrap gap-x-52 gap-y-4">
+//         {items.map((label) => (
+//           <button
+//             key={label}
+//             className="text-[#000000] font-normal text-[24px] leading-[24px] hover:font-bold transition-all"
+//           >
+//             {label}
+//           </button>
+//         ))}
+//       </div>
+//     </nav>
+//   );
+// }
