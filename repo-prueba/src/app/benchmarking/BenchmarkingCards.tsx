@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function BenchmarkingTarjetas() {
+export default function BenchmarkingCards() {
   return (
     <div className="relative w-[1585px] mx-auto px-8 py-20">
       {/* Título */}
