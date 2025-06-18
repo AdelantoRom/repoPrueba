@@ -1,34 +1,22 @@
-export default function Analisis() {
-  return (
-    <div
-  className="relative w-[1670px] mx-auto px-8"
-  style={{ transform: 'translateY(-580px) translateY(40px)' }}
->
+import React from "react";
 
+export default function BenchmarkingTarjetas() {
+  return (
+    <div className="relative w-[1585px] mx-auto px-8 py-20">
       {/* Título */}
-      <div className="mb-16 text-center col-span-3">
-        <h1
-          className="font-light text-black text-[112px] leading-[120px]"
-          style={{ transform: 'translateX(-80px)' }}
-        >
+      <div className="mb-24 text-center">
+        <h1 className="font-light text-black text-[112px] leading-[120px]">
           Análisis del negocio y <br />
           propuesta de valor diferencial
         </h1>
       </div>
 
       {/* Grid container */}
-      <div
-        className="grid grid-cols-[480px_480px_480px] justify-between gap-x-8 gap-y-4"
-        style={{ height: 'auto' }}
-      >
+      <div className="grid grid-cols-3 gap-x-8 gap-y-10">
         {/* Tarjeta 1 */}
         <div
-          className="bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10 mt-26"
-          style={{
-            backgroundImage: "url('/Gradiente-Home-2.png')",
-            height: '370px',
-            transform: 'translateX(-30px)',
-          }}
+          className="relative top-[40px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10"
+          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '370px' }}
         >
           <p className="font-medium text-[30px] leading-[42px] text-left">
             ¿Dónde estás y a dónde
@@ -47,12 +35,8 @@ export default function Analisis() {
 
         {/* Tarjeta 2 */}
         <div
-          className="bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-14 pb-10 mt-32"
-          style={{
-            backgroundImage: "url('/Gradiente-Home-2.png')",
-            height: '330px',
-            transform: 'translateX(-70px)',
-          }}
+          className="relative top-[70px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-14 pb-10"
+          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '330px' }}
         >
           <p className="font-medium text-[30px] leading-[42px] text-left">
             El valor clave de tu empresa.
@@ -69,12 +53,8 @@ export default function Analisis() {
 
         {/* Tarjeta 3 */}
         <div
-          className="bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10 mt-18"
-          style={{
-            backgroundImage: "url('/Gradiente-Home-2.png')",
-            height: '474px',
-            transform: 'translateX(-110px)',
-          }}
+          className="bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10"
+          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '474px' }}
         >
           <p className="font-medium text-[30px] leading-[42px] text-left">
             Inteligencia competitiva.
