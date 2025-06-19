@@ -13,7 +13,8 @@ export default function SubNavBar() {
 
   return (
     <nav className="fixed top-[150px] w-full bg-[#FDF4FB] z-40 border-b border-black">
-      <div className="flex ml-[65px] px-20 py-4 flex-wrap gap-x-52 gap-y-4">
+      <div className="flex justify-around w-full py-4 pr-6">
+
         {items.map(({ label, path }) => (
           <Link
             key={label}
