@@ -14,7 +14,7 @@ export default function Navbar() {
         />
       </Link>
       <div className="flex items-center text-white text-[32px] leading-[24px] font-normal gap-[90px] ">
-        <Link href="/#servicios" className="mr-2">Servicios</Link>
+        <Link href="/benchmarking" className="mr-2">Servicios</Link>
         <Link href="/#casos" className="-mr-2">Casos</Link>
         <Link href="/#contacto">Contacto</Link>
       </div>

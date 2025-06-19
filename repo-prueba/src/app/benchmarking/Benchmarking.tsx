@@ -5,13 +5,13 @@ export default function Benchmarking() {
   return (
     // ⬇️ CONTENEDOR QUE BLOQUEA ESPACIO Y AÍSLA LOS ELEMENTOS ABSOLUTOS
     <div className="relative w-full"> 
-      <div className="relative flex flex-col ml-[140px] pt-[100px] space-y-8">
+      <div className="relative flex flex-col ml-[137px] pt-[100px] space-y-8">
         {/* Título */}
         <div>
-          <h2 className="mt-64  font-bold text-[64px] leading-[120px] text-[#D81FB9]">
+          <h2 className="mt-[265px]  font-bold text-[64px] leading-[120px] text-[#D81FB9]">
             Benchmarking
           </h2>
-          <p className="font-light italic text-[36px] leading-[48px] text-[#000000]">
+          <p className="font-light italic text-[36px] leading-[48px] mt-[1px] -ml-[1px] text-[#000000]">
             Descubre y proyecta tu valor único.
           </p>
         </div>
