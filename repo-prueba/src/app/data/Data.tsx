@@ -9,11 +9,11 @@ export default function Data() {
         {/* Título */}
         <div>
           <h2 className="mt-64  font-bold text-[64px] leading-[120px] text-[#D81FB9]">
-            Marketing Digital
+            Data + IA
           </h2>
           <p className="font-light italic text-[36px] leading-[48px] text-[#000000]">
-          Conecta con tu público allí donde está y<br />
-         desata el potencial único de tu marca.
+          Dirige tu expansión con información clave y<br />
+          conocimiento predictivo.
           </p>
         </div>
 
@@ -45,8 +45,8 @@ export default function Data() {
         {/* Icono Branding */}
         <div className="relative h-[100px] mt-[50px]">
           <Image
-            src="/Mkt-Digital.png"
-            alt="Marketing Digital"
+            src="/Data+IA.png"
+            alt="Data+IA"
             width={135}
             height={135}
             className="absolute top-[-570px] left-[700px]"

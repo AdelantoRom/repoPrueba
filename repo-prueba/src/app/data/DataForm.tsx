@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-export default function BrandingForm() {
+export default function DataForm() {
   return (
     <section
       className="relative w-full h-[3218px] bg-cover bg-center flex flex-col items-center"
@@ -10,10 +10,10 @@ export default function BrandingForm() {
       {/* Título principal */}
       <div className="mt-[260px] w-[1393px] h-[221px] flex flex-col items-center justify-center">
         <h2 className="font-medium text-[120px] leading-[120px] text-center text-white">
-         Marketing Digital:
+         Data + IA:
         </h2>
         <p className="font-light text-[120px] leading-[120px] text-center text-white">
-         orientado a resultados
+          orientado a resultados
         </p>
       </div>
 
@@ -25,25 +25,43 @@ export default function BrandingForm() {
           liderazgo desde una sólida propuesta de valor.
         </p>
       </div>
+<div className="mt-[60px] relative w-[709px] h-[164px]">
+  {/* Imagen de fondo */}
+  <Image
+    src="/Rectangle 38.png"
+    alt="Fondo"
+    fill
+    className="object-cover rounded-[5px]"
+  />
 
-      {/* Imagen decorativa + logo */}
-      <div className="mt-[60px] relative">
-        <Image
-          src="/Group 156.png"
-          alt="Decoración Benchmarking"
-          width={709}
-          height={164}
-        />
-        <Image
-          src="/logoin.png"
-          alt="Logo In"
-          width={60}
-          height={60}
-          className="absolute top-[90px] left-[130px]"
-        />
-      </div>
+  {/* Contenido superpuesto */}
+  <div className="absolute top-0 left-0 w-full h-full flex items-center px-[40px] text-white gap-[20px]">
+    {/* Imagen Ellipse + Logo */}
+    <div className="relative w-[145px] h-[145px] ">
+      <Image
+        src="/Ellipse 10.png"
+        alt="Avatar"
+        fill
+        className="rounded-full object-cover ml-[-20px]"
+      />
+      <Image
+        src="/logoin.png"
+        alt="Logo In"
+        width={40}
+        height={40}
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 ml-[40px]"
+      />
+    </div>
 
-      {/* Esfera pequeña */}
+   
+    <div>
+      <p className="font-bold text-[36px] leading-[30px] tracking-[0]">Nombre y Apellido</p>
+      <p className="font-normal text-[24px] leading-[30px] tracking-[0]">Data & IA Lead</p>
+    </div>
+  </div>
+</div>
+
+
       <div className="absolute top-[710px] left-[1400px] z-0">
         <Image
           src="/Trama-esfera-fucsia.png"
@@ -54,7 +72,7 @@ export default function BrandingForm() {
         />
       </div>
 
-      {/* Esfera grande */}
+   
       <div className="absolute top-[940px] left-[50px] z-0">
         <Image
           src="/Trama-esfera-fucsia.png"
@@ -67,7 +85,7 @@ export default function BrandingForm() {
 
       {/* Formulario embebido */}
       <div className="relative z-10 mt-[240px] flex ml-[320px] gap-[60px]">
-        {/* Columna izquierda */}
+       
         <div>
     
           <div className="w-[884px] flex justify-center">
