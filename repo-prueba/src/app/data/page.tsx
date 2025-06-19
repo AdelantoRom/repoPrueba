@@ -1,20 +1,20 @@
 import React from 'react';
 import SubNavBar from "@/components/SubNavBar/SubNavBar";
-import Marketing from './Marketing';
-import MarketingCards from "@/app/marketing/MarketingCards";
-import MarketingForm from "@/app/marketing/MarketingForm";
+import Data from './Data';
+import DataCards from "@/app/data/DataCards";
+import DataForm from "@/app/data/DataForm";
 
 export default function Page() {
   return (
     <div className="flex flex-col">
       <SubNavBar />
       <main>
-        <Marketing />
+        <Data />
         <div className="-mt-120">
-          <MarketingCards />
+          <DataCards />
         </div>
         <div className="-mb-80">
-          <MarketingForm />
+          <DataForm />
         </div>
       </main>
     </div>

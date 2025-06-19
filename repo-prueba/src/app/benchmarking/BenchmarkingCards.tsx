@@ -16,7 +16,7 @@ export default function BenchmarkingCards() {
         {/* Tarjeta 1 */}
         <div
           className="relative top-[40px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '370px' }}
+          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '388px' }}
         >
           <p className="font-medium text-[30px] leading-[42px] text-left">
             ¿Dónde estás y a dónde
@@ -36,7 +36,7 @@ export default function BenchmarkingCards() {
         {/* Tarjeta 2 */}
         <div
           className="relative top-[70px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-14 pb-10"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '330px' }}
+          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '341px' }}
         >
           <p className="font-medium text-[30px] leading-[42px] text-left">
             El valor clave de tu empresa.
