@@ -52,26 +52,26 @@ export default function Servicios() {
                         title="Branding"
                         icon="/pincel.png"
                         description="Construye una marca con impacto y reputación."
-                        link="#"
+                        link="/branding"
                     />
                     <ServicioItem
                         title="Marketing Digital"
                         icon="/dardo.png"
                         description="Conecta con tu público allí donde está y desata el potencial único de tu marca."
-                        link="#"
+                        link="/marketing"
                     />
                     <ServicioItem
                         title="Growth"
                         icon="/money.png"
                         description="Escala tu negocio y consolida tu liderazgo."
-                        link="#"
+                        link="/growth"
                     />
                     <div className="border-b border-[#D81FB9]">
                     <ServicioItem
                         title="Data + IA"
                         icon="/cerebro.png"
                         description="Dirige tu expansión con información clave y conocimiento predictivo."
-                        link="#"
+                        link="/data"
                     />
                     </div>
                 </div>
