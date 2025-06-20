@@ -1,10 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation'; // ← 1. Importar hook
+import { usePathname } from 'next/navigation';
 
 export default function SubNavBar() {
-  const pathname = usePathname(); // ← 2. Obtener ruta actual
+  const pathname = usePathname();
 
   const items = [
     { label: 'Benchmarking', path: '/benchmarking' },
@@ -18,7 +18,7 @@ export default function SubNavBar() {
     <nav className="fixed top-[150px] w-full bg-[#FDF4FB] z-40 border-b border-black">
       <div className="flex ml-[65px] px-20 py-4 flex-wrap gap-x-52 gap-y-4">
         {items.map(({ label, path }) => {
-          const isActive = pathname === path; 
+          const isActive = pathname === path;
           return (
             <Link
               key={label}
@@ -35,7 +35,6 @@ export default function SubNavBar() {
     </nav>
   );
 }
-
 
 // 'use client';
 
