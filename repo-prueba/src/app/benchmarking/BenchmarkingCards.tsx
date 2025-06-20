@@ -2,26 +2,26 @@ import React from "react";
 
 export default function BenchmarkingCards() {
   return (
-    <div className="relative w-[1585px] mx-auto px-8 py-20">
+    <div className="relative w-[1670px] mx-auto  ">
       {/* Título */}
-      <div className="mb-24 text-center">
-        <h1 className="font-light text-black text-[112px] leading-[120px]">
+      <div className="mb-24 text-center mt-[2px] ml-[15px]">
+        <h1 className="font-light text-black text-[120px] leading-[120px] ">
           Análisis del negocio y <br />
           propuesta de valor diferencial
         </h1>
       </div>
 
       {/* Grid container */}
-      <div className="grid grid-cols-3 gap-x-8 gap-y-10">
+      <div className="grid grid-cols-3 pt-[51px] ml-[22px] mb-[167px]">
         {/* Tarjeta 1 */}
         <div
-          className="relative top-[40px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10"
+          className="relative top-[40px] w-[522px] h-[388px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center  pt-17 pb-10"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '388px' }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
+          <p className="font-medium text-[32px] leading-[42px] text-left -ml-[6px]">
             ¿Dónde estás y a dónde
             <br />
-            puedas llegar? Estudiamos
+            puedes llegar? Estudiamos
             <br />
             tu posición en el mercado e
             <br />
@@ -35,10 +35,10 @@ export default function BenchmarkingCards() {
 
         {/* Tarjeta 2 */}
         <div
-          className="relative top-[70px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-14 pb-10"
+          className="relative top-[63px] left-1 w-[522px] h-[341px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-14 pb-10"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '341px' }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
+          <p className="font-medium text-[32px] leading-[42px] text-left mt-[10px] mr-4">
             El valor clave de tu empresa.
             <br />
             Definimos lo que hace única
@@ -53,10 +53,10 @@ export default function BenchmarkingCards() {
 
         {/* Tarjeta 3 */}
         <div
-          className="bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10"
+          className="bg-cover bg-center w-[522px] h-[474px] text-white rounded-[29px] overflow-hidden flex items-start justify-center pt-12 pb-10 ml-[22px] -mt-[2px]"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '474px' }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
+          <p className="font-medium text-[32px] leading-[42px] text-left -ml-[15px] mt-5">
             Inteligencia competitiva.
             <br />
             Transformamos ese valor

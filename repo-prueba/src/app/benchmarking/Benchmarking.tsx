@@ -43,13 +43,13 @@ export default function Benchmarking() {
         </div>
 
         {/* Icono Benchmarking */}
-        <div className="relative h-[100px] mt-[50px]">
+        <div className="relative h-[100px] mt-[79px] -ml-[2px]">
           <Image
             src="/Benchmarking.png"
             alt="Benchmarking"
-            width={135}
-            height={135}
-            className="absolute top-[-570px] left-[755px]"
+            width={141}
+            height={141}
+            className="absolute top-[-570px] left-[754px]"
           />
         </div>
       </div>
