@@ -12,7 +12,7 @@ export default function Benchmarking() {
             Branding
           </h2>
           <p className="font-light italic text-[36px] leading-[48px] mt-[1px] -ml-[1px] text-[#000000]">
-            Construye una marca con impulso y<br />
+            Construye una marca con impacto y<br />
             reputación.
           </p>
         </div>
