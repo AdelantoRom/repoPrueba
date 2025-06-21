@@ -15,8 +15,8 @@ export default function SubNavBar() {
   ];
 
   return (
-    <nav className="fixed top-[150px] w-full bg-[#FDF4FB] z-40 border-b border-black">
-      <div className="flex ml-[65px] px-20 py-4 flex-wrap gap-x-52 gap-y-4">
+    <nav className="fixed  top-[150px] w-full bg-[#FDF4FB] z-40 border-b border-black">
+      <div className="flex justify-between ml-[65px] px-20 py-4 flex-wrap gap-y-4 mr-23">
         {items.map(({ label, path }) => {
           const isActive = pathname === path;
           return (
@@ -25,7 +25,7 @@ export default function SubNavBar() {
               href={path}
               className={`text-[#000000] text-[24px] leading-[24px] transition-all ${
                 isActive ? 'font-bold' : 'font-normal'
-              } hover:font-bold`}
+              } `}
             >
               {label}
             </Link>
