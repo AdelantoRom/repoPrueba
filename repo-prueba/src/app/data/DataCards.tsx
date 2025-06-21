@@ -12,7 +12,7 @@ export default function DataCards() {
       </div>
 
       {/* Grid container */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 px-[137px] mb-[88px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 px-[137px] mb-[121px]">
         {/* Tarjeta 1 */}
         <div
           className="relative w-[522px] top-[82px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-start justify-center px-10 pt-[65px]"
