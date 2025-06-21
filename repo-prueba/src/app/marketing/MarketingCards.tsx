@@ -2,12 +2,12 @@ import React from "react";
 
 export default function BrandingCards() {
   return (
-    <div className="relative w-full max-w-[1920px] mx-auto px-[143px] py-20">
+    <div className="relative w-full max-w-[1920px] mx-auto px-[143px] pt-[135px] mb-52">
       {/* Título */}
-      <div className="mb-24 text-center">
-        <h1 className="font-light text-black text-[112px] leading-[120px]">
+      <div className="mb-24 text-center -mt-[140px] ml-[15px]">
+        <h1 className="font-light text-black text-[120px] leading-[120px]">
           Estrategias de conexión y<br />
-         adquisición de clientes
+          adquisición de clientes
         </h1>
       </div>
 
@@ -15,60 +15,60 @@ export default function BrandingCards() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-10 mb-[120px]">
         {/* Tarjeta 1 */}
         <div
-          className="mt-[60px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-center justify-center px-10 py-12"
+          className="mt-[109px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 -ml-[6px]"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "287px" }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
+          <p className="font-medium text-[32px] leading-[42px] text-left pl-[7px]">
             Programas de conversión y
             <br />
             performance para adquirir y
             <br />
-           fidelizar clientes, mediante
+            fidelizar clientes, mediante
             <br />
-           automatización y CRM.
+            automatización y CRM.
           </p>
         </div>
 
         {/* Tarjeta 2 */}
         <div
-          className="bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-center justify-center px-10 py-14"
+          className="bg-cover bg-center w-[522px] text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 mt-[36px]"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "434px" }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
-           Campañas de alto impacto
+          <p className="font-medium text-[32px] leading-[42px] text-left pr-[9px]">
+            Campañas de alto impacto
             <br />
-           y contenido estratégico,
+            y contenido estratégico,
             <br />
-           desde SEO y SEM hasta
+            desde SEO y SEM hasta
             <br />
-           marketing de contenidos,
+            marketing de contenidos,
             <br />
-          con un ROI medible, tests
+            con un ROI medible, tests
             <br />
             A/B y dinámicas de
             <br />
-           iteración rápida.
-           </p>
+            iteración rápida.
+          </p>
         </div>
 
         {/* Tarjeta 3 */}
         <div
-          className="mt-[20px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-center justify-center px-10 py-12"
+          className="mt-[61px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 ml-[5px]"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "383px" }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
-           Estrategias 360° y ejecución
+          <p className="font-medium text-[32px] leading-[42px] text-left pr-[11px]">
+            Estrategias 360° y ejecución
             <br />
-           multicanal a la medida de
+            multicanal a la medida de
             <br />
             cada negocio. Combinando
             <br />
             Paid Media, Redes Sociales,
             <br />
-           Mailing, Retención, Data
+            Mailing, Retención, Data
             <br />
-           Analytics, Growth Marketing.
-            </p>
+            Analytics, Growth Marketing.
+          </p>
         </div>
       </div>
     </div>
