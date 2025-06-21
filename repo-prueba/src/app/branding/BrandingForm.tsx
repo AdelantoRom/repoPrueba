@@ -8,7 +8,7 @@ export default function BrandingForm() {
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
       {/* Título principal */}
-      <div className="mt-[269px] w-[1393px] h-[221px] flex flex-col items-center justify-center ml-3">
+      <div className="mt-[267px] w-[1393px] h-[221px] flex flex-col items-center justify-center ml-3">
         <h2 className="font-medium text-[120px] leading-[120px] text-center text-white">
           Branding:
         </h2>
@@ -27,20 +27,20 @@ export default function BrandingForm() {
       </div>
 
       {/* Imagen decorativa + logo */}
-      <div className="mt-[81px] relative ml-[15px]">
+      <div className="mt-[81px] relative ml-[13px]">
         <Image
           src="/Group-155.png"
           alt="Decoración Benchmarking"
-          width={716}
+          width={717}
           height={165}
           unoptimized
         />
         <Image
           src="/logoin.png"
           alt="Logo In"
-          width={45}
-          height={40}
-          className="absolute top-[107px] left-[138px]"
+          width={44}
+          height={45}
+          className="absolute top-[110px] left-[139px]"
         />
       </div>
 
