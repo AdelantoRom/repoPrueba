@@ -11,7 +11,7 @@ export default function Benchmarking() {
           <h2 className="mt-[265px]  font-bold text-[64px] leading-[120px] text-[#D81FB9]">
             Branding
           </h2>
-          <p className="font-light italic text-[36px] leading-[48px] mt-[1px] -ml-[1px] text-[#000000]">
+          <p className="font-light italic text-[36px] leading-[48px] mt-[1px] -ml-[2px] text-[#000000]">
             Construye una marca con impacto y<br />
             reputación.
           </p>
@@ -48,9 +48,9 @@ export default function Benchmarking() {
           <Image
             src="/Branding.png"
             alt="Branding"
-            width={135}
-            height={135}
-            className="absolute top-[-570px] left-[755px]"
+            width={141}
+            height={141}
+            className="absolute top-[-589px] left-[760px]"
           />
         </div>
       </div>
