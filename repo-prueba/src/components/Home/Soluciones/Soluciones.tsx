@@ -49,17 +49,27 @@ export default function Soluciones() {
 
         </div>
 
-        {/* Imagen a la derecha */}
-        <div className="absolute -right-[57px] -top-[153px] z-10 w-[1031px] h-[1031px] pointer-events-none">
-          <Image
-            src="/potenciamos.png"
-            alt="Potenciamos"
-            fill
-            className="object-contain"
-            unoptimized
-          />
-        </div>
+        <div className="relative w-[583px] h-[583px] mt-[-40px] ml-[100px] overflow-visible">
+  {/* Mujer con esfera */}
+  <Image
+    src="/mujer-esfera.png"
+    alt="Mujer con esfera"
+    fill
+    className="object-contain z-10"
+    unoptimized
+  />
 
+  {/* Red giratoria más grande encima */}
+  <div className="absolute top-1/2 left-1/2 w-[650px] h-[650px] -translate-x-1/2 -translate-y-1/2 z-20  animate-spin [animation-direction:reverse] [animation-duration:450s]">
+    <Image
+      src="/redfucsia.png"
+      alt="Red giratoria"
+      fill
+      className="object-contain"
+      priority
+    />
+  </div>
+</div>
 
       </div>
 
