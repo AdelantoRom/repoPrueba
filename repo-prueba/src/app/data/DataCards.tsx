@@ -15,10 +15,10 @@ export default function DataCards() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 px-[137px] mb-[88px]">
         {/* Tarjeta 1 */}
         <div
-          className="relative top-[40px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10"
+          className="relative w-[522px] top-[82px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-start justify-center px-10 pt-[65px]"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '381px' }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
+          <p className="font-medium text-[32px] leading-[42px] text-left pl-[5px]">
             Los datos son las claves de
             <br />
             tu crecimiento.
@@ -35,10 +35,10 @@ export default function DataCards() {
 
         {/* Tarjeta 2 */}
         <div
-          className="mt-[-50px] relative top-[70px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-14 pb-10"
+          className="mt-[56px] w-[522px] relative  bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-start justify-center px-10 pt-[70px] pb-10 ml-[2px]"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '434px' }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
+          <p className="font-medium text-[32px] leading-[42px] text-left pl-[5px]">
             Decisiones basadas en
             <br />
             insights. Transformamos los
@@ -57,10 +57,10 @@ export default function DataCards() {
 
         {/* Tarjeta 3 */}
         <div
-          className="mt-[-35px] mb-[50px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center px-10 pt-12 pb-10"
+          className="mt-[-12px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-start justify-center px-10 py-[75px] ml-[3px]"
           style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: '569px' }}
         >
-          <p className="font-medium text-[30px] leading-[42px] text-left">
+          <p className="font-medium text-[32px] leading-[42px] text-left pl-[17px]">
             El poder de la IA en tu
             <br />
             empresa. Aplicamos IA para
