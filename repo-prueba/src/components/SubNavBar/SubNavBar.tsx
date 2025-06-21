@@ -23,12 +23,18 @@ export default function SubNavBar() {
             <Link
               key={label}
               href={path}
-              className={`text-[#000000] text-[24px] leading-[24px] transition-all ${
-                isActive ? 'font-bold' : 'font-normal'
-              } `}
+              className="text-[#000000] text-[24px] leading-[24px] transition-all"
             >
-              {label}
+              <span className="relative inline-block">
+                <span className={`absolute left-0 top-0 w-full transition-all ${isActive ? 'font-bold' : 'font-normal'} hover:font-bold`}>
+                  {label}
+                </span>
+                <span className="invisible font-bold">{label}</span>
+              </span>
             </Link>
+
+
+
           );
         })}
       </div>
