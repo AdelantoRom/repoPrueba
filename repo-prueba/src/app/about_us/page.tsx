@@ -31,7 +31,7 @@ const teamMembers = [
 
 export default function About_Us() {
   return (
-    <div className="bg-[url('/Gradiente-Home-5.png')] bg-cover bg-no-repeat w-full max-w-[1920px] mx-auto px-8 pt-[245px]">
+    <div className="bg-[url('/Gradiente-Home-5.png')] bg-cover bg-no-repeat w-full max-w-[1920px] mx-auto px-7 pt-[245px]">
       {/* Título y descripción */}
       <div className="w-full text-center px-8">
         <h1 className="text-[120px] leading-[120px] font-medium text-shadow-md text-white">
