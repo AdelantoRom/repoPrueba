@@ -57,12 +57,7 @@ export default function About_Us() {
                 <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full" />
               </div>
             </div>
-            <div className={`
-  relative flex flex-col text-left
-  ${index === 0 ? 'ml-[67px] top-[52px]' : ''}
-  ${index === 1 ? 'ml-[55px] top-[52px]' : ''}
-  ${index === 2 ? 'ml-[50px] top-[52px]' : ''}
-`}>
+            <div className={`relative flex flex-col text-left ${index === 0 ? 'ml-[67px] top-[52px]' : ''} ${index === 1 ? 'ml-[55px] top-[52px]' : ''} ${index === 2 ? 'ml-[50px] top-[52px]' : ''}`}>
 
               <p className="font-bold text-[32px] leading-[30px]">
                 {member.name}
@@ -75,26 +70,24 @@ export default function About_Us() {
         ))}
       </div>
 
-      <div className="flex justify-center gap-[400px] mt-[100px]">
+      <div className="flex justify-center gap-[285px] mt-[179px]">
         {teamMembers.slice(3, 5).map((member, index) => (
           <div key={index} className="relative flex flex-col items-center">
-            <div className="relative">
+            <div className={`relative ${index === 1 ? 'ml-[38px]' : ''} ${index === 0 ? 'ml-[10px]' : ''}`}>
               <Image src={member.photo} alt={member.name} width={201} height={201} className="object-cover" />
               <div className="absolute bottom-[10px] right-[-4px]">
                 <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full" />
               </div>
             </div>
-            <div className='flex flex-col text-left'>
-              <p className="mt-[32px] font-bold text-[32px] leading-[30px]">
-                {member.name}
-              </p>
-              <p className="mt-[8px] font-medium text-[24px] leading-[30px]">
-                {member.role}
-              </p>
+
+            <div className={`flex flex-col text-left ${index === 1 ? 'ml-[12px] mt-[34px]' : 'mt-[32px]'}`}>
+              <p className="font-bold text-[32px] leading-[30px]">{member.name}</p>
+              <p className="mt-[8px] font-medium text-[24px] leading-[30px]">{member.role}</p>
             </div>
           </div>
         ))}
       </div>
+
 
       {/* Sección final */}
       <div className="pt-[140px] pb-[80px]">
