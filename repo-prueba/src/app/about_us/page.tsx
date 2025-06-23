@@ -14,7 +14,7 @@ const teamMembers = [
   },
   {
     name: 'Nombre Apellido',
-    role: 'Data & Lead',
+    role: 'Data & AI Lead',
     photo: '/Ellipse 10.png',
   },
   {
@@ -53,7 +53,7 @@ export default function About_Us() {
             <div className="relative">
               <Image src={member.photo} alt={member.name} width={201} height={201} className={`object-cover transition-transform duration-300 ${index === 1 ? 'scale-[1.04]' : ''
                 }`} />
-              <div className="absolute bottom-[10px] right-[-4px]">
+              <div className="absolute bottom-[0px] right-[0px]">
                 <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full" />
               </div>
             </div>
