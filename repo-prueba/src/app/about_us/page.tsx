@@ -90,13 +90,13 @@ export default function About_Us() {
 
 
       {/* Sección final */}
-      <div className="pt-[140px] pb-[80px]">
-        <p className="text-[64px] leading-[64px] font-normal w-[446px] mx-auto text-center text-white">
+      <div className="mt-[238px] pb-[70px] ml-[15px]">
+        <p className="text-[64px] leading-[64px] w-[446px] mx-auto text-center">
           ¡Conectemos!
         </p>
       </div>
 
-      <div className="w-full flex justify-center mt-[64px] mb-[80px]">
+      <div className="w-full flex justify-center mt-[61px] pb-[80px] ml-4">
         <div className="w-[1235px] flex justify-between items-start flex-wrap gap-y-12">
           <div className="flex flex-col items-center">
             <Image src="/Calendly.gif" alt="Calendario" width={64} height={64} className="rounded-lg" />
@@ -114,7 +114,7 @@ export default function About_Us() {
 
           <div className="flex flex-col items-center">
             <Image src="/Chat.gif" alt="Chat" width={64} height={64} className="rounded-lg" />
-            <div className="mt-[24px] w-[203px] text-center text-white text-[24px] leading-[24px]">
+            <div className="mt-[24px] w-[132px] text-center text-white text-[24px] leading-[24px]">
               Chatea con Romy, nuestro agente IA
             </div>
           </div>
