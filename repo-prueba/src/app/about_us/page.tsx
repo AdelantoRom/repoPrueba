@@ -32,19 +32,17 @@ const teamMembers = [
 export default function About_Us() {
   return (
     <div className="bg-[url('/Gradiente-Home-5.png')] bg-cover bg-no-repeat w-full max-w-[1920px] mx-auto px-7 pt-[245px]">
-      {/* Título y descripción */}
       <div className="w-full text-center px-8">
-        <h1 className="text-[120px] leading-[120px] font-medium text-shadow-md text-white">
+        <h1 className="text-[120px] leading-[120px] font-medium text-shadow-md text-white mt-[14px] ml-4">
           Quiénes somos
         </h1>
-        <p className="mt-[48px] text-[40px] font-light leading-[48px] text-white">
+        <p className="mt-[30px] ml-4 text-[40px] leading-[48px] text-white">
           Un grupo de especialistas trabajando en cada proyecto, como partners de<br />
           tu empresa desde el primer día. Conformamos equipos de talentos<br />
           seleccionados para cada caso, bajo la dirección de expertos.
         </p>
       </div>
 
-      {/* Primera fila */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-20 gap-y-24 justify-items-center mt-[120px]">
         {teamMembers.slice(0, 3).map((member, index) => (
           <div key={index} className="relative flex flex-col items-center text-white">
