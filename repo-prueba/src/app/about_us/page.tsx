@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const teamMembers = [
   {
-    name: 'Abel Garcia',
+    name: 'Abel García',
     role: 'Research & Design Lead',
     photo: '/Abel.png',
   },
@@ -43,41 +43,49 @@ export default function About_Us() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-20 gap-y-24 justify-items-center mt-[120px]">
+      <div className="grid grid-cols-1 md:grid-cols-3  gap-y-24 items-center mt-[139px] mx-[104px]">
         {teamMembers.slice(0, 3).map((member, index) => (
-          <div key={index} className="relative flex flex-col items-center text-white">
+          <div
+            key={index}
+            className={`relative flex flex-col items-center text-white ${index === 1 ? 'ml-[18px]' : ''} ${index === 2 ? 'ml-[32px]' : ''}`}
+          >
+
             <div className="relative">
-              <Image src={member.photo} alt={member.name} width={201} height={201} className="object-cover" />
+              <Image src={member.photo} alt={member.name} width={201} height={201} className={`object-cover transition-transform duration-300 ${index === 1 ? 'scale-[1.04]' : ''
+                }`} />
               <div className="absolute bottom-[10px] right-[-4px]">
                 <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full" />
               </div>
             </div>
-            <p className="mt-[32px] font-bold text-[32px] leading-[30px] font-['Albert_Sans'] text-center">
-              {member.name}
-            </p>
-            <p className="mt-[8px] font-medium text-[24px] leading-[30px] font-['Albert_Sans'] text-center">
-              {member.role}
-            </p>
+            <div className='flex flex-col text-left ml-[68px] mt-[52px]'>
+              <p className="font-bold text-[32px] leading-[30px]">
+                {member.name}
+              </p>
+              <p className="font-medium text-[24px] leading-[30px] mt-[3px]">
+                {member.role}
+              </p>
+            </div>
           </div>
         ))}
       </div>
 
-      {/* Segunda fila */}
       <div className="flex justify-center gap-[400px] mt-[100px]">
         {teamMembers.slice(3, 5).map((member, index) => (
-          <div key={index} className="relative flex flex-col items-center text-white">
+          <div key={index} className="relative flex flex-col items-center">
             <div className="relative">
               <Image src={member.photo} alt={member.name} width={201} height={201} className="object-cover" />
               <div className="absolute bottom-[10px] right-[-4px]">
                 <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full" />
               </div>
             </div>
-            <p className="mt-[32px] font-bold text-[32px] leading-[30px] font-['Albert_Sans'] text-center">
-              {member.name}
-            </p>
-            <p className="mt-[8px] font-medium text-[24px] leading-[30px] font-['Albert_Sans'] text-center">
-              {member.role}
-            </p>
+            <div className='flex flex-col text-left'>
+              <p className="mt-[32px] font-bold text-[32px] leading-[30px]">
+                {member.name}
+              </p>
+              <p className="mt-[8px] font-medium text-[24px] leading-[30px]">
+                {member.role}
+              </p>
+            </div>
           </div>
         ))}
       </div>
