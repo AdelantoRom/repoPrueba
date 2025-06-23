@@ -57,7 +57,13 @@ export default function About_Us() {
                 <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full" />
               </div>
             </div>
-            <div className='flex flex-col text-left ml-[68px] mt-[52px]'>
+            <div className={`
+  relative flex flex-col text-left
+  ${index === 0 ? 'ml-[67px] top-[52px]' : ''}
+  ${index === 1 ? 'ml-[55px] top-[52px]' : ''}
+  ${index === 2 ? 'ml-[50px] top-[52px]' : ''}
+`}>
+
               <p className="font-bold text-[32px] leading-[30px]">
                 {member.name}
               </p>
