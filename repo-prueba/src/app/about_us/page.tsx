@@ -96,8 +96,9 @@ export default function About_Us() {
         </p>
       </div>
 
-      <div className="w-full flex justify-center mt-[61px] pb-[80px] ml-4">
-        <div className="w-[1235px] flex justify-between items-start flex-wrap gap-y-12">
+      <div className="w-full flex justify-center mt-[67px] pb-[80px] ml-[30px]">
+        <div className="w-[1235px] flex justify-center items-start flex-wrap gap-x-[395px] gap-y-12">
+          {/* Ícono 1 */}
           <div className="flex flex-col items-center">
             <Image src="/Calendly.gif" alt="Calendario" width={64} height={64} className="rounded-lg" />
             <div className="mt-[24px] w-[132px] text-center text-white text-[24px] leading-[24px]">
@@ -105,6 +106,7 @@ export default function About_Us() {
             </div>
           </div>
 
+          {/* Ícono 2 */}
           <div className="flex flex-col items-center">
             <Image src="/Mensaje.gif" alt="Mensaje" width={64} height={64} className="rounded-lg" />
             <div className="mt-[24px] w-[132px] text-center text-white text-[24px] leading-[24px]">
@@ -112,14 +114,16 @@ export default function About_Us() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center">
+          {/* Ícono 3: Romy */}
+          <div className="flex flex-col items-center ml-[-44px]">
             <Image src="/Chat.gif" alt="Chat" width={64} height={64} className="rounded-lg" />
-            <div className="mt-[24px] w-[132px] text-center text-white text-[24px] leading-[24px]">
+            <div className="mt-[24px] max-w-[220px] text-center text-white text-[24px] leading-[24px]">
               Chatea con Romy, nuestro agente IA
             </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 }
