@@ -49,7 +49,7 @@ export default function Soluciones() {
 
         </div>
 
-        <div className='mr-[90px]'>
+        <div className='mr-[90px] -mt-10'>
           <div className="relative w-[683px] h-[683px]  overflow-visible">
             {/* Mujer con esfera */}
             <Image
