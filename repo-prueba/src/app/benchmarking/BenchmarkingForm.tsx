@@ -7,7 +7,7 @@ export default function BenchmarkingForm() {
       className="relative w-full h-[3218px] bg-cover bg-center flex flex-col items-center"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
-      {/* Título principal */}
+
       <div className="mt-[269px] w-[1393px] h-[221px] flex flex-col items-center justify-center ml-4">
         <h2 className="font-medium text-[120px] leading-[120px] text-center text-white">
           Benchmarking:
@@ -17,7 +17,7 @@ export default function BenchmarkingForm() {
         </p>
       </div>
 
-      {/* Párrafo */}
+ 
       <div className="mt-[19px] w-[1145px] h-[144px] flex items-center justify-center ml-4">
         <p className="font-medium text-[40px] leading-[48px] text-center text-white">
           Somos un grupo de profesionales especializados en escalar<br />
@@ -26,7 +26,7 @@ export default function BenchmarkingForm() {
         </p>
       </div>
 
-      {/* Imagen decorativa + logo */}
+  
       <div className="mt-[81px] relative ml-[15px]">
         <Image
           src="/Group-155.png"
@@ -44,7 +44,7 @@ export default function BenchmarkingForm() {
         />
       </div>
 
-      {/* Esfera pequeña */}
+ 
       <div className="absolute top-[728px] left-[1429px] z-0">
         <Image
           src="/Trama-esfera-fucsia.png"
@@ -54,8 +54,6 @@ export default function BenchmarkingForm() {
           className="rotate-180"
         />
       </div>
-
-      {/* Esfera grande */}
       <div className="absolute top-[944px] left-[56px] z-0">
         <Image
           src="/Trama-esfera-fucsia.png"
@@ -66,9 +64,9 @@ export default function BenchmarkingForm() {
         />
       </div>
 
-      {/* Formulario embebido */}
+      
       <div className="relative z-10 mt-[220px] ml-[214px] flex">
-        {/* Columna izquierda */}
+      
         <div>
 
           <div className="w-[884px] flex justify-center">

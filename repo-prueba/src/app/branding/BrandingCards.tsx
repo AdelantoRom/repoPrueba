@@ -4,7 +4,7 @@ export default function BrandingCards() {
   return (
     <div className="relative w-full max-w-[1920px] mx-auto px-[143px] pt-[135px]">
 
-      {/* Título */}
+
       <div className="mb-24 text-center -mt-[152px] ml-[15px]">
         <h1 className="font-light text-black text-[120px] leading-[120px] ">
           Desarrollo de identidad e<br />
@@ -13,7 +13,7 @@ export default function BrandingCards() {
       </div>
 
 
-      {/* Grid container */}
+     
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-10 mb-[165px]">
         {/* Tarjeta 1 */}
         <div
