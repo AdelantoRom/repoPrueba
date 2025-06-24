@@ -9,7 +9,7 @@ export default function Page() {
         <h1 className="text-black text-[110px] w-[1192px] leading-[120px] font-light mb-[120px] mt-[130px]">
           Iniciemos tu
           <br />
-         liderazgo digital
+          liderazgo digital
         </h1>
 
         <h2 className="text-[#D81FB9] text-[60px] w-[351px] font-normal leading-[60px] mt-[30px]">
@@ -74,22 +74,22 @@ export default function Page() {
         </form>
       </div>
 
-      
+
       <div className="flex flex-col items-start mt-[450px] ml-[-270px] space-y-6">
-    
+
         <div className="relative w-[500px] h-[500px]">
           <Image src="/Grupo 1 esfera.png" alt="Grupo Formulario" fill className="object-cover" />
         </div>
 
-     <a href="">
-       <p className="text-[#D81FB9] text-[28px] font-semibold leading-[32px] mt-[100px] ml-[0px]  mb-[60px] cursor-pointer">
-         Email: info@rombux.com
-       </p>
-     </a>
+        <a href="">
+          <p className="text-[#D81FB9] text-[28px] font-semibold leading-[32px] mt-[100px] ml-[0px]  mb-[60px] cursor-pointer">
+            Email: info@rombux.com
+          </p>
+        </a>
 
 
-       
-        <div className= "text-[#000]  leading-[32px] ml-[0px]">
+
+        <div className="text-[#000]  leading-[32px] ml-[0px]">
           <p className="text-[28px] font-semibold mb-[40px]">Oficina:</p>
           <p className="text-[24px] font-normal ">
             Lezica 4363,<br />

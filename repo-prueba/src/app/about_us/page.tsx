@@ -87,8 +87,7 @@ export default function About_Us() {
           </div>
         ))}
       </div>
-
-
+      
       {/* Sección final */}
       <div className="mt-[238px] pb-[70px] ml-[15px]">
         <p className="text-[64px] leading-[64px] w-[446px] mx-auto text-center">
