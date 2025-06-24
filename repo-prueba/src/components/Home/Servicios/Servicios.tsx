@@ -1,4 +1,3 @@
-// components/Servicios.tsx
 "use client";
 
 import Image from "next/image";
@@ -15,9 +14,9 @@ export default function Servicios() {
                 </h3>
             </div>
 
-            <div className="flex">
-                <div className="flex justify-center items-center min-h-screen pl-17 -mt-16 pr-[94px]">
-                    <div className="relative w-[700px] h-[630px] overflow-visible">
+            <div className="flex items-start">
+                <div className="flex justify-center pl-17 -mt-16 pr-[94px]">
+                    <div className="relative w-[700px] h-[630px] overflow-visible mt-40">
 
                         <div className="relative w-[583px] h-[555px] m-auto flex justify-center items-center mt-[40px]">
                             <Image
@@ -29,7 +28,7 @@ export default function Servicios() {
                             />
                         </div>
 
-                        <div className="absolute top-1/2 left-1/2 w-[700px] h-[630px] -translate-x-1/2 -translate-y-1/2 z-10 animate-spin [animation-duration:450s]">
+                        <div className="absolute top-1/2 left-1/2 w-[700px] h-[630px] -translate-x-1/2 -translate-y-1/2 z-10 animate-spin [animation-duration:200s]">
                             <Image
                                 src="/redfucsia.png"
                                 alt="Decoración giratoria"
@@ -41,7 +40,7 @@ export default function Servicios() {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-[866px] ml-[48px] mt-[113px] text-black ">
+                <div className="flex flex-col w-[866px] ml-[48px] mt-[113px] text-black">
                     <ServicioItem
                         title="Benchmarking"
                         icon="/diamante.png"
@@ -67,12 +66,12 @@ export default function Servicios() {
                         link="/growth"
                     />
                     <div className="border-b border-[#D81FB9]">
-                    <ServicioItem
-                        title="Data + IA"
-                        icon="/cerebro.png"
-                        description="Dirige tu expansión con información clave y conocimiento predictivo."
-                        link="/data"
-                    />
+                        <ServicioItem
+                            title="Data + IA"
+                            icon="/cerebro.png"
+                            description="Dirige tu expansión con información clave y conocimiento predictivo."
+                            link="/data"
+                        />
                     </div>
                 </div>
             </div>
