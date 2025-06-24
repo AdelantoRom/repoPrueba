@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function Benchmarking() {
   return (
-    // ⬇️ CONTENEDOR QUE BLOQUEA ESPACIO Y AÍSLA LOS ELEMENTOS ABSOLUTOS
+   
     <div className="relative w-full"> 
       <div className="relative flex flex-col ml-[137px] pt-[100px] space-y-8">
-        {/* Título */}
+       
         <div>
           <h2 className="mt-[265px]  font-bold text-[64px] leading-[120px] text-[#D81FB9]">
             Benchmarking
@@ -16,7 +16,7 @@ export default function Benchmarking() {
           </p>
         </div>
 
-        {/* Sección visual con imágenes */}
+       
         <div className="relative w-full h-[550px] mt-4">
           <Image
             src="/Ellipse 1.png"
