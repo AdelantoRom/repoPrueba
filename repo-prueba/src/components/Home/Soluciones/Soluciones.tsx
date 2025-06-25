@@ -110,7 +110,7 @@ export default function Soluciones() {
           <Image src="/Granix blanco.png" alt="Imagen Granix" width={122} height={81} className="object-contain" />
           <Image src="/The Clinic blanco.png" alt="Imagen The Clinic" width={121} height={36} className="object-contain" />
           <Image src="/Advanta blanco.png" alt="Imagen Advanta" width={152} height={53} className="object-contain" />
-          <Image src="/Bi blanco.png" alt="Imagen Bi" width={59} height={58} className="object-contain" />
+          <Image src="/biblanco.png" alt="Imagen Bi" width={59} height={58} className="object-contain" />
         </div>
       </div>
 
