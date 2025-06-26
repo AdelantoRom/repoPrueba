@@ -82,6 +82,7 @@ export default function Soluciones() {
           </div>
         </div>
 
+
           {/* Imagen en tablet y desktop */}
 <div className="hidden lg:block mr-[40px] 2xl:mr-[90px] -mt-10">
   <div className="relative w-[400px] lg:w-[300px] 2xl:w-[683px] h-[480px] lg:h-[554px] 2xl:h-[683px] overflow-visible">
@@ -103,6 +104,7 @@ export default function Soluciones() {
     </div>
   </div>
 </div>
+
       </div>
 
    <div className="px-4 lg:px-10 2xl:px-[138px] mt-[55px] py-20 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">

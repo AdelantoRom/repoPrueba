@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function Benchmarking() {
   return (
-   
-    <div className="relative w-full"> 
+
+    <div className="relative w-full">
       <div className="relative flex flex-col ml-[137px] pt-[100px] space-y-8">
-       
+
         <div>
           <h2 className="mt-[265px]  font-bold text-[64px] leading-[120px] text-[#D81FB9]">
             Benchmarking
@@ -16,29 +16,14 @@ export default function Benchmarking() {
           </p>
         </div>
 
-       
+
         <div className="relative w-full h-[550px] mt-4">
           <Image
-            src="/Ellipse 1.png"
+            src="/Trama Servicios Desktop.png"
             alt="Ellipse"
-            width={23}
-            height={23}
-            className="absolute top-[-165px] left-[811px]"
-          />
-          <Image
-            src="/Line 7.png"
-            alt="Line"
-            width={605}
-            height={2}
-            className="absolute top-[-155px] left-[822px]"
-          />
-          <Image
-            src="/Image 6.png"
-            alt="Image 6"
-            width={800}
-            height={800}
-            className="absolute top-[-565px] left-[966px]"
-            unoptimized
+            width={1050}
+            height={1050}
+            className="absolute top-[-575px] left-[790px]"
           />
         </div>
 
