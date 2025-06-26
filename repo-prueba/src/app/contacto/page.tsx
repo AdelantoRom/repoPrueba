@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div className="flex ml-[140px] mt-[40px] pt-[100px] gap-[60px]">
-      {/* Columna izquierda */}
+   
       <div>
         <h1 className="text-black text-[110px] w-[1192px] leading-[120px] font-light mb-[120px] mt-[130px]">
           Iniciemos tu
@@ -98,7 +98,6 @@ export default function Page() {
           </p>
         </div>
 
-        {/* Logo */}
         <div className="ml-[0px] mt-[40px] ">
           <Image src="/logoin.png" alt="Logo institucional" width={57} height={57} />
         </div>

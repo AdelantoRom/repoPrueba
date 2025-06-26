@@ -9,11 +9,9 @@ import Enfoques from "@/components/Home/Enfoques/Enfoques";
 export default function Home() {
   return (
     <div>
-
       <div className="bg-[url('/gradiente1.png')] bg-no-repeat bg-cover w-full min-h-screen text-white pt-[150px]">
         <Soluciones />
       </div>
-
       <Carousel />
       <div id="servicios">
         <Servicios />
@@ -21,12 +19,10 @@ export default function Home() {
       <div id="casos">
         <Enfoques />
       </div>
-
       <div id="contacto">
         <Formulario />
       </div>
       <Adn />
-
     </div>
   );
 }
