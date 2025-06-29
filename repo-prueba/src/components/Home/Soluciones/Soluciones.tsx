@@ -71,7 +71,9 @@ export default function Soluciones() {
             </div>
           </div>
 
+
           {/* Imagen en tablet y desktop */}
+
           <div className="hidden lg:block mr-[40px] lg:-mt-16 2xl:mr-32 2xl:-mt-10">
             <div className="relative lg:w-[350px] lg:h-[350px] 2xl:w-[683px] 2xl:h-[683px] overflow-visible translate-x-6 2xl:translate-x-10">
               <Image

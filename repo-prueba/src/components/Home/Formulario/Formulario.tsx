@@ -3,6 +3,7 @@ import Image from "next/image";
 
 export default function Formulario() {
   return (
+
     <div className="flex flex-col items-center pt-[40px] lg:flex-row lg:items-start lg:ml-[60px] lg:pt-[100px] 2xl:ml-[140px] gap-[40px] lg:gap-[60px]">
       {/* Columna izquierda */}
       <div>
@@ -11,6 +12,7 @@ export default function Formulario() {
           2xl:text-[110px] 2xl:leading-[120px] 2xl:w-[1100px]
           mb-[30px] lg:mb-[40px] 2xl:mb-[120px]">
           Te acompañamos en tu desarrollo digital
+
         </h1>
 
         <h2 className="text-[#D81FB9] text-[24px] leading-[29px] font-medium w-[351px]
@@ -19,13 +21,15 @@ export default function Formulario() {
           mt-[20px] lg:mt-[30px]">
           Contáctanos
         </h2>
-
         <form className="mt-[30px] lg:mt-[40px] flex flex-col space-y-6 pb-[60px] 2xl:pb-[86px]">
+
+        
           {["Nombre*", "Apellido*", "Email*", "Empresa*"].map((placeholder, idx) => (
             <input
               key={idx}
               type="text"
               placeholder={placeholder}
+
               className="w-[336px] h-[41px] text-[16px] font-bold leading-[20px] px-4 rounded-[5px] border
                 placeholder:text-gray-500 text-[#4B4B4B]
                 lg:w-[610px] lg:h-[60px] lg:text-[20px] lg:leading-[24px]
@@ -44,6 +48,8 @@ export default function Formulario() {
             <p className="text-[16px] font-semibold text-[#4B4B4B] leading-[20px] py-2
               lg:text-[20px] lg:leading-[24px] lg:py-[20px]
               2xl:text-[28px] 2xl:leading-[28px] 2xl:py-[30px]">
+
+
               Área/s de servicios requeridos*
             </p>
 
@@ -56,6 +62,7 @@ export default function Formulario() {
             ].map(({ bold, rest }, idx) => (
               <label
                 key={idx}
+
                 className="flex items-start space-x-2 text-[14px] text-[#4B4B4B]
                   lg:text-[18px] 2xl:text-[24px]"
               >
@@ -64,7 +71,9 @@ export default function Formulario() {
                   className="mt-[3px] w-4 h-4 accent-[#D81FB9]
                     lg:w-[18px] lg:h-[18px]
                     2xl:w-5 2xl:h-5"
+
                 />
+
                 <span>
                   <strong className="font-semibold">{bold}</strong>
                   {rest}
@@ -73,6 +82,7 @@ export default function Formulario() {
             ))}
           </div>
 
+
           {/* Mensaje */}
           <div
             className="w-[336px] h-[113px] border rounded-[5px] p-4
@@ -80,14 +90,17 @@ export default function Formulario() {
               2xl:w-[884px] 2xl:h-[270px] 2xl:p-6"
             style={{ borderColor: "#70707070" }}
           >
+
             <textarea
               id="mensaje"
               name="mensaje"
               required
+
               className="w-full h-full resize-none text-[16px] font-bold bg-transparent
                 placeholder:text-gray-500 text-[#4B4B4B] focus:outline-none
                 lg:text-[20px] lg:leading-[24px]
                 2xl:text-[28px] 2xl:leading-[32px]"
+
               placeholder="Mensaje*"
             />
           </div>
@@ -95,14 +108,17 @@ export default function Formulario() {
           {/* Botón */}
           <button
             type="submit"
+
             className="bg-[#D81FB9] text-white text-[20px] font-bold h-[48px] w-[192px] rounded-[50px] mx-auto
               lg:mx-0 lg:h-[64px] lg:w-[254px] lg:text-[28px] lg:font-semibold
               2xl:h-[78px] 2xl:w-[250px] 2xl:text-[32px] 2xl:font-bold mt-[12px] mb-[40px]"
+
           >
             Enviar
           </button>
         </form>
       </div>
+
 
       <div className="relative hidden lg:block
   lg:w-[300px] lg:h-[300px] lg:mt-[220px] lg:ml-[20px]
@@ -113,7 +129,16 @@ export default function Formulario() {
     fill
     className="object-cover"
   />
-</div>
+        <Image
+          src="/Trama esfera celeste.png"
+          alt="Trama Formulario"
+          width={615}
+          height={615}
+          className="absolute top-[-35px] left-[-35px] pointer-events-none animate-spin [animation-direction:reverse] [animation-duration:150s]
+          lg:w-[300px] lg:h-[300px] lg:mt-[220px] lg:ml-[20px]
+  2xl:w-[500px] 2xl:h-[500px] 2xl:mt-[450px] 2xl:ml-[-180px]"
+        />
+      </div>
 
     </div>
   );

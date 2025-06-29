@@ -47,11 +47,13 @@ export default function Adn() {
         <Image
           src="/group182.png"
           alt="Esfera Izquierda"
+
           width={296}
           height={296}
           className="absolute left-[-60px] top-[60%] -translate-y-1/2 object-contain 
             lg:left-0 lg:top-[100px] lg:translate-y-0 lg:w-[296px] lg:h-[296px]
             2xl:top-[120px] 2xl:w-[541px] 2xl:h-[541px]"
+
         />
         <Image
           src="/group182.png"
@@ -61,6 +63,7 @@ export default function Adn() {
           className="absolute right-[-40px] top-0 object-contain 
             lg:w-[164px] lg:h-[164px]
             2xl:w-[299px] 2xl:h-[299px]"
+
         />
       </div>
 
