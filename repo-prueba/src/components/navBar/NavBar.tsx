@@ -1,23 +1,152 @@
-import Image from "next/image";
-import Link from "next/link";
+'use client'
+
+import { useState } from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import { Menu, X } from 'lucide-react'
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
-    <nav className="fixed top-0 w-full z-50 flex items-center justify-between h-[150px] px-[143px] bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top flex items-center justify-between px-4 lg:px-10 2xl:px-[143px] h-[94px] lg:h-[116px] 2xl:h-[150px]">
+      {/* Logo */}
       <Link href="/">
         <Image
-          src="/logo.png"
+          src="/Vector.png"
           alt="Logo Rombux"
           width={240}
           height={39}
-
+          className="w-[141px] h-[23px] lg:w-[240px] lg:h-[39px]"
         />
       </Link>
-      <div className="flex items-center text-white text-[32px] leading-[24px] font-normal gap-[90px] ">
-        <Link href="/benchmarking" className="mr-2">Servicios</Link>
-        <Link href="/#casos" className="-mr-2">Casos</Link>
+
+      {/* Links visibles en tablet y desktop */}
+      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[90px] text-white font-medium lg:text-[22px] 2xl:text-[32px]">
+        <Link href="/benchmarking">Servicios</Link>
+        <Link href="/#casos">Casos</Link>
         <Link href="/contacto">Contacto</Link>
       </div>
+
+      {/* Botón hamburguesa solo en mobile */}
+      <button className="lg:hidden text-white" onClick={toggleMenu}>
+        {isOpen ? <X size={32} /> : <Menu size={32} />}
+      </button>
+
+      {/* Menú desplegable solo en mobile */}
+      {isOpen && (
+        <div className="absolute top-[94px] left-0 w-full bg-white text-black flex flex-col px-6 py-4 lg:hidden z-50 shadow-md text-[24px] leading-tight">
+          {/* Servicios */}
+          <div className="w-full">Servicios</div>
+          <hr className="my-3 border-gray-300" />
+
+          <Link href="/benchmarking" onClick={toggleMenu}>• Benchmarking</Link>
+          <hr className="my-3 border-gray-300" />
+
+          <Link href="/branding" onClick={toggleMenu}>• Branding</Link>
+          <hr className="my-3 border-gray-300" />
+
+          <Link href="/marketing-digital" onClick={toggleMenu}>• Marketing Digital</Link>
+          <hr className="my-3 border-gray-300" />
+
+          <Link href="/growth" onClick={toggleMenu}>• Growth</Link>
+          <hr className="my-3 border-gray-300" />
+
+          <Link href="/data-ia" onClick={toggleMenu}>• Data + IA</Link>
+          <hr className="my-3 border-gray-300" />
+
+          {/* Casos */}
+          <Link href="/#casos" onClick={toggleMenu}>Casos</Link>
+          <hr className="my-3 border-gray-300" />
+
+          {/* Contacto */}
+          <Link href="/contacto" onClick={toggleMenu}>Contacto</Link>
+          <hr className="my-3 border-gray-300" />
+        </div>
+      )}
     </nav>
-  );
+  )
 }
+
+
+// //RESPONSIVE//
+
+// 'use client';
+
+// import Image from "next/image";
+// import Link from "next/link";
+// import { useState } from "react";
+// import { Menu, X } from "lucide-react";
+
+// export default function Navbar() {
+//   const [isOpen, setIsOpen] = useState(false);
+
+//   const toggleMenu = () => setIsOpen(!isOpen);
+
+//   return (
+//     <nav className="fixed top-0 left-0 w-full z-50 bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top flex items-center justify-between px-4 lg:px-10  2xl:px-[143px] h-[94px] lg:h-[116px] 2xl:h-[150px]">
+//       {/* Logo */}
+//       <Link href="/">
+//         <Image
+//           src="/Vector.png"
+//           alt="Logo Rombux"
+//           width={240}
+//           height={39}
+//           className="w-[141px] h-[23px] lg:w-[240px] lg:h-[39px] ml-2 lg:ml-16 2xl:ml-16"
+//         />
+//       </Link>
+
+//       {/* Desktop & Tablet Links */}
+//      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[90px] text-white font-medium lg:text-[22px] 2xl:text-[32px]">
+//   <Link href="/benchmarking">Servicios</Link>
+//   <Link href="/#casos">Casos</Link>
+//   <Link href="/contacto">Contacto</Link>
+// </div>
+
+
+//       Botón hamburguesa solo en mobile
+//       <button className="lg:hidden text-white" onClick={toggleMenu}>
+//         {isOpen ? <X size={32} /> : <Menu size={32} />}
+//       </button>
+
+//       {/* Menú mobile desplegable */}
+//       {isOpen && (
+//         <div className="absolute top-[94px] left-0 w-full bg-black/90 text-white flex flex-col items-center py-6 gap-6 text-lg lg:hidden">
+//           <Link href="/benchmarking" onClick={toggleMenu}>Servicios</Link>
+//           <Link href="/#casos" onClick={toggleMenu}>Casos</Link>
+//           <Link href="/contacto" onClick={toggleMenu}>Contacto</Link>
+//         </div>
+//       )}
+//     </nav>
+//   );
+// }
+
+
+
+// import Image from "next/image";
+// import Link from "next/link";
+
+// export default function Navbar() {
+//   return (
+//     <nav className="fixed top-0 w-full z-50 flex items-center justify-between h-[150px] px-[143px] bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top">
+//       <Link href="/">
+//         <Image
+//           src="/logo.png"
+//           alt="Logo Rombux"
+//           width={240}
+//           height={39}
+
+//         />
+//       </Link>
+//       <div className="flex items-center text-white text-[32px] leading-[24px] font-normal gap-[90px] ">
+//         <Link href="/benchmarking" className="mr-2">Servicios</Link>
+//         <Link href="/#casos" className="-mr-2">Casos</Link>
+//         <Link href="/contacto">Contacto</Link>
+//       </div>
+//     </nav>
+//   );
+// }
