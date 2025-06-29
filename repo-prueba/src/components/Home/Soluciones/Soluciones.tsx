@@ -1,168 +1,153 @@
-//RESPONSIVE//
 import Image from 'next/image';
 
 export default function Soluciones() {
   return (
-    <div className="w-full min-h-screen text-white">
-     <div className="flex flex-col lg:flex-row items-start justify-between px-4 lg:px-10 2xl:px-0 pt-6 lg:pt-[96px] pb-[40px] relative">
-
-
-        {/* Imagen primero en mobile */}
-        <div className="w-full lg:hidden mb-10 flex justify-center">
-          <div className="relative w-[250px] h-[250px] -mt-12">
-            <Image
-              src="/mujer-esfera.png"
-              alt="Mujer con esfera"
-              fill
-              className="object-contain z-10"
-              unoptimized
-            />
-            <div className="absolute top-1/2 left-1/2 w-[280px] h-[280px] -translate-x-1/2 -translate-y-1/2 z-20 animate-spin [animation-direction:reverse] [animation-duration:150s]">
+    
+    <div
+      className="
+        bg-[url('/gradiente-mobile.png')]
+        lg:bg-[url('/gradiente-desktop.png')]
+        bg-no-repeat bg-top bg-cover
+        w-full min-h-screen text-white pt-[140px] pb-[40px]
+      "
+    >
+   
+      <div className="w-full text-white">
+        <div className="flex flex-col lg:flex-row items-start justify-between px-4 lg:ml-2 2xl:px-[138px] pt-6 lg:pt-[96px] pb-[40px] relative">
+          {/* Imagen primero en mobile */}
+          <div className="w-full lg:hidden mb-10 mt-2 flex justify-center">
+            <div className="relative w-[250px] h-[250px] -mt-12">
               <Image
-                src="/redfucsia.png"
-                alt="Red giratoria"
+                src="/mujer-esfera.png"
+                alt="Mujer con esfera"
                 fill
-                className="object-contain"
-                priority
+                className="object-contain z-10"
+                unoptimized
               />
+              <div className="absolute top-1/2 left-1/2 w-[280px] h-[280px] -translate-x-1/2 -translate-y-1/2 z-20 animate-spin [animation-direction:reverse] [animation-duration:150s]">
+                <Image
+                  src="/redfucsia.png"
+                  alt="Red giratoria"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="pl-4 pr-2 lg:pl-[72px] lg:pr-8 2xl:pl-[138px] flex flex-col justify-start space-y-12 w-full lg:w-1/2">
-          <div className="flex flex-col w-full lg:w-[962px] h-auto">
-            <h2 className="text-[20px] lg:text-[32px] leading-[28px] lg:leading-[36px] text-white mb-6 lg:mb-10">
-              Soluciones Digitales de Negocios
-            </h2>
-            <h1 className="text-[40px] lg:text-[70px] 2xl:text-[120px] leading-[44px] lg:leading-[70px] 2xl:leading-[120px] text-white mt-3 font-[400]">
-              Potenciamos<br />tu Empresa<br />en la Era Digital
-            </h1>
-          </div>
-
-          <div className="flex flex-col">
-            <h3 className="text-[18px] lg:text-[22px] font-normal leading-[24px] text-white -mt-2 lg:mt-28">
-              ¡Anótate ahora y participa de un sorteo con <br className="hidden lg:block" /> importantes beneficios para tu próxima campaña!
-            </h3>
-
-            <div className="flex flex-col space-y-2 mt-7 max-w-[337px] lg:max-w-[501px] 2xl:max-w-[501px]">
-  <div className="relative w-full">
-    <input
-      type="email"
-      placeholder="Email"
-      className="w-full bg-transparent border rounded-md border-white text-white placeholder-white focus:outline-none focus:border-[#00CED1] 
-        text-[18px] lg:text-[24px] leading-[32px] py-1 lg:py-2 pl-4 
-        h-[32px] lg:h-[46px] 2xl:h-[46px]"
-    />
-  </div>
-           <button
-  type="submit"
-  className="
-    bg-white 
-    text-[18px] 
-    lg:text-[22px] 
-    2xl:text-[24px] 
-    font-bold 
-    h-[32px] 
-    lg:h-[38px] 
-    2xl:h-[46px] 
-    w-[115px] 
-    lg:w-[152px] 
-    2xl:w-[186px] 
-    rounded-[50px] 
-    mt-4 
-    mx-auto 
-    lg:mx-0
-  "
-  style={{ color: '#19B7CC' }}
->
-  Enviar
-</button>
-
+      
+          <div className="pl-4 pr-2 lg:pl-[72px] lg:pr-8 2xl:pl-[40px] flex flex-col justify-start space-y-12 w-full lg:max-w-[650px] 2xl:-ml-10 2xl:mr-auto">
+            <div className="flex flex-col w-full lg:w-[962px] h-auto">
+              <h2 className="text-[20px] lg:text-[32px] leading-[28px] lg:leading-[36px] text-white mb-6 lg:-mt-20 lg:mb-10">
+                Soluciones Digitales de Negocios
+              </h2>
+              <h1 className="text-[40px] lg:text-[70px] lg:mt-4 2xl:text-[120px] leading-[44px] lg:leading-[70px] 2xl:leading-[120px] text-white mt-3 font-normal">
+                Potenciamos<br />tu Empresa<br />en la Era Digital
+              </h1>
+            </div>
+            <div className="flex flex-col">
+              <h3 className="text-[18px] lg:text-[22px] font-normal leading-[24px] text-white lg:mt-4 max-w-[550px]">
+                ¡Anótate ahora y participa de un sorteo con
+                <br className="hidden lg:block" />
+                importantes beneficios para tu próxima campaña!
+              </h3>
+              <div className="flex flex-col space-y-2 mt-4 max-w-[337px] lg:max-w-[501px]">
+                <div className="relative w-full">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    className="w-full bg-transparent border rounded-md border-white text-white placeholder-white focus:outline-none focus:border-[#00CED1] text-[18px] lg:text-[22px] leading-[32px] py-1 lg:py-2 pl-4 h-[32px] lg:h-[46px] 2xl:h-[46px]"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="bg-white text-[18px] lg:text-[22px] 2xl:text-[24px] font-bold h-[32px] lg:h-[38px] 2xl:h-[46px] w-[115px] lg:w-[152px] 2xl:w-[186px] rounded-[50px] mt-10 mx-auto lg:mx-0"
+                  style={{ color: '#19B7CC' }}
+                >
+                  Enviar
+                </button>
+              </div>
             </div>
           </div>
-        </div>
 
           {/* Imagen en tablet y desktop */}
-<div className="hidden lg:block mr-[40px] 2xl:mr-[90px] -mt-10">
-  <div className="relative w-[400px] lg:w-[300px] 2xl:w-[683px] h-[480px] lg:h-[554px] 2xl:h-[683px] overflow-visible">
-    <Image
-      src="/mujer-esfera.png"
-      alt="Mujer con esfera"
-      fill
-      className="object-contain z-10"
-      unoptimized
-    />
-    <div className="absolute top-1/2 left-1/2 w-[460px] lg:w-[350px] 2xl:w-[750px] h-[540px] lg:h-[600px] 2xl:h-[750px] -translate-x-1/2 -translate-y-1/2 z-20 animate-spin [animation-direction:reverse] [animation-duration:150s]">
-      <Image
-        src="/redfucsia.png"
-        alt="Red giratoria"
-        fill
-        className="object-contain"
-        priority
-      />
-    </div>
-  </div>
-</div>
-      </div>
-
-   <div className="px-4 lg:px-10 2xl:px-[138px] mt-[55px] py-20 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
-  <div className="w-full lg:w-1/2 flex justify-end lg:justify-start order-1 lg:order-2">
-   <h2 className="
-  text-right                      // Mobile
-  lg:text-right                  // Tablet y Desktop
-  text-[40px] leading-[42px]
-  lg:text-[70px] lg:leading-[72px]
-  2xl:text-[120px] 2xl:leading-[120px]
-  max-w-full lg:max-w-[829px]
-">
-  Impulsando tus Negocios al Futuro
-</h2>
-
-  </div>
+          <div className="hidden lg:block mr-[40px] lg:-mt-16 2xl:mr-32 2xl:-mt-10">
+            <div className="relative lg:w-[350px] lg:h-[350px] 2xl:w-[683px] 2xl:h-[683px] overflow-visible translate-x-6 2xl:translate-x-10">
+              <Image
+                src="/mujer-esfera.png"
+                alt="Mujer con esfera"
+                fill
+                className="object-contain z-10"
+                unoptimized
+              />
+          
+              <div className="absolute top-1/2 left-1/2 lg:w-[400px] lg:h-[400px] 2xl:w-[723px] 2xl:h-[723px] -translate-x-1/2 -translate-y-1/2 z-20 animate-spin [animation-direction:reverse] [animation-duration:150s]">
+                <Image
+                  src="/redfucsia.png"
+                  alt="Red giratoria"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+        </div>
 
  
-  <div className="flex flex-col space-y-4 lg:space-y-6 w-full lg:w-1/2 max-w-full lg:max-w-[629px] order-2 lg:order-1">
-    <h3 className="
-      hidden lg:block 
-      text-[24px] leading-[32px] font-medium 
-      2xl:text-[32px] 2xl:leading-[40px]
-      mb-0
-    ">
-      Transformación Digital
-    </h3>
+        <div className="px-4 -mt-[34px] lg:px-24 lg:-mr-6 lg:mt-4 2xl:px-[138px] 2xl:mt-[55px] py-20 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
+          <div className="mt-6 lg:w-1/2 flex justify-end lg:justify-start order-1 lg:order-2">
+            <h2 className="text-right text-[40px] leading-[42px] lg:text-[70px] lg:leading-[72px] 2xl:text-[120px] 2xl:leading-[120px] max-w-full lg:max-w-[829px]">
+              Impulsando tus Negocios al Futuro
+            </h2>
+          </div>
+          <div className="flex flex-col w-full lg:w-[440px] h-[227px] max-w-full lg:max-w-[629px] 2xl:w-[700px] 2xl:max-w-[850px] order-2 lg:order-1 space-y-4 lg:space-y-2">
+            <h3 className="hidden lg:block text-[24px] leading-[32px] font-medium 2xl:text-[32px] 2xl:leading-[40px]">
+              Transformación Digital
+            </h3>
+            <p className="text-[18px] leading-[25px] text-right font-normal lg:text-left lg:text-[20px] lg:leading-[25px] 2xl:text-[24px] 2xl:leading-[25px]">
+              <span className="hidden lg:inline">
+                En un entorno que evoluciona aceleradamente,<br />
+                la transformación digital permite a las empresas adaptarse rápidamente a las demandas del mercado. 
+              </span>
+              <strong>
+                Rombux es tu socio estratégico en el<br className="lg:hidden" /> mundo online,
+              </strong>{' '}
+              ofreciéndote soluciones<br className="block lg:hidden" />
+              personalizadas e integrales para <br className="block lg:hidden" />
+              impulsar tu crecimiento y consolidar tu <br className="block lg:hidden" />
+              posición.
+              <span className="hidden 2xl:block 2xl:leading-[30px]">
+                En un entorno que evoluciona aceleradamente, la<br />
+                transformación digital permite a las empresas adaptarse<br />
+                rápidamente a las demandas del mercado.<strong> Rombux es tu<br />
+                socio estratégico en el mundo online</strong>, ofreciéndote<br />
+                soluciones integrales y personalizadas para impulsar tu<br />
+                crecimiento y consolidar tu posición.<br />
+              </span>
+            </p>
+          </div>
+        </div>
 
-    <div
-  className="
-    text-[18px] leading-[28px] text-right font-normal
-    lg:text-left lg:text-[20px] lg:leading-[32px]
-    2xl:text-[24px] 2xl:leading-[40px]
-  "
->
- 
-<p className="text-[18px] leading-[28px] text-right font-normal lg:text-left lg:text-[20px] lg:leading-[32px] 2xl:text-[24px] 2xl:leading-[40px] lg:mt-6">
-  <span className="hidden lg:inline">
-    En un entorno que evoluciona aceleradamente, la<br />
-    transformación digital permite a las empresas adaptarse<br />
-    rápidamente a las demandas del mercado.{' '}
-  </span>
-  <strong>
-    Rombux es tu socio estratégico en el<br className="lg:hidden" /> mundo online,
-  </strong>{' '}
-  ofreciéndote soluciones<br className="block lg:hidden" />
-  personalizadas e integrales para<br className="block lg:hidden" />
-  impulsar tu crecimiento y consolidar tu<br className="block lg:hidden" />
-  posición.
-</p>
+       
+        <div className="w-full relative px-4 md:px-8 lg:px-20 2xl:px-[120px] 2xl:pt-6 max-w-[1920px] mx-auto">
+          <div
+            className="
+              grid grid-cols-4 justify-items-center gap-x-4 gap-y-6
+              /* Mobile: subido -100px */
+              relative -top-[100px] mb-6
+              /* Tablet: flujo normal + espacios */
+              lg:relative lg:top-0 lg:mb-8 lg:mt-10
+              /* Desktop: más espacio */
+              2xl:mb-10 2xl:mt-16
+             
+              lg:flex lg:flex-nowrap lg:justify-center lg:items-center lg:gap-x-10 lg:gap-y-14
+              2xl:flex 2xl:justify-between 2xl:gap-x-26
+            "
+          >
 
-  
-</div>
-
-  </div>
-</div>
-<div className="w-full relative px-4 lg:px-[125px] pb-20 pt-10">
-  <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-14 lg:gap-x-22 lg:gap-y-32 mb-12">
-    
-    <div className="relative w-[50px] h-[31px] lg:w-[73px] lg:h-[45px] 2xl:w-[130px] 2xl:h-[75px]">
+    <div className="relative w-[50px] h-[31px] lg:w-[73px] lg:h-[45px] 2xl:w-[250px] 2xl:h-[75px]">
       <Image src="/HP blanco.png" alt="Imagen HP" fill className="object-contain" />
     </div>
 
@@ -195,6 +180,7 @@ export default function Soluciones() {
     </div>
 
   </div>
+</div>
 </div>
 </div>
     );
