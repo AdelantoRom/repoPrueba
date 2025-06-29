@@ -3,14 +3,16 @@ import Image from 'next/image';
 export default function Soluciones() {
   return (
     
-    <div
-      className="
-        bg-[url('/gradiente-mobile.png')]
-        lg:bg-[url('/gradiente-desktop.png')]
-        bg-no-repeat bg-top bg-cover
-        w-full min-h-screen text-white pt-[140px] pb-[40px]
-      "
-    >
+   <div
+  className="
+    bg-[url('/gradiente-mobile.png')]
+    lg:bg-[url('/gradiente-desktop.png')]
+    bg-no-repeat bg-top bg-cover
+    w-full min-h-screen text-white pt-[140px] pb-[40px]
+    lg:pt-[200px] 2xl:pt-[260px]
+  "
+>
+
    
       <div className="w-full text-white">
         <div className="flex flex-col lg:flex-row items-start justify-between px-4 lg:ml-2 2xl:px-[138px] pt-6 lg:pt-[96px] pb-[40px] relative">
@@ -104,50 +106,49 @@ export default function Soluciones() {
               Impulsando tus Negocios al Futuro
             </h2>
           </div>
-          <div className="flex flex-col w-full lg:w-[440px] h-[227px] max-w-full lg:max-w-[629px] 2xl:w-[700px] 2xl:max-w-[850px] order-2 lg:order-1 space-y-4 lg:space-y-2">
-            <h3 className="hidden lg:block text-[24px] leading-[32px] font-medium 2xl:text-[32px] 2xl:leading-[40px]">
-              Transformación Digital
-            </h3>
-            <p className="text-[18px] leading-[25px] text-right font-normal lg:text-left lg:text-[20px] lg:leading-[25px] 2xl:text-[24px] 2xl:leading-[25px]">
-              <span className="hidden lg:inline">
-                En un entorno que evoluciona aceleradamente,<br />
-                la transformación digital permite a las empresas adaptarse rápidamente a las demandas del mercado. 
-              </span>
-              <strong>
-                Rombux es tu socio estratégico en el<br className="lg:hidden" /> mundo online,
-              </strong>{' '}
-              ofreciéndote soluciones<br className="block lg:hidden" />
-              personalizadas e integrales para <br className="block lg:hidden" />
-              impulsar tu crecimiento y consolidar tu <br className="block lg:hidden" />
-              posición.
-              <span className="hidden 2xl:block 2xl:leading-[30px]">
-                En un entorno que evoluciona aceleradamente, la<br />
-                transformación digital permite a las empresas adaptarse<br />
-                rápidamente a las demandas del mercado.<strong> Rombux es tu<br />
-                socio estratégico en el mundo online</strong>, ofreciéndote<br />
-                soluciones integrales y personalizadas para impulsar tu<br />
-                crecimiento y consolidar tu posición.<br />
-              </span>
-            </p>
-          </div>
+    
+    <div className="flex flex-col w-full lg:w-[440px] h-[227px] max-w-full lg:max-w-[629px] 2xl:w-[629px] 2xl:h-[283px] order-2 lg:order-1 space-y-4 2xl:space-y-6 2xl:mt-[70px]
+">
+  <h3 className="hidden lg:block text-[24px] leading-[32px] lg:mb-2 lg:mt-4 font-medium 2xl:text-[32px] 2xl:leading-[40px]">
+    Transformación Digital
+  </h3>
+
+  {/* Mobile y tablet */}
+  <p className="text-[18px] leading-[25px] text-right font-normal lg:text-left lg:text-[20px] lg:leading-[25px] 2xl:hidden">
+    <span className="hidden lg:inline">
+      En un entorno que evoluciona aceleradamente,<br />
+      la transformación digital permite a las empresas adaptarse rápidamente a las demandas del mercado.
+    </span>
+    <strong>
+      Rombux es tu socio estratégico en el<br className="lg:hidden" /> mundo online,
+    </strong>{' '}
+    ofreciéndote soluciones<br className="block lg:hidden" />
+    personalizadas e integrales para <br className="block lg:hidden" />
+    impulsar tu crecimiento y consolidar tu <br className="block lg:hidden" />
+    posición.
+  </p>
+
+  {/* Solo para desktop 2xl */}
+  <p className="hidden 2xl:block text-[24px] leading-[40px] font-normal text-left">
+    En un entorno que evoluciona aceleradamente, la transformación digital permite a las empresas adaptarse rápidamente a las demandas del mercado.<strong> Rombux es tu socio estratégico en el mundo online,</strong> ofreciéndote soluciones integrales y personalizadas para impulsar tu crecimiento y consolidar tu posición.
+  </p>
+</div>
+
+
         </div>
 
        
         <div className="w-full relative px-4 md:px-8 lg:px-20 2xl:px-[120px] 2xl:pt-6 max-w-[1920px] mx-auto">
           <div
-            className="
-              grid grid-cols-4 justify-items-center gap-x-4 gap-y-6
-              /* Mobile: subido -100px */
-              relative -top-[100px] mb-6
-              /* Tablet: flujo normal + espacios */
-              lg:relative lg:top-0 lg:mb-8 lg:mt-10
-              /* Desktop: más espacio */
-              2xl:mb-10 2xl:mt-16
-             
-              lg:flex lg:flex-nowrap lg:justify-center lg:items-center lg:gap-x-10 lg:gap-y-14
-              2xl:flex 2xl:justify-between 2xl:gap-x-26
-            "
-          >
+  className="
+    grid grid-cols-4 justify-items-center gap-x-4 gap-y-6
+    relative -top-[100px] -mb-[100px]
+    lg:relative lg:top-0 lg:mb-4 lg:mt-10  lg:ml-4
+    2xl:mb-10 2xl:mt-16
+    lg:flex lg:flex-nowrap lg:justify-center lg:items-center lg:gap-x-12 lg:gap-y-14
+    2xl:flex 2xl:justify-between 2xl:gap-x-26
+  "
+>
 
     <div className="relative w-[50px] h-[31px] lg:w-[73px] lg:h-[45px] 2xl:w-[250px] 2xl:h-[75px]">
       <Image src="/HP blanco.png" alt="Imagen HP" fill className="object-contain" />
