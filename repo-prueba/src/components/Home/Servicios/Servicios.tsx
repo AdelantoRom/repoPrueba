@@ -16,9 +16,9 @@ export default function Servicios() {
 
             <div className="flex items-start">
                 <div className="flex justify-center pl-17 -mt-16 pr-[94px] max-2xl:pr-0 max-xl:pl-0 ">
-                    <div className="relative w-[700px] h-[630px] overflow-visible mt-40 max-2xl:w-[600px] max-2xl:mt-10 max-xl:w-[500px]">
+                    <div className="relative w-[700px] h-[630px] overflow-visible mt-40 max-2xl:w-[600px] max-2xl:mt-10 max-xl:w-[450px]">
 
-                        <div className="relative w-[583px] max-2xl:w-[380px] h-[555px] m-auto flex justify-center items-center mt-[40px]">
+                        <div className="relative w-[583px] max-2xl:w-[380px] max-xl:w-[280px] h-[555px] m-auto flex justify-center items-center mt-[40px]">
                             <Image
                                 src="/hombreesfera.png"
                                 alt="Fondo"
@@ -28,7 +28,7 @@ export default function Servicios() {
                             />
                         </div>
 
-                        <div className="absolute top-1/2 left-1/2 w-[700px] max-2xl:w-[435px] h-[630px] -translate-x-1/2 -translate-y-1/2 z-10 animate-spin [animation-duration:200s]">
+                        <div className="absolute top-1/2 left-1/2 w-[700px] max-2xl:w-[435px] max-xl:w-[335px] h-[630px] -translate-x-1/2 -translate-y-1/2 z-10 animate-spin [animation-duration:200s]">
                             <Image
                                 src="/redfucsia.png"
                                 alt="Decoración giratoria"
@@ -40,7 +40,7 @@ export default function Servicios() {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-[866px] ml-[48px] max-2xl:ml-[0px] mt-[113px] text-black max-2xl:w-[557px] max-xl:w-[500px] max-xl:ml-0">
+                <div className="flex flex-col w-[866px] ml-[48px] max-2xl:ml-[20px] mt-[113px] text-black max-2xl:w-[557px] max-xl:w-[500px] max-xl:ml-0">
                     <ServicioItem
                         title="Benchmarking"
                         icon="/diamante.png"
