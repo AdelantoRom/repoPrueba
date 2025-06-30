@@ -119,26 +119,34 @@ export default function Formulario() {
         </form>
       </div>
 
-
-      <div className="relative hidden lg:block
-  lg:w-[300px] lg:h-[300px] lg:mt-[220px] lg:ml-[20px]
-  2xl:w-[500px] 2xl:h-[500px] 2xl:mt-[450px] 2xl:ml-[-180px]">
+<div
+  className="relative hidden lg:block
+    lg:w-[400px] lg:h-[400px] lg:ml-[20px] 
+    2xl:w-[600px] 2xl:h-[600px] 2xl:ml-[-180px]"
+>
+  {/* Esfera - más pequeña y detrás */}
   <Image
     src="/Grupo 1 esfera.png"
     alt="Grupo Formulario"
-    fill
-    className="object-cover"
+    width={400}
+    height={400}
+    className="absolute top-[45%] lg:top-[87%] 2xl:top-[112%] left-1/2 z-0 transform -translate-x-1/2 -translate-y-1/2 object-cover rounded-full
+      lg:w-[300px] lg:h-[300px]
+      2xl:w-[500px] 2xl:h-[500px]"
   />
-        <Image
-          src="/Trama esfera celeste.png"
-          alt="Trama Formulario"
-          width={615}
-          height={615}
-          className="absolute top-[-35px] left-[-35px] pointer-events-none animate-spin [animation-direction:reverse] [animation-duration:150s]
-          lg:w-[300px] lg:h-[300px] lg:mt-[220px] lg:ml-[20px]
-  2xl:w-[500px] 2xl:h-[500px] 2xl:mt-[450px] 2xl:ml-[-180px]"
-        />
-      </div>
+
+  {/* Trama celeste - más grande y al frente */}
+  <Image
+    src="/Trama esfera celeste.png"
+    alt="Trama Formulario"
+    width={550}
+    height={550}
+    className="absolute top-[45%] lg:top-[87%] 2xl:top-[112%] left-1/2 z-10 transform -translate-x-1/2 -translate-y-1/2
+      pointer-events-none animate-spin [animation-direction:reverse] [animation-duration:150s]"
+  />
+</div>
+
+
 
     </div>
   );
