@@ -74,7 +74,6 @@ export default function Page() {
         </form>
       </div>
 
-
       <div className="flex flex-col items-start mt-[450px] ml-[-270px] space-y-6">
 
         <div className="relative w-[650px] mt-[108px] ml-[109px] overflow-visible">
