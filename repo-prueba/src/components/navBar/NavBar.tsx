@@ -21,12 +21,13 @@ export default function Navbar() {
           alt="Logo Rombux"
           width={240}
           height={39}
-          className="w-[141px] h-[23px] lg:w-[240px] lg:h-[39px]"
+          className="ml-4 lg:ml-16 2xl:ml-2 w-[141px] h-[23px] lg:w-[240px] lg:h-[39px]"
         />
       </Link>
 
       {/* Links visibles en tablet y desktop */}
-      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[90px] text-white font-medium lg:text-[22px] 2xl:text-[32px]">
+     <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[90px] 2xl:-mr-18 text-white font-medium lg:text-[22px] 2xl:text-[32px]">
+
         <Link href="/benchmarking">Servicios</Link>
         <Link href="/#casos">Casos</Link>
         <Link href="/contacto">Contacto</Link>
@@ -72,58 +73,6 @@ export default function Navbar() {
   )
 }
 
-
-// //RESPONSIVE//
-
-// 'use client';
-
-// import Image from "next/image";
-// import Link from "next/link";
-// import { useState } from "react";
-// import { Menu, X } from "lucide-react";
-
-// export default function Navbar() {
-//   const [isOpen, setIsOpen] = useState(false);
-
-//   const toggleMenu = () => setIsOpen(!isOpen);
-
-//   return (
-//     <nav className="fixed top-0 left-0 w-full z-50 bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top flex items-center justify-between px-4 lg:px-10  2xl:px-[143px] h-[94px] lg:h-[116px] 2xl:h-[150px]">
-//       {/* Logo */}
-//       <Link href="/">
-//         <Image
-//           src="/Vector.png"
-//           alt="Logo Rombux"
-//           width={240}
-//           height={39}
-//           className="w-[141px] h-[23px] lg:w-[240px] lg:h-[39px] ml-2 lg:ml-16 2xl:ml-16"
-//         />
-//       </Link>
-
-//       {/* Desktop & Tablet Links */}
-//      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[90px] text-white font-medium lg:text-[22px] 2xl:text-[32px]">
-//   <Link href="/benchmarking">Servicios</Link>
-//   <Link href="/#casos">Casos</Link>
-//   <Link href="/contacto">Contacto</Link>
-// </div>
-
-
-//       Botón hamburguesa solo en mobile
-//       <button className="lg:hidden text-white" onClick={toggleMenu}>
-//         {isOpen ? <X size={32} /> : <Menu size={32} />}
-//       </button>
-
-//       {/* Menú mobile desplegable */}
-//       {isOpen && (
-//         <div className="absolute top-[94px] left-0 w-full bg-black/90 text-white flex flex-col items-center py-6 gap-6 text-lg lg:hidden">
-//           <Link href="/benchmarking" onClick={toggleMenu}>Servicios</Link>
-//           <Link href="/#casos" onClick={toggleMenu}>Casos</Link>
-//           <Link href="/contacto" onClick={toggleMenu}>Contacto</Link>
-//         </div>
-//       )}
-//     </nav>
-//   );
-// }
 
 
 
