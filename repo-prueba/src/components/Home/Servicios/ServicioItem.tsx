@@ -27,8 +27,8 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
                         alt={title} 
                         width={60} 
                         height={60} 
-                        className="-ml-[12px]"/>
-                    <span className="text-5xl font-normal ml-[31px] -mt-2">{title}</span>
+                        className="-ml-[12px] max-xl:w-[40px]"/>
+                    <span className="text-5xl font-normal ml-[31px] -mt-2 max-2xl:text-[40px] max-xl:text-[36px] max-xl:ml-2">{title}</span>
                 </div>
                 {open ? (
                     <ChevronUp className="text-[#D81FB9] w-[55px] h-[55px] -mr-7" />
@@ -38,10 +38,10 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
             </button>
 
             {open && description && (
-                <div className="px-16 pb-4 text-[40px] text-gray-800 ml-[40px]">
-                    <p className="italic font-light  -mt-[14px]">{description}</p>
+                <div className="px-16 pb-4 text-[40px] max-2xl:text-[30px] max-xl:text-[24px] text-gray-800 ml-[40px] max-xl:px-6">
+                    <p className="italic font-light -mt-[14px]">{description}</p>
                     {link && (
-                        <p className="pt-1 font-bold text-[32px] ml-[3px] -mt-[7px] mb-1 text-[#D81FB9]">
+                        <p className="pt-1 font-bold text-[32px] ml-[3px] -mt-[7px] mb-1 text-[#D81FB9] max-2xl:text-[20px] max-xl:text-[16px]">
                             <a href={link}>(Leer más)</a>
                         </p>
                     )}
