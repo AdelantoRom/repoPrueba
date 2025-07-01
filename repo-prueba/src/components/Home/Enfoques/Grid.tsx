@@ -8,35 +8,37 @@ import ButtonBintelligenz from "./Marcas/Bintelligenz.tsx/BotonBintelligenz";
 
 export default function Grid() {
     return (
-        <div className="relative w-[1644px] h-[1360px]">
+        <div className="relative">
             <Image
                 src="/CuadroPortfolios.png"
                 alt="Portfolios"
-                fill
-                className="object-cover rounded-lg"
+                
+                width={1544}
+                height={1260}
+                className="object-cover rounded-lg max-2xl:w-[1200px] max-xl:w-[900px]"
             />
 
-            <div className="absolute">
+            <div className="absolute top-[10px]">
                 <ButtonHp />
             </div>
 
-            <div className="absolute left-[1530px]">
+            <div className="absolute left-[1430px] top-[10px] max-2xl:left-[1080px] max-xl:left-[780px]">
                 <ButtonChile />
             </div>
 
-            <div className="absolute top-[530px] ">
+            <div className="absolute top-[530px] max-xl:top-[290px] ">
                 <ButtonClinic />
             </div>
 
-            <div className="absolute top-[360px] left-[1530px]">
+            <div className="absolute top-[360px] left-[1430px] max-2xl:left-[1080px] max-2xl:top-[280px] max-xl:left-[780px] max-xl:top-[200px] ">
                 <ButtonNatreon />
             </div>
 
-            <div className="absolute top-[1250px]">
+            <div className="absolute top-[1150px] max-2xl:top-[870px] max-xl:top-[630px]">
                 <ButtonHotel />
             </div>
 
-            <div className="absolute top-[1250px] left-[1530px]">
+            <div className="absolute top-[1150px] left-[1430px] max-2xl:left-[1080px] max-2xl:top-[870px] max-xl:left-[780px] max-xl:top-[630px]">
                 <ButtonBintelligenz />
             </div>
         </div>
