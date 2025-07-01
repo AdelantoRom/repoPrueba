@@ -9,19 +9,19 @@ import Enfoques from "@/components/Home/Enfoques/Enfoques";
 export default function Home() {
   return (
     <div>
-      {/* <Soluciones />
+      <Soluciones />
 
       <Carousel />
       <div id="servicios">
         <Servicios />
-      </div> */}
+      </div>
       <div id="casos">
         <Enfoques />
       </div>
-      {/* <div id="contacto">
+      <div id="contacto">
         <Formulario />
       </div>
-      <Adn /> */}
+      <Adn />
     </div>
   );
 }
