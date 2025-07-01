@@ -28,9 +28,9 @@ export default function RootLayout({
       <body
         className={`${albertSans.variable} antialiased`}
       >
-        
+        <Navbar/>
         {children}
-        
+        <Footer/>
       </body>
     </html>
   );
