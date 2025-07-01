@@ -42,7 +42,7 @@ export default function Carousel() {
         if (!sliderInstance.current) return
         sliderInstance.current.animator.start([
             {
-                distance: speed * 200,
+                distance: speed * 400,
                 duration: 1000,
                 easing: (t) => t,
             },
