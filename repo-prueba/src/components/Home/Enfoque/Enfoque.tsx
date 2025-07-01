@@ -52,7 +52,7 @@ function Enfoque() {
                     <h4 className='text-[48px] text-center leading-none max-2xl:text-[36px] max-2xl:leading-[36px]'>02.</h4>
                     <h4 className='text-[48px] text-center leading-none mb-4 max-2xl:text-[36px] max-2xl:leading-[36px]'>Crecimiento
                         sostenible</h4>
-                    <p className='text-[24px] text-center leading-[40px] max-2xl:text-[20px] max-2xl:w-[281px] max-2xl:leading-[25px]'>Desarrollamos proyectos que acompañan a los clientes en su crecimiento de manera sostenible.</p>
+                    <p className='text-[24px] text-center leading-[40px] max-2xl:text-[20px] max-2xl:w-[281px] max-2xl:leading-[25px]'>Desarrollamos proyectos que acompañan a los clientes en su crecimiento de manera sostenible.</p>
                 </div>
                 <div className='flex flex-col items-center w-[466px]'>
                     <Image
