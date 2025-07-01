@@ -5,7 +5,7 @@ export default function BenchmarkingCards() {
     <div className="relative w-[1670px] mx-auto  ">
       {/* Título */}
       <div className="mb-24 text-center mt-[2px] ml-[15px]">
-        <h1 className="font-light text-black text-[120px] leading-[120px] ">
+        <h1 className="font-light text-black text-[120px] leading-[120px] max-2xl:text-[67px]">
           Análisis del negocio y <br />
           propuesta de valor diferencial
         </h1>
