@@ -23,7 +23,7 @@ export default function Benchmarking() {
             alt="Ellipse"
             width={1050}
             height={1050}
-            className="absolute top-[-575px] left-[41.2vw] max-2xl:w-[899px] max-2xl:top-[-505px] max-2xl:left-[590px] max-xl:left-[41.3vw] max-lg:w-[699px] max-lg:top-[-405px] max-lg:left-[40.2vw]"
+            className="absolute top-[-575px] left-[41.2vw] max-2xl:w-[899px] max-2xl:top-[-505px] max-2xl:left-[39.7vw] max-xl:left-[41.3vw] max-lg:w-[699px] max-lg:top-[-405px] max-lg:left-[40.2vw]"
           />
         </div>
 
@@ -34,7 +34,7 @@ export default function Benchmarking() {
             alt="Benchmarking"
             width={141}
             height={141}
-            className="absolute top-[-570px] left-[39.4vw] max-2xl:w-[120px] max-2xl:left-[560px] max-lg:left-[36.6vw] max-xl:left-[38.8vw]"
+            className="absolute top-[-570px] left-[39.4vw] max-2xl:w-[120px] max-2xl:left-[37.6vw] max-lg:left-[36.6vw] max-xl:left-[38.8vw]"
           />
         </div>
       </div>
