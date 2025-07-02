@@ -13,9 +13,9 @@ export default function Page() {
         <div className="-mt-120">
           <BenchmarkingCards />
         </div>
-        <div className="-mb-80">
+        {/* <div className="-mb-80">
           <BenchmarkingForm />
-        </div>
+        </div> */}
       </main>
     </div>
   );
