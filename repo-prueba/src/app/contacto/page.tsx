@@ -5,30 +5,33 @@ export default function Page() {
   return (
     <div className="flex flex-col min-[1100px]:flex-row min-[1100px]:gap-6 2xl:ml-[140px] 2xl:mt-[132px] 2xl:pt-[100px] 2xl:gap-[60px]">
     
-      <div className="px-4 lg:ml-[80px] 2xl:ml-0">
+      <div className="px-4 min-[768px]:px-8 lg:ml-[80px] 2xl:ml-0">
         <h1 className="text-black font-light text-[40px] leading-[40px] w-[332px] mt-40 mb-10 
+                      min-[768px]:text-[54px] min-[768px]:leading-[54px] min-[768px]:w-[500px] min-[768px]:mt-52
                       lg:text-[70px] lg:leading-[70px] lg:w-[610px] lg:mt-60
                       2xl:text-[120px] 2xl:leading-[120px] 2xl:w-[1192px] 2xl:mb-[110px] 2xl:mt-[130px]">
           Iniciemos tu<br />liderazgo digital
         </h1>
 
         <h2 className="text-[#D81FB9] text-[24px] leading-[24px] w-[141px] mt-16 mb-10
+                      min-[768px]:text-[36px] min-[768px]:leading-[36px] min-[768px]:w-[250px]
                       lg:text-[48px] lg:leading-[48px] lg:w-[351px] lg:mt-16 
                       2xl:text-[60px] 2xl:leading-[60px] 2xl:w-[351px] 2xl:mt-[30px]">
           Contáctanos
         </h2>
 
-         <form className="mt-[30px] lg:mt-[40px] flex flex-col space-y-6 pb-[60px] 2xl:pb-[86px]">
+         <form className="mt-[30px] min-[768px]:mt-[36px] lg:mt-[40px] flex flex-col space-y-6 pb-[60px] 2xl:pb-[86px]">
 
-        
-          {["Nombre*", "Apellido*", "Email*", "Empresa*"].map((placeholder, idx) => (
+          {[
+            "Nombre*", "Apellido*", "Email*", "Empresa*"
+          ].map((placeholder, idx) => (
             <input
               key={idx}
               type="text"
               placeholder={placeholder}
-
               className="w-[336px] h-[41px] text-[16px] font-bold leading-[20px] px-4 rounded-[5px] border
                 placeholder:text-gray-500 text-[#4B4B4B]
+                min-[768px]:w-[440px] min-[768px]:h-[50px] min-[768px]:text-[18px] min-[768px]:leading-[22px]
                 lg:w-[610px] lg:h-[60px] lg:text-[20px] lg:leading-[24px]
                 2xl:w-[884px] 2xl:h-[78px] 2xl:text-[28px] 2xl:leading-[32px]"
               style={{ borderColor: "#70707070" }}
@@ -37,15 +40,15 @@ export default function Page() {
 
           <div
             className="w-[336px] min-h-[259px] border rounded-[5px] p-4 space-y-4
+              min-[768px]:w-[440px] min-[768px]:min-h-[260px] min-[768px]:p-5
               lg:w-[610px] lg:min-h-[239px] lg:p-6
               2xl:w-[884px] 2xl:p-6"
             style={{ borderColor: "#70707070" }}
           >
             <p className="text-[16px] font-semibold text-[#4B4B4B] leading-[20px] py-2
+              min-[768px]:text-[18px] min-[768px]:leading-[22px] min-[768px]:py-[18px]
               lg:text-[20px] lg:leading-[24px] lg:py-[20px]
               2xl:text-[28px] 2xl:leading-[28px] 2xl:py-[30px]">
-
-
               Área/s de servicios requeridos*
             </p>
 
@@ -58,18 +61,16 @@ export default function Page() {
             ].map(({ bold, rest }, idx) => (
               <label
                 key={idx}
-
                 className="flex items-start space-x-2 text-[14px] text-[#4B4B4B]
-                  lg:text-[18px] 2xl:text-[24px]"
+                  min-[768px]:text-[16px] lg:text-[18px] 2xl:text-[24px]"
               >
                 <input
                   type="checkbox"
                   className="mt-[3px] w-4 h-4 accent-[#D81FB9]
+                    min-[768px]:w-[16px] min-[768px]:h-[16px]
                     lg:w-[18px] lg:h-[18px]
                     2xl:w-5 2xl:h-5"
-
                 />
-
                 <span>
                   <strong className="font-semibold">{bold}</strong>
                   {rest}
@@ -78,45 +79,40 @@ export default function Page() {
             ))}
           </div>
 
-
- 
           <div
             className="w-[336px] h-[113px] border rounded-[5px] p-4
+              min-[768px]:w-[440px] min-[768px]:h-[180px]
               lg:w-[610px] lg:h-[222px]
               2xl:w-[884px] 2xl:h-[270px] 2xl:p-6"
             style={{ borderColor: "#70707070" }}
           >
-
             <textarea
               id="mensaje"
               name="mensaje"
               required
-
               className="w-full h-full resize-none text-[16px] font-bold bg-transparent
                 placeholder:text-gray-500 text-[#4B4B4B] focus:outline-none
+                min-[768px]:text-[18px]
                 lg:text-[20px] lg:leading-[24px]
                 2xl:text-[28px] 2xl:leading-[32px]"
-
               placeholder="Mensaje*"
             />
           </div>
 
-
           <button
             type="submit"
-
             className="bg-[#D81FB9] text-white text-[20px] font-bold h-[48px] w-[192px] rounded-[50px] mx-auto
+              min-[768px]:text-[24px] min-[768px]:h-[58px] min-[768px]:w-[210px]
               lg:mx-0 lg:h-[64px] lg:w-[254px] lg:text-[28px] lg:font-semibold
               2xl:h-[78px] 2xl:w-[250px] 2xl:text-[32px] 2xl:font-bold mt-[12px] mb-[40px]"
-
           >
             Enviar
           </button>
         </form>
       </div>
 
-      <div className="px-4 mt-10 flex flex-col items-start min-[1100px]:mt-[400px] lg:mt-120 2xl:mt-[520px] 2xl:ml-[-270px] 2xl:space-y-6 lg:ml-[-8px] ">
-        <div className="hidden min-[1100px]:block relative w-[300px] h-[300px] lg:w-[330px] lg:h-[330px] 2xl:w-[545px] 2xl:h-[545px]">
+      <div className="px-4 mt-10 flex flex-col items-start min-[1100px]:mt-[400px] min-[768px]:mt-[240px] lg:mt-120 2xl:mt-[520px] 2xl:ml-[-270px] 2xl:space-y-6 lg:ml-[-8px] ">
+        <div className="hidden min-[1100px]:block relative w-[300px] h-[300px] min-[768px]:w-[320px] min-[768px]:h-[320px] lg:w-[330px] lg:h-[330px] 2xl:w-[545px] 2xl:h-[545px]">
           <Image
             src="/Grupo 1 esfera.png"
             alt="Grupo Formulario"
@@ -124,7 +120,7 @@ export default function Page() {
             className="object-contain relative z-10"
           />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden z-20
-                          w-[340px] h-[340px] lg:w-[360px] lg:h-[360px] 2xl:w-[600px] 2xl:h-[600px]">
+                          w-[340px] h-[340px] min-[768px]:w-[360px] min-[768px]:h-[360px] lg:w-[360px] lg:h-[360px] 2xl:w-[600px] 2xl:h-[600px]">
             <Image
               src="/Trama esfera celeste.png"
               alt="Trama Formulario"
@@ -134,10 +130,10 @@ export default function Page() {
           </div>
         </div>
 
-    
-        <div className="mt-8 lg:mt-[120px] 2xl:ml-[101px] 2xl:mt-[200px]">
+        <div className="mt-[-24px] min-[768px]:mt-[60px] lg:mt-[120px] 2xl:ml-[101px] 2xl:mt-[200px]">
           <a href="mailto:info@rombux.com">
-            <p className="text-[20px] font-semibold leading-[32px] mb-6 cursor-pointer mt-0
+            <p className="text-[20px] font-semibold leading-[32px] cursor-pointer mt-[-24px] mb-12
+                          min-[768px]:text-[24px] min-[768px]:mb-10
                           2xl:text-[28px] 2xl:mt-0 2xl:mb-[71px]">
               <span className="text-[#707070]">Email:</span>{' '}
               <span className="text-[#D81FB9]">info@rombux.com</span>
@@ -145,10 +141,10 @@ export default function Page() {
           </a>
 
           <div className="w-[200px] text-[#707070] leading-[32px] 2xl:w-auto">
-            <p className="text-[20px] font-semibold mt-4 mb-3 2xl:text-[28px] 2xl:mt-16">
+            <p className="text-[20px] font-semibold mt-4 mb-6 min-[768px]:text-[24px] 2xl:text-[28px] 2xl:mt-16">
               Oficina:
             </p>
-            <p className="text-[20px] font-normal mb-6 2xl:text-[24px] 2xl:mb-16 2xl:font-normal">
+            <p className="text-[20px] font-normal mb-12 min-[768px]:text-[22px] 2xl:text-[24px] 2xl:mb-16 2xl:font-normal">
               Lezica 4363,<br />
               Ciudad de Buenos Aires<br />
               (1202AAI) Argentina
@@ -163,6 +159,173 @@ export default function Page() {
     </div>
   );
 }
+
+
+// import React from "react";
+// import Image from "next/image";
+
+// export default function Page() {
+//   return (
+//     <div className="flex flex-col min-[1100px]:flex-row min-[1100px]:gap-6 2xl:ml-[140px] 2xl:mt-[132px] 2xl:pt-[100px] 2xl:gap-[60px]">
+    
+//       <div className="px-4 lg:ml-[80px] 2xl:ml-0">
+//         <h1 className="text-black font-light text-[40px] leading-[40px] w-[332px] mt-40 mb-10 
+//                       lg:text-[70px] lg:leading-[70px] lg:w-[610px] lg:mt-60
+//                       2xl:text-[120px] 2xl:leading-[120px] 2xl:w-[1192px] 2xl:mb-[110px] 2xl:mt-[130px]">
+//           Iniciemos tu<br />liderazgo digital
+//         </h1>
+
+//         <h2 className="text-[#D81FB9] text-[24px] leading-[24px] w-[141px] mt-16 mb-10
+//                       lg:text-[48px] lg:leading-[48px] lg:w-[351px] lg:mt-16 
+//                       2xl:text-[60px] 2xl:leading-[60px] 2xl:w-[351px] 2xl:mt-[30px]">
+//           Contáctanos
+//         </h2>
+
+//          <form className="mt-[30px] lg:mt-[40px] flex flex-col space-y-6 pb-[60px] 2xl:pb-[86px]">
+
+        
+//           {["Nombre*", "Apellido*", "Email*", "Empresa*"].map((placeholder, idx) => (
+//             <input
+//               key={idx}
+//               type="text"
+//               placeholder={placeholder}
+
+//               className="w-[336px] h-[41px] text-[16px] font-bold leading-[20px] px-4 rounded-[5px] border
+//                 placeholder:text-gray-500 text-[#4B4B4B]
+//                 lg:w-[610px] lg:h-[60px] lg:text-[20px] lg:leading-[24px]
+//                 2xl:w-[884px] 2xl:h-[78px] 2xl:text-[28px] 2xl:leading-[32px]"
+//               style={{ borderColor: "#70707070" }}
+//             />
+//           ))}
+
+//           <div
+//             className="w-[336px] min-h-[259px] border rounded-[5px] p-4 space-y-4
+//               lg:w-[610px] lg:min-h-[239px] lg:p-6
+//               2xl:w-[884px] 2xl:p-6"
+//             style={{ borderColor: "#70707070" }}
+//           >
+//             <p className="text-[16px] font-semibold text-[#4B4B4B] leading-[20px] py-2
+//               lg:text-[20px] lg:leading-[24px] lg:py-[20px]
+//               2xl:text-[28px] 2xl:leading-[28px] 2xl:py-[30px]">
+
+
+//               Área/s de servicios requeridos*
+//             </p>
+
+//             {[
+//               { bold: "Benchmarking", rest: " / Investigación de mercado y propuesta de valor." },
+//               { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
+//               { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
+//               { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
+//               { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
+//             ].map(({ bold, rest }, idx) => (
+//               <label
+//                 key={idx}
+
+//                 className="flex items-start space-x-2 text-[14px] text-[#4B4B4B]
+//                   lg:text-[18px] 2xl:text-[24px]"
+//               >
+//                 <input
+//                   type="checkbox"
+//                   className="mt-[3px] w-4 h-4 accent-[#D81FB9]
+//                     lg:w-[18px] lg:h-[18px]
+//                     2xl:w-5 2xl:h-5"
+
+//                 />
+
+//                 <span>
+//                   <strong className="font-semibold">{bold}</strong>
+//                   {rest}
+//                 </span>
+//               </label>
+//             ))}
+//           </div>
+
+
+ 
+//           <div
+//             className="w-[336px] h-[113px] border rounded-[5px] p-4
+//               lg:w-[610px] lg:h-[222px]
+//               2xl:w-[884px] 2xl:h-[270px] 2xl:p-6"
+//             style={{ borderColor: "#70707070" }}
+//           >
+
+//             <textarea
+//               id="mensaje"
+//               name="mensaje"
+//               required
+
+//               className="w-full h-full resize-none text-[16px] font-bold bg-transparent
+//                 placeholder:text-gray-500 text-[#4B4B4B] focus:outline-none
+//                 lg:text-[20px] lg:leading-[24px]
+//                 2xl:text-[28px] 2xl:leading-[32px]"
+
+//               placeholder="Mensaje*"
+//             />
+//           </div>
+
+
+//           <button
+//             type="submit"
+
+//             className="bg-[#D81FB9] text-white text-[20px] font-bold h-[48px] w-[192px] rounded-[50px] mx-auto
+//               lg:mx-0 lg:h-[64px] lg:w-[254px] lg:text-[28px] lg:font-semibold
+//               2xl:h-[78px] 2xl:w-[250px] 2xl:text-[32px] 2xl:font-bold mt-[12px] mb-[40px]"
+
+//           >
+//             Enviar
+//           </button>
+//         </form>
+//       </div>
+
+//       <div className="px-4 mt-10 flex flex-col items-start min-[1100px]:mt-[400px] lg:mt-120 2xl:mt-[520px] 2xl:ml-[-270px] 2xl:space-y-6 lg:ml-[-8px] ">
+//         <div className="hidden min-[1100px]:block relative w-[300px] h-[300px] lg:w-[330px] lg:h-[330px] 2xl:w-[545px] 2xl:h-[545px]">
+//           <Image
+//             src="/Grupo 1 esfera.png"
+//             alt="Grupo Formulario"
+//             fill
+//             className="object-contain relative z-10"
+//           />
+//           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden z-20
+//                           w-[340px] h-[340px] lg:w-[360px] lg:h-[360px] 2xl:w-[600px] 2xl:h-[600px]">
+//             <Image
+//               src="/Trama esfera celeste.png"
+//               alt="Trama Formulario"
+//               fill
+//               className="object-contain animate-spin [animation-direction:reverse] [animation-duration:150s]"
+//             />
+//           </div>
+//         </div>
+
+    
+//         <div className="mt-[-24px] lg:mt-[120px] 2xl:ml-[101px] 2xl:mt-[200px]">
+//           <a href="mailto:info@rombux.com">
+//             <p className="text-[20px] font-semibold leading-[32px] cursor-pointer mt-[-24px] mb-12
+//                           2xl:text-[28px] 2xl:mt-0 2xl:mb-[71px]">
+//               <span className="text-[#707070]">Email:</span>{' '}
+//               <span className="text-[#D81FB9]">info@rombux.com</span>
+//             </p>
+//           </a>
+
+//           <div className="w-[200px] text-[#707070] leading-[32px] 2xl:w-auto">
+//             <p className="text-[20px] font-semibold mt-4 mb-6 2xl:text-[28px] 2xl:mt-16">
+//               Oficina:
+//             </p>
+//             <p className="text-[20px] font-normal mb-12 2xl:text-[24px] 2xl:mb-16 2xl:font-normal">
+//               Lezica 4363,<br />
+//               Ciudad de Buenos Aires<br />
+//               (1202AAI) Argentina
+//             </p>
+//           </div>
+
+//           <div className="hidden lg:block 2xl:block mt-10 2xl:mt-[101px]">
+//             <Image src="/logoin.png" alt="Logo institucional" width={57} height={57} />
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
 
 // import React from "react";
