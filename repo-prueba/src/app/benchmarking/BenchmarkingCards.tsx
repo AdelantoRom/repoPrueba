@@ -12,7 +12,7 @@ export default function BenchmarkingCards() {
       </div>
 
       {/* Grid container */}
-      {/* <div className="grid grid-cols-3 pt-[51px] ml-[22px] mb-[167px]">
+      <div className="grid grid-cols-3 pt-[51px] ml-[22px] mb-[167px]">
         
         <div
           className="relative top-[40px] w-[522px] h-[388px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center  pt-17 pb-10"
@@ -34,7 +34,7 @@ export default function BenchmarkingCards() {
         </div>
 
         <div
-          className="relative top-[63px] left-1 w-[522px] h-[341px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-14 pb-10"
+          className="relative top-[63px] left-1 w-[522px] h-[341px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-14 pb-10 max-2xl:w-[380px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '341px' }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left mt-[10px] mr-4">
@@ -72,7 +72,7 @@ export default function BenchmarkingCards() {
             virtual.
           </p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
