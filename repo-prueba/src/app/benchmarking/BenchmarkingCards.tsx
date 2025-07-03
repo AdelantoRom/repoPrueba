@@ -13,12 +13,12 @@ export default function BenchmarkingCards() {
 
       {/* Grid container */}
       <div className="grid grid-cols-3 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center gap-x-">
-        
+
         <div
-          className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center  pt-6"
+          className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center pt-6 max-xl:w-[292px] max-xl:text-[18px] max-xl:leading-[25px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '218px' }}
         >
-          <p className="text-[20px] leading-[28px] text-left -ml-[6px] pt-5">
+          <p className="text-[20px] leading-[28px] text-left -ml-[6px] pt-5 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px]">
             ¿Dónde estás y a dónde puedes
             <br />
             llegar? Estudiamos tu posición en el
@@ -32,32 +32,22 @@ export default function BenchmarkingCards() {
         </div>
 
         <div
-          className="relative top-[55px] left-1 w-[427px] h-[189px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-2xl:w-[380px]"
+          className="relative top-[55px] left-1 w-[427px] h-[189px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-xl:w-[292px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '189px' }}
         >
-          <p className="text-[20px] leading-[28px] text-left pt-4">
-            El valor clave de tu empresa.
-            <br />
-            Definimos lo que hace única a tu
-            <br />
-            oferta frente a la competencia y 
-            <br />
-            preferente para el público consumidor.
+          <p className="text-[20px] leading-[28px] text-left pt-4 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px]">
+            El valor clave de tu empresa. Definimos lo que hace única a tu oferta frente a la competencia y preferente para el público consumidor.
           </p>
         </div>
 
         <div
-          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[25px]"
+          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[25px] max-xl:w-[292px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '243px' }}
         >
-          <p className="text-[20px] leading-[28px] text-left pt-8">
-            Inteligencia competitiva.<br />
-            Transformamos ese valor distintivo en <br />
-            un diseño atractivo, una<br />
-            comunicación impactante y una<br />
-            estrategia sólida para asegurar tu<br />
-            liderazgo en el espacio virtual.
+          <p className="text-[20px] leading-[28px] text-left pt-8 max-w-[351px] max-xl:max-w-[239px] mx-auto max-xl:text-[18px] max-xl:leading-[25px]">
+            Inteligencia competitiva. Transformamos ese valor distintivo en un diseño atractivo, una comunicación impactante y una estrategia sólida para asegurar tu liderazgo en el espacio virtual.
           </p>
+
         </div>
       </div>
     </div>
