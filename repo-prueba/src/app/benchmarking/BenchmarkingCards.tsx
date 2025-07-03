@@ -4,15 +4,15 @@ export default function BenchmarkingCards() {
   return (
     <div>
       {/* Título */}
-      <div className="mb-24 text-center mt-[2px]">
-        <h1 className="font-light text-black text-[80px] leading-[120px] max-2xl:text-[67px] max-2xl:leading-[70px]">
-          Análisis del negocio y <br />
-          propuesta de valor diferencial
+      <div className="mb-2 text-center mt-[2px]">
+        <h1 className="font-light text-black text-[80px] leading-[80px] max-2xl:text-[67px] max-2xl:leading-[70px]">
+          Análisis del negocio y propuesta de<br />
+          valor diferencial
         </h1>
       </div>
 
       {/* Grid container */}
-      <div className="grid grid-cols-3 pt-[51px] mx-auto mb-[167px] justify-items-center">
+      <div className="grid grid-cols-3 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center gap-x-">
         
         <div
           className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center  pt-6"
@@ -32,7 +32,7 @@ export default function BenchmarkingCards() {
         </div>
 
         <div
-          className="relative top-[63px] left-1 w-[427px] h-[189px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-2xl:w-[380px]"
+          className="relative top-[55px] left-1 w-[427px] h-[189px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-2xl:w-[380px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '189px' }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-4">
@@ -47,7 +47,7 @@ export default function BenchmarkingCards() {
         </div>
 
         <div
-          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] -mt-[2px]"
+          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[25px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '243px' }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-8">
