@@ -18,7 +18,7 @@ export default function BrandingCards() {
         {/* Tarjeta 1 */}
         <div
           className="mt-[91px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center -ml-[6px] py-12"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "388px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "388px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pr-[7px]">
             La identidad digital, tu
@@ -38,7 +38,7 @@ export default function BrandingCards() {
         {/* Tarjeta 2 */}
         <div
           className="bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 mt-[45px] w-[522px]"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "480px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "480px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pr-[6px]">
             Identidades y narrativas que
@@ -62,7 +62,7 @@ export default function BrandingCards() {
         {/* Tarjeta 3 */}
         <div
           className="bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center mt-12 w-[522px] ml-[5px]"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "474px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "474px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pr-[15px]">
             Tu presencia online, sólida y

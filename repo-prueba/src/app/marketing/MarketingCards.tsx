@@ -16,7 +16,7 @@ export default function BrandingCards() {
         {/* Tarjeta 1 */}
         <div
           className="mt-[109px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 -ml-[6px]"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "287px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "287px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pl-[7px]">
             Programas de conversión y
@@ -32,7 +32,7 @@ export default function BrandingCards() {
         {/* Tarjeta 2 */}
         <div
           className="bg-cover bg-center w-[522px] text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 mt-[36px]"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "434px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "434px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pr-[9px]">
             Campañas de alto impacto
@@ -54,7 +54,7 @@ export default function BrandingCards() {
         {/* Tarjeta 3 */}
         <div
           className="mt-[61px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 ml-[5px]"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "383px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "383px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pr-[11px]">
             Estrategias 360° y ejecución

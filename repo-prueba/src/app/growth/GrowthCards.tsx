@@ -16,7 +16,7 @@ export default function GrowthCards() {
         {/* Tarjeta 1 */}
         <div
           className="mt-[62px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 py-12"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "381px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "381px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pl-[5px]">
             Expansión inteligente y
@@ -37,7 +37,7 @@ export default function GrowthCards() {
         <div
           className="mt-[76px] w-[522px] mb-[80px] relative -top-[40px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 ml-[2px]
           "
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "434px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "434px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pr-[21px]">
             Growth Strategy - Growth
@@ -59,7 +59,7 @@ export default function GrowthCards() {
         {/* Tarjeta 3 */}
         <div
           className="mt-[62px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-8 ml-[3px]"
-          style={{ backgroundImage: "url('/Gradiente-Home-2.png')", height: "382px" }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "382px" }}
         >
           <p className="font-medium text-[32px] leading-[42px] text-left pr-[5px]">
             Optimización continua. Nos
