@@ -11,8 +11,8 @@ export default function Data() {
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[40px]">
             Marketing Digital
           </h2>
-          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[20px]">
-            Conecta con tu público allí donde está y<br />
+          <p className="font-light italic text-[24px] leading-[28px] w-[550px] max-xl:w-[365px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px]">
+            Conecta con tu público allí donde está y
             desata el potencial único de tu marca.
           </p>
         </div>

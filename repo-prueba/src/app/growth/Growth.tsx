@@ -11,7 +11,7 @@ export default function Growth() {
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[40px]">
             Growth
           </h2>
-          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[20px]">
+          <p className="font-light italic text-[24px] leading-[28px] w-[550px] max-xl:w-[387px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px]">
             Escala tu negocio y consolida tu liderazgo.
           </p>
         </div>
