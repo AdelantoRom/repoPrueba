@@ -19,17 +19,7 @@ export default function GrowthCards() {
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '218px' }}
         >
           <p className="text-[20px] leading-[28px] text-left -ml-[6px] pt-5 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
-            Expansión inteligente y
-
-            sostenible. Diseñamos e
-
-            implementamos estrategias
-
-            para expandir tu cuota de
-
-            mercado y consolidar tu
-
-            posición de liderazgo.
+            Expansión inteligente y sostenible. Diseñamos e implementamos estrategias para expandir tu cuota de mercado y consolidar tu posición de liderazgo.
           </p>
         </div>
 
@@ -39,19 +29,7 @@ export default function GrowthCards() {
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '243px' }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-4 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
-            Growth Strategy - Growth
-
-            Loops y Optimización de
-
-            Funnels. Embudos de
-
-            conversión inteligentes y
-
-            loops de crecimiento que
-
-            activan y retienen a tus
-
-            usuarios.
+            Growth Strategy - Growth Loops y Optimización de Funnels. Embudos de conversión inteligentes y loops de crecimiento que activan y retienen a tus usuarios.
           </p>
         </div>
 
@@ -61,17 +39,7 @@ export default function GrowthCards() {
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '253px' }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-9 max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] ">
-            Optimización continua. Nos
-            <br />
-            enfocamos en identificación
-            <br />
-            de oportunidades de
-            <br />
-            crecimiento escalables y en la
-            <br />
-            mejora constante de tu
-            <br />
-            presencia en el mercado.
+            Optimización continua. Nos enfocamos en identificación de oportunidades de crecimiento escalables y en la mejora constante de tu presencia en el mercado.
           </p>
         </div>
       </div>
