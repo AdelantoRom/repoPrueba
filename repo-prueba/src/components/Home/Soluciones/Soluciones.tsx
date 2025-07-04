@@ -1,5 +1,5 @@
 import HeroSection from './components/HeroSection';
-import FormularioEmail from "./components/FormularioEmail"
+import FormularioEmail from "./components/FormularioEmail";
 import TransformacionDigital from './components/TransformacionDigital';
 import ClientesLogos from './components/ClientesLogos';
 
@@ -7,22 +7,20 @@ export default function Soluciones() {
   return (
     <div
       className="
-        bg-[url('/gradiente-mobile.png')]
-        lg:bg-[url('/gradiente-desktop.png')]
+        bg-[url('/gradiente-desktop.png')]
         bg-no-repeat bg-top bg-cover
-        w-full min-h-screen text-white pt-[140px] pb-[40px]
-        lg:pt-[200px] 2xl:pt-[260px]
+        w-full min-h-screen text-white pt-[200px] pb-[40px]
       "
     >
       <HeroSection />
 
-      <div className="pl-4 pr-2 lg:pl-[30px] lg:pr-8 2xl:pl-[40px] w-full lg:max-w-[650px] 2xl:-ml-10 2xl:mr-auto mb-6">
+      <div className=" pr-8 w-full max-w-[650px] -ml-10 mr-auto mb-6">
         <FormularioEmail />
       </div>
 
-      <div className="px-4 lg:px-24 lg:-mr-6 mt-0 2xl:px-[138px] 2xl:-mt-32 py-20 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
-        <div className="mt-6 lg:w-1/2 flex justify-end lg:justify-start order-1 lg:order-2">
-          <h2 className="text-right text-[40px] leading-[42px] lg:text-[70px] lg:leading-[72px] 2xl:text-[120px] 2xl:leading-[120px] max-w-full lg:max-w-[829px]">
+      <div className="px-[138px] -mt-32 py-20 flex flex-row justify-between items-start">
+        <div className="mt-6 w-1/2 flex justify-start order-2">
+          <h2 className="text-right text-[120px] leading-[120px] max-w-[829px]">
             Impulsando tus Negocios al Futuro
           </h2>
         </div>
@@ -33,6 +31,44 @@ export default function Soluciones() {
     </div>
   );
 }
+
+
+
+// import HeroSection from './components/HeroSection';
+// import FormularioEmail from "./components/FormularioEmail"
+// import TransformacionDigital from './components/TransformacionDigital';
+// import ClientesLogos from './components/ClientesLogos';
+
+// export default function Soluciones() {
+//   return (
+//     <div
+//       className="
+//         bg-[url('/gradiente-mobile.png')]
+//         lg:bg-[url('/gradiente-desktop.png')]
+//         bg-no-repeat bg-top bg-cover
+//         w-full min-h-screen text-white pt-[140px] pb-[40px]
+//         lg:pt-[200px] 2xl:pt-[260px]
+//       "
+//     >
+//       <HeroSection />
+
+//       <div className="pl-4 pr-2 lg:pl-[30px] lg:pr-8 2xl:pl-[40px] w-full lg:max-w-[650px] 2xl:-ml-10 2xl:mr-auto mb-6">
+//         <FormularioEmail />
+//       </div>
+
+//       <div className="px-4 lg:px-24 lg:-mr-6 mt-0 2xl:px-[138px] 2xl:-mt-32 py-20 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
+//         <div className="mt-6 lg:w-1/2 flex justify-end lg:justify-start order-1 lg:order-2">
+//           <h2 className="text-right text-[40px] leading-[42px] lg:text-[70px] lg:leading-[72px] 2xl:text-[120px] 2xl:leading-[120px] max-w-full lg:max-w-[829px]">
+//             Impulsando tus Negocios al Futuro
+//           </h2>
+//         </div>
+//         <TransformacionDigital />
+//       </div>
+
+//       <ClientesLogos />
+//     </div>
+//   );
+// }
 
 
 // import Image from 'next/image';
