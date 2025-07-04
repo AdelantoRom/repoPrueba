@@ -18,7 +18,7 @@ export default function Data() {
         </div>
 
         {/* Sección visual con imágenes */}
-        <div className="relative w-full h-[550px] mt-4">
+        <div className="relative w-full h-[550px] -mt-3">
           <Image
             src="/Trama Servicios Desktop.png"
             alt="Ellipse"
