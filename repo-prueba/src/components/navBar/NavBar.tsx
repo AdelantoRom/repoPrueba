@@ -34,7 +34,7 @@ export default function Navbar() {
       </div>
 
       {/* Botón hamburguesa solo en mobile */}
-      <button className="lg:hidden text-white" onClick={toggleMenu}>
+      <button className="lg:hidden text-black" onClick={toggleMenu}>
         {isOpen ? <X size={32} /> : <Menu size={32} />}
       </button>
 

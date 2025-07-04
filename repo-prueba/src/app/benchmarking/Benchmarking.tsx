@@ -23,16 +23,12 @@ export default function Benchmarking() {
             alt="Ellipse"
             width={1050}
             height={1050}
-            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px]
-               max-2xl:w-[899px] max-2xl:top-[-455px]
-               max-xl:top-[-455px]
-               max-lg:w-[699px] max-lg:top-[-375px]"
+            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-455px] max-xl:top-[-455px] max-lg:w-[699px] max-lg:top-[-375px]"
           />
         </div>
 
-
         {/* Icono Benchmarking */}
-        <div className="relative h-[100px] mt-[179px]">
+        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[25px]">
           <Image
             src="/Benchmarking.png"
             alt="Benchmarking"
