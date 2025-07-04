@@ -15,8 +15,8 @@ export default function SubNavBar() {
   ];
 
   return (
-    <nav className="fixed  top-[94px] w-full bg-[#FDF4FB] z-40 border-b border-black">
-      <div className="flex justify-between ml-[65px] px-25 py-4 flex-wrap gap-y-4 mr-23">
+    <nav className="fixed  top-[94px] w-full bg-[#FDF4FB] z-40 border-b border-black h-[56px]">
+      <div className="flex justify-between ml-[65px] px-55 py-4 gap-y-4 mr-23 max-lg:px-5">
         {items.map(({ label, path }) => {
           const isActive = pathname === path;
           return (
@@ -32,9 +32,6 @@ export default function SubNavBar() {
                 <span className="invisible font-bold">{label}</span>
               </span>
             </Link>
-
-
-
           );
         })}
       </div>

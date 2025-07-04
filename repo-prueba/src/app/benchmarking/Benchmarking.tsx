@@ -5,13 +5,13 @@ export default function Benchmarking() {
   return (
 
     <div className="relative w-full">
-      <div className="relative flex flex-col ml-[137px] pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px] max-lg:ml-[80px] max-xl:ml-[90px]">
+      <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px]">
 
-        <div className="ml-[134px] mt-[125px]">
-          <h2 className="font-bold text-[64px] leading-[120px] text-[#D81FB9] max-2xl:text-[48px] ">
+        <div className="ml-[154px] mt-[215px] max-2xl:ml-[150px] max-lg:ml-[20px] ">
+          <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] ">
             Benchmarking
           </h2>
-          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px]">
+          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6">
             Descubre y proyecta tu valor único.
           </p>
         </div>
@@ -23,20 +23,25 @@ export default function Benchmarking() {
             alt="Ellipse"
             width={1050}
             height={1050}
-            className="absolute top-[-506px] left-[41.4vw] max-2xl:w-[899px] max-2xl:top-[-505px] max-2xl:left-[39.7vw] max-xl:left-[41.3vw] max-lg:w-[699px] max-lg:top-[-405px] max-lg:left-[40.2vw]"
+            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px]
+               max-2xl:w-[899px] max-2xl:top-[-455px]
+               max-xl:top-[-455px]
+               max-lg:w-[699px] max-lg:top-[-375px]"
           />
         </div>
 
+
         {/* Icono Benchmarking */}
-        <div className="relative h-[100px] mt-[179px] -ml-[2px]">
+        <div className="relative h-[100px] mt-[179px]">
           <Image
             src="/Benchmarking.png"
             alt="Benchmarking"
             width={141}
             height={141}
-            className="absolute top-[-570px] left-[39.4vw] max-2xl:w-[120px] max-2xl:left-[37.6vw] max-lg:left-[36.6vw] max-xl:left-[38.8vw]"
+            className="absolute top-[-570px] left-1/2 transform -translate-x-1/2 max-2xl:w-[120px] max-2xl:top-[-520px] max-lg:top-[-480px]"
           />
         </div>
+
       </div>
     </div>
   );
