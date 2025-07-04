@@ -116,7 +116,6 @@ export default function BenchmarkingForm() {
               placeholder="¿Por qué tema nos consultas?*"
             />
           </div>
-
           <button
             type="submit"
             className="bg-[#D81FB9] text-white text-[18px] font-semibold h-[46px] w-[186px] rounded-[50px] mt-[23px] mb-[40px]"
