@@ -2,6 +2,7 @@ import React from 'react';
 import SubNavBar from "@/components/SubNavBar/SubNavBar";
 import Benchmarking from './Benchmarking';
 import BenchmarkingCards from "@/app/benchmarking/BenchmarkingCards";
+import BenchmarkingForm from './BenchmarkingForm';
 
 
 export default function Page() {
@@ -12,10 +13,10 @@ export default function Page() {
         <Benchmarking />
         <div className="-mt-120">
           <BenchmarkingCards />
+        </div> 
+        <div className="-mb-80">
+          <BenchmarkingForm/>
         </div>
-        {/* <div className="-mb-80">
-          <BenchmarkingForm />
-        </div> */}
       </main>
     </div>
   );
