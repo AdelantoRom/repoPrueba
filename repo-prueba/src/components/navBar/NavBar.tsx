@@ -13,7 +13,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top flex items-center justify-between px-4 lg:px-10 2xl:px-[143px] h-[94px] lg:h-[116px] 2xl:h-[96px]">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-[url('/gradiente2.png')] bg-cover bg-no-repeat bg-top flex items-center justify-between px-4 lg:px-10 2xl:px-[143px] h-[94px] 2xl:h-[96px]">
       {/* Logo */}
       <Link href="/">
         <Image
@@ -21,12 +21,12 @@ export default function Navbar() {
           alt="Logo Rombux"
           width={212}
           height={34}
-          className="ml-4 lg:ml-16 2xl:ml-2 w-[141px] h-[23px] lg:w-[240px] lg:h-[39px] 2xl:w-[212px] 2xl:h-[34px]"
+          className="ml-4 lg:ml-16 2xl:ml-2 w-[141px] h-[23px] 2xl:w-[212px] 2xl:h-[34px]"
         />
       </Link>
 
       {/* Links visibles en tablet y desktop */}
-      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[150px] 2xl:mr-19 text-white font-medium lg:text-[22px] 2xl:text-[20px]">
+      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[150px] 2xl:mr-19 text-white font-medium 2xl:text-[20px]">
 
         <Link href="/benchmarking">Servicios</Link>
         <Link href="/#casos">Casos</Link>

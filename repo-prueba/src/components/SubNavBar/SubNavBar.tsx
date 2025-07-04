@@ -15,15 +15,15 @@ export default function SubNavBar() {
   ];
 
   return (
-    <nav className="fixed  top-[150px] w-full bg-[#FDF4FB] z-40 border-b border-black">
-      <div className="flex justify-between ml-[65px] px-20 py-4 flex-wrap gap-y-4 mr-23">
+    <nav className="fixed  top-[94px] w-full bg-[#FDF4FB] z-40 border-b border-black">
+      <div className="flex justify-between ml-[65px] px-25 py-4 flex-wrap gap-y-4 mr-23">
         {items.map(({ label, path }) => {
           const isActive = pathname === path;
           return (
             <Link
               key={label}
               href={path}
-              className="text-[#000000] text-[24px] leading-[24px] transition-all"
+              className="text-[#000000] text-[20px] leading-[24px] transition-all"
             >
               <span className="relative inline-block">
                 <span className={`absolute left-0 top-0 w-full transition-all ${isActive ? 'font-bold' : 'font-normal'} hover:font-bold`}>
