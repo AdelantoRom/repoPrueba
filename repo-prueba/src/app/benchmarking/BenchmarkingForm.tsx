@@ -66,7 +66,6 @@ export default function BenchmarkingForm() {
       </div>
 
       <FormSections/>
-      
     </section >
   );
 }
