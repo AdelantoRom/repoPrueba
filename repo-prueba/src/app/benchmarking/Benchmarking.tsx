@@ -8,10 +8,10 @@ export default function Benchmarking() {
       <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px]">
 
         <div className="ml-[154px] mt-[215px] max-2xl:ml-[150px] max-lg:ml-[20px] ">
-          <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] ">
+          <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[36px]">
             Benchmarking
           </h2>
-          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6">
+          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[20px]">
             Descubre y proyecta tu valor único.
           </p>
         </div>

@@ -2,84 +2,43 @@ import React from "react";
 
 export default function BrandingCards() {
   return (
-    <div className="relative w-full max-w-[1920px] mx-auto px-[143px] pt-[135px]">
-
-
+    <div>
       <div className="mb-24 text-center -mt-[152px] ml-[15px]">
-        <h1 className="font-light text-black text-[120px] leading-[120px] ">
+        <h1 className="font-light text-black text-[80px] leading-[80px] max-2xl:text-[67px] max-2xl:leading-[70px] max-lg:text-[36px]">
           Desarrollo de identidad e<br />
           imagen de producto
         </h1>
       </div>
 
 
-     
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-10 mb-[165px]">
+      <div className="grid grid-cols-3 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px]">
         {/* Tarjeta 1 */}
         <div
-          className="mt-[91px] w-[522px] bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center -ml-[6px] py-12"
-          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "388px" }}
+          className="relative top-[40px] w-[427px] h-[228px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center pt-6 max-xl:w-[292px] max-lg:max-w-[230px]"
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '218px' }}
         >
-          <p className="font-medium text-[32px] leading-[42px] text-left pr-[7px]">
-            La identidad digital, tu
-            <br />
-            mayor activo. Diseñamos e
-            <br />
-            instalamos tu marca en el
-            <br />
-            ámbito virtual apelando a los
-            <br />
-            diferenciales de tu
-            <br />
-            propuesta de valor.
+          <p className="text-[20px] leading-[28px] text-left -ml-[6px] pt-5 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
+            La identidad digital, tu mayor activo. Diseñamos e instalamos tu marca en el ámbito virtual apelando a los diferenciales de tu propuesta de valor.
           </p>
         </div>
 
         {/* Tarjeta 2 */}
         <div
-          className="bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center px-10 mt-[45px] w-[522px]"
-          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "480px" }}
+          className="relative top-[30px] left-1 w-[427px] h-[243px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-xl:w-[292px] max-lg:max-w-[230px]"
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '243px' }}
         >
-          <p className="font-medium text-[32px] leading-[42px] text-left pr-[6px]">
-            Identidades y narrativas que
-            <br />
-            conectan con tu audiencia.
-            <br />
-            Generamos impacto
-            <br />
-            positivo y una sólida
-            <br />
-            reputación, percepción de
-            <br />
-            confianza y lealtad hacia tu
-            <br />
-            empresa y oferta en el
-            <br />
-            mercado.
+          <p className="text-[20px] leading-[28px] text-left pt-4 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
+            Identidades y narrativas que conectan con tu audiencia. Generamos impacto positivo y una sólida reputación, percepción de confianza y lealtad hacia tu empresa y oferta en el mercado.
           </p>
         </div>
 
         {/* Tarjeta 3 */}
         <div
-          className="bg-cover bg-center text-white rounded-[29px] overflow-hidden flex items-center justify-center mt-12 w-[522px] ml-[5px]"
-          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: "474px" }}
+          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[25px] max-xl:w-[292px] max-lg:max-w-[230px]"
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '253px' }}
         >
-          <p className="font-medium text-[32px] leading-[42px] text-left pr-[15px]">
-            Tu presencia online, sólida y
-            <br />
-            eficiente. Construimos tus
-            <br />
-            activos digitales en base a
-            <br />
-            los criterios de tu marca, la
-            <br />
-            experiencia del usuario,
-            <br />
-            interfaces atractivas y
-            <br />
-            capacidades tecnológicas
-            <br />
-            avanzadas.
+          <p className="text-[20px] leading-[28px] text-left pt-9 max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] ">
+            Tu presencia online, sólida y eficiente Construimos tus activos digitales en base a los criterios de tu marca, la experiencia del usuario, interfaces atractivas y capacidades tecnológicas avanzadas.
           </p>
         </div>
       </div>
