@@ -15,10 +15,10 @@ export default function BrandingCards() {
       <div className="grid grid-cols-3 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px]">
         {/* Tarjeta 1 */}
         <div
-          className="relative top-[40px] w-[427px] h-[228px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center pt-6 max-xl:w-[292px] max-lg:max-w-[230px]"
-          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '218px' }}
+          className="relative top-[50px] w-[427px] h-[228px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center pt-6 max-xl:w-[292px] max-lg:max-w-[230px]"
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '198px' }}
         >
-          <p className="text-[20px] leading-[28px] text-left -ml-[6px] pt-5 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
+          <p className="text-[20px] leading-[28px] text-left -ml-[6px] pt-5 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-4">
             Programas de conversión y performance para adquirir y fidelizar clientes, mediante automatización y CRM.
           </p>
         </div>
@@ -26,19 +26,19 @@ export default function BrandingCards() {
         {/* Tarjeta 2 */}
         <div
           className="relative top-[30px] left-1 w-[427px] h-[243px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-xl:w-[292px] max-lg:max-w-[230px]"
-          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '243px' }}
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '233px' }}
         >
-          <p className="text-[20px] leading-[28px] text-left pt-4 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
+          <p className="text-[20px] leading-[28px] text-left pt-5 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
             Campañas de alto impacto y contenido estratégico, desde SEO y SEM hasta marketing de contenidos con un ROI medible, tests A/B y dinámicas de iteración rápida.
           </p>
         </div>
 
         {/* Tarjeta 3 */}
         <div
-          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[25px] max-xl:w-[292px] max-lg:max-w-[230px]"
-          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '253px' }}
+          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[33px] max-xl:w-[292px] max-lg:max-w-[230px]"
+          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '223px' }}
         >
-          <p className="text-[20px] leading-[28px] text-left pt-9 max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] ">
+          <p className="text-[20px] leading-[28px] text-left pt-10 max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] ">
             Estrategias 360° y ejecución multicanal a la medida de cada negocio. Combinando Paid Media, Redes Sociales, Mailing, Retención, Data Analytics, Growth Marketing.
           </p>
         </div>

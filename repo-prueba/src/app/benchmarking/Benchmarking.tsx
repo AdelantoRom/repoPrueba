@@ -11,7 +11,7 @@ export default function Benchmarking() {
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[36px]">
             Benchmarking
           </h2>
-          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[20px]">
+          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px]">
             Descubre y proyecta tu valor único.
           </p>
         </div>

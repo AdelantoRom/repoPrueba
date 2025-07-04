@@ -11,8 +11,8 @@ export default function Data() {
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[40px]">
             Data + IA
           </h2>
-          <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[20px]">
-            Dirige tu expansión con información clave y<br />
+          <p className="font-light italic text-[24px] leading-[28px] w-[550px] max-xl:w-[350px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px]">
+            Dirige tu expansión con información clave y
             conocimiento predictivo.
           </p>
         </div>
