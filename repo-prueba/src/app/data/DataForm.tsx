@@ -29,14 +29,14 @@ export default function DataForm() {
       </div>
 
 
-      <div className="mt-[132px] relative ml-[15px]">
+      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px]">
         {/* Imagen de fondo */}
         <Image
           src="/Rectangle 38.png"
           alt="Fondo"
           width={563}
           height={130}
-          className="object-cover rounded-[5px]"
+          className="object-cover rounded-[5px] max-lg:w-[479px]"
         />
       </div>
 
