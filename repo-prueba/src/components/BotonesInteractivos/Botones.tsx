@@ -5,7 +5,7 @@ function Botones() {
     return (
         <div>
             <div className="w-full flex justify-center mb-1">
-                <div className="flex justify-between items-start gap-x-90">
+                <div className="flex justify-between items-start gap-x-90 max-xl:gap-x-45 max-lg:gap-x-20">
 
                     <div className="flex flex-col items-center">
                         <Image src="/Calendly.gif" alt="Calendario" width={48} height={48} className="rounded-lg" />

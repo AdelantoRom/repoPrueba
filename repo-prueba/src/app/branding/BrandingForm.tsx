@@ -29,20 +29,21 @@ export default function BrandingForm() {
       </div>
 
 
-      <div className="mt-[132px] relative ml-[15px]">
+      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px]">
         <Image
           src="/Group-155.png"
           alt="Decoración Benchmarking"
           width={563}
           height={130}
           unoptimized
+          className="max-lg:w-[479px]"
         />
         <Image
           src="/logoin.png"
           alt="Logo In"
           width={35}
           height={35}
-          className="absolute top-[81px] left-[109px]"
+          className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
         />
       </div>
 
