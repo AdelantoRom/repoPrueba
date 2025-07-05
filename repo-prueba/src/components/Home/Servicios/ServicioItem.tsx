@@ -16,32 +16,32 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="border-t border-[#D81FB9]  mb-5">
+        <div className="border-b border-[#D81FB9]  mb-5">
             <button
                 onClick={() => setOpen(!open)}
-                className="w-full flex items-center justify-between px-4 py-3"
+                className="w-full flex items-center justify-between px-4"
             >
-                <div className="flex items-center gap-3 mt-[22px] ">
-                    <Image 
-                        src={icon} 
-                        alt={title} 
-                        width={60} 
-                        height={60} 
-                        className="-ml-[12px] max-xl:w-[40px]"/>
-                    <span className="text-5xl font-normal ml-[31px] -mt-2 max-2xl:text-[40px] max-xl:text-[36px] max-xl:ml-2">{title}</span>
+                <div className="flex items-center gap-3 mt-[27px] ">
+                    <Image
+                        src={icon}
+                        alt={title}
+                        width={40}
+                        height={40}
+                        className="ml-[8px] max-xl:w-[40px] relative -top-[23px] " />
+                    <span className="text-[32px] ml-[36px] -mt-[47px] max-2xl:text-[40px] max-xl:text-[36px] max-xl:ml-2">{title}</span>
                 </div>
                 {open ? (
-                    <ChevronUp className="text-[#D81FB9] w-[55px] h-[55px] -mr-7" />
+                    <ChevronUp className="text-[#D81FB9] w-[43px] h-[43px] relative -top-[9px]" />
                 ) : (
-                    <ChevronDown className="text-[#D81FB9] w-[55px] h-[55px] -mr-7" />
+                    <ChevronDown className="text-[#D81FB9] w-[43px] h-[43px] relative -top-[9px] " />
                 )}
             </button>
 
             {open && description && (
-                <div className="px-16 pb-4 text-[40px] max-2xl:text-[30px] max-xl:text-[24px] text-gray-800 ml-[40px] max-xl:px-6">
-                    <p className="italic font-light -mt-[14px] leading-[50px]">{description}</p>
+                <div className="px-[83px] pb-4 mt-[16px] text-[24px] max-2xl:text-[30px] max-xl:text-[24px] text-gray-800 ml-[21px] max-xl:px-6">
+                    <p className="italic font-light -mt-[14px] leading-[28px]">{description}</p>
                     {link && (
-                        <p className="pt-1 font-bold text-[32px] ml-[3px] -mt-[7px] mb-1 text-[#D81FB9] max-2xl:text-[20px] max-xl:text-[16px]">
+                        <p className="pt-[6px] font-bold text-[24px] leading-[28px] -mt-[7px] mb-[7px] text-[#D81FB9] max-2xl:text-[20px] max-xl:text-[16px]">
                             <a href={link}>(Leer más)</a>
                         </p>
                     )}
