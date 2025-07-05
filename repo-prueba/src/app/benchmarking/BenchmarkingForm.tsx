@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import FormSections from "@/components/FormSections/FormSections";
+import Botones from "@/components/BotonesInteractivos/Botones";
 
 export default function BenchmarkingForm() {
   return (
     <section
-      className="relative w-full h-[3218px] bg-cover bg-center flex flex-col items-center"
+      className="relative w-full h-[2554px] bg-cover bg-center flex flex-col items-center"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 
@@ -66,6 +67,7 @@ export default function BenchmarkingForm() {
       </div>
 
       <FormSections/>
+      <Botones/>
     </section >
   );
 }
