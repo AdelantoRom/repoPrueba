@@ -13,7 +13,7 @@ export default function Page() {
         <div className="-mt-120">
           <GrowthCards />
         </div>
-        <div className="-mb-80">
+        <div>
           <GrowthForm />
         </div>
       </main>

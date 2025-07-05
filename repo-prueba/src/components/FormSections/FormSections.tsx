@@ -51,7 +51,7 @@ function FormSections() {
                 <div className="w-[638px] flex justify-start">
                     <button
                         type="submit"
-                        className="bg-[#D81FB9] text-white text-[18px] font-semibold h-[46px] w-[186px] rounded-[50px] mt-[23px] mb-[40px]"
+                        className="bg-[#D81FB9] text-white text-[18px] font-semibold h-[46px] w-[186px] rounded-[50px] mt-[29px] mb-[40px]"
                     >
                         Enviar
                     </button>

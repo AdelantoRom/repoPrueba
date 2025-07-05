@@ -6,7 +6,7 @@ import Botones from "@/components/BotonesInteractivos/Botones";
 export default function BenchmarkingForm() {
   return (
     <section
-      className="relative w-full h-[2554px] bg-cover bg-center flex flex-col items-center"
+      className="relative w-full bg-cover bg-center flex flex-col items-center"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 
@@ -46,7 +46,6 @@ export default function BenchmarkingForm() {
         />
       </div>
 
-
       <div className="absolute top-[688px] left-[1389px] z-0">
         <Image
           src="/Trama-esfera-fucsia.png"
@@ -67,7 +66,10 @@ export default function BenchmarkingForm() {
       </div>
 
       <FormSections/>
-      <Botones/>
+
+      <div className="mb-21 mt-34">
+        <Botones/>
+      </div>
     </section >
   );
 }
