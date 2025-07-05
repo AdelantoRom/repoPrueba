@@ -7,7 +7,7 @@ import Enfoque from "../Enfoque/Enfoque";
 export default function Servicios() {
     return (
         <div>
-            <div className="w-[911px] ml-[293px] mt-[241px] max-xl:ml-[80px]">
+            <div className="w-[911px] ml-[293px] mt-[149px] max-xl:ml-[80px]">
                 <h2 className="text-[#D81FB9] text-[80px] leading-[80px] max-xl:text-[70px]">Servicios</h2>
                 <h3 className="text-black text-[48px] leading-none pt-[26px] max-xl:text-[36px] max-xl:w-[513px]">
                     Soluciones híperpersonalizadas <br /> para tu empresa
