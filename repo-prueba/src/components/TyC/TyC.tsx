@@ -1,14 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import BotonesCirculares from '../BotonesInteractivos/BotonesCirculares'
 
 function TyC() {
     return (
         <div className='text-black pt-[400px]  max-w-[1637px] mx-auto'>
-            <div className='mb-[150px]'>
+            <div className='mb-[150px] max-xl:px-10'>
                 <h1 className='text-[#D81FB9] text-[64px]'>Términos y Condiciones</h1>
                 <p className='italic text-[28px]'>Última actualización: 1 de enero 2025</p>
             </div>
-            <div className='text-[32px] flex flex-col gap-2 font-light leading-[36px]'>
+            <div className='text-[32px] flex flex-col gap-2 font-light leading-[36px] max-xl:px-10'>
                 <p className='pb-4'>Bienvenido al sitio web de Rombux. Al acceder y utilizar este sitio web, aceptas cumplir con los siguientes términos y condiciones de uso. Si no estás de acuerdo con estos términos, por favor, abstente de utilizar este sitio.</p>
                 <p className='pb-4'>El acceso o utilización del sitio web por parte de un visitante le atribuye a éste la condición de usuario general e implica la aceptación plena y sin reservas por parte del mismo de los Términos de Uso, en la versión publicada en el momento mismo en que el usuario acceda al sitio web. La Agencia se reserva el derecho de cambiar,modificar, añadir o eliminar parcialmente, en cualquier momento, estos Términos de Uso, o cambiar, suspender o desconectar el Servicio en cualquier momento mandando una notificación a los usuarios por correo electrónico o publicándolo en el sitio web. En consecuencia, el usuario debe leer atentamente los Términos de Uso cuando se proponga utilizar el site. Es responsabilidad del Usuario comprobar los Términos de Uso periódicamente.</p>
                 <p className='pb-4'>La Agencia podrá establecer condiciones particulares (en adelante, las "Condiciones Particulares") para la contratación o utilización de determinados servicios o productos que se ofrezcan a través de Rombus, por tanto, el usuario también ha de leer atentamente las correspondientes Condiciones Particulares que podrán ser publicadas en el site o enviadas por correo electrónico o enlace de descarga.</p>
@@ -35,32 +36,7 @@ function TyC() {
                 <p className='pb-4'>Para cualquier pregunta o inquietud relacionada con estos términos y condiciones, puedes contactarnos en admin@rombux.com.</p>
             </div>
 
-            <div className="w-full flex justify-center mt-[160px] mb-[120px]">
-                <div className="w-[1235px] flex justify-center gap-[140px] items-start text-black">
-
-                    <div className="w-[220px] h-[220px] bg-[#D81FB90D] rounded-full flex flex-col justify-center items-center text-black text-center px-2">
-                        <Image src="/Calendly.gif" alt="Calendario" width={64} height={64} className='rounded-lg' />
-                        <div className="mt-[24px] w-[132px] text-center text-[24px] leading-[24px]">
-                            Agenda una reunión
-                        </div>
-                    </div>
-
-                    <div className="w-[220px] h-[220px] bg-[#D81FB90D] rounded-full flex flex-col justify-center items-center text-black text-center px-2">
-                        <Image src="/Mensaje.gif" alt="Mensaje" width={64} height={64} className='rounded-lg' />
-                        <div className="mt-[24px] w-[132px] text-center text-[24px] leading-[24px]">
-                            Envíanos un mensaje
-                        </div>
-                    </div>
-
-                    <div className="w-[220px] h-[220px] bg-[#D81FB90D] rounded-full flex flex-col justify-center items-center text-black text-center px-2">
-                        <Image src="/Chat.gif" alt="Chat" width={64} height={64} className='rounded-lg' />
-                        <div className="mt-2 text-[16px] leading-tight">
-                            Chatea con Romy<br />nuestro agente IA
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+            <BotonesCirculares/>
 
         </div>
     )
