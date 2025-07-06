@@ -26,7 +26,7 @@ export default function Footer() {
           </Link>
 
           <div
-            className="absolute bottom-[110px] text-[16px] text-white text-center h-[27px] w-[1255px]"
+            className="absolute bottom-[110px] text-[18px] text-white text-center h-[27px] w-[1255px]"
             style={{ left: 'calc(50% + 80px)', transform: 'translateX(-50%)' }}
           >
             <p>
