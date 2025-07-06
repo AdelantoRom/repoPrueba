@@ -1,18 +1,17 @@
 import React from 'react'
-import Image from 'next/image'
 import BotonesCirculares from '../BotonesInteractivos/BotonesCirculares'
 
 function TyC() {
     return (
-        <div className='text-black pt-[400px]  max-w-[1637px] mx-auto'>
-            <div className='mb-[150px] max-xl:px-10'>
-                <h1 className='text-[#D81FB9] text-[64px]'>Términos y Condiciones</h1>
-                <p className='italic text-[28px]'>Última actualización: 1 de enero 2025</p>
+        <div className='text-black pt-[219px] max-w-[1637px] mx-[290px] max-xl:mx-[140px]  max-lg:mx-[20px]'>
+            <div className='mb-[177px] max-xl:px-10'>
+                <h1 className='text-[#D81FB9] text-[64px] font-bold'>Términos y Condiciones</h1>
+                <p className='text-[20px] mt-[10px]'>Última actualización: 1 de enero 2025</p>
             </div>
-            <div className='text-[32px] flex flex-col gap-2 font-light leading-[36px] max-xl:px-10'>
-                <p className='pb-4'>Bienvenido al sitio web de Rombux. Al acceder y utilizar este sitio web, aceptas cumplir con los siguientes términos y condiciones de uso. Si no estás de acuerdo con estos términos, por favor, abstente de utilizar este sitio.</p>
-                <p className='pb-4'>El acceso o utilización del sitio web por parte de un visitante le atribuye a éste la condición de usuario general e implica la aceptación plena y sin reservas por parte del mismo de los Términos de Uso, en la versión publicada en el momento mismo en que el usuario acceda al sitio web. La Agencia se reserva el derecho de cambiar,modificar, añadir o eliminar parcialmente, en cualquier momento, estos Términos de Uso, o cambiar, suspender o desconectar el Servicio en cualquier momento mandando una notificación a los usuarios por correo electrónico o publicándolo en el sitio web. En consecuencia, el usuario debe leer atentamente los Términos de Uso cuando se proponga utilizar el site. Es responsabilidad del Usuario comprobar los Términos de Uso periódicamente.</p>
-                <p className='pb-4'>La Agencia podrá establecer condiciones particulares (en adelante, las "Condiciones Particulares") para la contratación o utilización de determinados servicios o productos que se ofrezcan a través de Rombus, por tanto, el usuario también ha de leer atentamente las correspondientes Condiciones Particulares que podrán ser publicadas en el site o enviadas por correo electrónico o enlace de descarga.</p>
+            <div className='text-[24px] flex flex-col gap-2 leading-[28px] max-xl:px-10'>
+                <p className='pb-5'>Bienvenido al sitio web de Rombux. Al acceder y utilizar este sitio web, aceptas cumplir con los siguientes términos y condiciones de uso. Si no estás de acuerdo con estos términos, por favor, abstente de utilizar este sitio.</p>
+                <p className='pb-5'>El acceso o utilización del sitio web por parte de un visitante le atribuye a éste la condición de usuario general e implica la aceptación plena y sin reservas por parte del mismo de los Términos de Uso, en la versión publicada en el momento mismo en que el usuario acceda al sitio web. La Agencia se reserva el derecho de cambiar,modificar, añadir o eliminar parcialmente, en cualquier momento, estos Términos de Uso, o cambiar, suspender o desconectar el Servicio en cualquier momento mandando una notificación a los usuarios por correo electrónico o publicándolo en el sitio web. En consecuencia, el usuario debe leer atentamente los Términos de Uso cuando se proponga utilizar el site. Es responsabilidad del Usuario comprobar los Términos de Uso periódicamente.</p>
+                <p className='pb-5'>La Agencia podrá establecer condiciones particulares (en adelante, las "Condiciones Particulares") para la contratación o utilización de determinados servicios o productos que se ofrezcan a través de Rombus, por tanto, el usuario también ha de leer atentamente las correspondientes Condiciones Particulares que podrán ser publicadas en el site o enviadas por correo electrónico o enlace de descarga.</p>
                 <p className='pb-4'>El usuario es consciente de, y acepta voluntariamente,que el uso de Rombux, de los servicios y de los contenidos tiene lugar, en todo caso, bajo su única y exclusiva responsabilidad.</p>
                 <p className='pb-5'>Al registrarse en el sitio web y hacer clic en el botón “Enviar” del formulario correspondiente o botón similar, admite haber leído y aceptado los siguientes Términos de Uso y las Políticas de Privacidad y Protección de Datos Personales. Sin perjuicio de lo indicado, cualquier visita de las páginas o uso de los servicios disponibles en este sitio web, implica la aceptación de los Términos y Condiciones de Uso y a las Políticas de Privacidad y Protección de Datos Personales de Rombux.</p>
                 <h2 className='pb-5 font-bold'>Uso del Sitio</h2>
