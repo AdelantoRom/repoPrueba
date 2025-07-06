@@ -1,14 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import BotonesCirculares from '../BotonesInteractivos/BotonesCirculares'
 
 function Politicas() {
     return (
         <div className='text-black pt-[400px]  max-w-[1637px] mx-auto'>
-            <div className='mb-[150px]'>
+            <div className='mb-[150px] max-xl:px-10'>
                 <h1 className='text-[#D81FB9] text-[64px]'>Política de Privacidad y Protección de Datos Personales</h1>
                 <p className='italic text-[28px]'>Última actualización: 1 de enero 2025</p>
             </div>
-            <div className='text-[32px] flex flex-col gap-2 font-light leading-[36px]'>
+            <div className='text-[32px] flex flex-col gap-2 font-light leading-[36px] max-xl:px-10'>
                 <h2 className='pb-5 font-bold'>Información general</h2>
                 <p className='pb-4'>La presente declaración refleja la  política que, en materia de protección de datos, sigue Rombus SRL  (“Rombus”), empresa domiciliada en Lezica 4363 de la Ciudad Autónoma de  Buenos Aires, República Argentina y titular del Sitio Web ubicado en el  dominio www.rombusglobal.com (el “Sitio Web”).</p>
                 <p className='pb-5'>La política de  privacidad que se describe a continuación sólo es aplicable al presente  Sitio Web, entendiendo como tal todas las páginas, subpáginas y  aplicaciones incluidas en el dominio www.rombusglobal.com, declinando  Rombus cualquier responsabilidad sobre las diferentes políticas de  privacidad y protección de datos de carácter personal que puedan  contener los sitios web a los cuales pueda accederse a través de los  hipervínculos ubicados en Rombus y no gestionados directamente por  Rombus.</p>
@@ -22,36 +23,8 @@ function Politicas() {
                 </p>
                 <p className='pb-5'>Información del perfil</p>
                 <p className='pb-5'>Todo Usuario registrado de Rombus puede proporcionar información adicional  para conformar su perfil individual, como ser describir sus aptitudes,  experiencia profesional, trayectoria académica, referencias  profesionales y muestras de trabajos. Si utiliza esta opción y  proporciona información adicional, el usuario sacará mayor provecho de  Rombus ya que el perfil individual le ayudará a expresar su identidad  profesional, ser contactado por otros profesionales y acceder a mayores  oportunidades.</p>
-
             </div>
-
-            <div className="w-full flex justify-center mt-[160px] mb-[120px]">
-                <div className="w-[1235px] flex justify-center gap-[140px] items-start text-black">
-
-                    <div className="w-[220px] h-[220px] bg-[#D81FB90D] rounded-full flex flex-col justify-center items-center text-black text-center px-2">
-                        <Image src="/Calendly.gif" alt="Calendario" width={64} height={64} className='rounded-lg' />
-                        <div className="mt-[24px] w-[132px] text-center text-[24px] leading-[24px]">
-                            Agenda una reunión
-                        </div>
-                    </div>
-
-                    <div className="w-[220px] h-[220px] bg-[#D81FB90D] rounded-full flex flex-col justify-center items-center text-black text-center px-2">
-                        <Image src="/Mensaje.gif" alt="Mensaje" width={64} height={64} className='rounded-lg' />
-                        <div className="mt-[24px] w-[132px] text-center text-[24px] leading-[24px]">
-                            Envíanos un mensaje
-                        </div>
-                    </div>
-
-                    <div className="w-[220px] h-[220px] bg-[#D81FB90D] rounded-full flex flex-col justify-center items-center text-black text-center px-2">
-                        <Image src="/Chat.gif" alt="Chat" width={64} height={64} className='rounded-lg' />
-                        <div className="mt-2 text-[16px] leading-tight">
-                            Chatea con Romy<br />nuestro agente IA
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
+            <BotonesCirculares/>
         </div>
     )
 }
