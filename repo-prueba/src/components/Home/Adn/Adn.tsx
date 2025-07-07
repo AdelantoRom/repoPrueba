@@ -11,10 +11,10 @@ export default function Adn() {
     <div className="bg-[url('/gradiente1.png')] bg-cover w-full  text-white flex flex-col items-center pt-[40px] 2xl:pt-[131px]">
 
       <div className="text-center tracking-normal leading-[40px] mt-[40px] lg:leading-[70px] lg:mt-[60px] 2xl:leading-[120px] 2xl:mt-[64px]">
-        <h1 className="text-[40px] font-medium w-[336px] lg:text-[70px] lg:w-[899px] mx-auto 2xl:text-[64px] 2xl:leading-[64px] 2xl:w-[1219px]">
+        <h1 className="text-[40px] font-medium w-[336px] lg:text-[70px] lg:w-[899px] mx-auto 2xl:text-[64px] 2xl:leading-[64px] 2xl:w-[1219px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
           Rombux/ADN:
         </h1>
-        <h2 className="text-[40px] font-normal mt-[2px] w-[336px] lg:text-[70px] lg:w-[899px] mx-auto 2xl:text-[64px] 2xl:leading-[64px] 2xl:font-light 2xl:mt-[2px]">
+        <h2 className="text-[40px] font-normal mt-[2px] w-[336px] lg:text-[70px] lg:w-[899px] mx-auto 2xl:text-[64px] 2xl:leading-[64px] 2xl:font-light 2xl:mt-[2px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
           orientado a resultados
         </h2>
       </div>
