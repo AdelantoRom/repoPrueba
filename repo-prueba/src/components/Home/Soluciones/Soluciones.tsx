@@ -3,34 +3,115 @@ import FormularioEmail from "./components/FormularioEmail";
 import TransformacionDigital from './components/TransformacionDigital';
 import ClientesLogos from './components/ClientesLogos';
 
+
 export default function Soluciones() {
   return (
-    <div
+    <main
       className="
         bg-[url('/gradiente-desktop.png')]
         bg-no-repeat bg-top bg-cover
         w-full min-h-screen text-white pt-[200px] pb-[40px]
       "
     >
-      <HeroSection />
+    
+      <div className="pl-74 pr-10">
 
-      <div className=" pr-8 w-full max-w-[650px] -ml-10 mr-auto mb-6">
-        <FormularioEmail />
-      </div>
-
-      <div className="px-[138px] -mt-32 py-20 flex flex-row justify-between items-start">
-        <div className="mt-6 w-1/2 flex justify-start order-2">
-          <h2 className="text-right text-[120px] leading-[120px] max-w-[829px]">
-            Impulsando tus Negocios al Futuro
-          </h2>
+       <div className="flex flex-col pb-0">
+          <HeroSection />
+          <div className="mt-[-130px]">
+            <FormularioEmail />
+          </div>
         </div>
-        <TransformacionDigital />
+
+       
+       <div className="mt-32 py-20 flex flex-row justify-start items-start gap-x-12">
+  <div className="mt-6 flex justify-start order-2 translate-x-28">
+    <h2 className="text-right text-[102px] leading-[110px] max-w-[614px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)] ">
+      Impulsando tus Negocios al Futuro
+    </h2>
+  </div>
+  <TransformacionDigital />
+</div>
+
+
       </div>
 
       <ClientesLogos />
-    </div>
+    </main>
   );
 }
+
+
+
+// export default function Soluciones() {
+//   return (
+//     <main
+//       className="
+//         bg-[url('/gradiente-desktop.png')]
+//         bg-no-repeat bg-top bg-cover
+//         w-full min-h-screen text-white pt-[200px] pb-[40px]
+//       "
+//     >
+//       {/* Contenedor vertical con gap para Hero y Formulario */}
+//     <div className="flex flex-col pl-74 pr-10 pb-0">
+//   <HeroSection />
+//   <div className="mt-[-130px]">
+//     <FormularioEmail />
+//   </div>
+// </div>
+
+
+
+//       <div className="px-[138px] -mt-32 py-20 flex flex-row justify-between items-start">
+//         <div className="mt-6 w-1/2 flex justify-start order-2">
+//           <h2 className="text-right text-[102px] leading-[110px] max-w-[614px]">
+//             Impulsando tus Negocios al Futuro
+//           </h2>
+//         </div>
+//         <TransformacionDigital />
+//       </div>
+
+//       <ClientesLogos />
+//     </main>
+//   );
+// }
+
+
+
+// import HeroSection from './components/HeroSection';
+// import FormularioEmail from "./components/FormularioEmail";
+// import TransformacionDigital from './components/TransformacionDigital';
+// import ClientesLogos from './components/ClientesLogos';
+
+// export default function Soluciones() {
+//   return (
+//     <div
+//       className="
+//         bg-[url('/gradiente-desktop.png')]
+//         bg-no-repeat bg-top bg-cover
+//         w-full min-h-screen text-white pt-[264px] pb-[40px]
+//       "
+//     >
+//       <HeroSection />
+
+//    <div className="mt-[-80px] pr-8 w-full max-w-[650px] mr-auto mb-6">
+//   <FormularioEmail />
+// </div>
+
+
+//       <div className="px-[138px] -mt-32 py-20 flex flex-row justify-between items-start">
+//         <div className="mt-6 w-1/2 flex justify-start order-2">
+//           <h2 className="text-right text-[120px] leading-[120px] max-w-[829px]">
+//             Impulsando tus Negocios al Futuro
+//           </h2>
+//         </div>
+//         <TransformacionDigital />
+//       </div>
+
+//       <ClientesLogos />
+//     </div>
+//   );
+// }
 
 
 
