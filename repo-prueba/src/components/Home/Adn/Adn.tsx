@@ -79,7 +79,9 @@ export default function Adn() {
           ¿Conectamos?
         </p>
       </div>
-      <Botones />
+      <div className='mb-26'>
+        <Botones />
+      </div>
     </div>
   );
 }
