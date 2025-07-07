@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="max-w-[1920px] mx-auto relative h-full">
 
           <Link href="/">
-            <div className="absolute left-[139px] bottom-[109px] flex flex-col">
+            <div className="absolute left-[260px] bottom-[109px] flex flex-col">
               <Image
                 src="/Logo Rombux fucsia.png"
                 alt="Logo Footer"
@@ -26,7 +26,7 @@ export default function Footer() {
           </Link>
 
           <div
-            className="absolute bottom-[110px] text-[18px] text-white text-center h-[27px] w-[1255px]"
+            className="absolute bottom-[110px] text-[12px] text-white text-center h-[27px] w-[793px]"
             style={{ left: 'calc(50% + 80px)', transform: 'translateX(-50%)' }}
           >
             <p>
@@ -41,14 +41,14 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="absolute right-[141px] bottom-[110px]">
+          <div className="absolute right-[270px] bottom-[110px]">
             <Image src="/logoin.png" alt="Logo IN" width={40} height={40} />
           </div>
         </div>
       </div>
 
       <div className="hidden lg:flex 2xl:hidden relative w-full h-[277px]  bg-[#060114] px-6 pt-6 pb-14">
-        <div className="max-w-[1083px] mx-auto flex flex-col w-full h-full">
+        <div className="max-w-[793px] mx-auto flex flex-col w-full h-full">
           <div className="flex justify-between items-start w-full ml-12">
             <Link href="/">
               <div className="flex flex-col mt-6 mb-2">
@@ -81,7 +81,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-[944px] text-[14px] text-white mt-8 leading-none text-center mx-auto">
+          <div className="w-[944px] text-[12px] text-white mt-8 leading-none text-center mx-auto">
             <p>
               © 2024 Rombus Global SAS. Todos los derechos reservados.{" "}
               <Link href="/tyc" className="hover:underline">
