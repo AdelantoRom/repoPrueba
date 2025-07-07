@@ -26,7 +26,7 @@ export default function Navbar() {
       </Link>
 
       {/* Links visibles en tablet y desktop */}
-      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[150px] 2xl:mr-25 text-white font-medium 2xl:text-[20px]">
+      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[150px] 2xl:mr-25 text-white 2xl:font-light 2xl:text-[20px]">
 
         <Link href="/benchmarking">Servicios</Link>
         <Link href="/#casos">Casos</Link>
