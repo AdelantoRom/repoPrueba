@@ -1,46 +1,42 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="w-full text-white">
-      <div className="flex flex-row items-start justify-between px-10 pt-12 pb-20 relative">
+    <div className="w-full flex flex-row items-start justify-between relative">
 
-        {/* Texto a la izquierda */}
-        <div className="flex flex-col justify-start space-y-12 ml-24 -mt-24">
-          <h2 className="text-[32px] leading-[36px] mb-10">
-            Soluciones Digitales de Negocios
-          </h2>
-          <h1 className="text-[102px] leading-[110px] font-normal drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
-  Potenciamos<br />tu Empresa<br />en la Era Digital
-</h1>
-
-        </div>
-
-        {/* Imagen a la derecha */}
-        <div className="relative w-[653px] h-[653px] overflow-visible translate-x-6 -mt-18 mr-56">
-          <Image
-            src="/mujer-esfera.png"
-            alt="Mujer con esfera"
-            fill
-            className="object-contain z-10"
-            unoptimized
-          />
-          <div className="absolute top-1/2 left-1/2 w-[713px] h-[713px] -translate-x-1/2 -translate-y-1/2 z-20 animate-spin [animation-direction:reverse] [animation-duration:150s]">
-            <Image
-              src="/redfucsia.png"
-              alt="Red giratoria"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
-        </div>
-
+      {/* Texto */}
+      <div className="flex flex-col justify-start space-y-12">
+        <h2 className="text-[32px] leading-[36px] mb-10">
+          Soluciones Digitales de Negocios
+        </h2>
+        <h1 className="text-[102px] leading-[110px] font-normal drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
+          Potenciamos<br />tu Empresa<br />en la Era Digital
+        </h1>
       </div>
+
+      {/* Imagen */}
+      <div className="relative w-[657px] h-[657px] overflow-visible translate-x-12 -translate-y-4 mr-28">
+        <Image
+          src="/mujer-esfera.png"
+          alt="Mujer con esfera"
+          fill
+          className="object-contain z-10"
+          unoptimized
+        />
+        <div className="absolute top-1/2 left-1/2 w-[756px] h-[756px] -translate-x-1/2 -translate-y-1/2 z-20 animate-spin [animation-direction:reverse] [animation-duration:150s]">
+          <Image
+            src="/redfucsia.png"
+            alt="Red giratoria"
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
+      </div>
+
     </div>
   );
 }
-
 
 
 
