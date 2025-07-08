@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div>
-      <div className="flex flex-col items-center pt-[40px] lg:flex-row lg:items-start lg:ml-[60px] lg:pt-[100px] gap-[40px] lg:gap-[60px] 2xl:ml-[290px] 2xl:pt-[192px]">
+      <div className="flex flex-col items-center pt-[40px] lg:flex-row lg:items-start lg:ml-[60px] lg:pt-[100px] gap-[40px] lg:gap-[60px] 2xl:ml-[290px] 2xl:pt-[260px]">
         {/* Columna izquierda */}
         <div>
           <h1
@@ -13,7 +13,7 @@ export default function Page() {
              2xl:text-[80px] 2xl:leading-[80px] 2xl:w-[1100px]
              mb-[30px] lg:mb-[40px] 2xl:mb-[94px] 2xl:mb-"
           >
-            Te acompañamos en tu desarrollo digital
+            Iniciemos tu liderazgo <br />digital
           </h1>
 
           <h2
