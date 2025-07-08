@@ -2,15 +2,15 @@ import Image from 'next/image';
 
 export default function ClientesLogos() {
   return (
-    <div className="w-full px-[120px] pt-6 max-w-[1920px] mx-auto">
+    <div className="w-full px-[120px] pt-2 max-w-[1920px] mx-auto">
       <div
-  className="
+        className="
     flex flex-row justify-between items-center 
     gap-x-[104px] 
     mt-16 mb-40
     translate-y-16
   "
->
+      >
         <div className="relative w-[180px] h-[75px]">
           <Image src="/HP blanco.png" alt="Imagen HP" fill className="object-contain" />
         </div>

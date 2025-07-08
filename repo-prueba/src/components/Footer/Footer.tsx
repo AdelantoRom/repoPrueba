@@ -8,19 +8,19 @@ export default function Footer() {
         <div className="max-w-[1920px] mx-auto relative h-full">
 
           <Link href="/">
-            <div className="absolute left-[260px] bottom-[109px] flex flex-col">
+            <div className="absolute left-[300px] bottom-[100px] flex flex-col">
               <Image
                 src="/Logo Rombux fucsia.png"
                 alt="Logo Footer"
-                width={245}
-                height={39}
+                width={212}
+                height={34}
               />
               <Image
                 className="-mt-5"
                 src="/footersoluciones.png"
                 alt="Soluciones"
-                width={245}
-                height={28}
+                width={215}
+                height={24}
               />
             </div>
           </Link>
@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
 
           <div className="absolute right-[270px] bottom-[110px]">
-            <Image src="/logoin.png" alt="Logo IN" width={40} height={40} />
+            <Image src="/logoin.png" alt="Logo IN" width={32} height={32} />
           </div>
         </div>
       </div>
