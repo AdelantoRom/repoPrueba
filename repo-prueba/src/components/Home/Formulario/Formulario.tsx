@@ -76,30 +76,31 @@ export default function Formulario() {
             </form>
       </div>
       <div
-        className="relative hidden lg:block
-          lg:w-[400px] lg:h-[400px] lg:ml-[20px] 
-          2xl:w-[500px] 2xl:h-[500px] 2xl:ml-[-288px]"
-      >
-        {/* Esfera - más pequeña y detrás */}
-        <Image
-          src="/Grupo 1 esfera.png"
-          alt="Grupo Formulario"
-          width={400}
-          height={400}
-          className="absolute top-[45%] lg:top-[87%] 2xl:top-[96%] left-1/2 z-0 transform -translate-x-1/2 -translate-y-1/2 object-cover rounded-full
-            lg:w-[300px] lg:h-[300px]
-            2xl:w-[445px] 2xl:h-[445px]"
-        />
-        {/* Trama celeste - más grande y al frente */}
-        <Image
-          src="/Trama esfera celeste.png"
-          alt="Trama Formulario"
-          width={550}
-          height={550}
-          className="absolute top-[45%] lg:top-[87%] 2xl:top-[96%] left-1/2 z-10 transform -translate-x-1/2 -translate-y-1/2
-            pointer-events-none animate-spin [animation-direction:reverse] [animation-duration:150s]"
-        />
-      </div>
+  className="relative hidden lg:block
+    lg:w-[400px] lg:h-[400px] lg:ml-[20px] 
+    2xl:w-[700px] 2xl:h-[700px] 2xl:ml-[-288px]"
+>
+  {/* Esfera - más pequeña y detrás */}
+  <Image
+    src="/grupoesfera+halo.png"
+    alt="Grupo Formulario"
+    width={700}
+    height={700}
+    className="absolute top-[45%] lg:top-[87%] 2xl:top-[69%] 2xl:left-[50%] z-0 transform -translate-x-[65%] -translate-y-1/2 object-cover rounded-full
+      lg:w-[300px] lg:h-[300px]
+      2xl:w-[680px] 2xl:h-[680px]"
+  />
+
+  <Image
+    src="/Trama esfera celeste.png"
+    alt="Trama Formulario"
+    width={505}
+    height={505}
+    className="absolute top-[45%] lg:top-[87%] 2xl:top-[69%] 2xl:left-[46%] z-10 transform -translate-x-[65%] -translate-y-1/2
+      pointer-events-none animate-spin [animation-direction:reverse] [animation-duration:150s]"
+  />
+</div>
+
     </div>
   );
 }
