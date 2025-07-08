@@ -16,16 +16,15 @@ export default function Soluciones() {
     
       <div className="pl-74 pr-10">
 
-       <div className="flex flex-col pb-0">
+      <div className="flex flex-col pb-0">
           <HeroSection />
           <div className="mt-[-130px]">
             <FormularioEmail />
           </div>
         </div>
 
-       
-       <div className="mt-32 py-20 flex flex-row justify-start items-start gap-x-12">
-  <div className="mt-6 flex justify-start order-2 translate-x-28">
+      <div className="mt-32 py-20 flex flex-row justify-start items-start gap-x-12">
+  <div className="-mt-[65px] flex justify-start order-2 translate-x-[97px]">
     <h2 className="text-right text-[102px] leading-[110px] max-w-[614px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)] ">
       Impulsando tus Negocios al Futuro
     </h2>
