@@ -18,7 +18,7 @@ export default function HeroSection() {
       <div className="relative overflow-visible -translate-x-[70px] -translate-y-43">
         <div className="w-[1005px] h-[1005px]">
           <Image
-            src="/Woman 7 esfera+halo.png"
+            src="/womanesfera+halo.png"
             alt="Mujer con esfera"
             fill
             className="object-contain z-10"
