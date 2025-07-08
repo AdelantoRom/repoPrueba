@@ -18,14 +18,16 @@ export default function Servicios() {
                 <div className="flex justify-center pl-17 -mt-[54px] pr-[94px] max-2xl:pr-0 max-xl:pl-0 ">
                     <div className="relative w-[700px] h-[630px] overflow-visible mt-40 max-2xl:w-[600px] max-2xl:mt-10 max-xl:w-[450px]">
 
-                        <div className="relative ml-[200px] w-[473px] max-2xl:w-[380px] max-xl:w-[280px] h-[445px] m-auto flex justify-center items-center mt-[40px]">
-                            <Image
-                                src="/hombreesfera.png"
-                                alt="Fondo"
-                                fill
-                                style={{ objectFit: 'contain' }}
-                                priority
-                            />
+                        <div className="relative ml-[98px] w-[680px] max-2xl:w-[380px] max-xl:w-[280px] h-[680px] m-auto flex justify-center items-center -mt-[76px]">
+                            <div className="w-[1000px] h-[1000px]">
+                                <Image
+                                    src="/Manesfera+halo.png"
+                                    alt="Fondo"
+                                    fill
+                                    style={{ objectFit: 'contain' }}
+                                    priority
+                                />
+                            </div>
                             <div className="absolute top-1/2 left-1/2 w-[580px] max-2xl:w-[435px] max-xl:w-[335px] h-[510px] -translate-x-1/2 -translate-y-1/2 z-10 animate-spin [animation-duration:200s]">
                                 <Image
                                     src="/redfucsia.png"
