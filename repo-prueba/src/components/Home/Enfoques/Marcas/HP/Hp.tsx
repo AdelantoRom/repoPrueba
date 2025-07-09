@@ -17,8 +17,8 @@ const PopupModal = ({ onClose }: Props) => {
                 >
                     X
                 </button>
-                <div className=' w-[650px] mx-4 max-xl:w-[450px]'>
-                    <div className='w-[600px] h-[679px] flex flex-col justify-around max-xl:w-[450px] max-2xl:w-[450px] max-2xl:justify-start'>
+                <div className='w-[650px] mx-4 max-xl:w-[450px]'>
+                    <div className='w-[600px] h-[679px] ml-4 flex flex-col justify-around max-xl:w-[450px] max-2xl:w-[450px] max-2xl:justify-start'>
                         <div className='mt-3'>
                             <Link href={"/"} className='text-[#747474] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-4 max-2xl:mt-7 max-xl:mt-3 max-xl:mb-2'>Caso</Link>
                         </div>
