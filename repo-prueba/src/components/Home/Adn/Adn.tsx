@@ -34,7 +34,7 @@ export default function Adn() {
             className="bg-[#D81FB9] text-white font-semibold text-[24px] h-[60px] w-[192px] 
             lg:text-[24px] lg:font-semibold lg:h-[60px] lg:w-[176px]
             2xl:text-[18px] 2xl:leading-[28px] 2xl:font-bold 2xl:h-[46px] 2xl:w-[180px] 
-            rounded-[50px] shadow-2xl mx-auto block"
+            rounded-[50px] shadow-2xl mx-auto block cursor-pointer"
           >
             Conócenos
           </button>
