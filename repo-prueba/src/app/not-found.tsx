@@ -15,7 +15,7 @@ export default function NotFound() {
             </div>
 
             <div className="z-10 text-center  mt-35">
-                <h1 className="text-[48px] font-bold leading-[48px]">Mmm... parece que se nos rompió algo.</h1>
+                <h1 className="text-[48px] font-bold leading-[48px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">Mmm... parece que se nos rompió algo.</h1>
                 <h2 className="text-[32px] leading-[48px] mt-2">Mientras lo reparamos, puedes encontrar lo que buscas aquí:</h2>
                 <div className="pt-15">
                     <Link href="/">
