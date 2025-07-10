@@ -19,12 +19,13 @@ export default function Soluciones() {
       <div className="lg:pl-26 lg:pr-8 
                       2xl:pl-74 2xl:pr-10">
 
-       <div className="flex flex-col pb-0">
+      <div className="flex flex-col pb-0">
           <HeroSection />
           <div className="lg:mt-[-64px] 2xl:mt-[-130px]">
             <FormularioEmail />
           </div>
         </div>
+
 
        
        <div className="flex flex-row justify-start items-start 
@@ -34,6 +35,7 @@ export default function Soluciones() {
     <h2 className="text-right drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]
     lg:text-[70px] lg:leading-[70px] lg:max-w-[487px]
     2xl:text-[102px] 2xl:leading-[110px] 2xl:max-w-[614px] ]">
+
       Impulsando tus Negocios al Futuro
     </h2>
   </div>

@@ -5,6 +5,7 @@ export default function HeroSection() {
     <div className="w-full flex flex-row items-start justify-between relative">
 
       {/* Texto */}
+
       <div className="flex flex-col justify-start lg:space-y-12 2xl:space-y-12 2xl:mt-[10px] 2xl:-ml-[5px]">
         <h2 className="
         lg:text-[32px] lg:leading-[30px] 
@@ -27,6 +28,7 @@ export default function HeroSection() {
   lg:-translate-x-6 lg:-translate-y-26 
   2xl:-translate-x-16 2xl:-translate-y-43">
         <div className="lg:w-[540px] lg:h-[540px] 2xl:w-[1005px] 2xl:h-[1005px] ">
+
           <Image
             src="/womanesfera+halo.png"
             alt="Mujer con esfera"

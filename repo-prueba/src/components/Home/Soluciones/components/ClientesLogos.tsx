@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 export default function ClientesLogos() {
   return (
+
     <div className="w-full flex justify-center pt-6 px-4">
       <div
         className="
@@ -11,6 +12,7 @@ export default function ClientesLogos() {
         "
       >
         <div className="relative lg:w-[73px] lg:h-[45px] 2xl:w-[130px] 2xl:h-[76px]">
+
           <Image src="/HP blanco.png" alt="Imagen HP" fill className="object-contain" />
         </div>
         <div className="relative lg:w-[121px] lg:h-[19px] 2xl:w-[216px] 2xl:h-[33px]">

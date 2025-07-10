@@ -1,5 +1,6 @@
 export default function TransformacionDigital() {
   return (
+
     <div className="flex flex-col 
     lg:max-w-[440px] 2xl:max-w-[582px] 2xl:order-1 2xl:space-y-6 2xl:-mt-[36px] -ml-[2px]">
 
@@ -17,6 +18,7 @@ export default function TransformacionDigital() {
         rápidamente a las demandas del mercado. <strong>Rombux es tu socio estratégico en el mundo online,</strong> 
         ofreciéndote soluciones integrales y personalizadas para impulsar tu crecimiento y consolidar tu posición.
 </p>
+
 
     </div>
 
