@@ -1,26 +1,27 @@
 import React from "react";
 import Image from "next/image";
+import Footer from "@/components/Footer/Footer";
 
 export default function Page() {
   return (
-    <div>
-      <div className="flex flex-col items-center pt-[40px] lg:flex-row lg:items-start lg:ml-[60px] lg:pt-[100px] gap-[40px] lg:gap-[60px] 2xl:ml-[290px] 2xl:pt-[260px]">
+    <div className="relative">
+      <div className="flex flex-col items-center pt-[40px] lg:flex-row lg:items-start lg:ml-[60px] lg:pt-[100px] gap-[40px] lg:gap-[60px] 2xl:ml-[290px] 2xl:pt-[260px] 2xl:h-[2076px]">
         {/* Columna izquierda */}
         <div>
           <h1
             className="text-black text-[40px] leading-[40px] w-[332px]
-             lg:text-[48px] lg:leading-[53px] lg:w-[500px]
-             2xl:text-[80px] 2xl:leading-[80px] 2xl:w-[1100px]
-             mb-[30px] lg:mb-[40px] 2xl:mb-[94px] 2xl:mb-"
+              lg:text-[48px] lg:leading-[53px] lg:w-[500px]
+              2xl:text-[80px] 2xl:leading-[80px] 2xl:w-[1100px]
+              mb-[30px] lg:mb-[40px] 2xl:mb-[94px] 2xl:mb-"
           >
             Iniciemos tu liderazgo <br />digital
           </h1>
 
           <h2
             className="text-[#D81FB9] text-[24px] leading-[29px] font-medium w-[351px]
-             lg:text-[48px] lg:leading-[53px] lg:font-medium
-             2xl:text-[48px] 2xl:leading-[48px]
-             mt-[20px] lg:mt-[30px] 2xl:font-normal"
+              lg:text-[48px] lg:leading-[53px] lg:font-medium
+              2xl:text-[48px] 2xl:leading-[48px]
+              mt-[20px] lg:mt-[30px] 2xl:font-normal"
           >
             Contáctanos
           </h2>
@@ -68,9 +69,9 @@ export default function Page() {
                   <input
                     type="checkbox"
                     className="w-[25px] h-[25px] border-1 border-black rounded-md appearance-none bg-white
-                                   checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
-                                   checked:after:flex checked:after:items-center checked:after:justify-center
-                                   checked:after:w-full checked:after:h-full"
+                                checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
+                                checked:after:flex checked:after:items-center checked:after:justify-center
+                                checked:after:w-full checked:after:h-full"
                   />
                   <span>
                     <strong className="font-semibold">{bold}</strong>
@@ -103,7 +104,7 @@ export default function Page() {
             className="relative hidden lg:block
               g:w-[400px] lg:h-[400px] lg:ml-[20px] 
               xl:w-[700px] 2xl:h-[700px] 2xl:ml-[-288px]"
-            >
+          >
             {/* Esfera - más pequeña y detrás */}
             <Image
               src="/grupoesfera+halo.png"
@@ -114,7 +115,7 @@ export default function Page() {
                 lg:w-[300px] lg:h-[300px]
                 2xl:w-[680px] 2xl:h-[680px]"
             />
-          
+
             <Image
               src="/Trama esfera celeste.png"
               alt="Trama Formulario"
@@ -125,43 +126,46 @@ export default function Page() {
             />
           </div>
           <div className="mt-[-24px] min-[768px]:mt-[60px] lg:mt-[120px] 2xl:-ml-[229px] 2xl:mt-[240px]">
-          <a href="mailto:info@rombux.com">
-            <p
-              className="text-[20px] font-normal leading-[28px] cursor-pointer mt-[-24px] mb-12
+            <a href="mailto:info@rombux.com">
+              <p
+                className="text-[20px] font-normal leading-[28px] cursor-pointer mt-[-24px] mb-12
                             min-[768px]:text-[24px] min-[768px]:mb-10
                             2xl:text-[24px] 2xl:mt-0 2xl:mb-[71px]"
-            >
-              <span className="text-[#707070]">Email:</span>{" "}
-              <span className="text-[#D81FB9]">info@rombux.com</span>
-            </p>
-          </a>
-          
-          <div className="w-[200px] text-[#707070] leading-[32px] 2xl:w-auto">
-            <p className="text-[24px] font-bold mt-4 mb-6 min-[768px]:text-[24px] 2xl:text-[24px] 2xl:-mt-5">
-              Oficina:
-            </p>
-            <p className="text-[20px] font-normal mb-12 min-[768px]:text-[22px] 2xl:text-[24px] 2xl:mb-16 2xl:font-normal 2xl:leading-[28px]">
-              Lezica 4363,
-              <br />
-              Ciudad de Buenos Aires
-              <br />
-              (1202AAI) Argentina
-            </p>
-          </div>
-          
-          <div className="hidden lg:block 2xl:block mt-10 2xl:mt-[68px]">
-            <Image
-              src="/logoin.png"
-              alt="Logo institucional"
-              width={46}
-              height={46}
-            />
-          </div>
+              >
+                <span className="text-[#707070]">Email:</span>{" "}
+                <span className="text-[#D81FB9]">info@rombux.com</span>
+              </p>
+            </a>
+
+            <div className="w-[200px] text-[#707070] leading-[32px] 2xl:w-auto">
+              <p className="text-[24px] font-bold mt-4 mb-6 min-[768px]:text-[24px] 2xl:text-[24px] 2xl:-mt-5">
+                Oficina:
+              </p>
+              <p className="text-[20px] font-normal mb-12 min-[768px]:text-[22px] 2xl:text-[24px] 2xl:mb-16 2xl:font-normal 2xl:leading-[28px]">
+                Lezica 4363,
+                <br />
+                Ciudad de Buenos Aires
+                <br />
+                (1202AAI) Argentina
+              </p>
+            </div>
+
+            <div className="hidden lg:block 2xl:block mt-10 2xl:mt-[68px]">
+              <Image
+                src="/logoin.png"
+                alt="Logo institucional"
+                width={46}
+                height={46}
+              />
+            </div>
           </div>
         </div>
       </div>
 
-      
+
+        <div className="absolute bottom-0 left-0 w-full z-50">
+        <Footer />
+      </div>
     </div>
   );
 }

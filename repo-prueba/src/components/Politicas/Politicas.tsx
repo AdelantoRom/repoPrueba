@@ -3,7 +3,7 @@ import BotonesCirculares from '../BotonesInteractivos/BotonesCirculares'
 
 function Politicas() {
     return (
-        <div className='text-black pt-[235px] max-w-[1637px] mx-[290px] max-xl:mx-[140px]  max-lg:mx-[20px]'>
+        <div className='text-black pt-[235px] h-[2550px] max-w-[1637px] mx-[290px] max-xl:mx-[140px]  max-lg:mx-[20px]'>
             <div className='mb-[123px] max-xl:px-10'>
                 <h1 className='text-[#D81FB9] font-bold text-[64px] leading-[64px]'>Política de Privacidad y Protección de Datos Personales</h1>
                 <p className='text-[20px] mt-4'>Última actualización: 1 de enero 2025</p>

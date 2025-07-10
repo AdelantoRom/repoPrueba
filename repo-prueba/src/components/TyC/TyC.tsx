@@ -3,7 +3,7 @@ import BotonesCirculares from '../BotonesInteractivos/BotonesCirculares'
 
 function TyC() {
     return (
-        <div className='text-black pt-[219px] max-w-[1637px] mx-[290px] max-xl:mx-[140px]  max-lg:mx-[20px]'>
+        <div className='text-black pt-[219px] h-[3845px] max-w-[1637px] mx-[290px] max-xl:mx-[140px]  max-lg:mx-[20px]'>
             <div className='mb-[177px] max-xl:px-10'>
                 <h1 className='text-[#D81FB9] text-[64px] font-bold'>Términos y Condiciones</h1>
                 <p className='text-[20px] mt-[10px]'>Última actualización: 1 de enero 2025</p>
