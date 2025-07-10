@@ -5,33 +5,54 @@ export default function HeroSection() {
     <div className="w-full flex flex-row items-start justify-between relative">
 
       {/* Texto */}
-      <div className="flex flex-col justify-start space-y-12">
-        <h2 className="text-[32px] leading-[36px] mb-10">
+      <div className="flex flex-col justify-start lg:space-y-12 2xl:space-y-12 2xl:mt-[10px] 2xl:-ml-[5px]">
+        <h2 className="
+        lg:text-[32px] lg:leading-[30px] 
+        2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-[50px]">
           Soluciones Digitales de Negocios
         </h2>
-        <h1 className="text-[102px] leading-[110px] font-normal drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
-          Potenciamos<br />tu Empresa<br />en la Era Digital
-        </h1>
+      <h1 className="
+  font-normal 
+  drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]
+  text-[42px] leading-[48px] w-[300px]
+  lg:text-[70px] lg:leading-[70px] lg:w-[503px]
+  2xl:text-[102px] 2xl:leading-[110px] 2xl:w-[740px]
+">
+  Potenciamos<br />tu Empresa<br />en la Era Digital
+</h1>
+
       </div>
 
-      {/* Imagen */}
-      <div className="relative w-[657px] h-[657px] overflow-visible translate-x-12 -translate-y-4 mr-28">
-        <Image
-          src="/mujer-esfera.png"
-          alt="Mujer con esfera"
-          fill
-          className="object-contain z-10"
-          unoptimized
-        />
-        <div className="absolute top-1/2 left-1/2 w-[756px] h-[756px] -translate-x-1/2 -translate-y-1/2 z-20 animate-spin [animation-direction:reverse] [animation-duration:150s]">
+ <div className="relative overflow-visible 
+  lg:-translate-x-6 lg:-translate-y-26 
+  2xl:-translate-x-16 2xl:-translate-y-43">
+        <div className="lg:w-[540px] lg:h-[540px] 2xl:w-[1005px] 2xl:h-[1005px] ">
           <Image
-            src="/redfucsia.png"
-            alt="Red giratoria"
+            src="/womanesfera+halo.png"
+            alt="Mujer con esfera"
             fill
-            className="object-contain"
-            priority
+            className="object-contain lg:z-6 2xl:z-10"
+            unoptimized
           />
         </div>
+       <div className="
+  absolute top-1/2 left-1/2 z-20 
+  -translate-x-1/2 -translate-y-1/2 
+  w-[200px] h-[200px]
+  lg:w-[406px] lg:h-[406px] 
+  2xl:w-[756px] 2xl:h-[756px]
+  animate-spin 
+  [animation-direction:reverse] [animation-duration:150s]
+">
+  <Image
+    src="/redfucsia.png"
+    alt="Red giratoria"
+    fill
+    className="object-contain"
+    priority
+  />
+</div>
+
       </div>
 
     </div>
