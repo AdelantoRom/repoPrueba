@@ -2,11 +2,12 @@ import React from "react";
 import Image from "next/image";
 import FormSections from "@/components/FormSections/FormSections";
 import Botones from "@/components/BotonesInteractivos/Botones";
+import Footer from "@/components/Footer/Footer";
 
 export default function BrandingForm() {
   return (
     <section
-      className="relative w-full bg-cover bg-center flex flex-col items-center"
+      className="relative w-full bg-cover bg-center flex flex-col items-center h-[2554px]"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 
@@ -73,6 +74,9 @@ export default function BrandingForm() {
 
       <div className="mb-21 mt-34">
         <Botones/>
+      </div>
+      <div className="absolute bottom-0 left-0 w-full z-50">
+        <Footer />
       </div>
 
     </section>
