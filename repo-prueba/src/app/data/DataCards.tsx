@@ -15,7 +15,7 @@ export default function DataCards() {
       <div className="grid grid-cols-3 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px]">
         {/* Tarjeta 1 */}
         <div
-          className="relative top-[30px] w-[427px]  bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[220px]"
+          className="relative top-[40px] w-[427px]  bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[220px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '218px' }}
         >
           <p className="text-[20px] leading-[28px] text-left -ml-[6px] py-10 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
@@ -25,7 +25,7 @@ export default function DataCards() {
 
         {/* Tarjeta 2 */}
         <div
-          className="relative top-[30px] left-1 w-[427px]  bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center  max-xl:w-[292px] max-lg:max-w-[230px]"
+          className="relative top-[40px] left-1 w-[427px]  bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center  max-xl:w-[292px] max-lg:max-w-[230px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '218px' }}
         >
           <p className="text-[20px] leading-[28px] text-left py-10 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
@@ -35,7 +35,7 @@ export default function DataCards() {
 
         {/* Tarjeta 3 */}
         <div
-          className="bg-cover bg-center w-[427px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[7px] max-xl:w-[292px] max-lg:max-w-[230px]"
+          className="bg-cover bg-center w-[427px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] max-xl:w-[292px] max-lg:max-w-[230px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '303px' }}
         >
           <p className="text-[20px] leading-[28px] text-left py-10 max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-3 ">
