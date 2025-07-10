@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface Props {
@@ -32,7 +32,7 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
                     <span className="text-[32px] ml-[36px] -mt-[47px] max-2xl:text-[40px] max-xl:text-[36px] max-xl:ml-2">{title}</span>
                 </div>
                 <ChevronDown
-                    className={`text-[#D81FB9] w-[43px] h-[43px] relative -top-[9px] transform transition-transform duration-300 ${open ? "rotate-180" : "rotate-0"
+                    className={`text-[#D81FB9] w-[43px] h-[43px] relative -top-[9px] transform transition-transform duration-600 ${open ? "rotate-180" : "rotate-0"
                         }`}
                 />
             </button>
@@ -41,11 +41,11 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
                 {open && description && (
                     <motion.div
                         key="content"
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.5, ease: "easeInOut" }}
-                        className="overflow-hidden px-[83px] pb-4 mt-[16px] text-[24px] max-2xl:text-[30px] max-xl:text-[24px] text-gray-800 ml-[21px] max-xl:px-6"
+                        initial={{ opacity: 0, scaleY: 0 }}
+                        animate={{ opacity: 1, scaleY: 1 }}
+                        exit={{ opacity: 0, scaleY: 0 }}
+                        transition={{ duration: 0.4, ease: "easeInOut" }}
+                        className="overflow-hidden px-[83px] pb-4 mt-[16px] text-[24px] max-2xl:text-[30px] max-xl:text-[24px] text-gray-800 ml-[21px] max-xl:px-6 origin-top"
                     >
                         <p className="italic font-light -mt-1 leading-[28px]">{description}</p>
                         {link && (
@@ -56,6 +56,7 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
                     </motion.div>
                 )}
             </AnimatePresence>
+
         </div>
     );
 }
