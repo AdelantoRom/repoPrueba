@@ -8,7 +8,7 @@ import Botones from '@/components/BotonesInteractivos/Botones';
 
 export default function Adn() {
   return (
-    <div className="bg-[url('/gradiente1.png')] bg-cover w-full  text-white flex flex-col items-center pt-[40px] 2xl:pt-[131px]">
+    <div className="bg-[url('/gradiente1.png')] h-[1671px] bg-cover w-full  text-white flex flex-col items-center pt-[40px] 2xl:pt-[131px]">
 
       <div className="text-center tracking-normal leading-[40px] mt-[40px] lg:leading-[70px] lg:mt-[60px] 2xl:leading-[120px] 2xl:mt-[64px]">
         <h1 className="text-[40px] font-medium w-[336px] lg:text-[70px] lg:w-[899px] mx-auto 2xl:text-[64px] 2xl:leading-[64px] 2xl:w-[1219px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">

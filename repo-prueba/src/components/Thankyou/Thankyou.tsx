@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Thank() {
     return (
-        <div className="relative w-full h-[1100px] flex flex-col items-center justify-center text-white overflow-hidden">
+        <div className="relative w-full h-[1080px] flex flex-col items-center justify-center text-white overflow-hidden">
             <div className="absolute inset-0 -z-10">
                 <Image
                     src="/gradiente1.png"
@@ -20,7 +20,7 @@ export default function Thank() {
                     className="object-contain"
                 />
                 <Image
-                    src="/Trama esfera fucsia.png"
+                    src="/Trama-esfera-fucsia.png"
                     fill
                     alt=""
                     className="object-contain absolute top-0 left-0"
@@ -34,7 +34,7 @@ export default function Thank() {
                     className="object-contain"
                 />
                 <Image
-                    src="/Trama esfera fucsia.png"
+                    src="/Trama-esfera-fucsia.png"
                     fill
                     alt=""
                     className="object-contain absolute top-0 left-0"

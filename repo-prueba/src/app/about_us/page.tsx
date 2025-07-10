@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Botones from '@/components/BotonesInteractivos/Botones';
+import Footer from '@/components/Footer/Footer';
 
 const teamMembers = [
   {
@@ -37,7 +38,7 @@ const teamMembers = [
 
 export default function About_Us() {
   return (
-    <div className="bg-[url('/Gradiente-Home-5.png')] h-full bg-cover bg-no-repeat w-full max-w-[1920px] mx-auto px-7 pt-[235px]">
+    <div className="bg-[url('/Gradiente-Home-5.png')] bg-cover bg-no-repeat w-full h-[1935px] max-w-[1920px] mx-auto px-7 pt-[235px] relative">
       <div className="w-full text-center px-90">
         <h1 className="text-[64px] leading-[64px] font-medium text-shadow-md text-white drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
           Quiénes somos
@@ -98,6 +99,9 @@ export default function About_Us() {
       </div>
       <div className='mt-50 pb-23'>
         <Botones />
+      </div>
+      <div className="absolute bottom-0 left-0 w-full z-50">
+        <Footer />
       </div>
     </div>
   );
