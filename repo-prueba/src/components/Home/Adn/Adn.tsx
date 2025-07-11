@@ -47,13 +47,13 @@ export default function Adn() {
             src="/Trama esfera negra.png"
             fill
             alt=""
-            className="object-contain animate-spin [animation-direction:reverse] [animation-duration:150s]"
+            className="object-contain animate-spin [animation-direction:reverse] [animation-duration:120s]"
           />
           <Image
             src="/Trama-esfera-fucsia.png"
             fill
             alt=""
-            className="object-contain absolute top-0 left-0 animate-spin [animation-duration:150s]"
+            className="object-contain absolute top-0 left-0 animate-spin [animation-duration:120s]"
           />
         </div>
         <div className="absolute -top-[55px] right-97 max-xl:-right-10 max-lg:-right-20 max-lg:top-[-10px] max-sm:hidden z-0 w-[7vw] max-w-[200px] max-h-[200px] max-lg:w-[30vw] max-lg:h-[30vw] 2xl:w-[20vw] 2xl:h-[20vw]">
@@ -61,13 +61,13 @@ export default function Adn() {
             src="/Trama esfera negra.png"
             fill
             alt=""
-            className="object-contain animate-spin [animation-duration:150s]"
+            className="object-contain animate-spin [animation-duration:120s]"
           />
           <Image
             src="/Trama-esfera-fucsia.png"
             fill
             alt=""
-            className="object-contain absolute top-0 left-0 animate-spin [animation-direction:reverse] [animation-duration:150s]"
+            className="object-contain absolute top-0 left-0 animate-spin [animation-direction:reverse] [animation-duration:120s]"
           />
         </div>
       </div>
