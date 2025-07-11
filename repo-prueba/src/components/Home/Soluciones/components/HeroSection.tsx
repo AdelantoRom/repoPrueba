@@ -6,7 +6,7 @@ export default function HeroSection() {
 
       {/* Texto */}
 
-      <div className="flex flex-col justify-start lg:space-y-12 2xl:space-y-12 2xl:mt-[10px] 2xl:-ml-[5px]">
+      <div className="flex flex-col justify-start lg:space-y-12 2xl:space-y-12 2xl:mt-[12px] 2xl:-ml-[5px]">
         <h2 className="
         lg:text-[32px] lg:leading-[30px] 
         2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-[50px]">
@@ -26,7 +26,7 @@ export default function HeroSection() {
 
  <div className="relative overflow-visible 
   lg:-translate-x-6 lg:-translate-y-26 
-  2xl:-translate-x-16 2xl:-translate-y-43">
+  2xl:-translate-x-18 2xl:-translate-y-43">
         <div className="lg:w-[540px] lg:h-[540px] 2xl:w-[1005px] 2xl:h-[1005px] ">
 
           <Image
@@ -44,7 +44,7 @@ export default function HeroSection() {
   lg:w-[406px] lg:h-[406px] 
   2xl:w-[756px] 2xl:h-[756px]
   animate-spin 
-  [animation-direction:reverse] [animation-duration:150s]
+  [animation-direction:reverse] [animation-duration:120s]
 ">
   <Image
     src="/redfucsia.png"

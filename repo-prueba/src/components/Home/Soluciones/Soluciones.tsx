@@ -12,7 +12,7 @@ export default function Soluciones() {
         bg-no-repeat bg-top bg-cover
         w-full min-h-screen text-white
         lg:pt-[150px] lg:pb-[10px]
-        2xl:pt-[200px] 2xl:pb-[40px]
+        2xl:pt-[197px] 2xl:pb-[40px]
       "
     >
     
@@ -21,7 +21,7 @@ export default function Soluciones() {
 
       <div className="flex flex-col pb-0">
           <HeroSection />
-          <div className="lg:mt-[-64px] 2xl:mt-[-130px]">
+          <div className="lg:mt-[-64px] 2xl:mt-[-128px]">
             <FormularioEmail />
           </div>
         </div>
@@ -30,8 +30,8 @@ export default function Soluciones() {
        
        <div className="flex flex-row justify-start items-start 
                        lg:mt-16 lg:py-16 lg:gap-x-6
-                       2xl:mt-32 2xl:py-20  2xl:gap-x-12">
-  <div className="lg:mt-4 2xl:-mt-12 flex justify-start lg:order-1 2xl:order-2 lg:-translate-x-[12px] 2xl:translate-x-[86px]">
+                       2xl:mt-28 2xl:py-20  2xl:gap-x-12">
+  <div className="lg:mt-4 2xl:-mt-12 flex justify-start lg:order-1 2xl:order-2 lg:-translate-x-[12px] 2xl:translate-x-[88px]">
     <h2 className="text-right drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]
     lg:text-[70px] lg:leading-[70px] lg:max-w-[487px]
     2xl:text-[102px] 2xl:leading-[110px] 2xl:max-w-[614px] ]">

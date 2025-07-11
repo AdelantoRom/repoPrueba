@@ -6,9 +6,9 @@ export default function ClientesLogos() {
     <div className="w-full flex justify-center pt-6 px-4">
       <div
         className="
-          flex flex-row items-center justify-between
+          flex flex-row items-center justify-start
           lg:w-[919px] lg:h-[60px] lg:gap-x-2 lg:-mt-10 lg:mb-6 lg:ml-16
-          2xl:w-[1645px] 2xl:h-[101px] 2xl:gap-x-6 2xl:mt-34 2xl:mb-22 2xl:ml-20
+          2xl:w-[1645px] 2xl:h-[101px] 2xl:gap-x-22 2xl:mt-34 2xl:mb-22 2xl:ml-20
         "
       >
         <div className="relative lg:w-[73px] lg:h-[45px] 2xl:w-[130px] 2xl:h-[76px]">
