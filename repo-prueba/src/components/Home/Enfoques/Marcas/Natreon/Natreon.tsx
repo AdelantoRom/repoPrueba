@@ -19,8 +19,8 @@ const PopupModalNatreon = ({ onClose }: Props) => {
                 </button>
                 <div className=' w-[650px] mx-4 max-xl:w-[450px]'>
                     <div className='w-[610px] h-[579px] ml-4 flex flex-col justify-around max-xl:w-[450px] max-2xl:w-[450px] max-2xl:justify-start'>
-                        <Link href={"/"} className='text-[#747474] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-4 max-2xl:mt-7 max-xl:mt-3 max-xl:mb-1'>Caso</Link>
-                        <h1 className="text-[36px] -mt-10 font-bold leading-[28px] max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mb-3 max-xl:mb-3">Un perfil de avanzada para alimentos más saludables</h1>
+                        <Link href={"/"} className='text-[#747474] -mt-[6px] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-4 max-2xl:mt-7 max-xl:mt-3 max-xl:mb-1'>Caso</Link>
+                        <h1 className="text-[36px] -mt-15 font-bold leading-[28px] max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mb-3 max-xl:mb-3">Un perfil de avanzada para alimentos más saludables</h1>
                         <p className=" text-[16px] -mt-10 leading-[24px] max-2xl:text-[18px] max-2xl:mb-3 max-xl:mb-0">
                             Dow AgroSciences, filial de Dow Chemical en Argentina, nos encargó el plan de marketing para la introducción del nuevo Aceite de Girasol de Alto Oleico Natreon en el mercado argentino.
                         </p>
