@@ -122,7 +122,7 @@ export default function Page() {
               width={505}
               height={505}
               className="absolute top-[45%] lg:top-[87%] 2xl:top-[69%] 2xl:left-[46%] z-10 transform -translate-x-[65%] -translate-y-1/2
-                pointer-events-none animate-spin [animation-direction:reverse] [animation-duration:150s]"
+                pointer-events-none animate-spin [animation-direction:reverse] [animation-duration:120s]"
             />
           </div>
           <div className="mt-[-24px] min-[768px]:mt-[60px] lg:mt-[120px] 2xl:-ml-[229px] 2xl:mt-[240px]">
