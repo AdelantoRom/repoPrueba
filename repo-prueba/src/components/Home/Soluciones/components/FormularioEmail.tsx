@@ -2,7 +2,7 @@ export default function FormularioEmail() {
   return (
 
     <div className="flex flex-col w-full  text-white 
-    lg:-mt-30
+    lg:-mt-[100px]
     2xl:-mt-[323px] 2xl:-ml-[5px] 2xl:max-w-[507px]">
       <h3 className="font-normal lg:text-[22px]  lg:leading-[24px] lg:mb-6 2xl:text-[20px] 2xl:leading-[28px] 2xl:mb-11">
 
@@ -16,15 +16,15 @@ export default function FormularioEmail() {
           type="email"
           placeholder="Email"
 
-          className="bg-transparent border rounded-md  text-white border-white placeholder-white focus:outline-none focus:border-[#00CED1] 
+          className="bg-transparent border rounded-md  text-white border-white placeholder-white font-medium focus:outline-none focus:border-[#00CED1] 
            lg:text-[22px] lg:leading-[32px] lg:py-2 lg:pl-4 lg:h-[46px] lg:w-[501px]
-          2xl:text-[22px] 2xl:leading-[32px] 2xl:py-2 2xl:pl-4 2xl:h-[48px] 2xl:w-[404px]"
+          2xl:text-[16px] 2xl:leading-[24px] 2xl:py-2 2xl:pl-6 2xl:h-[48px] 2xl:w-[404px]"
         />
         <button
           type="submit"
-          className="bg-white text-[18px] font-bold  rounded-[56px] 
+          className="bg-white lg:text-[22px] lg:leading-[25px] font-semibold 2xl:text-[18px] 2xl:leading-[24px] rounded-[56px] 
           lg:h-[38px] lg:w-[152px] lg:mt-14
-          2xl:h-[42px] 2xl:w-[186px] 2xl:mt-10"
+          2xl:h-[46px] 2xl:w-[186px] 2xl:mt-12"
 
           style={{ color: '#19B7CC' }}
         >
