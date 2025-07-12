@@ -16,7 +16,7 @@ export default function FormularioEmail() {
           type="email"
           placeholder="Email"
 
-          className="bg-transparent border rounded-md  text-white border-white placeholder-white font-medium focus:outline-none focus:border-[#00CED1] 
+          className="bg-transparent border rounded-md  text-white border-white placeholder-white font-normal focus:outline-none focus:border-[#00CED1] 
            lg:text-[22px] lg:leading-[32px] lg:py-2 lg:pl-4 lg:h-[46px] lg:w-[501px]
           2xl:text-[16px] 2xl:leading-[24px] 2xl:py-2 2xl:pl-6 2xl:h-[48px] 2xl:w-[404px]"
         />
