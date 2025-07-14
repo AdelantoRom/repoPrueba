@@ -15,7 +15,7 @@ export default function TransformacionDigital() {
       lg:text-[20px] lg:leading-[25px] 
       2xl:text-[20px] 2xl:leading-[28px]">
         En un entorno que evoluciona aceleradamente, la transformación digital permite a las empresas adaptarse 
-        rápidamente a las demandas del mercado. Rombux es tu socio estratégico en el mundo on line, ofreciéndote soluciones integrales y personalizadas para impulsar tu crecimiento y consolidar tu posición.
+        rápidamente a las demandas del mercado. Rombux es tu socio estratégico en el mundo online, ofreciéndote soluciones integrales y personalizadas para impulsar tu crecimiento y consolidar tu posición.
 </p>
 
 
