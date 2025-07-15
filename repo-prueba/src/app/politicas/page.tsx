@@ -3,11 +3,12 @@ import Footer from "@/components/Footer/Footer"
 
 function Politics() {
     return (
-        <div className="relative">
-            <Politicas />
-            <div className="absolute bottom-0 left-0 w-full z-50">
-                <Footer />
-            </div>
+        <div className="flex flex-col min-h-screen">
+            <main className="flex-grow">
+                <Politicas />
+            </main>
+
+            <Footer />
         </div>
     )
 }
