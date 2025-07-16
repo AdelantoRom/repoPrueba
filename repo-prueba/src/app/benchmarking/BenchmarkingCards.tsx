@@ -6,7 +6,7 @@ export default function BenchmarkingCards() {
       {/* Título */}
       <div className="mb-2 text-center mt-[2px]">
         <h1 className="font-light text-black text-[80px] leading-[80px] max-2xl:text-[67px] max-2xl:leading-[70px] max-lg:text-[36px]">
-          Análisis del negocio y propuesta de<br />
+          Análisis del negocio y <br className="max-2xl:hidden max-xl:inline " /> propuesta de<br className="max-xl:hidden"/>
           valor diferencial
         </h1>
       </div>
