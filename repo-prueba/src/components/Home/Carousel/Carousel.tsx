@@ -48,7 +48,7 @@ export default function Carousel() {
                         <img
                             src={src}
                             alt={alt}
-                            className="h-[284px] w-auto object-contain select-none"
+                            className="h-[284px] max-xl:h-[160px] w-auto object-contain select-none"
                             draggable={false}
                         />
                     </div>
