@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "@/components/Footer/Footer";
 
 export default function NotFound() {
     return (
-        <div className="relative w-full h-[800px] flex flex-col items-center justify-center text-white overflow-hidden">
+        <div className="relative w-full h-[800px] min-h-screen flex flex-col items-center justify-center text-white overflow-hidden">
             <div className="absolute inset-0 -z-10">
                 <Image
                     src="/gradiente1.png"
@@ -14,7 +15,7 @@ export default function NotFound() {
                 />
             </div>
 
-            <div className="z-10 text-center  mt-35">
+            <div className="z-10 text-center mb-40 mt-35">
                 <h1 className="text-[48px] font-bold leading-[48px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">Mmm... parece que se nos rompió algo.</h1>
                 <h2 className="text-[32px] leading-[48px] mt-2">Mientras lo reparamos, puedes encontrar lo que buscas aquí:</h2>
                 <div className="pt-15">
@@ -30,6 +31,9 @@ export default function NotFound() {
                         </button>
                     </Link>
                 </div>
+            </div>
+            <div className="absolute bottom-0 left-0 w-full z-50">
+                    <Footer />
             </div>
         </div>
     );
