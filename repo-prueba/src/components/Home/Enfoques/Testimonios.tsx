@@ -6,7 +6,7 @@ function Testimonios() {
         <div className='flex justify-center gap-x-17 bg-[#F4F0F0] mx-[104px] pb-[185px] max-2xl:mx-[20px] max-lg:mx-[20px]'>
             <div className="w-[400px] h-[620px] border border-[#C1C1C1] rounded-[40px] overflow-hidden shadow-sm max-2xl:w-[350px] max-xl:w-[290px] max-xl:h-[480px]">
                 <div className="px-[32px] pt-[40px] pb-[32px] flex flex-col h-full justify-center relative max-2xl:px-[30px] max-xl:px-[16px]">
-                    <p className="text-[#D81FB9] text-[48px] leading-[48px] italic rotate-180 inline-block absolute top-[35px] left-[44px] font-medium max-2xl:top-[-66px] max-xl:left-[30px] max-xl:top-[-6px]">
+                    <p className="text-[#D81FB9] text-[48px] leading-[48px] italic rotate-180 inline-block absolute top-[35px] left-[44px] font-medium max-2xl:top-[26px] max-xl:left-[30px] max-xl:top-[-6px]">
                         "
                     </p>
                     <p className="mt-[70px] text-[16px] mb-[31px] leading-[28px] text-black max-2xl:mt-[40px] max-xl:leading-[22px] max-xl:mt-[20px] max-xl:mb-[21px]">
@@ -29,7 +29,7 @@ function Testimonios() {
             <div className="w-[400px] h-[620px] border border-[#C1C1C1] rounded-[40px] overflow-hidden shadow-sm max-2xl:w-[350px] max-xl:w-[290px] max-xl:h-[480px]">
                 <div className="px-[32px] pt-[40px] pb-[32px] flex flex-col h-full justify-center relative max-2xl:px-[30px] max-xl:px-[16px]">
 
-                    <p className="text-[#D81FB9] text-[48px] leading-[48px] italic rotate-180 inline-block absolute top-[35px] left-[48px] font-medium max-2xl:top-[-66px] max-xl:left-[30px] max-xl:top-[-6px]">
+                    <p className="text-[#D81FB9] text-[48px] leading-[48px] italic rotate-180 inline-block absolute top-[35px] left-[48px] font-medium max-2xl:top-[26px] max-xl:left-[30px] max-xl:top-[-6px]">
                         "
                     </p>
 
@@ -54,7 +54,7 @@ function Testimonios() {
 
             <div className="w-[400px] h-[620px] border border-[#C1C1C1] rounded-[40px] overflow-hidden shadow-sm max-2xl:w-[350px] max-xl:w-[290px] max-xl:h-[480px]">
                 <div className="px-[32px] pt-[40px] pb-[32px] flex flex-col h-full justify-center relative max-2xl:px-[30px] max-xl:px-[16px]">
-                    <p className="text-[#D81FB9] text-[48px] leading-[48px] italic rotate-180 inline-block absolute top-[35px] left-[48px] font-medium max-2xl:top-[-66px] max-xl:left-[30px] max-xl:top-[-6px]">
+                    <p className="text-[#D81FB9] text-[48px] leading-[48px] italic rotate-180 inline-block absolute top-[35px] left-[48px] font-medium max-2xl:top-[16px] max-xl:left-[30px] max-xl:top-[-6px]">
                         "
                     </p>
 
