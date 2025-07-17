@@ -24,15 +24,15 @@ const PopupModalNatreon = ({ onClose }: Props) => {
                 </button>
                 <div className=' w-[650px] mx-4 max-xl:w-[450px]'>
                     <div className='w-[610px] h-[579px] ml-4 flex flex-col justify-around max-xl:w-[450px] max-2xl:w-[450px] max-2xl:justify-start'>
-                        <Link href={"/"} className='text-[#747474] -mt-[6px] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-4 max-2xl:mt-7 max-xl:mt-3 max-xl:mb-1'>Caso</Link>
-                        <h1 className="text-[36px] -mt-15 font-bold leading-[36px] max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mb-3 max-xl:mb-3">Un perfil de avanzada para alimentos más saludables</h1>
-                        <p className=" text-[16px] -mt-10 leading-[24px] max-2xl:text-[18px] max-2xl:mb-3 max-xl:mb-0">
+                        <Link href={"/"} className='text-[#747474] -mt-[6px] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-0 max-2xl:mt-7 max-xl:mt-7 max-xl:mb-0'>Caso</Link>
+                        <h1 className="text-[36px] -mt-15 font-bold leading-[36px] max-2xl:text-[30px] max-2xl:mt-3 max-xl:text-[24px] max-2xl:mb-3 max-xl:mb-1 max-xl:mt-1">Un perfil de avanzada para alimentos más saludables</h1>
+                        <p className=" text-[16px] -mt-10 leading-[24px] max-2xl:text-[18px] max-2xl:mt-3 max-2xl:mb-3 max-xl:mb-0 max-xl:mt-0 max-xl:w-[440px]">
                             Dow AgroSciences, filial de Dow Chemical en Argentina, nos encargó el plan de marketing para la introducción del nuevo Aceite de Girasol de Alto Oleico Natreon en el mercado argentino.
                         </p>
-                        <p className="text-[16px] -mt-10 leading-[24px] max-2xl:text-[18px] max-2xl:mb-3 max-xl:mb-0">
+                        <p className="text-[16px] -mt-10 leading-[24px] max-2xl:text-[18px] max-2xl:mt-3 max-2xl:mb-3 max-xl:mb-0 max-xl:mt-0 max-xl:w-[440px]">
                             Realizamos una investigación que nos permitió adecuar y rediseñar la marca para la presentación al consumidor local. Desarrollamos luego, la literatura que explica la problemática de la salud y alimentación y volcamos estos contenidos en un material de lectura bilingüe, que se convirtió en material de consulta y referencia general.
                         </p>
-                        <p className="italic text-[16px] font-medium mb-4 leading-[24px] max-2xl:text-[18px] max-2xl:mb-5">
+                        <p className="italic text-[16px] font-medium mb-4 leading-[24px] max-2xl:mt-3 max-2xl:text-[18px] max-2xl:mb-5 max-xl:mt-0 max-xl:w-[435px]">
                             A través de acciones de prensa, eventos y marketing outbound, penetramos el mercado y posicionamos al producto Natreon como líder indiscutido en la industria de alimentos procesados.
                         </p>
 
