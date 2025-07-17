@@ -22,7 +22,7 @@ const PopupModalHotel = ({ onClose }: Props) => {
                 </button>
                 <div className=' w-[650px] mx-4 max-xl:w-[450px]'>
                     <div className='w-[610px] h-[579px] ml-3 flex flex-col justify-around max-xl:w-[450px] max-2xl:w-[450px] max-2xl:justify-start'>
-                        <Link href={"/"} className='text-[#747474] mt-[5px] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-4 max-2xl:mt-7 max-xl:mt-3 max-xl:mb-2'>Caso</Link>
+                        <Link href={"/"} className='text-[#747474] mt-[5px] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-8 max-2xl:mt-7 max-xl:mt-3 max-xl:mb-2'>Caso</Link>
                         <h1 className="text-[36px] -mt-10 font-bold leading-[36px] w-[319px] max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mb-3 max-xl:mb-5">Hotel Marketing and Technology</h1>
                         <p className=" text-[16px] leading-[28px] -mt-6 max-2xl:text-[18px] max-2xl:mb-3 max-xl:mb-3">
                             HMandT es una empresa de servicios turísticos con base en Ontario-Canadá, dedicada al marketing de hoteles y reservas.</p>

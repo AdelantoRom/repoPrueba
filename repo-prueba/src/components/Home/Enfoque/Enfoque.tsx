@@ -72,5 +72,4 @@ function Enfoque() {
         </div>
     )
 }
-
 export default Enfoque
