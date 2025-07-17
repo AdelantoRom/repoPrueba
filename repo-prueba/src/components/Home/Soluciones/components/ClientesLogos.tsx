@@ -7,7 +7,7 @@ export default function ClientesLogos() {
       <div
         className="
           flex flex-row items-center justify-center
-          lg:w-[919px] lg:h-[60px] lg:gap-x-2 lg:-mt-10 lg:mb-6 lg:ml-16
+          lg:w-[919px] lg:h-[60px] lg:gap-x-14 lg:-mt-10 lg:mb-6 lg:ml-16
           2xl:w-[1645px] 2xl:h-[56px] 2xl:gap-x-30 2xl:mt-44 2xl:mb-16 2xl:-ml-[10px]
         "
       >

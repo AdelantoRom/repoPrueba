@@ -3,68 +3,104 @@ import Image from "next/image";
 
 export default function Formulario() {
   return (
-
     <div className="flex flex-col items-center pt-[40px] lg:flex-row lg:items-start lg:ml-[60px] lg:pt-[100px] gap-[40px] lg:gap-[60px] 2xl:ml-[290px] 2xl:pt-[192px]">
       {/* Columna izquierda */}
       <div>
-        <h1 className="text-black text-[40px] leading-[40px] w-[332px]
-          lg:text-[48px] lg:leading-[53px] lg:w-[500px]
-          2xl:text-[80px] 2xl:leading-[80px] 2xl:w-[1100px]
-          mb-[30px] lg:mb-[40px] 2xl:mb-[94px] 2xl:mb-">
+        <h1
+          className="text-black text-[40px] leading-[40px] w-[332px]
+          lg:text-[70px] lg:leading-[70px] lg:w-[677px] lg:font-light
+          2xl:text-[80px] 2xl:leading-[80px] 2xl:w-[1100px] 2xl:font-normal
+          mb-[30px] lg:mb-[40px] 2xl:mb-[94px]"
+        >
           Te acompañamos en tu desarrollo digital
-
         </h1>
 
-        <h2 className="text-[#D81FB9] text-[24px] leading-[29px] font-medium w-[351px]
-          lg:text-[48px] lg:leading-[53px] lg:font-medium
-          2xl:text-[48px] 2xl:leading-[48px]
-          mt-[20px] lg:mt-[30px] 2xl:font-normal">
+        <h2
+          className="text-[#D81FB9] text-[24px] leading-[29px] font-medium w-[351px] mt-[20px]
+          lg:text-[48px] lg:leading-[60px] lg:font-normal lg:mt-[75px]
+          2xl:text-[48px] 2xl:leading-[48px]  2xl:font-normal"
+        >
           Contáctanos
         </h2>
-        <form className="mt-[29px] flex flex-col space-y-[25px] ">
-          {["Nombre y Apellido*", "Email*", "Telefono*", "Empresa*"].map((placeholder, idx) => (
-            <input
-              key={idx}
-              type="text"
-              placeholder={placeholder}
-              className="w-[638px] h-[48px] border border-[#707070] rounded-[5px] font-medium text-[16px] leading-[24px] placeholder:text-gray-600 text-[#4B4B4B] bg-white pl-[24px]"
-            />
-          ))}
-          <div className="w-[638px] h-[340px] border border-[#707070] rounded-[5px] pt-[26px] pl-6 space-y-8 bg-white mt-8">
-            <p className="text-[16px] font-medium text-black mb-[26px] leading-[24px] tracking-normal">
+
+        <form className="mt-[29px] flex flex-col space-y-[25px]">
+          {["Nombre y Apellido*", "Email*", "Telefono*", "Empresa*"].map(
+            (placeholder, idx) => (
+              <input
+                key={idx}
+                type="text"
+                placeholder={placeholder}
+                className="w-[638px] h-[48px] border border-[#707070] rounded-[5px] text-[16px] leading-[24px] font-medium 
+                text-[#707070] placeholder:text-[#707070] bg-white pl-[24px]
+                lg:w-[610px] lg:text-[18px] lg:leading-[32px] lg:font-semibold"
+              />
+            )
+          )}
+
+          <div className="w-[638px] lg:w-[610px] border border-[#707070] rounded-[5px] bg-white p-[20px]">
+            <p
+              className="text-[16px] font-medium text-[#707070] mb-[16px] leading-[24px]
+              lg:text-[18px] lg:leading-[28px] lg:font-semibold"
+            >
               Área/s de servicios requeridos*
             </p>
-            {[
-              { bold: "Benchmarking", rest: " / Investigación de mercado y propuesta de valor." },
-              { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
-              { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
-              { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
-              { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
-            ].map(({ bold, rest }, idx) => (
-              <label key={idx} className="flex items-start space-x-[27px] text-[16px] text-black -mt-[2px]">
-                <input
-                  type="checkbox"
-                  className="w-[25px] h-[25px] border-1 border-black rounded-md appearance-none bg-white
-                                checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
-                                checked:after:flex checked:after:items-center checked:after:justify-center
-                                checked:after:w-full checked:after:h-full"
-                />
-                <span>
-                  <strong className="font-semibold">{bold}</strong>
-                  {rest}
-                </span>
-              </label>
-            ))}
+
+            <div className="flex flex-col gap-y-[4px]">
+              {[
+                {
+                  bold: "Benchmarking",
+                  rest: " / Investigación de mercado y propuesta de valor.",
+                },
+                {
+                  bold: "Branding",
+                  rest: " / Identidad, presencia digital, reputación.",
+                },
+                {
+                  bold: "Marketing Digital",
+                  rest: " / Conexión y adquisición de clientes.",
+                },
+                {
+                  bold: "Growth",
+                  rest: " / Crecimiento y posicionamiento de mercado.",
+                },
+                {
+                  bold: "Data + IA",
+                  rest: " / Información clave y automatización de procesos.",
+                },
+              ].map(({ bold, rest }, idx) => (
+                <label
+                  key={idx}
+                  className="flex items-start space-x-[16px] text-[16px] text-[#707070] leading-tight lg:text-[18px] lg:leading-[26px]"
+                >
+                  <input
+                    type="checkbox"
+                    className="w-[20px] h-[20px] border border-[#707070] rounded-md appearance-none bg-white
+            checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-base
+            checked:after:flex checked:after:items-center checked:after:justify-center
+            checked:after:w-full checked:after:h-full"
+                  />
+                  <span>
+                    <strong className="font-semibold">{bold}</strong>
+                    {rest}
+                  </span>
+                </label>
+              ))}
+            </div>
           </div>
-          <div className="w-[638px] h-[212px] border border-[#707070] rounded-[5px] p-3 bg-white  mt-8">
-            <textarea
-              id="mensaje"
-              name="mensaje"
-              required
-              className="w-full h-full pl-3 pt-3 text-[16px] font-bold placeholder:text-gray-500 text-[#4B4B4B] resize-none focus:outline-none bg-transparent"
-              placeholder="¿Por qué tema nos consultas?*"
-            />
-          </div>
+
+          <div className="w-[638px] lg:w-[610px] border border-[#707070] rounded-[5px] bg-white p-[20px]">
+  <textarea
+    id="mensaje"
+    name="mensaje"
+    required
+    className="w-full h-[150px] pl-0 pt-0 text-[16px] leading-[24px] font-medium text-[#707070] placeholder:text-[#707070]
+      resize-none focus:outline-none bg-transparent
+      lg:text-[18px] lg:leading-[32px] lg:font-semibold"
+    placeholder="¿Por qué tema nos consultas?*"
+  />
+</div>
+
+
           <div className="w-[638px] flex justify-start">
             <button
               type="submit"
@@ -75,31 +111,41 @@ export default function Formulario() {
           </div>
         </form>
       </div>
-      <div
-        className="relative hidden lg:block
-    lg:w-[400px] lg:h-[400px] lg:ml-[20px] 
-    2xl:w-[700px] 2xl:h-[700px] 2xl:ml-[-288px]"
-      >
-        {/* Esfera - más pequeña y detrás */}
-        <Image
-          src="/grupoesfera+halo.png"
-          alt="Grupo Formulario"
-          width={700}
-          height={700}
-          className="absolute top-[45%] lg:top-[87%] 2xl:top-[69%] 2xl:left-[50%] z-0 transform -translate-x-[65%] -translate-y-1/2 object-cover rounded-full
-      lg:w-[300px] lg:h-[300px]
-      2xl:w-[680px] 2xl:h-[680px]"
-        />
 
-        <Image
-          src="/Trama esfera celeste.png"
-          alt="Trama Formulario"
-          width={505}
-          height={505}
-          className="absolute top-[45%] lg:top-[87%] 2xl:top-[69%] 2xl:left-[46%] z-10 transform -translate-x-[65%] -translate-y-1/2
-      pointer-events-none animate-spin [animation-direction:reverse] [animation-duration:120s]"
-        />
-      </div>
+{/* Esfera */}
+<div
+  className="relative hidden lg:block
+             lg:w-[275px] lg:h-[275px] lg:ml-[-80px] lg:mt-[250px]
+             2xl:w-[520px] 2xl:h-[520px] 2xl:ml-[-320px] 2xl:mt-[230px]">
+  
+  {/* Imagen principal: personas */}
+  <Image
+    src="/grupoesfera+halo.png"
+    alt="Grupo Formulario"
+    width={800}
+    height={800}
+    className="absolute top-1/2 left-1/2 z-0
+               transform -translate-x-1/2 -translate-y-1/2
+               object-cover rounded-full
+               lg:w-[375px] lg:h-[375px]       
+               2xl:w-[680px] 2xl:h-[680px]"     
+  />
+
+  {/* Trama/red celeste */}
+  <Image
+    src="/Trama esfera celeste.png"
+    alt="Trama Formulario"
+    width={720}
+    height={720}
+    className="absolute top-1/2 left-1/2 z-10
+               transform -translate-x-1/2 -translate-y-1/2
+               pointer-events-none
+               animate-spin [animation-direction:reverse] [animation-duration:120s]
+               lg:w-[275px] lg:h-[275px]
+               2xl:w-[500px] 2xl:h-[500px]"
+  />
+</div>
+
 
     </div>
   );
