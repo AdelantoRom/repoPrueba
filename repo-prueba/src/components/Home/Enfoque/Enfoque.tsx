@@ -28,7 +28,7 @@ function Enfoque() {
                         />
                     </div>
                     <h4 className='text-[32px] text-center leading-[36px] max-2xl:text-[36px] max-2xl:leading-[36px] max-xl:mt-5'>01.</h4>
-                    <h4 className='text-[32px]  text-center leading-[36px] mb-6 max-2xl:text-[36px] max-2xl:leading-[36px]'>Estrategias
+                    <h4 className='text-[32px] xl:w-[218px] text-center leading-[36px] mb-6 max-2xl:text-[36px] max-2xl:leading-[36px]'>Estrategias
                         personalizadas</h4>
                     <p className='text-[20px] w-[364px] text-center leading-[28px] max-2xl:text-[20px] max-2xl:w-[281px] max-2xl:leading-[25px] max-xl:-mt-[10px]'>Cada plan es único. Trabajamos 1 a 1 con las empresas para posicionarlas y destacarlas en su sector.</p>
                 </div>
