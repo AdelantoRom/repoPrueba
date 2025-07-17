@@ -24,16 +24,16 @@ const PopupModalChile = ({ onClose }: Props) => {
                 <div className='w-[650px] mx-4 max-xl:w-[450px]'>
                     <div className='w-[606px] h-[679px] ml-4 flex flex-col justify-around max-xl:w-[450px] max-2xl:w-[450px] max-2xl:justify-start '>
 
-                        <Link href={"/"} className='text-[#747474] -mt-2 text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-4 max-2xl:mt-7 max-xl:mt-3 max-xl:mb-2'>Caso</Link>
+                        <Link href={"/"} className='text-[#747474] -mt-2 text-[20px] max-2xl:text-[19px] max-2xl:mt-4  max-xl:text-[16px] max-2xl:mb-1 max-2xl:mt-7 max-xl:mt-7 max-xl:mb-0'>Caso</Link>
 
-                        <h1 className="text-[36px] -mt-18 font-bold max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mb-3 max-xl:mb-5">De Chile con Amor</h1>
-                        <p className=" text-[16px] -mt-10 leading-[24px] max-2xl:text-[18px] max-2xl:mb-3 max-xl:mb-5">
+                        <h1 className="text-[36px] -mt-18 font-bold max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mt-1 max-2xl:mb-1 max-xl:mb-3">De Chile con Amor</h1>
+                        <p className=" text-[16px] -mt-10 leading-[24px] max-2xl:text-[18px] max-2xl:mb-3 max-2xl:mt-2 max-xl:mb-2 max-xl:w-[420px]">
                             Nos propusimos llevar ese sabor entrañable de las comidas chilenas a compatriotas de todo el mundo. Creamos un sitio web donde podías postular a un ser querido y participar para que Súper Pollo se encargara de llevarle un plato típico de la gastronomía chilena a cualquier lugar del planeta.
                         </p>
-                        <p className="italic -mt-10 mb-4 text-[16px] font-medium leading-[24px] max-2xl:text-[18px] max-2xl:mb-3 max-xl:mb-6">
+                        <p className="italic -mt-10 mb-4 text-[16px] font-medium leading-[24px] max-2xl:text-[18px] max-2xl:mt-2 max-2xl:mb-3 max-xl:mt-0 max-xl:mb-2 max-xl:w-[420px]">
                             Cientos de personas se inscribieron y un mes después viajamos a New York y Toronto, contactamos a dos chef chilenos y grabamos una linda sorpresa.
                         </p>
-                        <div className="mb-4 text-[16px] leading-[24px] max-2xl:text-[16px] max-2xl:mb-5 max-xl:mb-0">
+                        <div className="mb-4 text-[16px] leading-[22px] max-2xl:text-[16px] max-2xl:mb-12 max-xl:mb-0">
                             <p className='font-medium'>Resultados:</p>
                             <p>• 500.000 visualizaciones en Facebook (497.371).</p>
                             <p>• 10.000 visualizaciones en YouTube.</p>
