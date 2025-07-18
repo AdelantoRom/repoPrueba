@@ -32,7 +32,7 @@ const PopupModalNatreon = ({ onClose }: Props) => {
                         <p className="text-[16px] -mt-10 leading-[24px] max-2xl:text-[18px] max-2xl:mt-3 max-2xl:mb-3 max-xl:mb-0 max-xl:mt-0 max-xl:w-[440px]">
                             Realizamos una investigación que nos permitió adecuar y rediseñar la marca para la presentación al consumidor local. Desarrollamos luego, la literatura que explica la problemática de la salud y alimentación y volcamos estos contenidos en un material de lectura bilingüe, que se convirtió en material de consulta y referencia general.
                         </p>
-                        <p className="italic text-[16px] font-medium mb-4 leading-[24px] max-2xl:mt-3 max-2xl:text-[18px] max-2xl:mb-5 max-xl:mt-0 max-xl:w-[435px]">
+                        <p className="italic text-[16px] font-medium mb-4 leading-[24px] max-2xl:mt-3 max-2xl:mb-5 max-xl:mt-0 max-xl:w-[435px]">
                             A través de acciones de prensa, eventos y marketing outbound, penetramos el mercado y posicionamos al producto Natreon como líder indiscutido en la industria de alimentos procesados.
                         </p>
 
