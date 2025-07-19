@@ -15,8 +15,8 @@ export default function BrandingCards() {
       <div className="grid grid-cols-3 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px]">
         {/* Tarjeta 1 */}
         <div
-          className="relative top-[50px] w-[427px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center max-xl:w-[292px] max-lg:max-w-[230px]"
-          style={{ backgroundImage: "url('/gradiente-desktop.png')", height: '188px' }}
+          className="relative top-[50px] w-[427px] h-[188px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center max-xl:w-[292px] max-lg:max-w-[230px]"
+          style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left -ml-[6px] py-10 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-3 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-4">
             Programas de conversión y performance para adquirir y fidelizar clientes, mediante automatización y CRM.

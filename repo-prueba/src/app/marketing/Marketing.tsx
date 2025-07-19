@@ -7,11 +7,11 @@ export default function Data() {
     <div className="relative w-full">
       <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px]">
 
-        <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-lg:ml-[20px] ">
+        <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-xl:ml-[100px] max-lg:ml-[20px] ">
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[40px]">
             Marketing Digital
           </h2>
-          <p className="font-light italic text-[24px] leading-[28px] w-[550px] max-xl:w-[365px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px]">
+          <p className="font-light italic text-[24px] leading-[28px] w-[550px] max-2xl:w-[365px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px]">
             Conecta con tu público allí donde está y
             desata el potencial único de tu marca.
           </p>
@@ -24,7 +24,7 @@ export default function Data() {
             alt="Ellipse"
             width={1050}
             height={1050}
-            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-455px] max-xl:top-[-455px] max-lg:w-[699px] max-lg:top-[-375px]"
+            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-483px]  max-lg:w-[699px] max-lg:top-[-375px]"
           />
         </div>
 
