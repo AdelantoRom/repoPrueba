@@ -18,27 +18,27 @@ export default function Grid() {
                 className="object-cover rounded-lg max-2xl:w-[1200px] max-xl:w-[900px]"
             />
 
-            <div className="absolute -left-[10px] -top-[10px] max-xl:top-[-10px] max-xl:left-[-10px]">
+            <div className="absolute -left-[10px] -top-[10px] max-2xl:-left-[14px] max-xl:top-[-20px] max-xl:left-[-20px]">
                 <ButtonHp />
             </div>
 
-            <div className="absolute left-[1455px] -top-[10px] max-2xl:left-[1080px] max-xl:left-[800px] max-xl:top-[-10px] ">
+            <div className="absolute left-[1455px] -top-[10px] max-2xl:left-[1110px] max-xl:left-[820px] max-xl:top-[-20px] ">
                 <ButtonChile />
             </div>
 
-            <div className="absolute -left-[10px] top-[490px] max-2xl:top-[380px] max-xl:top-[280px] max-xl:left-[-10px]">
+            <div className="absolute -left-[10px] top-[490px] max-2xl:top-[380px] max-2xl:-left-[14px] max-xl:top-[275px] max-xl:left-[-20px]">
                 <ButtonClinic />
             </div>
 
-            <div className="absolute top-[330px] left-[1455px] max-2xl:left-[1080px] max-2xl:top-[280px] max-xl:left-[800px] max-xl:top-[200px] ">
+            <div className="absolute top-[330px] left-[1455px] max-2xl:left-[1110px] max-2xl:top-[260px] max-xl:left-[820px] max-xl:top-[180px] ">
                 <ButtonNatreon />
             </div>
 
-            <div className="absolute -left-[10px] top-[1180px] max-2xl:top-[870px] max-xl:top-[650px] max-xl:left-[-10px]">
+            <div className="absolute -left-[10px] top-[1180px] max-2xl:top-[900px] max-2xl:-left-[14px] max-xl:top-[660px] max-xl:left-[-20px]">
                 <ButtonHotel />
             </div>
 
-            <div className="absolute top-[1180px] left-[1455px] max-2xl:left-[1080px] max-2xl:top-[870px] max-xl:left-[800px] max-xl:top-[650px]">
+            <div className="absolute top-[1180px] left-[1455px] max-2xl:left-[1110px] max-2xl:top-[900px] max-xl:left-[820px] max-xl:top-[660px]">
                 <ButtonBintelligenz />
             </div>
         </div>
