@@ -65,7 +65,7 @@ function Enfoque() {
                     <h4 className='text-[32px] text-center leading-[36px] max-2xl:text-[36px] max-2xl:leading-[36px] max-xl:mt-5'>03.</h4>
                     <h4 className='text-[32px] w-[202px] text-center leading-[36px] mb-6 max-2xl:text-[36px] max-2xl:leading-[36px]'>Resultados
                         medibles</h4>
-                    <p className='text-[20px] w-[400px] text-center leading-[28px] max-2xl:text-[20px] max-2xl:w-[281px] max-2xl:leading-[25px] max-xl:-mt-[10px]'>Basándonos en datos cuantificables, evaluamos el impacto y ajustamos las acciones de manera precisa y escalable.</p>
+                    <p className='text-[20px] w-[400px] text-center leading-[28px] max-2xl:text-[20px] max-2xl:w-[320px] max-2xl:leading-[25px] max-xl:-mt-[10px]'>Basándonos en datos cuantificables, evaluamos el impacto y ajustamos las acciones de manera precisa y escalable.</p>
                 </div>
             </div>
 
