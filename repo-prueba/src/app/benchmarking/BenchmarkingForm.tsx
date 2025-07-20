@@ -23,9 +23,9 @@ export default function BenchmarkingForm() {
 
       <div className="w-[1145px] flex items-center justify-center ml-6">
         <h3 className="text-[24px] leading-[28px] text-center text-white">
-          Somos un grupo de profesionales especializados en escalar
-          empresas y startups, unidos bajo una misma cultura: lograr el
-          liderazgo desde una sólida propuesta de valor.
+          Somos un grupo de profesionales especializados en <br className="2xl:hidden"/> escalar
+          empresas y startups, unidos bajo una misma <br className="2xl:hidden"/> cultura: lograr el
+          liderazgo desde una sólida propuesta <br className="2xl:hidden"/> de valor.
         </h3>
       </div>
 
