@@ -31,15 +31,37 @@ export default function DataForm() {
 
 
       <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px]">
-        {/* Imagen de fondo */}
-        <Image
-          src="/Rectangle 38.png"
-          alt="Fondo"
-          width={563}
-          height={130}
-          className="object-cover rounded-[5px] max-lg:w-[479px]"
-        />
-      </div>
+              <Image
+                src="/Rectangle 38.png"
+                alt="Decoración Benchmarking"
+                width={563}
+                height={130}
+                unoptimized
+                className="max-lg:w-[479px]"
+              />
+              <Image
+                src="/hugo.png"
+                alt="Hugo"
+                width={116}
+                height={116}
+                className="absolute top-[8px] left-[9px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
+              />
+              <Image
+                src="/dataialead.png"
+                alt="Logo In"
+                width={212}
+                height={59}
+                className="absolute top-[45px] left-[169px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
+              />
+
+              <Image
+                src="/logoin.png"
+                alt="Logo In"
+                width={35}
+                height={35}
+                className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
+              />
+            </div>
 
       <div className="absolute top-[688px] left-[1389px] z-0">
         <Image
