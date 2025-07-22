@@ -28,13 +28,13 @@ export default function ClientesLogos() {
           <Image src="/Granix.png" alt="Imagen Granix" fill className="object-contain" />
         </div>
         <div className="relative lg:w-[68px] lg:h-[21px] 2xl:w-[109px] 2xl:h-[32px]">
-          <Image src="/The Clinic blanco.png" alt="Imagen The Clinic" fill className="object-contain" />
+          <Image src="/The Clinic blanco.png" alt="Imagen The Clinic" width={109} height={32} className="object-contain" />
         </div>
         <div className="relative lg:w-[85px] lg:h-[31px] 2xl:w-[116px] 2xl:h-[40px]">
-          <Image src="/Advanta blanco.png" alt="Imagen Advanta" fill className="object-contain" />
+          <Image src="/Advanta blanco.png" alt="Imagen Advanta" width={116} height={40} className="object-contain" />
         </div>
         <div className="relative lg:w-[33px] lg:h-[34px] 2xl:w-[41px] 2xl:h-[40px]">
-          <Image src="/Bi blanco.png" alt="Imagen Bi" fill className="object-contain" />
+          <Image src="/Bi blanco.png" alt="Imagen Bi" width={41} height={40} className="object-contain" />
         </div>
       </div>
     </div>
