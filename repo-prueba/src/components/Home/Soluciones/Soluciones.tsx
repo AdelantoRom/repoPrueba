@@ -8,7 +8,7 @@ export default function Soluciones() {
   return (
     <main
       className="
-        bg-[url('/gradiente-desktop.png')]
+        bg-[url('/gradiente1.png')]
         bg-no-repeat bg-top bg-cover
         w-full min-h-screen text-white
         lg:pt-[150px] lg:pb-[10px]

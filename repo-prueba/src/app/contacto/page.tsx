@@ -124,9 +124,9 @@ export default function Page() {
               </a>
 
               <div className="w-[200px] text-[#707070] leading-[32px] 2xl:w-auto">
-                <p className="text-[24px] font-bold mt-4 mb-6 min-[768px]:text-[24px] 2xl:text-[24px] 2xl:-mt-5">
+                <h3 className="text-[24px] font-bold mt-4 mb-6 min-[768px]:text-[24px] 2xl:text-[24px] 2xl:-mt-5">
                   Oficina:
-                </p>
+                </h3>
                 <p className="text-[20px] font-normal mb-12 min-[768px]:text-[22px] 2xl:text-[24px] 2xl:mb-16 2xl:font-normal 2xl:leading-[28px]">
                   Lezica 4363,
                   <br />
