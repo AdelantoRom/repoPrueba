@@ -25,7 +25,7 @@ function Enfoques() {
 
             {/* Grid alineado */}
             <div className="flex justify-center mt-[28px] mb-[60px]">
-                <div className="w-[1544px] max-2xl:w-[1200px] max-xl:w-[900px]">
+                <div className="w-[1520px] max-2xl:w-[1200px] max-xl:w-[900px]">
                     <Grid />
                 </div>
             </div>

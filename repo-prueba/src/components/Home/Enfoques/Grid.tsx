@@ -13,7 +13,7 @@ export default function Grid() {
                 src="/CuadroPortfolios.png"
                 alt="Portfolios"
                 
-                width={1544}
+                width={1520}
                 height={1260}
                 className="object-cover rounded-lg max-2xl:w-[1200px] max-xl:w-[900px]"
             />
@@ -22,7 +22,7 @@ export default function Grid() {
                 <ButtonHp />
             </div>
 
-            <div className="absolute left-[1455px] -top-[10px] max-2xl:left-[1110px] max-xl:left-[820px] max-xl:top-[-20px] ">
+            <div className="absolute left-[1430px] -top-[10px] max-2xl:left-[1110px] max-xl:left-[820px] max-xl:top-[-20px] ">
                 <ButtonChile />
             </div>
 
@@ -30,15 +30,15 @@ export default function Grid() {
                 <ButtonClinic />
             </div>
 
-            <div className="absolute top-[330px] left-[1455px] max-2xl:left-[1110px] max-2xl:top-[260px] max-xl:left-[820px] max-xl:top-[180px] ">
+            <div className="absolute top-[330px] left-[1430px] max-2xl:left-[1110px] max-2xl:top-[260px] max-xl:left-[820px] max-xl:top-[180px] ">
                 <ButtonNatreon />
             </div>
 
-            <div className="absolute -left-[10px] top-[1180px] max-2xl:top-[900px] max-2xl:-left-[14px] max-xl:top-[660px] max-xl:left-[-20px]">
+            <div className="absolute -left-[10px] top-[1170px] max-2xl:top-[900px] max-2xl:-left-[14px] max-xl:top-[660px] max-xl:left-[-20px]">
                 <ButtonHotel />
             </div>
 
-            <div className="absolute top-[1180px] left-[1455px] max-2xl:left-[1110px] max-2xl:top-[900px] max-xl:left-[820px] max-xl:top-[660px]">
+            <div className="absolute top-[1170px] left-[1430px] max-2xl:left-[1110px] max-2xl:top-[900px] max-xl:left-[820px] max-xl:top-[660px]">
                 <ButtonBintelligenz />
             </div>
         </div>
