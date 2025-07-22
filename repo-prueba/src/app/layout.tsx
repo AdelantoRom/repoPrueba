@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navBar/NavBar";
-import Footer from "@/components/Footer/Footer";
+import Navbar from "../components/NavBar/NavBar"
+
 
 
 const albertSans = Albert_Sans({

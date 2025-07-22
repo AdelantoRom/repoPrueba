@@ -8,7 +8,7 @@ export default function Footer() {
 <div className="hidden 2xl:flex w-full h-[277px] bg-[#060114] items-center">
   <div className="max-w-[1920px] w-full mx-auto flex justify-between items-center px-[300px]">
 
-    {/* Logo + Soluciones */}
+  git add
     <Link href="/" className="flex flex-col">
       <Image
         src="/Logo Rombux fucsia.png"
