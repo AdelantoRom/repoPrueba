@@ -12,7 +12,7 @@ export default function Data() {
             Data + IA
           </h2>
           <p className="font-light italic text-[24px] leading-[28px] w-[550px] max-xl:w-[350px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px]">
-            Dirige tu expansión con información clave y
+            Dirige tu expansión con información clave <br />y
             conocimiento predictivo.
           </p>
         </div>
@@ -23,7 +23,7 @@ export default function Data() {
             alt="Ellipse"
             width={1050}
             height={1050}
-            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-455px] max-xl:top-[-455px] max-lg:w-[699px] max-lg:top-[-375px]"
+            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-483px] max-lg:w-[699px] max-lg:top-[-375px]"
           />
         </div>
 

@@ -27,16 +27,16 @@ const PopupModal = ({ onClose }: Props) => {
                             <Link href={"/"} className='text-[#747474] text-[20px] max-2xl:text-[19px] max-xl:text-[16px]  max-2xl:mt-7 max-xl:mt-3 max-xl:mb-2'>Caso</Link>
                         </div>
                         <h1 className="text-[36px] -mt-8 font-bold max-2xl:-mt-1 max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mb-[11px] max-xl:mb-5">HP Programa Premier A3</h1>
-                        <p className="text-[16px] font-light max-2xl:text-[18px] max-2xl:mb-0 max-xl:mb-5 max-xl:w-[390px]">
+                        <p className="text-[16px] font-light max-2xl:mb-0 max-xl:mb-5 max-xl:w-[390px]">
                             En su búsqueda por reinventar el mercado de impresión en América Latina, HP ofrece el más completo
                             portafolio de impresión en formato A3 en el mundo. Los Canales Premier A3 ya operan en México, Brasil,
                             Colombia, Perú, Chile y Argentina.
                         </p>
-                        <p className="italic mr-5 text-[16px] font-medium max-2xl:text-[18px]  max-2xl:mr-0 max-2xl:mb-3 max-xl:mb-0">
+                        <p className="italic mr-5 text-[16px] font-medium  max-2xl:mr-0 max-2xl:mb-3 max-xl:mb-0">
                             “En Rombux encontramos una respuesta de alta calidad, flexible y de rápida resolución para la presentación
                             en nuestro país del programa de HP PremierA3.”
                         </p>
-                        <div className="mb-20 mt-10 text-[16px] max-2xl:text-[16px] max-2xl:mb-5 max-xl:mb-0 max-xl:mt-8">
+                        <div className="mb-20 mt-10 text-[16px] max-2xl:text-[14px] max-2xl:mb-5 max-xl:mb-0 max-xl:mt-8">
                             <p>Gustavo Zurueta, Director <br className='max-xl:hidden' /> Ejecutivo de Procopias, <br className='max-xl:hidden' /> representante de HP <br className='max-xl:hidden'/> Premier A3 en Argentina.</p>
                             
                         </div>

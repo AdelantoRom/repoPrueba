@@ -7,7 +7,7 @@ export default function Soluciones() {
   return (
     <main
       className="
-        bg-[url('/gradiente-desktop.png')]
+        bg-[url('/gradiente13.png')]
         bg-no-repeat bg-top bg-cover
         w-full min-h-screen text-white
         pt-[50px] pb-[20px]
@@ -15,7 +15,11 @@ export default function Soluciones() {
         2xl:pt-[197px] 2xl:pb-[40px]
       "
     >
-    <div className="px-1 lg:px-[104px] 2xl:px-[296px]">
+
+    
+      <div className="lg:pl-26 lg:pr-8 
+                      2xl:pl-74 2xl:pr-10 custom-herotext">
+
 
         {/* Hero + Formulario */}
         <div className="flex flex-col pb-0">

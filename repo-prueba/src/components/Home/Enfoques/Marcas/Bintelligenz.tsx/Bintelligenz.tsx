@@ -24,12 +24,12 @@ const PopupModalBintelligenz = ({ onClose }: Props) => {
                     <div className='w-[603px] ml-3 h-[579px] flex flex-col justify-around max-xl:w-[450px] max-2xl:w-[450px] max-2xl:justify-start'>
                         <Link href={"/"} className='text-[#747474] mt-[5px] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-0 max-2xl:mt-7 max-xl:mt-7'>Caso</Link>
                         <h1 className="text-[36px] -mt-10 font-bold mb-4 leading-[36px] max-2xl:text-[30px] max-2xl:mt-3 max-xl:text-[24px] max-2xl:mb-0 max-xl:mt-[6px]">Bintelligenz (antes y después)</h1>
-                        <p className="mb-1 text-[16px] -mt-5 leading-[24px] max-2xl:text-[18px] max-2xl:mb-3 max-2xl:mt-4 max-xl:mb-5">
+                        <p className="mb-1 text-[16px] -mt-5 leading-[24px]  max-2xl:mb-3 max-2xl:mt-4 max-xl:mb-5">
                             El cliente necesitaba relanzar su oferta de servicios y conectar con el público. Le propusimos analizar a fondo el mercado de Business Intelligence (BI), benchmarking y buyer cliente para actualizar su propuesta de valor.</p>
-                        <p className="mb-5 text-[16px] -mt-5 leading-[24px] max-2xl:text-[18px] max-2xl:mt-4 max-2xl:mb-0 max-xl:mt-1">
+                        <p className="mb-5 text-[16px] -mt-5 leading-[24px] max-2xl:mt-4 max-2xl:mb-0 max-xl:mt-1">
                             El resultado fue un cambio profundo de su identidad, a partir de la adopción de la sigla “BI” en su logo, y la renovación completa de su imagen y sus activos digitales.
                         </p>
-                        <p className="italic mb-20 text-[16px] font-medium leading-[28px] w-[300px] max-2xl:text-[18px] max-2xl:mt-4 max-2xl:mb-10 max-xl:mt-5">
+                        <p className="italic mb-20 text-[16px] font-medium leading-[28px] w-[300px]  max-2xl:mt-4 max-2xl:mb-10 max-xl:mt-5">
                             En la imagen superior el “antes”
                             y en la inferior el “después”.
                         </p>
