@@ -56,7 +56,7 @@ export default function About_Us() {
           >
             <div className="relative">
               <Image src={member.photo} alt={member.name} width={201} height={201} className={`object-cover transition-transform duration-300 ${index === 1 ? 'w-[212px]' : ''} ${index === 2 ? 'w-[212px]' : ''} `} />
-              <div className={`absolute bottom-[0px] right-[0px] ${index === 1 ? 'top-[168px]' : ''}  ${index === 2 ? 'top-[168px]' : ''} ${index === 2 ? 'left-[160px]' : ''} ${index === 1 ? 'left-[153px]' : ''}`}>
+              <div className={`absolute bottom-[0px] right-[0px] ${index === 1 ? 'top-[168px]' : ''}  ${index === 2 ? 'top-[168px]' : ''} ${index === 2 ? 'left-[160px]' : ''} ${index === 1 ? 'left-[168px]' : ''}`}>
                 <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full" />
               </div>
             </div>

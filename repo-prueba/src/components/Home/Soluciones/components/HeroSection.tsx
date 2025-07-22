@@ -25,7 +25,8 @@ export default function HeroSection() {
       </div>
 
       <div className="relative overflow-visible 
-  lg:-translate-x-30 lg:-translate-y-21 
+  lg:-translate-x-30 lg:-translate-y-21
+  xl:-translate-x-19  
   2xl:-translate-x-18 2xl:-translate-y-43">
         <div className="lg:w-[540px] lg:h-[540px] xl:w-[600px] xl:h-[600px] 2xl:w-[1005px] 2xl:h-[1005px] custom-woman-two custom-image  ">
 
