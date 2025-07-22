@@ -13,16 +13,16 @@ export default function ClientesLogos() {
       >
         <div className="relative lg:w-[73px] lg:h-[45px] 2xl:w-[96px] 2xl:h-[56px]">
 
-          <Image src="/image 48.png" alt="Imagen HP" fill className="object-contain" />
+          <Image src="/hpblanco.png" alt="Imagen HP" width={96} height={56} className="object-contain" />
         </div>
         <div className="relative lg:w-[121px] lg:h-[19px] 2xl:w-[167px] 2xl:h-[25px]">
-          <Image src="/DowAgro.png" alt="Imagen Dow Agro" fill className="object-contain" />
+          <Image src="/DowAgroSciences.svg" width={164} height={25} alt="Imagen Dow Agro"  className="object-contain" />
         </div>
         <div className="relative lg:w-[68px] lg:h-[60px] 2xl:w-[71px] 2xl:h-[56px]">
-          <Image src="/Group.png" alt="Imagen Super Pollo" fill className="object-contain" />
+          <Image src="/superpollo.svg" alt="Imagen Super Pollo" width={72} height={56}  className="object-contain" />
         </div>
         <div className="relative lg:w-[56px] lg:h-[40px] 2xl:w-[82px] 2xl:h-[56px]">
-          <Image src="/Amarula blanco.png" alt="Imagen Amarula" fill className="object-contain" />
+          <Image src="/Amarula blanco.png" alt="Imagen Amarula" width={100} height={55} className="object-contain" />
         </div>
         <div className="relative lg:w-[68px] lg:h-[48px] 2xl:w-[100px] 2xl:h-[55px]">
           <Image src="/Granix.png" alt="Imagen Granix" fill className="object-contain" />

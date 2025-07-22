@@ -1,17 +1,15 @@
 import TyC from "@/components/TyC/TyC";
 import Footer from "@/components/Footer/Footer";
 
-import React from 'react'
+import React from 'react';
 
 function page() {
     return (
-        <div className="relative">
+        <div className="flex flex-col min-h-screen">
             <TyC />
-            <div className="absolute bottom-0 left-0 w-full z-50">
-                <Footer />
-            </div>
+            <Footer />
         </div>
-    )
+    );
 }
 
-export default page
+export default page;
