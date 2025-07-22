@@ -8,7 +8,7 @@ export default function Soluciones() {
   return (
     <main
       className="
-        bg-[url('/gradiente1.png')]
+        bg-[url('/gradiente13.png')]
         bg-no-repeat bg-top bg-cover
         w-full min-h-screen text-white
         lg:pt-[150px] lg:pb-[10px]
@@ -17,7 +17,7 @@ export default function Soluciones() {
     >
     
       <div className="lg:pl-26 lg:pr-8 
-                      2xl:pl-74 2xl:pr-10">
+                      2xl:pl-74 2xl:pr-10 custom-herotext">
 
       <div className="flex flex-col pb-0">
           <HeroSection />

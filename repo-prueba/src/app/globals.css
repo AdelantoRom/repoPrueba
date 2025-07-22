@@ -15,7 +15,23 @@
   }
 }
 
+@media (max-width: 1860px) {
+  .custom-image {
+    width: 700px;
+  }
+}
 
+@media (max-width: 1860px) {
+  .custom-red {
+    width: 550px;;
+  }
+}
+
+@media (max-width: 1800px) {
+  .custom-herotext {
+    padding-left: 100px;
+  }
+}
 
 @theme inline {
   --color-background: var(--background);

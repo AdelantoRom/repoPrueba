@@ -12,22 +12,22 @@ export default function HeroSection() {
         2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-[50px]">
           Soluciones Digitales de Negocios
         </h2>
-      <h1 className="
+        <h1 className="
   font-normal 
   drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]
   text-[42px] leading-[48px] w-[300px]
   lg:text-[70px] lg:leading-[70px] lg:w-[503px]
   2xl:text-[102px] 2xl:leading-[110px] 2xl:w-[740px]
 ">
-  Potenciamos<br />tu Empresa<br />en la Era Digital
-</h1>
+          Potenciamos<br />tu Empresa<br />en la Era Digital
+        </h1>
 
       </div>
 
- <div className="relative overflow-visible 
+      <div className="relative overflow-visible 
   lg:-translate-x-6 lg:-translate-y-26 
   2xl:-translate-x-18 2xl:-translate-y-43">
-        <div className="lg:w-[540px] lg:h-[540px] 2xl:w-[1005px] 2xl:h-[1005px] ">
+        <div className="lg:w-[540px] lg:h-[540px] 2xl:w-[1005px] 2xl:h-[1005px] custom-image ">
 
           <Image
             src="/womanesfera+halo.png"
@@ -37,23 +37,23 @@ export default function HeroSection() {
             unoptimized
           />
         </div>
-       <div className="
+        <div className="
   absolute top-1/2 left-1/2 z-20 
   -translate-x-1/2 -translate-y-1/2 
   w-[200px] h-[200px]
   lg:w-[406px] lg:h-[406px] 
-  2xl:w-[756px] 2xl:h-[756px]
+  2xl:w-[756px] 2xl:h-[756px] custom-red
   animate-spin 
   [animation-direction:reverse] [animation-duration:120s]
 ">
-  <Image
-    src="/redfucsia.png"
-    alt="Red giratoria"
-    fill
-    className="object-contain"
-    priority
-  />
-</div>
+          <Image
+            src="/redfucsia.png"
+            alt="Red giratoria"
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
 
       </div>
 
