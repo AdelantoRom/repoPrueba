@@ -1,28 +1,67 @@
 export default function TransformacionDigital() {
   return (
-
     <div className="flex flex-col 
-    lg:max-w-[440px] 2xl:max-w-[582px] 2xl:order-1 2xl:space-y-6 2xl:-mt-[36px] -ml-[2px]">
+      lg:w-[440px] 2xl:w-[582px] 
+      2xl:order-1 2xl:space-y-6 2xl:-mt-[36px] -ml-[2px]">
 
-       
-      <h2 className="font-normal
-      lg:text-[24px] lg:leading-[25px] lg:mb-2 lg:mt-4 
-      2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-10 2xl:mt-8">
-        Transformación Digital
-      </h2>
-
-      <p className="font-normal text-left
-      lg:text-[20px] lg:leading-[25px] 
-      2xl:text-[20px] 2xl:leading-[28px]">
-        En un entorno que evoluciona aceleradamente, la transformación digital permite a las empresas adaptarse 
-        rápidamente a las demandas del mercado. Rombux es tu socio estratégico en el mundo online, ofreciéndote soluciones integrales y personalizadas para impulsar tu crecimiento y consolidar tu posición.
+      {/* Mobile ONLY */}
+     <div className="block lg:hidden text-right max-w-full h-[126px]">
+       <p className="text-[18px] leading-[22px] font-normal">
+  <strong>Rombux es tu socio estratégico en el<br />
+  mundo on line</strong>, ofreciéndote soluciones<br />
+  personalizadas e integrales para<br />
+  impulsar tu crecimiento y consolidar tu<br />
+  posición.
 </p>
 
+      </div>
 
+      {/* Tablet & Desktop ONLY */}
+      <div className="hidden lg:block lg:w-[440px] lg:[227px]">
+        <h2 className="font-normal
+          lg:text-[24px] lg:leading-[25px] lg:mb-2 lg:mt-4 
+          2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-10 2xl:mt-8 text-left">
+          Transformación Digital
+        </h2>
+
+        <p className="font-normal text-left
+          lg:text-[20px] lg:leading-[25px]
+          2xl:text-[20px] 2xl:leading-[28px]
+          2xl:w-[570px]">
+          En un entorno que evoluciona aceleradamente, la transformación digital permite a las empresas adaptarse 
+          rápidamente a las demandas del mercado. Rombux es tu socio estratégico en el mundo online, ofreciéndote soluciones integrales y personalizadas para impulsar tu crecimiento y consolidar tu posición.
+        </p>
+      </div>
     </div>
-
   );
 }
+
+
+// export default function TransformacionDigital() {
+//   return (
+
+//     <div className="flex flex-col 
+//     lg:max-w-[440px] 2xl:max-w-[582px] 2xl:order-1 2xl:space-y-6 2xl:-mt-[36px] -ml-[2px]">
+
+       
+//       <h2 className="font-normal
+//       lg:text-[24px] lg:leading-[25px] lg:mb-2 lg:mt-4 
+//       2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-10 2xl:mt-8">
+//         Transformación Digital
+//       </h2>
+
+//       <p className="font-normal text-left
+//       lg:text-[20px] lg:leading-[25px] 
+//       2xl:text-[20px] 2xl:leading-[28px]">
+//         En un entorno que evoluciona aceleradamente, la transformación digital permite a las empresas adaptarse 
+//         rápidamente a las demandas del mercado. Rombux es tu socio estratégico en el mundo online, ofreciéndote soluciones integrales y personalizadas para impulsar tu crecimiento y consolidar tu posición.
+// </p>
+
+
+//     </div>
+
+//   );
+// }
 
 // export default function TransformacionDigital() {
 //   return (

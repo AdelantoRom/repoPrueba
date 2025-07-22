@@ -21,12 +21,12 @@ export default function Navbar() {
           alt="Logo Rombux"
           width={212}
           height={34}
-          className="ml-4 lg:ml-16 2xl:ml-37 w-[141px] h-[23px] 2xl:w-[212px] 2xl:h-[34px]"
+          className="ml-4 w-[141px] h-[23px] lg:ml-16 2xl:ml-37  2xl:w-[212px] 2xl:h-[34px]"
         />
       </Link>
 
       {/* Links visibles en tablet y desktop */}
-      <div className="hidden lg:flex gap-24 lg:mr-10 2xl:gap-[135px] 2xl:mr-32 text-white 2xl:font-light 2xl:text-[20px] 2xl:mt-2">
+      <div className=" text-white hidden lg:flex lg:gap-18 lg:ml-auto lg:mr-6 lg:text-[22px] lg:leading-[24px] lg:font-medium 2xl:gap-[135px] 2xl:mr-32 2xl:font-light 2xl:text-[20px] 2xl:mt-2">
 
         <Link href="/benchmarking">Servicios</Link>
         <Link href="/#casos">Casos</Link>
