@@ -5,7 +5,7 @@ import Testimonios from './Testimonios'
 function Enfoques() {
     return (
         <div className='bg-[#F4F0F0] text-black'>
-            <div className="mx-auto w-[1544px] max-2xl:w-[1200px] max-xl:w-[900px] pt-[216px] max-2xl:pt-[200px]">
+            <div className="mx-auto w-[1544px] max-2xl:w-[1200px] max-xl:w-[900px] pt-[216px] max-2xl:pt-[200px] max-lg:w-[720px]">
                 <div className="flex justify-between items-start relative">
                     {/* Texto izquierda */}
                     <div className="relative -top-[46px] flex flex-col leading-[36px] w-[629px] ml-27 max-xl:hidden">
@@ -25,7 +25,7 @@ function Enfoques() {
 
             {/* Grid alineado */}
             <div className="flex justify-center mt-[28px] mb-[60px]">
-                <div className="w-[1520px] max-2xl:w-[1200px] max-xl:w-[900px]">
+                <div className="w-[1520px] max-2xl:w-[1200px] max-xl:w-[900px]  max-lg:w-[720px]">
                     <Grid />
                 </div>
             </div>
