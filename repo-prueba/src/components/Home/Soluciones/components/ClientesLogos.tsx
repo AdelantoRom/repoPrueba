@@ -7,7 +7,7 @@ export default function ClientesLogos() {
       
       <div className="grid grid-cols-4 place-items-center gap-y-4 gap-x-2 mt-6 w-full px-0 lg:hidden border-amber-500">
         <div className="relative w-[52px] h-[27px]">
-          <Image src="/HP blanco.png" alt="HP" fill className="object-contain" />
+          <Image src="/hpblanco.png" alt="HP" fill className="object-contain" />
         </div>
         <div className="relative w-[83px] h-[12px]">
           <Image src="/DowAgro blanco.png" alt="Dow Agro" fill className="object-contain" />

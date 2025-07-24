@@ -7,7 +7,7 @@ export default function FormularioEmail() {
   2xl:-ml-[25px] 2xl:max-w-[507px]">
 
       <h3 className="font-normal text-[18px] leading-[24px] w-[312px] h-[76px] 
-      lg:text-[22px] lg:leading-[24px] lg:w-[524px] lg:h-[76px] mt-2 mb-4 lg:mb-2 lg:mt-[40px] 2xl:text-[20px] 2xl:leading-[28px] 2xl:mb-6">
+      lg:text-[22px] lg:leading-[24px] lg:w-[524px] lg:h-[76px] mt-[68px] mb-4 lg:mb-2 lg:-mt-[20px] 2xl:text-[20px] 2xl:leading-[28px] 2xl:-mt-[120px] 2xl:mb-[14px]">
 
          ¡Anótate ahora y participa de un sorteo con
   <br className="hidden md:block" />
@@ -20,14 +20,14 @@ export default function FormularioEmail() {
           placeholder="Email"
 
           className="bg-transparent border rounded-md  text-white border-white placeholder-white focus:outline-none focus:border-[#00CED1] 
-          text-[16px] leading-[32px] h-[32px] w-[327px] font-semibold py-1 pl-2
-          lg:text-[22px] lg:leading-[32px] lg:py-2 lg:pl-2 lg:h-[46px] lg:w-[501px] lg:font-normal
+          text-[16px] leading-[32px] h-[32px] w-[337px] font-semibold py-1 pl-2
+          lg:text-[22px] lg:leading-[32px] lg:py-2 lg:pl-2 lg:h-[46px] lg:w-[470px] lg:font-normal
           2xl:text-[16px] 2xl:leading-[24px] 2xl:py-2 2xl:pl-4 2xl:h-[48px] 2xl:w-[404px]"
         />
    <button
   type="submit"
   className="
-    ml-[96px] bg-white font-semibold rounded-[56px]
+    ml-[113px] bg-white font-semibold rounded-[56px]
     text-[18px] leading-[32px] h-[32px] w-[110px] mt-8
     lg:mx-0 lg:text-[22px] lg:leading-[25px] lg:h-[38px] lg:w-[152px] lg:mt-14 
     2xl:text-[18px] 2xl:leading-[24px] 2xl:h-[46px] 2xl:w-[186px] 2xl:mt-12

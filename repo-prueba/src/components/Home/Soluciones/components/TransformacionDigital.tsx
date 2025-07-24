@@ -5,8 +5,9 @@ export default function TransformacionDigital() {
       2xl:order-1 2xl:space-y-6 2xl:-mt-[36px] -ml-[2px]">
 
       {/* Mobile ONLY */}
+    
      <div className="block lg:hidden text-right max-w-full h-[126px]">
-       <p className="text-[18px] leading-[22px] font-normal">
+       <p className="text-[18px] leading-[22px]">
   <strong>Rombux es tu socio estratégico en el<br />
   mundo on line</strong>, ofreciéndote soluciones<br />
   personalizadas e integrales para<br />
@@ -20,7 +21,7 @@ export default function TransformacionDigital() {
       <div className="hidden lg:block lg:w-[440px] lg:[227px]">
         <h2 className="font-normal
           lg:text-[24px] lg:leading-[25px] lg:mb-2 lg:mt-4 
-          2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-10 2xl:mt-8 text-left">
+          2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-10 2xl:mt-28 text-left">
           Transformación Digital
         </h2>
 
