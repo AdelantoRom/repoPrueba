@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/NavBar/NavBar"
+
+
+
+
 
 
 
@@ -28,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${albertSans.variable} antialiased`}
       >
-        <Navbar/>
+      
         {children}
         
       </body>
