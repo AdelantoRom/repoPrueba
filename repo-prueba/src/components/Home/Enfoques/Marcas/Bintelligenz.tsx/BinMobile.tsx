@@ -1,34 +1,48 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import CarouselMarcas from '../../CarouselMarcas/CarouselMarcas'
+import Footer from '@/components/Footer/Footer'
 
 function BinMobile() {
     return (
         <div className='mt-25'>
-            <div>
-                <Link href={"/"} className='text-black'>&lt; Volver</Link>
+            <div >
+                <Link href={"/"} className='block text-black ml-5 mt-28'>&lt; Volver</Link>
 
             </div>
-            <div className='flex flex-col justify-center items-center'>
+            <div className='flex flex-col  items-center mt-5'>
                 <Image
                     src="/Bintelligenz.png"
-                        alt="Hotel"
-                    width={535}
-                    height={576}
-                    className='rounded-2xl'
+                    alt="Hotel"
+                    width={635}
+                    height={676}
+                    className='rounded-2xl max-md:w-[535px] max-md:h-[576px] max-sm:w-[335px] max-sm:h-[376px] shadow-2xl'
                 />
                 <Image
                     src="/binlogo.png"
                     alt="Logo Hotel"
-                    width={208}
-                    height={55}
+                    width={308}
+                    height={155}
+                    className='max-sm:w-[208px]'
                 />
             </div>
-            <div>
 
+            <div className=' text-black ml-3 h-[579px] flex flex-col justify-evenly  px-10'>
+                <p className='text-[#747474] text-[20px] '>Caso</p>
+                <h1 className="text-[24px] leading-[24px] font-semibold">Bintelligenz (antes y después)</h1>
+                <p className="text-[18px] font-light md:font-normal leading-[24px]">
+                    El cliente necesitaba relanzar su oferta de servicios y conectar con el público. Le propusimos analizar a fondo el mercado de Business Intelligence (BI), benchmarking y buyer cliente para actualizar su propuesta de valor.</p>
+                <p className="text-[18px] font-light  md:font-normal leading-[24px]">
+                    El resultado fue un cambio profundo de su identidad, a partir de la adopción de la sigla “BI” en su logo, y la renovación completa de su imagen y sus activos digitales.
+                </p>
+            </div>
+            <div className='bg-[#F4F0F0] h-[373px] flex flex-col items-center'>
+                <p className='text-black text-[18px] leading-[24px] ml-3 px-10 py-8'>Conozca algunos de los casos atendidos por los talentos de nuestra plataforma:</p>
+                <CarouselMarcas/>
             </div>
             <div>
-
+                <Footer/>
             </div>
         </div>
     )
