@@ -24,19 +24,20 @@ function HpMobile() {
                     alt="Logo HP"
                     width={114}
                     height={62}
+                    className='mt-8 mb-12'
                 />
             </div>
 
-            <div className=' text-black ml-3 min-h-screen flex flex-col justify-evenly  px-4'>
-                <p className='text-[#747474] text-[16px] '>Caso</p>
-                <h1 className="text-[24px] leading-[24px] font-semibold">HP Programa Premier A3</h1>
-                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2">
+            <div className=' text-black ml-3  flex flex-col px-4'>
+                <p className='text-[#747474] text-[16px] mb-4'>Caso</p>
+                <h1 className="text-[24px] leading-[24px] font-semibold mb-6">HP Programa Premier A3</h1>
+                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-6">
                     En su búsqueda por reinventar el mercado de impresión en América Latina, HP ofrece el más completo portafolio de impresión en formato A3 en el mundo. Los Canales Premier A3 ya operan en México, Brasil, Colombia, Perú, Chile y Argentina.</p>
-                <p className="text-[18px] italic font-medium leading-[24px] mb-2">
+                <p className="text-[18px] italic font-medium leading-[24px] mb-6">
                     “En Rombux encontramos una respuesta de alta calidad, flexible y de rápida resolución para la presentación en nuestro país del programa de HP PremierA3.”
                 </p>
                 
-                <p className="text-[16px] font-light md:font-normal leading-[24px] mb-2">
+                <p className="text-[16px] leading-[24px] mb-12">
                     Gustavo Zurueta, Director Ejecutivo de Procopias, representante de HP Premier A3 en Argentina.
                 </p>
             </div>
