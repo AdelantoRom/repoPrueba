@@ -27,15 +27,15 @@ function NatreonMobile() {
                 />
             </div>
 
-            <div className=' text-black ml-3 h-[579px] flex flex-col justify-evenly  px-10 min-h-screen -mb-10'>
+            <div className=' text-black ml-3 flex flex-col justify-evenly  px-10 min-h-screen'>
                 <p className='text-[#747474] text-[16px] '>Caso</p>
-                <h1 className="text-[24px] leading-[24px] font-semibold -mt-15">Un perfil de avanzada para alimentos más saludables</h1>
-                <p className="text-[18px] font-light md:font-normal leading-[24px] -mt-15">
+                <h1 className="text-[24px] leading-[24px] font-semibold ">Un perfil de avanzada para alimentos más saludables</h1>
+                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2 ">
                     Dow AgroSciences, filial de Dow Chemical en Argentina, nos encargó el plan de marketing para la introducción del nuevo Aceite de Girasol de Alto Oleico Natreon en el mercado argentino. </p>
-                <p className="text-[18px] font-light md:font-normal leading-[24px] -mt-15">
+                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2 ">
                     Realizamos una investigación que nos permitió adecuar y rediseñar la marca para la presentación al consumidor local. Desarrollamos luego, la literatura que explica la problemática de la salud y alimentación y volcamos estos contenidos en un material de lectura bilingüe, que se convirtió en material de consulta y referencia general.
                 </p>
-                <p className="text-[18px] italic font-medium leading-[24px] -mt-15">
+                <p className="text-[18px] italic font-medium leading-[24px] mb-2">
                     A través de acciones de prensa, eventos y marketing outbound, penetramos el mercado y posicionamos al producto Natreon como líder indiscutido en la industria de alimentos procesados.
                 </p>
             </div>
