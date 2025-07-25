@@ -24,17 +24,18 @@ function HotelMobile() {
                     alt="Logo Hotel"
                     width={180}
                     height={52}
+                    className='mt-8 mb-12'
                 />
             </div>
 
-            <div className=' text-black ml-3 min-h-screen flex flex-col justify-evenly  px-4'>
-                <p className='text-[#747474] text-[16px] '>Caso</p>
-                <h1 className="text-[24px] leading-[24px] font-semibold">Hotel Marketing <br />and Technology</h1>
-                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2">
+            <div className=' text-black ml-3 flex flex-col px-4'>
+                <p className='text-[#747474] text-[16px] mb-4'>Caso</p>
+                <h1 className="text-[24px] leading-[24px] font-semibold mb-6">Hotel Marketing <br />and Technology</h1>
+                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-6">
                     HMandT es una empresa de servicios turísticos con base en Ontario-Canadá, dedicada al marketing de hoteles y reservas. </p>
 
-                    <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2">Creamos de su identidad marcaria, apelando a atributos de clara significación: el mundo y la estrella mirados desde una ventanilla o pantalla. Diseñamos su página de presentación, incluyendo las ofertas y destinos preferidos para el alojamiento, traslados y viajes.</p>
-                <p className="text-[18px] italic font-medium leading-[24px] mb-2">
+                    <p className="text-[18px] font-light md:font-normal leading-[24px] mb-6">Creamos de su identidad marcaria, apelando a atributos de clara significación: el mundo y la estrella mirados desde una ventanilla o pantalla. Diseñamos su página de presentación, incluyendo las ofertas y destinos preferidos para el alojamiento, traslados y viajes.</p>
+                <p className="text-[18px] italic font-medium leading-[24px] mb-12">
                     En base a una alianza como Affiliate Partner de Booking.com y Rentalcars.com, integramos Book engine para el sistema automático de reservas.
                 </p>
             </div>

@@ -24,16 +24,16 @@ function BinMobile() {
                     alt="Logo Hotel"
                     width={308}
                     height={155}
-                    className='max-sm:w-[208px]'
+                    className='mt-8 mb-12'
                 />
             </div>
 
-            <div className=' text-black ml-3 mn-h-screen flex flex-col justify-evenly  px-4'>
-                <p className='text-[#747474] text-[16px] '>Caso</p>
-                <h1 className="text-[24px] leading-[24px] font-semibold">Bintelligenz (antes y después)</h1>
-                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2">
+            <div className=' text-black ml-3 flex flex-col px-4'>
+                <p className='text-[#747474] text-[16px] mb-4'>Caso</p>
+                <h1 className="text-[24px] leading-[24px] font-semibold mb-6">Bintelligenz (antes y después)</h1>
+                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-6">
                     El cliente necesitaba relanzar su oferta de servicios y conectar con el público. Le propusimos analizar a fondo el mercado de Business Intelligence (BI), benchmarking y buyer cliente para actualizar su propuesta de valor.</p>
-                <p className="text-[18px] font-light  md:font-normal leading-[24px] mb-2">
+                <p className="text-[18px] font-light  md:font-normal leading-[24px] mb-12">
                     El resultado fue un cambio profundo de su identidad, a partir de la adopción de la sigla “BI” en su logo, y la renovación completa de su imagen y sus activos digitales.
                 </p>
             </div>
