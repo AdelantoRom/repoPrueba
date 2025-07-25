@@ -1,4 +1,3 @@
-import Navbar from "@/components/NavBar/NavBar";
 import Soluciones from "@/components/Home/Soluciones/Soluciones";
 import Carousel from "@/components/Home/Carousel/Carousel";
 import Servicios from "@/components/Home/Servicios/Servicios";
@@ -10,10 +9,6 @@ import Footer from "@/components/Footer/Footer";
 export default function Home() {
   return (
     <>
-      {/* Navbar fijo arriba */}
-      <Navbar />
-
-      {/* Contenedor principal con padding-top para compensar la altura del navbar */}
       <div className="relative pt-[14px] 2xl:pt-[96px]">
         <Soluciones />
         <Carousel />
