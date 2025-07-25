@@ -28,7 +28,7 @@ function HpMobile() {
                 />
             </div>
 
-            <div className=' text-black ml-3  flex flex-col px-4'>
+            <div className=' text-black ml-3 flex flex-col px-4'>
                 <p className='text-[#747474] text-[16px] mb-4'>Caso</p>
                 <h1 className="text-[24px] leading-[24px] font-semibold mb-6">HP Programa Premier A3</h1>
                 <p className="text-[18px] font-light md:font-normal leading-[24px] mb-6">
