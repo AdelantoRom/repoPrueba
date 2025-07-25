@@ -56,7 +56,7 @@ const CarouselMarcas = () => {
                         />
                         <Link
                             href={img.href}
-                            className="absolute bottom-2 left-2 w-8 h-8 bg-white rounded-full shadow border border-[#D81FB9] text-[#D81FB9] flex items-center justify-center text-sm z-10"
+                            className="absolute bottom-2 left-2 w-8 h-8 bg-white rounded-full shadow border border-[#D81FB9] text-[#D81FB9] flex items-center justify-center text-[28px] font-medium z-10"
                             onPointerDown={(e) => e.stopPropagation()}
                             onClick={(e) => e.stopPropagation()}
                         >
