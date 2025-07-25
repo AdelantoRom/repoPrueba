@@ -4,7 +4,7 @@ import Image from 'next/image'
 import CarouselMarcas from '../../CarouselMarcas/CarouselMarcas'
 import Footer from '@/components/Footer/Footer'
 
-function BinMobile() {
+function HotelMobile() {
     return (
         <div className='mt-25'>
             <div >
@@ -13,39 +13,40 @@ function BinMobile() {
             </div>
             <div className='flex flex-col  items-center mt-5'>
                 <Image
-                    src="/Bintelligenz.png"
+                    src="/hmandt2.png"
                     alt="Hotel"
                     width={635}
                     height={676}
-                    className='rounded-2xl max-md:w-[535px] max-md:h-[576px] max-sm:w-[335px] max-sm:h-[376px] shadow-2xl mb-5'
+                    className='rounded-2xl max-md:w-[535px] max-md:h-[576px] max-sm:w-[335px] max-sm:h-[376px] shadow-lg mb-5'
                 />
                 <Image
-                    src="/binlogo.png"
+                    src="/hmandt.jpg"
                     alt="Logo Hotel"
-                    width={308}
-                    height={155}
-                    className='max-sm:w-[208px]'
+                    width={180}
+                    height={52}
                 />
             </div>
 
             <div className=' text-black ml-3 h-[579px] flex flex-col justify-evenly  px-10'>
                 <p className='text-[#747474] text-[16px] '>Caso</p>
-                <h1 className="text-[24px] leading-[24px] font-semibold">Bintelligenz (antes y después)</h1>
+                <h1 className="text-[24px] leading-[24px] font-semibold">Hotel Marketing <br />and Technology</h1>
                 <p className="text-[18px] font-light md:font-normal leading-[24px]">
-                    El cliente necesitaba relanzar su oferta de servicios y conectar con el público. Le propusimos analizar a fondo el mercado de Business Intelligence (BI), benchmarking y buyer cliente para actualizar su propuesta de valor.</p>
-                <p className="text-[18px] font-light  md:font-normal leading-[24px]">
-                    El resultado fue un cambio profundo de su identidad, a partir de la adopción de la sigla “BI” en su logo, y la renovación completa de su imagen y sus activos digitales.
+                    HMandT es una empresa de servicios turísticos con base en Ontario-Canadá, dedicada al marketing de hoteles y reservas. </p>
+
+                    <p className="text-[18px] font-light md:font-normal leading-[24px]">Creamos de su identidad marcaria, apelando a atributos de clara significación: el mundo y la estrella mirados desde una ventanilla o pantalla. Diseñamos su página de presentación, incluyendo las ofertas y destinos preferidos para el alojamiento, traslados y viajes.</p>
+                <p className="text-[18px] italic font-medium leading-[24px]">
+                    En base a una alianza como Affiliate Partner de Booking.com y Rentalcars.com, integramos Book engine para el sistema automático de reservas.
                 </p>
             </div>
             <div className='bg-[#F4F0F0] h-[373px] flex flex-col items-center'>
                 <p className='text-black text-[18px] leading-[24px] ml-3 px-10 py-8'>Conozca algunos de los casos atendidos por los talentos de nuestra plataforma:</p>
-                <CarouselMarcas/>
+                <CarouselMarcas />
             </div>
             <div>
-                <Footer/>
+                <Footer />
             </div>
         </div>
     )
 }
 
-export default BinMobile
+export default HotelMobile
