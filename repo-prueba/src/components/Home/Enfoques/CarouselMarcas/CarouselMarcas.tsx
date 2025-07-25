@@ -9,7 +9,7 @@ const images = [
     { id: 2, src: "/chilecarousel.png", href: "/chile" },
     { id: 3, src: "/cliniccarousel.jpg", href: "/clinic" },
     { id: 4, src: "/natreoncarousel.jpg", href: "/natreon" },
-    { id: 5, src: "/hotelcarousel2.png", href: "/hotel" },
+    { id: 5, src: "/hotelcarousel.PNG", href: "/hotel" },
     { id: 6, src: "/bincarousel.png", href: "/bintelligenz" },
 ];
 
