@@ -27,7 +27,7 @@ function NatreonMobile() {
                 />
             </div>
 
-            <div className=' text-black ml-3 flex flex-col justify-evenly  px-10 min-h-screen'>
+            <div className=' text-black ml-3 flex flex-col justify-evenly  px-4 min-h-screen'>
                 <p className='text-[#747474] text-[16px] '>Caso</p>
                 <h1 className="text-[24px] leading-[24px] font-semibold ">Un perfil de avanzada para alimentos más saludables</h1>
                 <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2 ">
@@ -40,7 +40,7 @@ function NatreonMobile() {
                 </p>
             </div>
             <div className='bg-[#F4F0F0] h-[373px] flex flex-col items-center'>
-                <p className='text-black text-[18px] leading-[24px] ml-3 px-10 py-8'>Conozca algunos de los casos atendidos por los talentos de nuestra plataforma:</p>
+                <p className='text-black text-[18px] leading-[24px] ml-3 px-4 py-8'>Conozca algunos de los casos atendidos por los talentos de nuestra plataforma:</p>
                 <CarouselMarcas />
             </div>
             <div>

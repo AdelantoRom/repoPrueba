@@ -27,18 +27,18 @@ function ChileMobile() {
                 />
             </div>
 
-            <div className=' text-black ml-3 h-[579px] flex flex-col justify-evenly  px-10'>
+            <div className=' text-black ml-3 min-h-screen flex flex-col justify-evenly  px-4'>
                 <p className='text-[#747474] text-[16px] '>Caso</p>
                 <h1 className="text-[24px] leading-[24px] font-semibold">De Chile con Amor </h1>
-                <p className="text-[18px] font-light md:font-normal leading-[24px]">
+                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2">
                     Nos propusimos llevar ese sabor entrañable de las comidas chilenas a compatriotas de todo el mundo. Creamos un sitio web donde podías postular a un ser querido y participar para que Súper Pollo se encargara de llevarle un plato típico de la gastronomía chilena a cualquier lugar del planeta. </p>
-                <p className="text-[18px] italic font-medium leading-[24px]">
+                <p className="text-[18px] italic font-medium leading-[24px] mb-2">
                     Cientos de personas se inscribieron y un mes después viajamos a New York y Toronto, contactamos a dos chef chilenos y grabamos una linda sorpresa.
                 </p>
-                <p className="text-[18px] font-medium leading-[24px] ">
+                <p className="text-[18px] font-medium leading-[24px] -mb-6">
                     Resultados:
                 </p>
-                <p className="text-[18px] font-light md:font-normal -mt-5 leading-[24px]">
+                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2">
                     • 500.000 visualizaciones en Facebook (497.371). <br />
                     • 10.000 visualizaciones en YouTube. <br />
                     Y toda una omunidad emocionada y agradecida.

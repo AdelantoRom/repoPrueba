@@ -27,19 +27,19 @@ function HotelMobile() {
                 />
             </div>
 
-            <div className=' text-black ml-3 h-[579px] flex flex-col justify-evenly  px-10'>
+            <div className=' text-black ml-3 min-h-screen flex flex-col justify-evenly  px-4'>
                 <p className='text-[#747474] text-[16px] '>Caso</p>
                 <h1 className="text-[24px] leading-[24px] font-semibold">Hotel Marketing <br />and Technology</h1>
-                <p className="text-[18px] font-light md:font-normal leading-[24px]">
+                <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2">
                     HMandT es una empresa de servicios turísticos con base en Ontario-Canadá, dedicada al marketing de hoteles y reservas. </p>
 
-                    <p className="text-[18px] font-light md:font-normal leading-[24px]">Creamos de su identidad marcaria, apelando a atributos de clara significación: el mundo y la estrella mirados desde una ventanilla o pantalla. Diseñamos su página de presentación, incluyendo las ofertas y destinos preferidos para el alojamiento, traslados y viajes.</p>
-                <p className="text-[18px] italic font-medium leading-[24px]">
+                    <p className="text-[18px] font-light md:font-normal leading-[24px] mb-2">Creamos de su identidad marcaria, apelando a atributos de clara significación: el mundo y la estrella mirados desde una ventanilla o pantalla. Diseñamos su página de presentación, incluyendo las ofertas y destinos preferidos para el alojamiento, traslados y viajes.</p>
+                <p className="text-[18px] italic font-medium leading-[24px] mb-2">
                     En base a una alianza como Affiliate Partner de Booking.com y Rentalcars.com, integramos Book engine para el sistema automático de reservas.
                 </p>
             </div>
             <div className='bg-[#F4F0F0] h-[373px] flex flex-col items-center'>
-                <p className='text-black text-[18px] leading-[24px] ml-3 px-10 py-8'>Conozca algunos de los casos atendidos por los talentos de nuestra plataforma:</p>
+                <p className='text-black text-[18px] leading-[24px] ml-3 px-4 py-8'>Conozca algunos de los casos atendidos por los talentos de nuestra plataforma:</p>
                 <CarouselMarcas />
             </div>
             <div>
