@@ -9,7 +9,7 @@ const images = [
     { id: 2, src: "/chilecarousel.png", href: "/chile" },
     { id: 3, src: "/cliniccarousel.jpg", href: "/clinic" },
     { id: 4, src: "/natreoncarousel.jpg", href: "/natreon" },
-    { id: 5, src: "/hotelcarousel.png", href: "/hotel" },
+    { id: 5, src: "/hotelcarousel2.png", href: "/hotel" },
     { id: 6, src: "/bincarousel.png", href: "/bintelligenz" },
 ];
 
@@ -51,7 +51,7 @@ const CarouselMarcas = () => {
                         <img
                             src={img.src}
                             alt={`Imagen ${img.id}`}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover aspect-video"
                             draggable={false}
                         />
                         <Link
