@@ -2,14 +2,15 @@
 
 import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const images = [
-    { id: 1, src: "/hpcarousel.jpg" },
-    { id: 2, src: "/chilecarousel.png" },
-    { id: 3, src: "/cliniccarousel.jpg" },
-    { id: 4, src: "/natreoncarousel.jpg" },
-    { id: 5, src: "/hotelcarousel.png" },
-    { id: 6, src: "/bincarousel.png" },
+    { id: 1, src: "/hpcarousel.jpg", href: "/hp" },
+    { id: 2, src: "/chilecarousel.png", href: "/chile" },
+    { id: 3, src: "/cliniccarousel.jpg", href: "/clinic" },
+    { id: 4, src: "/natreoncarousel.jpg", href: "/natreon" },
+    { id: 5, src: "/hotelcarousel.png", href: "/hotel" },
+    { id: 6, src: "/bincarousel.png", href: "/bintelligenz" },
 ];
 
 const CarouselMarcas = () => {
@@ -33,7 +34,7 @@ const CarouselMarcas = () => {
 
     return (
         <div
-            className="overflow-hidden w-full px-4 sm:px-8" // padding lateral para que no se pegue
+            className="overflow-hidden w-full px-4 sm:px-8"
             ref={carouselRef}
         >
             <motion.div
@@ -53,13 +54,14 @@ const CarouselMarcas = () => {
                             className="w-full h-full object-cover"
                             draggable={false}
                         />
-                        <button
-                            className="absolute bottom-2 left-2 bg-white w-6 h-6 text-md rounded-full shadow border border-[#D81FB9] text-[#D81FB9]"
+                        <Link
+                            href={img.href}
+                            className="absolute bottom-2 left-2 w-8 h-8 bg-white rounded-full shadow border border-[#D81FB9] text-[#D81FB9] flex items-center justify-center text-sm z-10"
                             onPointerDown={(e) => e.stopPropagation()}
-                            onClick={() => alert(`Botón de imagen ${img.id}`)}
+                            onClick={(e) => e.stopPropagation()}
                         >
                             +
-                        </button>
+                        </Link>
                     </div>
                 ))}
             </motion.div>
