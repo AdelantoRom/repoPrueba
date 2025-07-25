@@ -17,7 +17,7 @@ function ChileMobile() {
                     alt="Chile con Amor"
                     width={635}
                     height={676}
-                    className='rounded-2xl max-md:w-[535px] max-md:h-[576px] max-sm:w-[335px] max-sm:h-[376px] shadow-2xl mb-5'
+                    className='rounded-2xl max-md:w-[535px] max-md:h-[576px] max-sm:w-[335px] max-sm:h-[376px] shadow-lg mb-5'
                 />
                 <Image
                     src="/superpollo.png"
