@@ -5,12 +5,12 @@ function Enfoque() {
     return (
         <div className='text-black mt-[120px] max-xl:mt-[100px] mb-[215px] max-xl:mb-[150px]'>
             <div className="w-full flex justify-around mb-[89px] max-xl-20px]">
-                <h3 className="text-[80px] w-[1410px] leading-[80px] text-center max-2xl:text-[70px] max-2xl:leading-[70px] max-2xl:w-[900px] max-xl:font-light">Un enfoque especializado <br /><span className="text-[#D81FB9] font-normal">con 3 objetivos clave:</span>
+                <h3 className="text-[80px] w-[1410px] leading-[80px] text-center max-2xl:text-[70px] max-2xl:leading-[70px] max-2xl:w-[900px] max-xl:font-light max-lg:text-[40px]">Un enfoque especializado <br /><span className="text-[#D81FB9] font-normal">con 3 objetivos clave:</span>
                 </h3>
             </div>
 
-            <div className='flex justify-evenly ml-4 px-[200px] max-2xl:px-[100px] max-xl:px-[70px] max-xl:-mt-10 max-xl:ml-0'>
-                <div className='flex flex-col items-center w-[400px]'>
+            <div className='flex justify-evenly ml-4 px-[200px] max-2xl:px-[100px] max-xl:px-[70px] max-xl:-mt-10 max-xl:ml-0 max-lg:flex-col max-lg:gap-y-15 max-lg:items-center'>
+                <div className='flex flex-col items-center w-[400px] '>
                     <div className="relative w-[104px] h-[104px] mb-7 max-2xl:mb-2 flex justify-center items-center">
                         <Image
                             src="/circulo.png"
