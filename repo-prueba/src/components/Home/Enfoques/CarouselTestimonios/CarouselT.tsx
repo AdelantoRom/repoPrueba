@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonios = [
@@ -42,7 +41,7 @@ export default function CarouselT() {
     const next = () => setActiveIndex((activeIndex + 1) % testimonios.length);
 
     return (
-        <div className="relative flex flex-col items-center py-16 min-h-screen bg-[#F4F0F0]">
+        <div className="relative flex flex-col items-center max-md:pb-[85px] py-16 bg-[#F4F0F0]">
             {/* Contenedor tarjeta + botones */}
             <div className="relative flex justify-center items-center w-full max-w-[550px]">
                 {/* Testimonio activo */}
@@ -72,14 +71,14 @@ export default function CarouselT() {
                 {/* Botones prev/next */}
                 <button
                     onClick={prev}
-                    className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1 max-md:-translate-x- p-2 rounded-full bg-white shadow text-[#D81FB9] hover:bg-[#F0D3E8]"
+                    className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1 max-md:-translate-x- p-2 rounded-full bg-white max-sm:bg-transparent max-sm:shadow-none shadow text-[#D81FB9] hover:bg-[#F0D3E8]"
                     aria-label="Previous testimonial"
                 >
                     <ChevronLeft size={15} />
                 </button>
                 <button
                     onClick={next}
-                    className="absolute top-1/2 right-0 -translate-y-1/2  translate-x-1 p-2 rounded-full bg-white shadow text-[#D81FB9] hover:bg-[#F0D3E8]"
+                    className="absolute top-1/2 right-0 -translate-y-1/2  translate-x-1 p-2 rounded-full bg-white shadow max-sm:bg-transparent max-sm:shadow-none  text-[#D81FB9] hover:bg-[#F0D3E8]"
                     aria-label="Next testimonial"
                 >
                     <ChevronRight size={15} />
