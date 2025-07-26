@@ -44,7 +44,9 @@ export default function Grid() {
                     <ButtonBintelligenz />
                 </div>
             </div>
-            <CarouselMarcas/>
+            <div className="md:hidden">
+                <CarouselMarcas />
+            </div>
         </div>
     );
 }
