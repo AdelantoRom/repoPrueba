@@ -5,7 +5,7 @@ import Testimonios from './Testimonios'
 function Enfoques() {
     return (
         <div className='bg-[#F4F0F0] text-black'>
-            <div className="mx-auto w-[1544px] max-2xl:w-[1200px] max-xl:w-[900px] pt-[216px] max-2xl:pt-[200px] max-lg:w-[720px]">
+            <div className="mx-auto w-[1544px] max-2xl:w-[1200px] max-xl:w-[900px] pt-[216px] max-2xl:pt-[200px] max-lg:w-[720px] max-md:w-full">
                 <div className="flex justify-between items-start relative">
                     {/* Texto izquierda */}
                     <div className="relative -top-[46px] flex flex-col leading-[36px] w-[629px] ml-27 max-xl:hidden">
@@ -16,9 +16,9 @@ function Enfoques() {
                     </div>
 
                     {/* Texto derecha */}
-                    <div className="relative top-[3px] leading-none -mt-[20px] w-[720px] text-right mr-24 max-2xl:w-[600px] max-xl:w-[450px] max-2xl:mr-10 max-xl:mr-0  max-xl:mx-auto">
-                        <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px]">Casos/</h2>
-                        <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px]">Testimonios</h2>
+                    <div className="relative top-[3px] leading-none -mt-[20px] w-[720px] text-right mr-24 max-2xl:w-[600px] max-xl:w-[450px] max-2xl:mr-10 max-xl:mr-0  max-xl:mx-auto max-lg:text-left max-lg:ml-5 ">
+                        <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-md:leading-[40px]">Casos/</h2>
+                        <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-md:leading-[40px]">Testimonios</h2>
                     </div>
                 </div>
             </div>
