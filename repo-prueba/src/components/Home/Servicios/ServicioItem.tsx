@@ -17,7 +17,7 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="border-b border-[#D81FB9] mb-5 max-sm:w-[338px] ">
+        <div className="border-b border-[#D81FB9] mb-5 max-sm:w-[342px]">
             <button
                 onClick={() => setOpen(!open)}
                 className="w-full flex items-center justify-between px-4"
