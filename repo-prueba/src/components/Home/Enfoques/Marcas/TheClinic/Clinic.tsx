@@ -24,7 +24,7 @@ const PopupModalClinic = ({ onClose }: Props) => {
                 <div className=' w-[650px] mx-4 max-xl:w-[450px]'>
                     <div className='w-[600px] h-[679px] ml-3 flex flex-col justify-around max-xl:w-[450px] max-2xl:w-[450px] max-2xl:justify-start '>
                         <Link href={"/"} className='text-[#747474] -mt-[5px] text-[20px] max-2xl:text-[19px] max-xl:text-[16px] max-2xl:mb-10 max-2xl:mt-7 max-xl:mb-1'>Caso</Link>
-                        <h1 className="text-[36px] -mt-[60px] leading-[36px] font-bold mb-4 max-2xl:text-[30px] max-2xl:-mt-[30px] max-xl:text-[24px] max-2xl:mb-3 max-xl:mt-[2px] max-xl:mb-3">Perfiles: CM Fresh</h1>
+                        <h1 className="text-[36px] -mt-[60px] leading-[36px] font-bold mb-4 max-2xl:text-[30px] max-2xl:-mt-[30px] max-xl:text-[24px] max-xl:leading-[30px] max-2xl:mb-3 max-xl:mt-[2px] max-xl:mb-3">Perfiles: CM Fresh</h1>
                         <p className="text-[16px] leading-[24px] -mt-10 max-2xl:mt-1 max-2xl:mb-4 max-xl:mb-0 max-xl:w-[440px]">
                             Para poder reflejar lo que sucede en la cultura millenial, el semanario chileno The Clinic realizó una serie de entrevistas a jóvenes que realizan hechos innovadores, que rompen los cánones de lo que está bien y está mal y que, utilizando las redes sociales, han logrado salir adelante.
                         </p>
