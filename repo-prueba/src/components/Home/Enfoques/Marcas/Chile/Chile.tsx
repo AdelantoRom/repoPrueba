@@ -26,7 +26,7 @@ const PopupModalChile = ({ onClose }: Props) => {
 
                         <Link href={"/"} className='text-[#747474] -mt-2 text-[20px] max-2xl:text-[19px] max-2xl:mt-4  max-xl:text-[16px] max-2xl:mb-1 max-2xl:mt-7 max-xl:mt-7 max-xl:mb-0'>Caso</Link>
 
-                        <h1 className="text-[36px] -mt-18 font-bold max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mt-1 max-2xl:mb-1 max-xl:mb-3">De Chile con Amor</h1>
+                        <h1 className="text-[36px] -mt-18 font-bold max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mt-1 max-2xl:mb-1 max-xl:mb-3 max-xl:leading-[30px]">De Chile con Amor</h1>
                         <p className=" text-[16px] -mt-10 leading-[24px]  max-2xl:mb-3 max-2xl:mt-2 max-xl:mb-2 max-xl:w-[420px]">
                             Nos propusimos llevar ese sabor entrañable de las comidas chilenas a compatriotas de todo el mundo. Creamos un sitio web donde podías postular a un ser querido y participar para que Súper Pollo se encargara de llevarle un plato típico de la gastronomía chilena a cualquier lugar del planeta.
                         </p>

@@ -26,7 +26,7 @@ const PopupModal = ({ onClose }: Props) => {
                         <div className='mt-[14px] max-2xl:mt-[25px] max-2xl:mb-[11px]'>
                             <Link href={"/"} className='text-[#747474] text-[20px] max-2xl:text-[19px] max-xl:text-[16px]  max-2xl:mt-7 max-xl:mt-3 max-xl:mb-2'>Caso</Link>
                         </div>
-                        <h1 className="text-[36px] -mt-8 font-bold max-2xl:-mt-1 max-2xl:text-[30px] max-xl:text-[24px] max-2xl:mb-[11px] max-xl:mb-5">HP Programa Premier A3</h1>
+                        <h1 className="text-[36px] -mt-8 font-bold max-2xl:-mt-1 max-2xl:text-[30px] max-xl:text-[24px] max-xl:leading-[30px] max-2xl:mb-[11px] max-xl:mb-5">HP Programa Premier A3</h1>
                         <p className="text-[16px] font-light max-2xl:mb-0 max-xl:mb-5 max-xl:w-[390px]">
                             En su búsqueda por reinventar el mercado de impresión en América Latina, HP ofrece el más completo
                             portafolio de impresión en formato A3 en el mundo. Los Canales Premier A3 ya operan en México, Brasil,
