@@ -10,7 +10,7 @@ import CarouselMarcas from "./CarouselMarcas/CarouselMarcas";
 export default function Grid() {
     return (
         <div>
-            <div className="relative max-md:hidden">
+            <div className="relative max-lg:hidden">
                 <Image
                     src="/CuadroPortfolios.png"
                     alt="Portfolios"
@@ -44,7 +44,7 @@ export default function Grid() {
                     <ButtonBintelligenz />
                 </div>
             </div>
-            <div className="md:hidden">
+            <div className="lg:hidden">
                 <CarouselMarcas />
             </div>
         </div>
