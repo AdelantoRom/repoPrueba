@@ -26,7 +26,7 @@ export default function Thank() {
                     className="object-contain absolute top-0 left-0"
                 />
             </div>
-            <div className="absolute top-50 -right-20 z-0 w-[15vw] max-w-[299px] h-[15vw] max-h-[299px] max-md:top-100 max-md:right-10 max-md:w-[30vw] max-md:h-[30vw]">
+            <div className="absolute top-50 -right-20 z-0 w-[15vw] max-w-[299px] h-[15vw] max-h-[299px] max-md:top-100 max-md:-right-0 max-md:w-[30vw] max-md:h-[30vw]">
                 <Image
                     src="/Trama esfera negra.png"
                     fill
