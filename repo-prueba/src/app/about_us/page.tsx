@@ -12,7 +12,7 @@ const teamMembers = [
   {
     name: 'Marina Merzaroli',
     role: 'Growth Marketing Lead',
-    photo: '/Marina deck.png',
+    photo: '/Marina deck dos.PNG',
   },
   {
     name: 'Hugo Planiscig',
@@ -32,14 +32,14 @@ const teamMembers = [
   {
     name: 'Gabriel Martina',
     role: 'Project Manager',
-    photo: '/gabriel.png',
+    photo: '/gabriel.PNG',
   },
 ];
 
 export default function About_Us() {
   return (
     <div>
-      <div className="bg-[url('/Gradiente-Home-5.png')] bg-cover w-full max-w-[1920px] mx-auto px-7 pt-[235px] max-md:px-0 relative">
+      <div className="bg-[url('/Gradiente-Home-5.png')] bg-cover w-full max-w-[1920px] mx-auto px-7 pt-[235px] max-lg:px-0 relative">
         <div className="w-full flex flex-col items-center text-center">
           <h1 className="text-[64px] leading-[64px] font-medium text-shadow-md text-white max-md:text-[40px] max-md:leading-[40px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
             Quiénes somos 
@@ -49,20 +49,32 @@ export default function About_Us() {
           </p>
         </div>
       
-        <div className="grid grid-cols-1 md:grid-cols-1  gap-y-24 items-center mt-[189px] mx-[104px] max-2xl:mt-[100px]">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-y-24 items-center mt-[189px] mx-[104px] max-lg:mx-[10px] max-2xl:mt-[100px]">
           {teamMembers.slice(0, 3).map((member, index) => (
             <div
               key={index}
-              className={`relative flex flex-col items-center text-white ${index === 1 ? '' : ''} ${index === 2 ? '' : ''}`}
+              className="relative flex flex-col items-center text-white "
             >
               <div className="relative">
-                <Image src={member.photo} alt={member.name} width={201} height={201} className={`object-cover transition-transform duration-300 ${index === 1 ? 'w-[212px]' : ''} ${index === 2 ? 'w-[212px]' : ''} `} />
-                <div className={`absolute bottom-[0px] right-[0px] ${index === 1 ? 'top-[168px]' : ''}  ${index === 2 ? 'top-[168px]' : ''} ${index === 2 ? 'left-[160px]' : ''} ${index === 1 ? 'left-[168px]' : ''}`}>
-                  <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full" />
+                <Image 
+                  src={member.photo} 
+                  alt={member.name} 
+                  width={201} 
+                  height={201} 
+                  className="object-cover transition-transform duration-300"
+                  />
+                <div className={`absolute bottom-[0px] right-[0px] w-[40px] h-[40px] `}>
+                  <Image 
+                    src="/logoin.png" 
+                    alt="Logo" 
+                    width={40} 
+                    height={40} 
+                    className="rounded-full w-[40px] h-[40px]" 
+                    />
                 </div>
               </div>
-              <div className={`relative flex flex-col text-left ${index === 0 ? ' top-[37px]' : ''} ${index === 1 ? 'top-[32px]' : ''} ${index === 2 ? ' top-[32px]' : ''}`}>
-                <p className="font-bold text-[24px] leading-[28px]">
+              <div className={`relative flex flex-col text-left top-[37px]`}>
+                <p className="font-bold text-[24px] max-sm:text-[18px] leading-[28px]">
                   {member.name}
                 </p>
                 <p className="font-medium text-[18px] leading-[28px] mt-[3px]">
@@ -72,24 +84,29 @@ export default function About_Us() {
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-1  gap-y-24 items-center mt-[159px] mx-[104px] max-sm:mb-40">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-y-24 items-center mt-[159px] mx-[104px] max-lg:mx-[10px] max-sm:mb-40 max-sm:mx-0">
           {teamMembers.slice(3, 6).map((member, index) => (
             <div
               key={index}
               className={`relative flex flex-col items-center text-white `}
             >
               <div className="relative">
-                <Image src={member.photo} alt={member.name} width={201} height={201} className={`relative object-cover transition-transform duration-300  ${index === 2 ? 'w-[228px]' : ''} `} />
-                <div className={`absolute bottom-[0px] right-[0px] ${index === 2 ? 'top-[175px]' : ''} ${index === 2 ? 'left-[170px]' : ''}`}>
-                  <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full " />
+                <Image 
+                src={member.photo} 
+                alt={member.name} 
+                width={201} 
+                height={201} 
+                className={`relative object-cover w-[201px] h-[201px] transition-transform duration-300   `} />
+                <div className={`absolute bottom-[0px] right-[0px] w-[40px] h-[40px] `}>
+                  <Image src="/logoin.png" alt="Logo" width={40} height={40} className="rounded-full w-[40px] h-[40px]" />
                 </div>
               </div>
       
-              <div className={`relative flex flex-col text-left ${index === 0 ? ' top-[52px]' : ''} ${index === 1 ? 'top-[52px]' : ''} ${index === 2 ? 'top-[40px]' : ''}`}>
-                <p className="font-bold text-[24px] leading-[28px]">
+              <div className={`relative flex flex-col text-left top-[52px]`}>
+                <p className="font-bold text-[24px] max-sm:text-[18px] leading-[28px]">
                   {member.name}
                 </p>
-                <p className="font-medium text-[18px] leading-[28px] mt-[3px]">
+                <p className="font-medium text-[18px]  leading-[28px] mt-[3px]">
                   {member.role}
                 </p>
               </div>
