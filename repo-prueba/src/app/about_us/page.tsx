@@ -84,7 +84,7 @@ export default function About_Us() {
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3  gap-y-24 items-center mt-[159px] mx-[104px] max-lg:mx-[10px] max-sm:mb-40 max-sm:mx-0">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-y-24 items-center mt-[159px] mx-[104px] max-lg:mx-[10px] max-sm:mb-40 max-sm:mx-0 max-sm:mt-25">
           {teamMembers.slice(3, 6).map((member, index) => (
             <div
               key={index}
