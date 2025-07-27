@@ -4,11 +4,11 @@ import BotonesCirculares from '../BotonesInteractivos/BotonesCirculares'
 function Politicas() {
     return (
         <div className='text-black pt-[235px] min-h-max max-w-[1637px] mx-[290px] max-xl:mx-[140px]  max-lg:mx-[20px]'>
-            <div className='mb-[123px] max-xl:px-10'>
-                <h1 className='text-[#D81FB9] font-bold text-[64px] leading-[64px]'>Política de Privacidad y Protección de Datos Personales</h1>
+            <div className='mb-[123px] max-xl:px-10 max-md:px-2 max-md:mb-[50px]'>
+                <h1 className='text-[#D81FB9] font-bold text-[64px] leading-[64px] max-md:text-[40px] max-md:leading-[40px]'>Política de Privacidad y Protección de Datos Personales</h1>
                 <p className='text-[20px] mt-4'>Última actualización: 1 de enero 2025</p>
             </div>
-            <div className='text-[24px] flex flex-col gap-2 leading-[28px] max-xl:px-10'>
+            <div className='text-[24px] flex flex-col gap-2 leading-[28px] max-xl:px-10 max-md:px-2 max-md:text-[18px]'>
                 <h2 className='pb-5'>Información general</h2>
                 <p className='pb-5'>La presente declaración refleja la  política que, en materia de protección de datos, sigue Rombus SRL  (en adelante “Rombux”), empresa domiciliada en Lezica 4363 de la Ciudad Autónoma de  Buenos Aires, República Argentina y titular del Sitio Web ubicado en el dominio www.rombux.com (el “Sitio Web”).
                 </p>
@@ -46,7 +46,7 @@ function Politicas() {
                 <h2 className='pb-5 font-bold'>Tratamiento de Datos Personales:</h2>
                 <p className='pb-5'>Todas las operaciones y procedimientos sistemáticos, electrónicos o no, que  permitan la recolección, conservación, ordenación, almacenamiento,  modificación, evaluación, bloqueo y en general, el procesamiento de los  Datos Personales.</p>
                 <h2 className='pb-5 font-bold'>Los usuarios y/o miembros conocen y aceptan que:</h2>
-                <p className='pb-5'>1. Rombux y/o quien ésta designe expresamente a tal efecto podrá requerirle determinada información que puede ser considerada como "Datos Personales" en virtud de lo dispuesto por la ley 25.326 (Protección de  Datos Personales) a efectos de la gestión comercial y publicidad;
+                <p>1. Rombux y/o quien ésta designe expresamente a tal efecto podrá requerirle determinada información que puede ser considerada como "Datos Personales" en virtud de lo dispuesto por la ley 25.326 (Protección de  Datos Personales) a efectos de la gestión comercial y publicidad;
                     2. Rombux podrá contratar a terceros para la prestación del servicio de almacenamiento, ordenación, modificación, evolución, bloqueo y en general el procesamiento de los Datos Personales.
                     Asimismo, y en cumplimiento de la ley 25.326 y las disposiciones dictadas por la Dirección Nacional de Protección de Datos Personales, se informa al Cliente que:
                     » El titular de los Datos Personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la ley 25.326;
