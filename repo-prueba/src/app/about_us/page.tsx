@@ -32,7 +32,7 @@ const teamMembers = [
   {
     name: 'Gabriel Martina',
     role: 'Project Manager',
-    photo: '/gabriel.PNG',
+    photo: '/gabriel.png',
   },
 ];
 
