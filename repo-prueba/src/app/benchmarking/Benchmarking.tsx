@@ -5,6 +5,16 @@ export default function Benchmarking() {
   return (
 
     <div className="relative w-full">
+      <div className="relative w-full ">
+          <Image
+            src="/TramaTablet.png"
+            alt="Ellipse"
+            width={1050}
+            height={1050}
+            className="absolute left-1/2 lg:hidden w-[600px] max-sm:w-[500px] -translate-x-5"
+            style={{ transform: "translateX(0)" }}
+          />
+        </div> 
       <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px]">
 
         <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-xl:ml-[100px] max-lg:ml-[20px] ">
@@ -23,9 +33,12 @@ export default function Benchmarking() {
             alt="Ellipse"
             width={1050}
             height={1050}
-            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-455px] max-lg:hidden max-xl:top-[-455px] max-lg:w-[699px] max-lg:top-[-375px]"
+            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-455px] max-lg:hidden max-xl:top-[-455px] max-lg:w-[0px] max-lg:top-[-375px]"
           />
         </div>
+
+        
+
 
         {/* Icono Benchmarking */}
         <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[25px]">
