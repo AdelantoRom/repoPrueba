@@ -8,7 +8,7 @@ import Botones from "@/components/BotonesInteractivos/Botones";
 export default function Adn() {
   return (
     <div className="bg-[url('/gradiente1.png')] bg-cover w-full text-white flex flex-col items-center 
-    pt-[40px] pb-[40px] min-h-auto lg:min-h-[1434px] 2xl:min-h-[1394px] lg:pt-[100px] 2xl:pt-[131px] lg:pb-0">
+    pt-[40px] pb-[270px] min-h-auto lg:min-h-[1434px] 2xl:min-h-[1394px] lg:pt-[100px] 2xl:pt-[131px] lg:pb-[240px] 2xl:pb-[330px]">
 
       {/* Títulos */}
       <div className="text-center drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)] tracking-normal leading-[40px] mt-[60px] 
@@ -43,7 +43,7 @@ export default function Adn() {
       </div>
 
       {/* Esferas decorativas MOBILE */}
-      <div className="relative w-full h-[300px] mb-[80px] sm:hidden overflow-visible">
+      <div className="relative w-full h-[300px] mb-[80px] sm:hidden overflow-hidden">
         {/* Esfera grande */}
         <div className="absolute w-[296px] h-[296px] translate-x-[-70px] top-[80px]">
 
@@ -130,9 +130,10 @@ export default function Adn() {
       </div>
 
       {/* Botones interactivos TODOS LOS DISPOSITIVOS */}
-      <div className="mb-[40px] lg:mb-[60px] 2xl:mb-[46px] 2xl:mt-10">
-        <Botones />
-      </div>
+     <div className="w-full flex justify-center mb-[40px] lg:mb-[60px] 2xl:mb-[46px] 2xl:mt-10">
+  <Botones />
+</div>
+
     </div>
   );
 }
