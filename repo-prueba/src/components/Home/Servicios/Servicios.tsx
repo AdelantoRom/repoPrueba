@@ -7,8 +7,8 @@ import Enfoque from "../Enfoque/Enfoque";
 export default function Servicios() {
     return (
         <div>
-            <div className="w-[911px] ml-[293px] mt-[149px] max-xl:ml-[80px] max-2xl:ml-[120px] max-md:ml-5 max-md:mt-[85px]">
-                <h2 className="text-[#D81FB9] text-[80px] leading-[80px] max-xl:text-[70px] max-xl:leading-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-lg:leading-[40px] ">Servicios</h2>
+            <div className="w-[911px] ml-[293px] mt-[149px] max-xl:ml-[80px] max-2xl:ml-[120px] max-md:ml-5 max-md:mt-[85px] max-lg:w-[400px] max-md:w-[285px]">
+                <h2 className="text-[#D81FB9] text-[80px] leading-[80px] max-xl:text-[70px] max-xl:leading-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-lg:leading-[40px] max-lg:w-[200px] ">Servicios</h2>
                 <h3 className="text-black text-[48px] leading-none pt-[26px] max-xl:text-[36px] max-xl:leading-[36px] max-xl:w-[543px]  max-lg:text-[30px] max-lg:leading-[30px]  max-md:text-[25px] max-md:leading-[25px] max-md:pt-3 max-md:font-light">
                     Soluciones híperpersonalizadas <br className="block md:hidden lg:block"/>para tu empresa
                 </h3>

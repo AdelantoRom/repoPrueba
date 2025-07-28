@@ -38,7 +38,7 @@ const CarouselMarcas = () => {
             ref={carouselRef}
         >
             <motion.div
-                className="flex gap-2 cursor-grab active:cursor-grabbing"
+                className="flex gap-4 cursor-grab active:cursor-grabbing"
                 drag="x"
                 dragConstraints={{ right: 0, left: -width }}
                 ref={innerRef}
@@ -46,7 +46,7 @@ const CarouselMarcas = () => {
                 {images.map((img) => (
                     <div
                         key={img.id}
-                        className="min-w-[80vw] sm:min-w-[300px] h-[200px] relative rounded-xl overflow-hidden flex-shrink-0 bg-gray-100"
+                        className="w-full min-w-[calc(100%-1rem)] sm:min-w-[300px] max-w-[500px] h-[200px] relative rounded-xl overflow-hidden flex-shrink-0 bg-gray-100"
                     >
                         <img
                             src={img.src}
@@ -66,6 +66,7 @@ const CarouselMarcas = () => {
                 ))}
             </motion.div>
         </div>
+
     );
 };
 
