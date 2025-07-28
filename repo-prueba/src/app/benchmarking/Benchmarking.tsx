@@ -7,7 +7,7 @@ export default function Benchmarking() {
     <div className="relative w-full">
       <div className="relative w-full ">
           <Image
-            src="/TramaTablet.png"
+            src="/tramatablet.png"
             alt="Ellipse"
             width={1050}
             height={1050}
