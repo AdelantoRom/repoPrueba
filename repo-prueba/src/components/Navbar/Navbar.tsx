@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import BotonesCirculares from '../BotonesInteractivos/BotonesCirculares'
 
+
 export default function NavbarPrueba() {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -70,7 +71,7 @@ export default function NavbarPrueba() {
           </div>
 
        
-         
+      
 
         </div>
       )}
