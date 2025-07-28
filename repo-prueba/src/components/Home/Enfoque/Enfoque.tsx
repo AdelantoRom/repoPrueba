@@ -10,7 +10,7 @@ function Enfoque() {
             </div>
 
             <div className='flex justify-evenly ml-4 px-[200px] max-2xl:px-[100px] max-xl:px-[70px] max-xl:-mt-10 max-xl:ml-0 max-lg:flex-col max-lg:gap-y-15 max-lg:items-center'>
-                <div className='flex flex-col items-center w-[400px] '>
+                <div className='flex flex-col items-center w-[400px] max-sm:w-[340px] '>
                     <div className="relative w-[104px] h-[104px] mb-7 max-2xl:mb-2 flex justify-center items-center">
                         <Image
                             src="/circulo.png"
@@ -32,7 +32,7 @@ function Enfoque() {
                         personalizadas</h4>
                     <p className='text-[20px] w-[364px] text-center leading-[28px] max-2xl:text-[20px] max-2xl:w-[281px] max-2xl:leading-[25px] max-xl:-mt-[10px] max-lg:text-[18px] max-lg:leading-[25px] max-lg:w-[336px]'>Cada plan es único. Trabajamos 1 a 1 con las empresas para posicionarlas y destacarlas en su sector.</p>
                 </div>
-                <div className='flex flex-col items-center w-[400px]'>
+                <div className='flex flex-col items-center w-[400px] max-sm:w-[340px]'>
                     <div className="relative w-[104px] h-[104px] mb-7 max-2xl:mb-2 flex justify-center items-center">
                         <Image
                             src="/circulo.png"
@@ -54,7 +54,7 @@ function Enfoque() {
                         sostenible</h4>
                     <p className='text-[20px] w-[324px] text-center leading-[28px] max-2xl:text-[20px] max-2xl:w-[281px] max-2xl:leading-[25px] max-xl:-mt-[10px] max-lg:text-[18px] max-lg:leading-[25px] max-lg:w-[336px] '>Desarrollamos proyectos que acompañan a los clientes en su crecimiento de manera sostenible.</p>
                 </div>
-                <div className='flex flex-col items-center w-[400px] max-xl:mt-[6px]'>
+                <div className='flex flex-col items-center w-[400px] max-xl:mt-[6px] max-sm:w-[340px]'>
                     <Image
                         src="/vinieta03.png"
                         alt="Icono de viñeta"
