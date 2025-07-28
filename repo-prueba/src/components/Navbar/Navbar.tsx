@@ -1,11 +1,12 @@
 'use client'
 
+
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 
-export default function Navbar() {
+export default function NavbarPrueba() {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {

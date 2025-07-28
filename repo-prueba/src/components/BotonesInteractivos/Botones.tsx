@@ -8,7 +8,7 @@ export default function Botones() {
                 gap-[90px] lg:gap-x-[200px] 2xl:gap-x-[410px] w-full 
                 max-w-[336px] lg:max-w-[900px] 2xl:max-w-[1343px]">
 
-                {/* Botón 1 */}
+                {/* Botón 1 - Calendly */}
                 <div className="flex flex-col items-center cursor-pointer">
                     <Image
                         src="/Calendly.gif"
@@ -24,7 +24,7 @@ export default function Botones() {
                     </div>
                 </div>
 
-                {/* Botón 2 */}
+                {/* Botón 2 - Email */}
                 <div className="flex flex-col items-center cursor-pointer">
                     <Image
                         src="/Mensaje.gif"
@@ -40,7 +40,7 @@ export default function Botones() {
                     </div>
                 </div>
 
-                {/* Botón 3 */}
+                {/* Botón 3 - Chat IA */}
                 <div className="flex flex-col items-center cursor-pointer">
                     <Image
                         src="/Chat.gif"
@@ -52,7 +52,7 @@ export default function Botones() {
                     <div className="mt-[24px] text-center font-medium text-white 
                         text-[18px] leading-[24px] lg:leading-[28px] lg:w-auto 
                         whitespace-nowrap lg:whitespace-normal">
-                        Chatea con Romy, <br className="hidden lg:block" />nuestra agente IA
+                        Chatea con Romy, <br className="hidden lg:block" /> nuestra agente IA
                     </div>
                 </div>
 
@@ -60,6 +60,7 @@ export default function Botones() {
         </div>
     );
 }
+
 
 
 // import React from 'react';

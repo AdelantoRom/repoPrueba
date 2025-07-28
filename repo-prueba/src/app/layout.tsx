@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
+import NavbarPrueba from "@/components/Navbar/Navbar";
+
 import "./globals.css";
-import Navbar from "../components/NavBar/NavBar"
 
 
 
@@ -11,7 +12,6 @@ const albertSans = Albert_Sans({
   display: 'swap',
   variable: '--font-albert-sans',
 })
-
 
 export const metadata: Metadata = {
   title: "Rombux",
@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${albertSans.variable} antialiased`}
       >
-        <Navbar/>
+        <NavbarPrueba/>
         {children}
         
       </body>
