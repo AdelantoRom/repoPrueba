@@ -32,10 +32,11 @@ export default function Home() {
 
         <Adn />
 
+<Footer />
         {/* Footer absoluto sobre el fondo */}
-        <div className="absolute bottom-0 left-0 w-full z-50">
+        {/* <div className="absolute bottom-0 left-0 w-full z-50">
           <Footer />
-        </div>
+        </div> */}
       </div>
     </>
   );
