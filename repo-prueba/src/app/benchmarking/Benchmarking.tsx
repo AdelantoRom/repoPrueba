@@ -8,7 +8,7 @@ export default function Benchmarking() {
       <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px] overflow-x-hidden">
         <div className="mt-20 sm:hidden flex justify-center">
           <Image
-            src="/tramamobile.png"
+            src="/TramaMobile.png"
             alt="Ellipse"
             width={550}
             height={550}
