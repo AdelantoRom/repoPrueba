@@ -6,20 +6,20 @@ export default function Data() {
 
     <div className="relative w-full">
       <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px] overflow-x-hidden">
-        <div className="mt-20 sm:hidden flex justify-center">
+        <div className=" mt-10 sm:hidden flex justify-center translate-x-5">
           <Image
             src="/TramaMobile.png"
             alt="Ellipse"
-            width={550}
-            height={550}
+            width={600}
+            height={600}
           />
         </div>
-        <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-lg:ml-[20px] max-sm:mt-0">
+        <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-lg:ml-[20px] max-sm:mt-0 max-sm:ml-[30px]">
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[36px] max-sm:text-[40px]">
             Data + IA
           </h2>
-          <p className="font-light italic text-[24px] leading-[28px] w-[550px] max-xl:w-[350px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px] max-sm:mt-0">
-            Dirige tu expansión con información clave <br />y
+          <p className="font-light italic text-[24px] leading-[28px] w-[550px] max-xl:w-[350px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px] max-sm:mt-0 max-sm:pr-[30px]">
+            Dirige tu expansión con información clave <br className="max-sm:hidden"/>y
             conocimiento predictivo.
           </p>
         </div>
@@ -34,7 +34,7 @@ export default function Data() {
           />
         </div>
 
-        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px] max-sm:mt-140">
+        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px] max-sm:mt-130">
           <Image
             src="/Data+IA.png"
             alt="Data+IA"

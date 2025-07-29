@@ -6,15 +6,15 @@ export default function Benchmarking() {
 
     <div className="relative w-full">
       <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px] overflow-x-hidden">
-        <div className="mt-20 sm:hidden flex justify-center">
+        <div className=" mt-10 sm:hidden flex justify-center translate-x-5">
           <Image
             src="/TramaMobile.png"
             alt="Ellipse"
-            width={550}
-            height={550}
+            width={600}
+            height={600}
           />
         </div>
-        <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-xl:ml-[100px] max-lg:ml-[20px] max-sm:mt-0 ">
+        <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-xl:ml-[100px] max-lg:ml-[20px] max-sm:mt-0 max-sm:ml-[30px]">
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[36px] max-sm:text-[40px]">
             Branding
           </h2>
@@ -34,7 +34,7 @@ export default function Benchmarking() {
           />
         </div>
 
-        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px] max-sm:mt-140">
+        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px] max-sm:mt-130">
           <Image
             src="/Branding.png"
             alt="Branding"
