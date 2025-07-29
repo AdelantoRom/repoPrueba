@@ -11,7 +11,7 @@ export default function DataForm() {
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 
-      <div className="mt-[175px] w-full max-w-[1393px] flex flex-col items-center justify-center mb-9">
+      <div className="mt-[175px] w-full max-w-[1393px] flex flex-col items-center justify-center mb-9 max-sm:mt-[80px]">
         <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Data + IA:
         </h2>
@@ -21,8 +21,8 @@ export default function DataForm() {
       </div>
 
       {/* Párrafo */}
-      <div className="w-full max-w-[1145px] max-2xl:w-full  flex items-center justify-center">
-        <h3 className="text-[24px] leading-[28px] text-center text-white max-lg:text-[20px]">
+      <div className="w-full max-w-[1145px] max-2xl:w-full  flex items-center justify-center max-sm:mt-5">
+        <h3 className="relative text-[24px] leading-[28px] text-center text-white max-lg:text-[20px] max-sm:w-[336px] max-sm:z-10">
           Somos un grupo de profesionales especializados en escalar<br />
           empresas y startups, unidos bajo una misma cultura: lograr el<br />
           liderazgo desde una sólida propuesta de valor.
@@ -30,28 +30,29 @@ export default function DataForm() {
       </div>
 
 
-      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px]">
+      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px]
+      max-sm:ml-0 max-sm:mt-[60px] z-10">
         <Image
           src="/Rectangle 38.png"
           alt="Decoración Benchmarking"
           width={563}
           height={130}
           unoptimized
-          className="max-lg:w-[479px]"
+          className="max-lg:w-[479px] max-sm:w-[336px]"
         />
         <Image
           src="/hugo.png"
           alt="Hugo"
           width={116}
           height={116}
-          className="absolute top-[8px] left-[9px]  max-lg:left-[10px] max-lg:w-[100px] max-lg:h-[100px] max-lg:top-[7px] "
+          className="absolute top-[8px] left-[9px]  max-lg:left-[10px] max-lg:w-[100px] max-lg:h-[100px] max-lg:top-[7px] max-sm:w-[68px] max-sm:h-[68px] max-sm:top-[6px] max-sm:left-[7px]"
         />
         <Image
           src="/dataialead.png"
           alt="Logo In"
           width={212}
           height={59}
-          className="absolute top-[45px] left-[169px] max-lg:top-[30px] max-lg:left-[145px] max-lg:w-[180px] max-lg:h-[40px]"
+          className="absolute top-[45px] left-[169px] max-lg:top-[30px] max-lg:left-[145px] max-lg:w-[180px] max-lg:h-[40px] max-sm:w-[160px] max-sm:h-[35px] max-sm:top-[20px] max-sm:left-[105px]"
         />
 
         <Image
@@ -59,7 +60,7 @@ export default function DataForm() {
           alt="Logo In"
           width={35}
           height={35}
-          className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
+          className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px] max-sm:w-[25px] max-sm:h-[25px] max-sm:top-[50px] max-sm:left-[60px]"
         />
       </div>
 
@@ -87,7 +88,7 @@ export default function DataForm() {
       <div className="mb-21 mt-34">
         <Botones />
       </div>
-      <div>
+      <div className="w-full">
         <Footer />
       </div>
     </section >

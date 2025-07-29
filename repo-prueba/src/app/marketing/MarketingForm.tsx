@@ -11,7 +11,7 @@ export default function BrandingForm() {
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
       {/* Título principal */}
-      <div className="mt-[175px] w-full max-w-[1393px] flex flex-col items-center justify-center mb-9">
+      <div className="mt-[175px] w-full max-w-[1393px] flex flex-col items-center justify-center mb-9 max-sm:mt-[80px]">
         <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Marketing Digital:
         </h2>
@@ -21,8 +21,8 @@ export default function BrandingForm() {
       </div>
 
       {/* Párrafo */}
-      <div className="w-full max-w-[1145px] flex items-center justify-center ml-6">
-        <h3 className="text-[24px] leading-[28px] text-center text-white max-lg:text-[20px]">
+      <div className="w-full max-w-[1145px] flex items-center justify-center ml-6 max-sm:ml-0 max-sm:mt-5">
+        <h3 className="relative text-[24px] leading-[28px] text-center text-white max-lg:text-[20px] max-sm:w-[336px] max-sm:z-10">
           Somos un grupo de profesionales especializados en escalar<br />
           empresas y startups, unidos bajo una misma cultura: lograr el<br />
           liderazgo desde una sólida propuesta de valor.
@@ -30,25 +30,25 @@ export default function BrandingForm() {
       </div>
 
       {/* Imagen decorativa + logo */}
-      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px]">
+      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px] max-sm:ml-0 max-sm:mt-[60px] z-10">
         <Image
           src="/Group 156.png"
           alt="Decoración Benchmarking"
           width={563}
           height={130}
           unoptimized
-          className="max-lg:w-[479px]"
+          className="max-lg:w-[479px] max-sm:w-[336px]"
         />
         <Image
           src="/logoin.png"
           alt="Logo In"
           width={45}
           height={45}
-          className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
+          className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px] max-sm:w-[25px] max-sm:h-[25px] max-sm:top-[50px] max-sm:left-[60px]"
         />
       </div>
 
-      <div className="absolute top-[688px] left-[1389px] z-0">
+      <div className="absolute top-[688px] left-[1389px] max-sm:-translate-x-[1100px] max-sm:w-[130px]  max-sm:-translate-y-[310px]">
         <Image
           src="/Trama-esfera-fucsia.png"
           alt="Trama fucsia pequeña"
@@ -56,8 +56,8 @@ export default function BrandingForm() {
           height={251}
           className="rotate-180"
         />
-      </div>
-      <div className="absolute top-[814px] left-[286px] z-0">
+      </div> 
+      <div className="absolute top-[814px] left-[286px] z-1 max-sm:-translate-y-[390px] max-sm:-translate-x-90 max-sm:w-[150px] ">
         <Image
           src="/Trama-esfera-fucsia.png"
           alt="Trama fucsia grande"
@@ -67,12 +67,12 @@ export default function BrandingForm() {
         />
       </div>
 
-      <FormSections/>
+      <FormSections />
 
       <div className="mb-21 mt-34">
-        <Botones/>
+        <Botones />
       </div>
-      <div>
+      <div className="w-full">
         <Footer />
       </div>
     </section>
