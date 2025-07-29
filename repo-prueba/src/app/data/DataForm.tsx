@@ -64,7 +64,7 @@ export default function DataForm() {
         />
       </div>
 
-      <div className="absolute top-[688px] left-[1389px] z-0">
+      <div className="absolute top-[688px] left-[1389px] max-sm:-translate-x-[1100px] max-sm:w-[130px]  max-sm:-translate-y-[310px]">
         <Image
           src="/Trama-esfera-fucsia.png"
           alt="Trama fucsia pequeña"
@@ -73,7 +73,7 @@ export default function DataForm() {
           className="rotate-180"
         />
       </div>
-      <div className="absolute top-[814px] left-[286px] z-0">
+      <div className="absolute top-[814px] left-[286px] z-1 max-sm:-translate-y-[390px] max-sm:-translate-x-90 max-sm:w-[150px] ">
         <Image
           src="/Trama-esfera-fucsia.png"
           alt="Trama fucsia grande"
@@ -82,6 +82,7 @@ export default function DataForm() {
           className="rotate-180"
         />
       </div>
+
 
       <FormSections />
 

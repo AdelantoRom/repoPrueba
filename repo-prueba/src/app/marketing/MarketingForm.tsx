@@ -56,7 +56,7 @@ export default function BrandingForm() {
           height={251}
           className="rotate-180"
         />
-      </div> 
+      </div>
       <div className="absolute top-[814px] left-[286px] z-1 max-sm:-translate-y-[390px] max-sm:-translate-x-90 max-sm:w-[150px] ">
         <Image
           src="/Trama-esfera-fucsia.png"
