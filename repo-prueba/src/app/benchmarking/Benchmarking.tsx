@@ -15,8 +15,8 @@ export default function Benchmarking() {
           />
         </div>
 
-        <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-xl:ml-[100px] max-lg:ml-[20px] max-sm:mt-5 ">
-          <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[36px]">
+        <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-xl:ml-[100px] max-lg:ml-[20px] max-sm:mt-0 ">
+          <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[36px] max-sm:text-[40px]">
             Benchmarking
           </h2>
           <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px] max-sm:mt-0">
