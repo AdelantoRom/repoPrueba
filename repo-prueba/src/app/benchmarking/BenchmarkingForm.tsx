@@ -8,7 +8,7 @@ export default function BenchmarkingForm() {
   return (
     <section
       className="relative w-full min-h-screen bg-cover bg-center flex flex-col items-center  overflow-x-hidden"
-      style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
+      style={{ backgroundImage: "url('/Gradiente-Home-5.PNG')" }}
     >
 
       <div className="mt-[175px] w-full max-w-[1393px]  flex flex-col items-center justify-center mb-9 max-sm:mt-[80px]">
@@ -22,7 +22,7 @@ export default function BenchmarkingForm() {
 
 
       <div className="w-full max-w-[1145px] flex items-center justify-center ml-6 max-sm:ml-0">
-        <h3 className="text-[24px] leading-[28px] max-sm:w-[336px] text-center text-white max-lg:text-[20px]">
+        <h3 className="relative text-[24px] leading-[28px] max-sm:w-[336px] text-center text-white max-lg:text-[20px] max-sm:z-10">
           Somos un grupo de profesionales especializados en <br className="2xl:hidden max-sm:hidden"/> escalar
           empresas y startups, unidos bajo una misma <br className="2xl:hidden max-sm:hidden"/> cultura: lograr el
           liderazgo desde una sólida propuesta <br className="2xl:hidden max-sm:hidden"/> de valor.
@@ -30,7 +30,7 @@ export default function BenchmarkingForm() {
       </div>
 
 
-      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px] max-sm:ml-0 max-sm:mt-[60px]">
+      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px] max-sm:ml-0 max-sm:mt-[60px] z-10">
         <Image
           src="/Group-155.png"
           alt="Decoración Benchmarking"
@@ -48,7 +48,7 @@ export default function BenchmarkingForm() {
         />
       </div>
 
-      <div className="absolute top-[688px] left-[1389px] z-0">
+      <div className="absolute top-[688px] left-[1389px] max-sm:-translate-x-[1100px] max-sm:w-[130px]  max-sm:-translate-y-[380px]">
         <Image
           src="/Trama-esfera-fucsia.png"
           alt="Trama fucsia pequeña"
@@ -57,7 +57,7 @@ export default function BenchmarkingForm() {
           className="rotate-180"
         />
       </div>
-      <div className="absolute top-[814px] left-[286px] z-0">
+      <div className="absolute top-[814px] left-[286px] z-1 max-sm:-translate-y-[430px] max-sm:-translate-x-90 max-sm:w-[150px] ">
         <Image
           src="/Trama-esfera-fucsia.png"
           alt="Trama fucsia grande"
@@ -72,7 +72,7 @@ export default function BenchmarkingForm() {
       <div className="mb-21 mt-34">
         <Botones/>
       </div>
-      <div>
+      <div className="w-full">
         <Footer />
       </div>
     </section >
