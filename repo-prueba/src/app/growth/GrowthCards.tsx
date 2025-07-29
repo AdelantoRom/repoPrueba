@@ -12,7 +12,7 @@ export default function GrowthCards() {
       </div>
 
       {/* Grid container */}
-      <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7">
+      <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7 max-sm:mb-[80px]">
         {/* Tarjeta 1 */}
         <div
           className="relative top-[30px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center  max-xl:w-[292px] max-xl:mt-2  max-xl:h-[207px] max-lg:max-w-[230px] max-lg:h-[212px] max-md:max-w-[292px] max-md:top-0 max-sm:mt-0"
