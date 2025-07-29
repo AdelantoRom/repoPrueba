@@ -9,7 +9,7 @@ function Enfoque() {
                 </h3>
             </div>
 
-            <div className='flex justify-evenly ml-4 px-[200px] max-2xl:px-[100px] max-xl:px-[70px] max-xl:-mt-10 max-xl:ml-0 max-lg:flex-col max-lg:gap-y-15 max-lg:items-center'>
+            <div className='flex justify-evenly ml-4 px-[200px] max-2xl:px-[100px] max-xl:px-[70px] max-xl:-mt-10 max-xl:ml-0 max-lg:flex-col max-lg:gap-y-15 max-lg:items-center max-md:px-0'>
                 <div className='flex flex-col items-center w-[400px] max-sm:w-[340px] '>
                     <div className="relative w-[104px] h-[104px] mb-7 max-2xl:mb-2 flex justify-center items-center">
                         <Image
