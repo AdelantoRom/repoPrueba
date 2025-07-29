@@ -11,7 +11,7 @@ export default function DataForm() {
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
       {/* Título principal */}
-      <div className="mt-[175px] w-[1393px]  flex flex-col items-center justify-center ml-4 mb-9">
+      <div className="mt-[175px] w-full max-w-[1393px] max-2xl:w-full  flex flex-col items-center justify-center ml-4 mb-9">
         <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Data + IA:
         </h2>
@@ -21,7 +21,7 @@ export default function DataForm() {
       </div>
 
       {/* Párrafo */}
-      <div className="w-[1145px] flex items-center justify-center ml-6">
+      <div className="w-full max-w-[1145px] max-2xl:w-full  flex items-center justify-center ml-6">
         <h3 className="text-[24px] leading-[28px] text-center text-white max-lg:text-[20px]">
           Somos un grupo de profesionales especializados en escalar<br />
           empresas y startups, unidos bajo una misma cultura: lograr el<br />
@@ -60,7 +60,7 @@ export default function DataForm() {
                 width={35}
                 height={35}
                 className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
-              />
+              />  
             </div>
 
       <div className="absolute top-[688px] left-[1389px] z-0">
