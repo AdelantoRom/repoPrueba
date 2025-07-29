@@ -4,7 +4,7 @@ export default function GrowthCards() {
   return (
     <div>
       {/* Título */}
-      <div className="mb-24 text-center -mt-[140px] ml-[15px]">
+      <div className="mb-24 text-center -mt-[140px] ml-[15px] max-sm:ml-0">
         <h1 className="font-light text-black text-[80px] leading-[80px] max-2xl:text-[67px] max-2xl:leading-[70px] max-lg:text-[36px] max-lg:leading-[40px]">
           Crecimiento y <br />
           posicionamiento de mercado

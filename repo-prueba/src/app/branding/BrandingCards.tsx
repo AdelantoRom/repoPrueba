@@ -3,7 +3,7 @@ import React from "react";
 export default function BrandingCards() {
   return (
     <div>
-      <div className="mb-24 text-center -mt-[152px] ml-[15px]">
+      <div className="mb-24 text-center -mt-[152px] ml-[15px] max-sm:ml-0">
         <h1 className="font-light text-black text-[80px] leading-[80px] max-2xl:text-[67px] max-2xl:leading-[70px] max-lg:text-[36px] max-lg:leading-[40px]">
           Desarrollo de identidad e<br />
           imagen de producto
