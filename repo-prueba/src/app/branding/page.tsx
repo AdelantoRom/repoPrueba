@@ -14,9 +14,9 @@ export default function Page() {
         <div className="-mt-120">
           <BrandingCards />
         </div>
-        <div>
+        {/* <div>
           <BrandingForm />
-        </div>
+        </div> */}
       </main>
       
     </div>
