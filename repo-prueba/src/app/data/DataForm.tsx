@@ -7,7 +7,7 @@ import Footer from "@/components/Footer/Footer";
 export default function DataForm() {
   return (
     <section
-      className="relative w-full bg-cover bg-center flex flex-col items-center min-h-screenoverflow-x-hidden"
+      className="relative w-full bg-cover bg-center flex flex-col items-center min-h-screen overflow-x-hidden"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 

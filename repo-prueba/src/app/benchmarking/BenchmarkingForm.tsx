@@ -7,7 +7,7 @@ import Footer from "@/components/Footer/Footer";
 export default function BenchmarkingForm() {
   return (
     <section
-      className="relative w-full h-[2554px] bg-cover bg-center flex flex-col items-center"
+      className="relative w-full min-h-screen bg-cover bg-center flex flex-col items-center  overflow-x-hidden"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 
@@ -72,7 +72,7 @@ export default function BenchmarkingForm() {
       <div className="mb-21 mt-34">
         <Botones/>
       </div>
-      <div className="absolute bottom-0 left-0 w-full z-50">
+      <div>
         <Footer />
       </div>
     </section >
