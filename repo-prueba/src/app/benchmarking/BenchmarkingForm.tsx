@@ -21,7 +21,7 @@ export default function BenchmarkingForm() {
       </div>
 
 
-      <div className="w-full max-w-[1145px] flex items-center justify-center ml-6 max-sm:ml-0">
+      <div className="w-full max-w-[1145px] flex items-center justify-center ml-6 max-sm:ml-0 max-sm:mt-5">
         <h3 className="relative text-[24px] leading-[28px] max-sm:w-[336px] text-center text-white max-lg:text-[20px] max-sm:z-10">
           Somos un grupo de profesionales especializados en <br className="2xl:hidden max-sm:hidden"/> escalar
           empresas y startups, unidos bajo una misma <br className="2xl:hidden max-sm:hidden"/> cultura: lograr el
