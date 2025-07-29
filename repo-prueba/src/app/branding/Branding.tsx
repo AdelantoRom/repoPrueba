@@ -27,7 +27,7 @@ export default function Benchmarking() {
           />
         </div>
 
-        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px]">
+        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px]">
           <Image
             src="/Branding.png"
             alt="Branding"
