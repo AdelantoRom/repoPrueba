@@ -37,7 +37,7 @@ export default function BrandingCards() {
           className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center ml-[22px] mt-[30px] max-xl:h-[258px] max-xl:mt-[22px] max-xl:p-2 max-xl:w-[292px] max-lg:h-[264px] max-lg:max-w-[230px] max-lg:p-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
-          <p className="text-[20px] leading-[28px] text-left pt-[39px] max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-2xl:pl-2 max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-5 ">
+          <p className="text-[20px] leading-[28px] text-left pt-[39px] max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-2xl:pl-2 max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-5 max-lg:pl-0 ">
             Tu presencia online, sólida y eficiente Construimos tus activos digitales en base a los criterios de tu marca, la experiencia del usuario, interfaces atractivas y capacidades tecnológicas avanzadas.
           </p>
         </div>
