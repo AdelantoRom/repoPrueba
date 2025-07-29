@@ -10,7 +10,7 @@ export default function DataForm() {
       className="relative w-full bg-cover bg-center flex flex-col items-center min-h-screenoverflow-x-hidden"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
-      {/* Título principal */}
+
       <div className="mt-[175px] w-full max-w-[1393px] max-2xl:w-full  flex flex-col items-center justify-center mb-9">
         <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Data + IA:
@@ -31,37 +31,37 @@ export default function DataForm() {
 
 
       <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px]">
-              <Image
-                src="/Rectangle 38.png"
-                alt="Decoración Benchmarking"
-                width={563}
-                height={130}
-                unoptimized
-                className="max-lg:w-[479px]"
-              />
-              <Image
-                src="/hugo.png"
-                alt="Hugo"
-                width={116}
-                height={116}
-                className="absolute top-[8px] left-[9px]  max-lg:left-[10px] max-lg:w-[100px] max-lg:h-[100px] max-lg:top-[7px] "
-              />
-              <Image
-                src="/dataialead.png"
-                alt="Logo In"
-                width={212}
-                height={59}
-                className="absolute top-[45px] left-[169px] max-lg:top-[30px] max-lg:left-[145px] max-lg:w-[180px] max-lg:h-[40px]"
-              />
+        <Image
+          src="/Rectangle 38.png"
+          alt="Decoración Benchmarking"
+          width={563}
+          height={130}
+          unoptimized
+          className="max-lg:w-[479px]"
+        />
+        <Image
+          src="/hugo.png"
+          alt="Hugo"
+          width={116}
+          height={116}
+          className="absolute top-[8px] left-[9px]  max-lg:left-[10px] max-lg:w-[100px] max-lg:h-[100px] max-lg:top-[7px] "
+        />
+        <Image
+          src="/dataialead.png"
+          alt="Logo In"
+          width={212}
+          height={59}
+          className="absolute top-[45px] left-[169px] max-lg:top-[30px] max-lg:left-[145px] max-lg:w-[180px] max-lg:h-[40px]"
+        />
 
-              <Image
-                src="/logoin.png"
-                alt="Logo In"
-                width={35}
-                height={35}
-                className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
-              />  
-            </div>
+        <Image
+          src="/logoin.png"
+          alt="Logo In"
+          width={35}
+          height={35}
+          className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
+        />
+      </div>
 
       <div className="absolute top-[688px] left-[1389px] z-0">
         <Image
@@ -82,10 +82,10 @@ export default function DataForm() {
         />
       </div>
 
-      <FormSections/>
+      <FormSections />
 
       <div className="mb-21 mt-34">
-        <Botones/>
+        <Botones />
       </div>
       <div>
         <Footer />
