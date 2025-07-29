@@ -7,22 +7,22 @@ import Footer from "@/components/Footer/Footer";
 export default function BrandingForm() {
   return (
     <section
-      className="relative w-full bg-cover bg-center flex flex-col items-center h-[2554px]"
+      className="relative w-full bg-cover bg-center flex flex-col items-center min-h-screen overflow-x-hidden"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
       {/* Título principal */}
-      <div className="mt-[175px] w-[1393px]  flex flex-col items-center justify-center ml-4 mb-9">
-        <h2 className="font-bold text-[64px] leading-[64px] text-center text-white">
+      <div className="mt-[175px] w-full max-w-[1393px] flex flex-col items-center justify-center mb-9">
+        <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Marketing Digital:
         </h2>
-        <p className="font-light text-[64px] leading-[64px] text-center text-white">
+        <p className="font-light text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           orientado a resultados
         </p>
       </div>
 
       {/* Párrafo */}
-      <div className="w-[1145px] flex items-center justify-center ml-6">
-        <h3 className="text-[24px] leading-[28px] text-center text-white">
+      <div className="w-full max-w-[1145px] flex items-center justify-center ml-6">
+        <h3 className="text-[24px] leading-[28px] text-center text-white max-lg:text-[20px]">
           Somos un grupo de profesionales especializados en escalar<br />
           empresas y startups, unidos bajo una misma cultura: lograr el<br />
           liderazgo desde una sólida propuesta de valor.
@@ -72,7 +72,7 @@ export default function BrandingForm() {
       <div className="mb-21 mt-34">
         <Botones/>
       </div>
-      <div className="absolute bottom-0 left-0 w-full z-50">
+      <div>
         <Footer />
       </div>
     </section>
