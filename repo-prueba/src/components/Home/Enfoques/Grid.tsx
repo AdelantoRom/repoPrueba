@@ -44,7 +44,7 @@ export default function Grid() {
                     <ButtonBintelligenz />
                 </div>
             </div>
-            <div className="lg:hidden flex items-center justify-center bg-[#F4F0F0] px-4 w-full">
+            <div className="lg:hidden flex items-center justify-center bg-[#F4F0F0] w-full">
 
                 <CarouselMarcas />
             </div>

@@ -38,7 +38,7 @@ const CarouselMarcas = () => {
             ref={carouselRef}
         >
             <motion.div
-                className="flex gap-4 cursor-grab active:cursor-grabbing"
+                className="flex gap-1 cursor-grab active:cursor-grabbing"
                 drag="x"
                 dragConstraints={{ right: 0, left: -width }}
                 ref={innerRef}
