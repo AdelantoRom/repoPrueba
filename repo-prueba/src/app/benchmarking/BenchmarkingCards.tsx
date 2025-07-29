@@ -24,7 +24,7 @@ export default function BenchmarkingCards() {
         </div>
 
         <div
-          className="relative top-[55px] w-[427px] h-[189px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-xl:h-[185px] max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[200px] max-md:max-w-[292px] max-md:top-0"
+          className="relative top-[55px] w-[427px] h-[189px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-xl:h-[185px] max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[200px] max-md:max-w-[292px] max-md:top-0 "
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-4 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-2 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pb-2 max-lg:pt-1">
@@ -33,7 +33,7 @@ export default function BenchmarkingCards() {
         </div>
 
         <div
-          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[25px] max-xl:w-[300px] max-xl:h-[253px] max-lg:max-w-[230px] max-lg:mr-4 max-md:max-w-[292px] max-md:mt-0"
+          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[25px] max-xl:w-[300px] max-xl:h-[253px] max-lg:max-w-[230px] max-lg:mr-4 max-md:max-w-[292px] max-md:mt-0 max-md:ml-0 max-md:mr-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-9 max-w-[351px] max-xl:max-w-[239px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-7 max-lg:text-[16px] max-lg:max-w-[200px] ">

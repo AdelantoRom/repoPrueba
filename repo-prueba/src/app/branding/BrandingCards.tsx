@@ -11,10 +11,10 @@ export default function BrandingCards() {
       </div>
 
 
-      <div className="grid grid-cols-3 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] ">
+      <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7">
         {/* Tarjeta 1 */}
         <div
-          className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center pt-6 max-xl:h-[212px] max-xl:mt-2 max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[200px]"
+          className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center pt-6 max-xl:h-[212px] max-xl:mt-2 max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[200px] max-md:max-w-[292px] max-md:top-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left -ml-[2px] pt-5 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-2 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
@@ -24,7 +24,7 @@ export default function BrandingCards() {
 
         {/* Tarjeta 2 */}
         <div
-          className="relative top-[30px] left-1 w-[427px] h-[238px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 mt-[2px]  max-2xl:mt-1 max-xl:w-[292px] max-lg:max-w-[230px] max-2xl:h-[233px]  max-xl:h-[236px] max-lg:h-[240px]"
+          className="relative top-[30px] left-1 w-[427px] h-[238px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 mt-[2px]  max-2xl:mt-1 max-xl:w-[292px] max-lg:max-w-[230px] max-2xl:h-[233px]  max-xl:h-[236px] max-lg:h-[240px] max-md:max-w-[292px] max-md:top-0 max-md:left-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-3 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-2 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-0">
@@ -34,10 +34,10 @@ export default function BrandingCards() {
 
         {/* Tarjeta 3 */}
         <div
-          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center ml-[22px] mt-[30px] max-xl:h-[258px] max-xl:mt-[22px] max-xl:p-2 max-xl:w-[292px] max-lg:h-[264px] max-lg:max-w-[230px] max-lg:p-0"
+          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center ml-[22px] mt-[30px] max-xl:h-[258px] max-xl:mt-[22px] max-xl:p-2 max-xl:w-[292px] max-lg:h-[264px] max-lg:max-w-[230px] max-lg:p-0 max-md:max-w-[292px] max-md:mt-0 max-md:ml-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
-          <p className="text-[20px] leading-[28px] text-left pt-[39px] max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-2xl:pl-2 max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-5 max-lg:pl-0 ">
+          <p className="text-[20px] leading-[28px] text-left pt-[39px] max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-2xl:pl-2 max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-5 max-lg:pl-0 max-md:pt-7 ">
             Tu presencia online, sólida y eficiente Construimos tus activos digitales en base a los criterios de tu marca, la experiencia del usuario, interfaces atractivas y capacidades tecnológicas avanzadas.
           </p>
         </div>
