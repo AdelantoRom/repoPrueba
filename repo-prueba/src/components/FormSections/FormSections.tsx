@@ -2,7 +2,7 @@ import React from 'react'
 
 function FormSections() {
     return (
-        <div className="relative z-10 mt-[107px] flex flex-col items-center">
+        <div className="relative z-10 mt-[107px] flex flex-col items-center max-sm:mt-[60px]">
             <h2 className="text-white text-[32px] leading-[36px] text-center max-sm:text-[38px]">¿Conectamos?</h2>
             <form className="mt-[56px] flex flex-col space-y-[25px] items-center max-sm:mt-[45px] ">
                 {["Nombre y Apellido*", "Email*", "Telefono*", "Empresa*"].map((placeholder, idx) => (
@@ -51,7 +51,7 @@ function FormSections() {
                 <div className="w-[638px] flex justify-start max-sm:w-full max-sm:justify-center">
                     <button
                         type="submit"
-                        className="bg-[#D81FB9] text-white text-[18px] font-semibold h-[46px] w-[186px] rounded-[50px] mt-[29px] mb-[40px]"
+                        className="bg-[#D81FB9] text-white text-[18px] font-semibold h-[46px] w-[186px] rounded-[50px] mt-[29px] mb-[40px] max-sm:mb-0"
                     >
                         Enviar
                     </button>

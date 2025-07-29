@@ -11,7 +11,7 @@ export default function BenchmarkingForm() {
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 
-      <div className="mt-[175px] w-full max-w-[1393px]  flex flex-col items-center justify-center mb-9">
+      <div className="mt-[175px] w-full max-w-[1393px]  flex flex-col items-center justify-center mb-9 max-sm:mt-[80px]">
         <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Benchmarking:
         </h2>
@@ -30,7 +30,7 @@ export default function BenchmarkingForm() {
       </div>
 
 
-      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px] max-sm:ml-0">
+      <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px] max-sm:ml-0 max-sm:mt-[60px]">
         <Image
           src="/Group-155.png"
           alt="Decoración Benchmarking"
