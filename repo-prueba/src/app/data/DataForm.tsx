@@ -11,7 +11,7 @@ export default function DataForm() {
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 
-      <div className="mt-[175px] w-full max-w-[1393px] max-2xl:w-full  flex flex-col items-center justify-center mb-9">
+      <div className="mt-[175px] w-full max-w-[1393px] flex flex-col items-center justify-center mb-9">
         <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Data + IA:
         </h2>
