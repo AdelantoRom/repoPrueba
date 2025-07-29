@@ -8,7 +8,7 @@ export default function BenchmarkingForm() {
   return (
     <section
       className="relative w-full min-h-screen bg-cover bg-center flex flex-col items-center  overflow-x-hidden"
-      style={{ backgroundImage: "url('/Gradiente-Home-5.PNG')" }}
+      style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
 
       <div className="mt-[175px] w-full max-w-[1393px]  flex flex-col items-center justify-center mb-9 max-sm:mt-[80px]">
