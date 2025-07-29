@@ -24,7 +24,7 @@ export default function BenchmarkingCards() {
         </div>
 
         <div
-          className="relative top-[55px] left-1 w-[427px] h-[189px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-xl:h-[185px] max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[200px]"
+          className="relative top-[55px]  w-[427px] h-[189px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 max-xl:h-[185px] max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[200px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-4 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-2 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pb-2 max-lg:pt-1">
