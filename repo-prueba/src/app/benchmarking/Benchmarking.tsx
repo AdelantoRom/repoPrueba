@@ -5,20 +5,7 @@ export default function Benchmarking() {
   return (
 
     <div className="relative w-full">
-      {/* <div className="relative w-full ">
-        <div className="absolute left-1/2 translate-x-0 lg:hidden">
-          <Image
-            src="/tramatablet.png"
-            alt="Trama Tablet"
-            width={1050}
-            height={1050}
-            className="object-cover"
-          />
-        </div>
-      </div> */}
-
-
-      <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px]">
+            <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px] overflow-x-hidden">
 
         <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-xl:ml-[100px] max-lg:ml-[20px] ">
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[36px]">
@@ -30,18 +17,19 @@ export default function Benchmarking() {
         </div>
 
 
+        
         <div className="relative w-full h-[550px] mt-4">
           <Image
             src="/Trama Servicios Desktop.png"
             alt="Ellipse"
             width={1050}
             height={1050}
-            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[14px]  max-2xl:w-[899px] max-2xl:top-[-455px]  max-xl:top-[-455px] max-lg:w-[500px] max-lg:top-[-295px]"
+            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-455px] max-xl:top-[-455px] max-lg:w-[699px] max-lg:top-[-375px]"
           />
         </div>
 
         {/* Icono Benchmarking */}
-        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[25px]">
+        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px]">
           <Image
             src="/Benchmarking.png"
             alt="Benchmarking"

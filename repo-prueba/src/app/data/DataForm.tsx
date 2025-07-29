@@ -12,17 +12,17 @@ export default function DataForm() {
     >
       {/* Título principal */}
       <div className="mt-[175px] w-[1393px]  flex flex-col items-center justify-center ml-4 mb-9">
-        <h2 className="font-bold text-[64px] leading-[64px] text-center text-white">
+        <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Data + IA:
         </h2>
-        <p className="font-light text-[64px] leading-[64px] text-center text-white">
+        <p className="font-light text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           orientado a resultados
         </p>
       </div>
 
       {/* Párrafo */}
       <div className="w-[1145px] flex items-center justify-center ml-6">
-        <h3 className="text-[24px] leading-[28px] text-center text-white">
+        <h3 className="text-[24px] leading-[28px] text-center text-white max-lg:text-[20px]">
           Somos un grupo de profesionales especializados en escalar<br />
           empresas y startups, unidos bajo una misma cultura: lograr el<br />
           liderazgo desde una sólida propuesta de valor.
@@ -44,14 +44,14 @@ export default function DataForm() {
                 alt="Hugo"
                 width={116}
                 height={116}
-                className="absolute top-[8px] left-[9px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
+                className="absolute top-[8px] left-[9px]  max-lg:left-[10px] max-lg:w-[100px] max-lg:h-[100px] max-lg:top-[7px] "
               />
               <Image
                 src="/dataialead.png"
                 alt="Logo In"
                 width={212}
                 height={59}
-                className="absolute top-[45px] left-[169px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px]"
+                className="absolute top-[45px] left-[169px] max-lg:top-[30px] max-lg:left-[145px] max-lg:w-[180px] max-lg:h-[40px]"
               />
 
               <Image

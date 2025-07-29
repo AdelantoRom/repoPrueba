@@ -5,7 +5,7 @@ export default function Growth() {
   return (
     // ⬇️ CONTENEDOR QUE BLOQUEA ESPACIO Y AÍSLA LOS ELEMENTOS ABSOLUTOS
     <div className="relative w-full">
-      <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px]">
+      <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px] overflow-x-hidden">
 
         <div className="ml-[288px] mt-[215px] max-2xl:ml-[150px] max-lg:ml-[20px] ">
           <h2 className="font-bold text-[64px] leading-[64px] text-[#D81FB9] max-2xl:text-[48px] max-lg:text-[40px]">
@@ -23,12 +23,12 @@ export default function Growth() {
             alt="Ellipse"
             width={1050}
             height={1050}
-            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-483px] max-lg:w-[699px] max-lg:top-[-375px]"
+            className="absolute top-[-506px] left-1/2 -translate-x-[25px] max-lg:-translate-x-[18px] max-2xl:w-[899px] max-2xl:top-[-483px] max-lg:w-[699px] max-lg:top-[-403px]"
           />
         </div>
 
         {/* Icono Branding */}
-        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px]">
+        <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px]">
           <Image
             src="/Growth.png"
             alt="Growth"
