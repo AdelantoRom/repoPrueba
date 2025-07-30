@@ -35,7 +35,8 @@ export default function NavbarPrueba() {
       </div>
 
       {/* Botón hamburguesa mobile */}
-      <button className="lg:hidden text-black" onClick={toggleMenu}>
+      <button className="lg:hidden text-black mr-2" onClick={toggleMenu}>
+
         {isOpen ? <X size={32} /> : <Menu size={32} />}
       </button>
 
@@ -60,7 +61,7 @@ export default function NavbarPrueba() {
           </div>
           <Link href="/#casos" onClick={toggleMenu}>Casos</Link>
           <hr className="my-3 border-gray-300" />
-          <Link href="/contacto" onClick={toggleMenu}>Contacto</Link>
+          <Link href="/#contacto" onClick={toggleMenu}>Contacto</Link>
           <hr className="my-3 border-gray-300" />
           
           
