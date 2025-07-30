@@ -45,7 +45,7 @@ export default function DataForm() {
           alt="Hugo"
           width={116}
           height={116}
-          className="absolute top-[8px] left-[9px]  max-lg:left-[10px] max-lg:w-[100px] max-lg:h-[100px] max-lg:top-[7px] max-sm:w-[68px] max-sm:h-[68px] max-sm:top-[6px] max-sm:left-[7px]"
+          className="absolute top-[8px] left-[9px]  max-lg:left-[10px] max-lg:w-[100px] max-lg:h-[100px] max-lg:top-[7px] max-sm:w-[68px] max-sm:h-[68px] max-sm:top-[5px] max-sm:left-[7px]"
         />
         <Image
           src="/dataialead.png"
