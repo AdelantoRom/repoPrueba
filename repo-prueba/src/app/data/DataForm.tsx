@@ -52,7 +52,7 @@ export default function DataForm() {
           alt="Logo In"
           width={212}
           height={59}
-          className="absolute top-[45px] left-[169px] max-lg:top-[30px] max-lg:left-[145px] max-lg:w-[180px] max-lg:h-[40px] max-sm:w-[160px] max-sm:h-[35px] max-sm:top-[20px] max-sm:left-[105px]"
+          className="absolute top-[45px] left-[169px] max-lg:top-[30px] max-lg:left-[145px] max-lg:w-[180px] max-lg:h-[40px] max-sm:w-[110px] max-sm:h-[25px] max-sm:top-[23px] max-sm:left-[102px]"
         />
 
         <Image
