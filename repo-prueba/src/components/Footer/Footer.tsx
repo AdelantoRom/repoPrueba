@@ -103,7 +103,7 @@ export default function Footer() {
           <div className="flex justify-between items-center mb-2">
             <Link href="/">
               <Image
-                src="/Logo Rombux fucsia.png"
+                src="/Logo Rombux fucsia footer.png"
                 alt="Logo Footer Mobile"
                 width={171}
                 height={41}
