@@ -19,7 +19,7 @@ export default function Benchmarking() {
             Branding
           </h2>
           <p className="font-light italic text-[24px] leading-[28px] -ml-[1px] text-[#000000] max-2xl:text-[24px] mt-6 max-lg:text-[18px] max-sm:mt-0">
-            Construye una marca <br className="xl:hidden" /> con impacto y<br className="max-xl:hidden" />
+            Construye una marca <br className="xl:hidden" /> con impacto y <br className="max-xl:hidden" />
             reputación.
           </p>
         </div>
