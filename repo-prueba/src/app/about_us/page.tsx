@@ -39,7 +39,7 @@ const teamMembers = [
 export default function About_Us() {
   return (
     <div>
-      <div className="bg-[url('/Gradiente-Home-5.png')] bg-cover w-full max-w-[1920px] mx-auto px-7 pt-[235px] max-lg:px-0 relative max-sm:pt-[150px]">
+      <div className="lg:bg-[url('/Gradiente-Home-5.png')] bg-[url('/Gradiente-Home-6.png')] bg-cover w-full max-w-[1920px] mx-auto px-7 pt-[235px] max-lg:px-0 relative max-sm:pt-[150px]">
         <div className="w-full flex flex-col items-center text-center">
           <h1 className="text-[64px] leading-[64px] font-medium text-shadow-md text-white max-md:text-[40px] max-md:leading-[40px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
             Quiénes somos 
@@ -121,7 +121,7 @@ export default function About_Us() {
         </div>
         
       </div>
-      <div>
+      <div className='w-full'>
         <Footer />
       </div>
     </div>
