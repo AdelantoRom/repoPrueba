@@ -5,7 +5,7 @@ export default function Thank() {
         <div className="relative w-full h-[1080px] flex flex-col max-md:justify-start items-center justify-center text-white overflow-hidden">
             <div className="absolute inset-0 -z-10">
                 <Image
-                    src="/gradiente1.png"
+                    src="/Gradiente-Home-6.png"
                     alt=""
                     fill
                     className="object-cover object-top"

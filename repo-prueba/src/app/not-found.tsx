@@ -15,7 +15,7 @@ export default function NotFound() {
                 />
             </div>
 
-            <div className="z-10 text-center mb-40 mt-35">
+            <div className="z-10 text-center mb-40 mt-10">
                 <h1 className="text-[48px] font-bold leading-[48px] max-lg:text-[24px] max-lg:leading-[24px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">Mmm... parece que se nos <br className="sm:hidden" /> rompió algo.</h1>
                 <h2 className="text-[32px] leading-[48px] max-lg:text-[20px] max-lg:leading-[24px] mt-2">Mientras lo reparamos, puedes <br className="sm:hidden" /> encontrar lo que buscas aquí:</h2>
                 <div className="pt-15">
