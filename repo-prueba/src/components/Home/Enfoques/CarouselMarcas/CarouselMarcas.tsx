@@ -1,7 +1,5 @@
 'use client';
 
-import { useRef, useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 
 const images = [
@@ -13,44 +11,17 @@ const images = [
     { id: 6, src: '/bincarousel.png', href: '/bintelligenz' },
 ];
 
-const CarouselMarcas = () => {
-    const carouselRef = useRef<HTMLDivElement | null>(null);
-    const innerRef = useRef<HTMLDivElement | null>(null);
-    const [width, setWidth] = useState(0);
+export default function CarouselMarcas() {
     const router = useRouter();
-    const isDragging = useRef(false);
-
-    const calculateWidth = () => {
-        if (carouselRef.current && innerRef.current) {
-            const scrollWidth = innerRef.current.scrollWidth;
-            const offsetWidth = carouselRef.current.offsetWidth;
-            setWidth(scrollWidth - offsetWidth);
-        }
-    };
-
-    useEffect(() => {
-        calculateWidth();
-        window.addEventListener('resize', calculateWidth);
-        return () => window.removeEventListener('resize', calculateWidth);
-    }, []);
 
     return (
-        <div className="overflow-hidden w-full px-4 sm:px-8" ref={carouselRef}>
-            <motion.div
-                className="flex gap-1 cursor-grab active:cursor-grabbing"
-                drag="x"
-                dragConstraints={{ right: 0, left: -width }}
-                ref={innerRef}
-            >
+        <div className="overflow-x-auto scroll-smooth snap-x snap-mandatory px-4 sm:px-8">
+            <div className="flex gap-1">
                 {images.map((img) => (
                     <div
                         key={img.id}
-                        className="w-full min-w-[calc(100%-1rem)] sm:min-w-[300px] max-w-[500px] h-[200px] relative rounded-xl overflow-hidden flex-shrink-0 bg-gray-100"
-                        onPointerDown={() => (isDragging.current = false)}
-                        onPointerMove={() => (isDragging.current = true)}
-                        onPointerUp={() => {
-                            if (!isDragging.current) router.push(img.href);
-                        }}
+                        className="snap-center min-w-[calc(100%-1rem)] sm:min-w-[300px] max-w-[500px] h-[200px] relative rounded-xl overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer"
+                        onClick={() => router.push(img.href)}
                     >
                         <img
                             src={img.src}
@@ -60,11 +31,7 @@ const CarouselMarcas = () => {
                         />
                         <div
                             className="absolute bottom-2 left-2 w-8 h-8 bg-white rounded-full shadow border border-[#D81FB9] text-[#D81FB9] flex items-center justify-center text-[28px] font-medium z-10"
-                            onPointerDown={(e) => {
-                                e.stopPropagation();
-                                isDragging.current = false;
-                            }}
-                            onPointerUp={(e) => {
+                            onClick={(e) => {
                                 e.stopPropagation();
                                 router.push(img.href);
                             }}
@@ -73,9 +40,7 @@ const CarouselMarcas = () => {
                         </div>
                     </div>
                 ))}
-            </motion.div>
+            </div>
         </div>
     );
-};
-
-export default CarouselMarcas;
+}
