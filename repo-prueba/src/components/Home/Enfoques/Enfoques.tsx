@@ -1,11 +1,12 @@
 import React from 'react'
 import Grid from './Grid'
 import Testimonios from './Testimonios'
-
+import CarouselMarcas
+ from './CarouselMarcas/CarouselMarcas'
 function Enfoques() {
     return (
         <div className='bg-[#F4F0F0] text-black overflow-x-hidden'>
-            <div className="mx-auto w-[1544px] max-2xl:w-[1200px] max-xl:w-[900px] pt-[216px] max-2xl:pt-[200px] max-lg:w-[720px] max-md:w-full max-md:pt-[105px]">
+            <div className="mx-auto w-[1544px] max-2xl:w-[1200px] max-xl:w-[900px] pt-[216px] max-2xl:pt-[200px]  max-md:w-full max-md:pt-[105px]">
                 <div className="flex justify-between items-start relative">
                     {/* Texto izquierda */}
                     <div className="relative -top-[46px] flex flex-col leading-[36px] w-[629px] ml-27 max-xl:hidden">
@@ -28,6 +29,10 @@ function Enfoques() {
                 <div className="w-[1520px] max-2xl:w-[1200px] max-xl:w-[900px]  max-lg:w-[720px]">
                     <Grid />
                 </div>
+            </div>
+            <div className="lg:hidden flex items-center justify-center bg-[#F4F0F0] w-full">
+
+                <CarouselMarcas />
             </div>
 
             <div>
