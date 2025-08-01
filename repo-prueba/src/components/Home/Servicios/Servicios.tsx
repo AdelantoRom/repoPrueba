@@ -7,7 +7,7 @@ import Enfoque from "../Enfoque/Enfoque";
 export default function Servicios() {
     return (
         <div>
-            <div className="w-[911px] ml-[293px] mt-[149px] max-xl:ml-[80px] max-2xl:ml-[120px] max-md:ml-5 max-md:mt-[85px] max-lg:w-[400px] max-md:w-[285px]">
+            <div className="w-[911px] ml-[293px] mt-[149px] max-xl:ml-[80px] max-2xl:ml-[120px] max-md:ml-5 max-md:mt-[85px] max-lg:w-[400px] max-md:w-[285px] max-sm:ml-8">
                 <h2 className="text-[#D81FB9] text-[80px] leading-[80px] max-xl:text-[70px] max-xl:leading-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-lg:leading-[40px] max-lg:w-[200px] ">Servicios</h2>
                 <h3 className="text-black text-[48px] leading-none pt-[26px] max-xl:text-[36px] max-xl:leading-[36px] max-xl:w-[543px]  max-lg:text-[30px] max-lg:leading-[30px]  max-md:text-[25px] max-md:leading-[25px] max-md:pt-3 max-md:font-light max-sm:w-[285px]">
                     Soluciones híperpersonalizadas <br className="block md:hidden lg:block"/>para tu empresa
@@ -42,7 +42,7 @@ export default function Servicios() {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-[702px] ml-[69px] mr-5 max-2xl:ml-[100px] mt-[169px]  text-black max-2xl:w-[557px] max-2xl:mt-[80px] max-xl:w-[550px] max-xl:-ml-30 max-lg:mr-10 max-lg:-ml-0 max-md:mx-2 max-md:w-[500px] max-sm:items-center  ">
+                <div className="flex flex-col w-[702px] ml-[69px] mr-5 max-2xl:ml-[100px] mt-[169px]  text-black max-2xl:w-[557px] max-2xl:mt-[80px] max-xl:w-[550px] max-xl:-ml-30 max-lg:mr-10 max-lg:-ml-0 max-md:mx-2 max-md:w-[500px] max-sm:items-center max-sm:w-full  ">
                     <ServicioItem
                         title="Benchmarking"
                         icon="/diamante.png"
