@@ -15,18 +15,18 @@ export default function CarouselMarcas() {
     const router = useRouter();
 
     return (
-        <div className="overflow-x-auto scroll-smooth snap-x snap-mandatory px-4 sm:px-8">
+        <div className="overflow-x-auto scroll-smooth snap-x snap-mandatory ">
             <div className="flex gap-1">
                 {images.map((img) => (
                     <div
                         key={img.id}
-                        className="snap-center min-w-[calc(100%-1rem)] sm:min-w-[300px] max-w-[500px] h-[200px] relative rounded-xl overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer"
+                        className="snap-center  h-[190px] relative rounded-xl overflow-hidden flex-shrink-0 bg-gray-100 cursor-pointer"
                         onClick={() => router.push(img.href)}
                     >
                         <img
                             src={img.src}
                             alt={`Imagen ${img.id}`}
-                            className="w-full h-full object-cover aspect-video"
+                            className="w-[330px] h-full object-cover aspect-video"
                             draggable={false}
                         />
                         <div
