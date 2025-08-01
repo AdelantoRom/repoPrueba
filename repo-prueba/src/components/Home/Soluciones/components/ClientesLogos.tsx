@@ -49,7 +49,7 @@ export default function ClientesLogos() {
           <Image src="/DowAgroSciences.svg" width={164} height={25} alt="Imagen Dow Agro"  className="object-contain" />
         </div>
         <div className="relative lg:w-[68px] lg:h-[60px] 2xl:w-[71px] 2xl:h-[56px]">
-          <Image src="/superpollo.svg" alt="Imagen Super Pollo" width={72} height={56}  className="object-contain" />
+          <Image src="/Group.png" alt="Imagen Super Pollo" width={72} height={56}  className="object-contain" />
         </div>
         <div className="relative lg:w-[56px] lg:h-[40px] 2xl:w-[82px] 2xl:h-[56px]">
           <Image src="/Amarula blanco.png" alt="Imagen Amarula" width={100} height={55} className="object-contain" />
