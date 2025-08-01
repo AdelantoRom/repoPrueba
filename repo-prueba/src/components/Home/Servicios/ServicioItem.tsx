@@ -17,19 +17,19 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="border-b border-[#D81FB9] mb-5 max-sm:w-[342px]">
+        <div className="border-b border-[#D81FB9] mb-5 max-sm:w-[330px]">
             <button
                 onClick={() => setOpen(!open)}
-                className="w-full flex items-center justify-between px-4"
+                className="w-full flex items-center justify-between px-4 max-sm:px-0"
             >
-                <div className="flex items-center gap-3 mt-[27px]">
+                <div className="flex items-center gap-3 mt-[27px] ">
                     <Image
                         src={icon}
                         alt={title}
                         width={40}
                         height={40}
-                        className="ml-[8px] max-xl:w-[40px] relative -top-[23px]" />
-                    <span className="text-[32px] ml-[36px] -mt-[47px] max-2xl:text-[40px] max-xl:text-[36px] max-xl:ml-2 max-lg:text-[30px] max-lg:leading-[36px] max-md:text-[24px] max-md:w-[30px]">{title}</span>
+                        className="ml-[8px] max-xl:w-[40px] relative -top-[23px] max-sm:ml-0" />
+                    <span className="text-[32px] ml-[36px] -mt-[47px] max-2xl:text-[40px] max-xl:text-[36px] max-xl:ml-2 max-lg:text-[30px] max-lg:leading-[36px] max-md:text-[24px] max-md:w-[30px] max-sm:w-full">{title}</span>
                 </div>
                 <ChevronDown
                     className={`text-[#D81FB9] w-[43px] h-[43px] relative -top-[9px] transform transition-transform duration-600 ${open ? "rotate-180" : "rotate-0"
