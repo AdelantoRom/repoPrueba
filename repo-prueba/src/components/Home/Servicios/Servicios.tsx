@@ -42,7 +42,7 @@ export default function Servicios() {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-[702px] ml-[69px] mr-5 max-2xl:ml-[100px] mt-[169px]  text-black max-2xl:w-[557px] max-2xl:mt-[80px] max-xl:w-[550px] max-xl:-ml-30 max-lg:mr-10 max-lg:-ml-0 max-md:mr-0 max-md:ml-0 max-md:w-full max-md:items-center max-sm: ">
+                <div className="flex flex-col w-[702px] ml-[69px] mr-5 max-2xl:ml-[100px] mt-[169px]  text-black max-2xl:w-[557px] max-2xl:mt-[80px] max-xl:w-[550px] max-xl:-ml-30 max-lg:mr-10 max-lg:-ml-0 max-md:mx-2 max-md:w-[500px] max-sm:items-center  ">
                     <ServicioItem
                         title="Benchmarking"
                         icon="/diamante.png"
