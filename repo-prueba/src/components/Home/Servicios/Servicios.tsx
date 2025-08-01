@@ -14,7 +14,7 @@ export default function Servicios() {
                 </h3>
             </div>
 
-            <div className="flex items-start  max-xl:justify-center  max-xl:gap-x-20 max-lg:flex-col-reverse max-lg:ml-20 max-lg:items-center max-md:ml-5">
+            <div className="flex items-start  max-xl:justify-center  max-xl:gap-x-20 max-lg:flex-col-reverse max-lg:ml-20 max-lg:items-center max-md:ml-0">
                 <div className="flex justify-center pl-17 -mt-[54px] pr-[94px] max-2xl:pr-0 max-2xl:pl-0 max-lg:w-0 max-lg:h-0 ">
                     <div className="relative w-[700px] h-[630px] overflow-visible mt-34 max-2xl:w-[600px] max-2xl:mt-10 max-xl:w-[450px] ">
 
@@ -42,7 +42,7 @@ export default function Servicios() {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-[702px] ml-[69px] mr-5 max-2xl:ml-[100px] mt-[169px]  text-black max-2xl:w-[557px] max-2xl:mt-[80px] max-xl:w-[550px] max-xl:-ml-30 max-lg:mr-10 max-lg:-ml-0 max-md:mr-0 max-md:ml-0 max-md:w-full ">
+                <div className="flex flex-col w-[702px] ml-[69px] mr-5 max-2xl:ml-[100px] mt-[169px]  text-black max-2xl:w-[557px] max-2xl:mt-[80px] max-xl:w-[550px] max-xl:-ml-30 max-lg:mr-10 max-lg:-ml-0 max-md:mr-0 max-md:ml-0 max-md:w-full max-md:items-center max-sm: ">
                     <ServicioItem
                         title="Benchmarking"
                         icon="/diamante.png"
