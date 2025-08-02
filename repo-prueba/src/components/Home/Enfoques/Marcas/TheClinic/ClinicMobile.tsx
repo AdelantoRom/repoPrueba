@@ -28,7 +28,7 @@ function ClinicMobile() {
                 />
             </div>
 
-            <div className=' text-black ml-3 flex flex-col px-42 max-md:px-28 max-sm:px-8'>
+            <div className=' text-black ml-3 flex flex-col px-42 max-md:px-28 max-sm:px-8 max-sm:ml-0'>
                 <p className='text-[#747474] text-[16px] mb-4'>Caso</p>
                 <h1 className="text-[24px] leading-[24px] font-semibold mb-6">Perfiles: CM Fresh</h1>
                 <p className="text-[18px] font-light md:font-normal leading-[24px] mb-6">
@@ -41,7 +41,7 @@ function ClinicMobile() {
                 </p>
             </div>
             <div className='bg-[#F4F0F0] h-[373px] flex flex-col items-center'>
-                <p className='text-black text-[18px] leading-[24px] ml-3 px-4 py-8'>Conozca algunos de los casos atendidos por los talentos de nuestra plataforma:</p>
+                <p className='text-black text-[18px] leading-[24px] ml-3 px-4 py-8 max-sm:ml-0 max-sm:px-8'>Conozca algunos de los casos atendidos por los talentos de nuestra plataforma:</p>
                 <CarouselMarcas />
             </div>
             <div>
