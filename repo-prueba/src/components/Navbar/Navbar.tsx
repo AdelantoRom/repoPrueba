@@ -35,37 +35,37 @@ export default function NavbarPrueba() {
       </div>
 
       {/* Botón hamburguesa mobile */}
-      <button className="lg:hidden text-black mr-4" onClick={toggleMenu}>
+      <button className="lg:hidden text-black mr-3" onClick={toggleMenu}>
 
         {isOpen ? <X size={32} /> : <Menu size={32} />}
       </button>
 
       {/* Menú desplegable mobile */}
       {isOpen && (
-        <div className="absolute top-[94px] left-0 w-full bg-white text-black flex flex-col px-6 py-2 lg:hidden z-50 shadow-md text-[24px] leading-tight overflow-y-auto max-h-[calc(100vh-94px)]">
+        <div className="absolute top-[94px] right-1 sm:w-[410px] max-sm:w-full bg-white text-black flex flex-col px-6 py-2 lg:hidden z-50 shadow-md text-[24px] leading-tight overflow-y-auto max-h-[calc(100vh-94px)]">
 
           {/* Servicios */}
           <div className="w-full">Servicios</div>
           <div className="pl-4">
-          <hr className="my-3 border-gray-300" />
-          <Link href="/benchmarking" onClick={toggleMenu}>• Benchmarking</Link>
-          <hr className="my-3 border-gray-300" />
-          <Link href="/branding" onClick={toggleMenu}>• Branding</Link>
-          <hr className="my-3 border-gray-300" />
-          <Link href="/marketing-digital" onClick={toggleMenu}>• Marketing Digital</Link>
-          <hr className="my-3 border-gray-300" />
-          <Link href="/growth" onClick={toggleMenu}>• Growth</Link>
-          <hr className="my-3 border-gray-300" />
-          <Link href="/data-ia" onClick={toggleMenu}>• Data + IA</Link>
-          <hr className="my-3 border-gray-300" />
+            <hr className="my-3 border-gray-300" />
+            <Link href="/benchmarking" onClick={toggleMenu}>• Benchmarking</Link>
+            <hr className="my-3 border-gray-300" />
+            <Link href="/branding" onClick={toggleMenu}>• Branding</Link>
+            <hr className="my-3 border-gray-300" />
+            <Link href="/marketing-digital" onClick={toggleMenu}>• Marketing Digital</Link>
+            <hr className="my-3 border-gray-300" />
+            <Link href="/growth" onClick={toggleMenu}>• Growth</Link>
+            <hr className="my-3 border-gray-300" />
+            <Link href="/data-ia" onClick={toggleMenu}>• Data + IA</Link>
+            <hr className="my-3 border-gray-300" />
           </div>
           <Link href="/#casos" onClick={toggleMenu}>Casos</Link>
           <hr className="my-3 border-gray-300" />
           <Link href="/contacto" onClick={toggleMenu} className="cursor-pointer">Contacto</Link>
 
           <hr className="my-3 border-gray-300" />
-          
-          
+
+
 
           {/* Botones Circulares */}
           <div className="w-full flex flex-col items-center gap-4">
