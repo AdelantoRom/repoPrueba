@@ -28,7 +28,7 @@ export default function NavbarPrueba() {
       </Link>
 
       {/* Links desktop */}
-      <div className="hidden lg:flex text-white gap-30 ml-auto mr-[8%] text-[20px] leading-[24px] max-xl:gap-20">
+      <div className="hidden lg:flex text-white gap-30 ml-auto mr-[8%] text-[20px] max-xl:text-[18px] leading-[24px] max-xl:gap-20">
         <Link href="/benchmarking">Servicios</Link>
         <Link href="/#casos">Casos</Link>
         <Link href="/contacto">Contacto</Link>
