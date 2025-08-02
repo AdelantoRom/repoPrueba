@@ -49,7 +49,7 @@ export default function BrandingForm() {
         />
       </div>
 
-      <div className="absolute top-[688px] left-[1389px] max-sm:-translate-x-[1100px] max-sm:w-[130px]  max-sm:-translate-y-[290px]">
+      <div className="absolute top-[688px] left-[1389px] max-sm:hidden">
               <Image
                 src="/Trama-esfera-fucsia.png"
                 alt="Trama fucsia pequeña"
@@ -58,7 +58,7 @@ export default function BrandingForm() {
                 className="rotate-180"
               />
             </div> 
-            <div className="absolute top-[814px] left-[286px] z-1 max-sm:-translate-y-[330px] max-sm:-translate-x-90 max-sm:w-[150px] ">
+            <div className="absolute top-[814px] left-[286px] z-1 max-sm:hidden">
               <Image
                 src="/Trama-esfera-fucsia.png"
                 alt="Trama fucsia grande"

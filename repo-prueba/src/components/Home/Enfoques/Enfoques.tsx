@@ -1,8 +1,7 @@
 import React from 'react'
 import Grid from './Grid'
 import Testimonios from './Testimonios'
-import CarouselMarcas
- from './CarouselMarcas/CarouselMarcas'
+import CarouselMarcas from './CarouselMarcas/CarouselMarcas'
 function Enfoques() {
     return (
         <div className='bg-[#F4F0F0] text-black overflow-x-hidden'>
@@ -17,15 +16,15 @@ function Enfoques() {
                     </div>
 
                     {/* Texto derecha */}
-                    <div className="relative top-[3px] leading-none -mt-[20px] w-[720px] text-right mr-24 max-2xl:w-[600px] max-xl:w-[450px] max-2xl:mr-10 max-xl:mr-0  max-xl:mx-auto max-lg:text-left max-lg:ml-5 ">
-                        <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-md:leading-[40px]">Casos/</h2>
+                    <div className="relative top-[3px] leading-none -mt-[20px] w-[720px] text-right mr-24 max-2xl:w-[600px] max-xl:w-[450px] max-2xl:mr-10 max-xl:mr-0  max-xl:mx-auto max-lg:text-left max-lg:ml-5 max-sm:ml-8">
+                        <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-md:leading-[40px] max-sm:mb-3 ">Casos/</h2>
                         <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-md:leading-[40px]">Testimonios</h2>
                     </div>
                 </div>
             </div>
 
             {/* Grid alineado */}
-            <div className="flex justify-center mt-[28px] mb-[60px]">
+            <div className="flex justify-center mt-[28px] mb-[60px] max-sm:mt-[10px]">
                 <div className="w-[1520px] max-2xl:w-[1200px] max-xl:w-[900px]  max-lg:w-[720px]">
                     <Grid />
                 </div>
