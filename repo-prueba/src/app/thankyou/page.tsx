@@ -3,7 +3,7 @@ import Footer from "@/components/Footer/Footer";
 
 function page() {
     return (
-        <div>
+        <div className="min-h-screen">
             <Thank />
             <div>
                 <Footer />
