@@ -5,9 +5,7 @@ function page() {
     return (
         <div className="min-h-screen">
             <Thank />
-            <div>
-                <Footer />
-            </div>
+            
         </div>
     )
 }
