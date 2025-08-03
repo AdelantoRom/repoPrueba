@@ -23,26 +23,26 @@ export default function NavbarPrueba() {
           alt="Logo Rombux"
           width={212}
           height={34}
-          className="ml-4 w-[141px] h-[23px] lg:ml-16 2xl:ml-37  2xl:w-[212px] 2xl:h-[34px]"
+          className="ml-4 md:ml-16 lg:ml-8 xl:ml-20 w-[141px] h-[23px]  2xl:ml-37  2xl:w-[212px] 2xl:h-[34px]"
         />
       </Link>
 
       {/* Links desktop */}
-      <div className="hidden lg:flex text-white gap-30 ml-auto mr-[8%] text-[20px] max-xl:text-[18px] leading-[24px] max-xl:gap-20">
+      <div className="hidden md:flex text-white gap-30 ml-auto lg:mr-4 xl:mr-20 mr-[8%] text-[20px] max-xl:text-[18px] leading-[24px] max-xl:gap-20 2xl:mr-32 max-lg:gap-10">
         <Link href="/benchmarking">Servicios</Link>
         <Link href="/#casos">Casos</Link>
         <Link href="/contacto">Contacto</Link>
       </div>
 
       {/* Botón hamburguesa mobile */}
-      <button className="lg:hidden text-black mr-3" onClick={toggleMenu}>
+      <button className="md:hidden text-black mr-4 md:mr-16" onClick={toggleMenu}>
 
         {isOpen ? <X size={32} /> : <Menu size={32} />}
       </button>
 
       {/* Menú desplegable mobile */}
       {isOpen && (
-        <div className="absolute top-[94px] right-1 sm:w-[410px] max-sm:w-full bg-white text-black flex flex-col px-6 py-2 lg:hidden z-50 shadow-md text-[24px] leading-tight overflow-y-auto max-h-[calc(100vh-94px)]">
+        <div className="absolute top-[94px] right-1 w-full bg-white text-black flex flex-col px-6 py-2 lg:hidden z-50 shadow-md text-[24px] leading-tight overflow-y-auto max-h-[calc(100vh-94px)]">
 
           {/* Servicios */}
           <div className="w-full">Servicios</div>
