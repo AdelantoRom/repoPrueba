@@ -5,7 +5,7 @@ export default function ClientesLogos() {
     <div className="w-full flex justify-center pt-6">
       {/* MOBILE */}
       
-      <div className="grid grid-cols-4 place-items-center gap-y-10 gap-x-20 mt-6 w-full px-0 lg:hidden border-amber-500 mb-5 max-md:gap-x-10 max-sm:gap-x-0">
+      <div className="grid grid-cols-4 place-items-center gap-y-10 gap-x-20 mt-6 w-full px-0 lg:hidden border-amber-500 mb-5 max-md:gap-x-10 max-sm:gap-x-0 sm:mx-4">
         <div className="relative w-[52px] h-[27px]">
           <Image src="/hpblanco.png" alt="HP" width={52} height={27} className="object-contain" />
         </div>
@@ -37,7 +37,7 @@ export default function ClientesLogos() {
           hidden lg:flex  justify-between items-center
           h-[60px] -mt-10 mb-6 mx-25
           lg:mb-10 w-full
-          2xl:h-[56px] gap-x-10 2xl:mx-30 2xl:mt-44 2xl:mb-16 
+          2xl:h-[56px] gap-x-10 lg:mx-10 xl:mx-20 2xl:mx-30 2xl:mt-44 2xl:mb-16 
         "
       >
 

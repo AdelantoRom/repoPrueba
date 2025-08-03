@@ -2,51 +2,16 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="w-full flex flex-col lg:flex-row items-start justify-between relative">
-      
-      {/* Imagen con red */}
-      <div className="order-1 lg:order-2 w-full flex justify-center lg:block mb-0 lg:translate-x-[-40px] 2xl:translate-x-[110px] 2xl:translate-y-[-150px]
-">
-        <div className="relative w-[360px] h-[371px] lg:w-[540px] lg:h-[540px] 2xl:w-[1005px] 2xl:h-[1005px] mt-2 lg:-mt-[100px] 2xl:mt-[-10px]">
-          
-          {/* Imagen base */}
-          <Image
-            src="/womanesfera+halo.png"
-            alt="Mujer con esfera"
-            fill
-            className="object-contain"
-            unoptimized
-          />
-
-          {/* Red giratoria */}
-          <div className="
-            absolute inset-0 m-auto z-30
-            w-[296px] h-[296px]
-            lg:w-[386px] lg:h-[386px]
-            2xl:w-[756px] 2xl:h-[756px] 
-            animate-spin 
-            [animation-direction:reverse] [animation-duration:120s]
-          ">
-            <Image
-              src="/redfucsia.png"
-              alt="Red giratoria"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
-        </div>
-      </div>
-
+    <div className="w-full  flex max-md:flex-col-reverse items-start lg:items-center justify-between relative md:ml-16 lg:ml-0 xl:ml-12 2xl:ml-0 sm:-translate-y-10 lg:translate-y-0">
       {/* Bloque de texto */}
       <div className="
-        order-2 lg:order-1 flex flex-col justify-start lg:space-y-12 2xl:space-y-12 2xl:mt-[12px]
+        lg:order-1 max-lg:h-[240px] justify-end flex flex-col lg:space-y-0 2xl:space-y-12 2xl:mt-[12px]
         w-[338px] h-[30px]
-        mt-[2px] lg:-mt-[10px] 
-        pl-6 lg:translate-x-[-20px] lg:w-[520px] 2xl:translate-x-0
-        2xl:-ml-[25px] 2xl:w-[575px]
-      ">
-        <h2 className="text-[20px] leading-[20px] font-normal mb-[34px] lg:text-[32px] lg:leading-[30px] lg:mb-[50px] 2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-[38px]">
+        max-lg:mt-[60px]  pl-7
+        md:pl-5  lg:translate-x-[-20px] lg:w-[520px] 2xl:translate-x-0
+        2xl:-ml-[25px] 2xl:w-[575px] max-sm:-translate-y-14 lg:translate-y-40 2xl:-translate-y-50
+        ">
+        <h2 className="text-[20px] leading-[20px] font-normal mb-[34px] lg:text-[32px] lg:leading-[30px] lg:mb-[50px] 2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-[48px]">
           Soluciones Digitales de Negocios
         </h2>
         <h1 className="
@@ -58,7 +23,41 @@ export default function HeroSection() {
         ">
           Potenciamos<br />tu Empresa<br />en la Era Digital
         </h1>
+        
       </div>
+      <div className="lg:order-2 translate-y-10 lg:translate-y-15 xl:translate-y-30 w-full lg:justify-end flex items-center justify-center md:justify-end md:mr-16 lg:mr-0 mb-0 2xl:translate-x-[110px] 2xl:translate-y-[-260px]">
+          
+          <div className="relative  w-[360px] h-[370px] sm:w-[460px] sm:h-[411px] lg:w-[500px] lg:h-[500px] xl:w-[700px] xl:h-[700px]  2xl:w-[1005px] 2xl:h-[1005px] mt-2 2xl:mt-[-10px] custom-image ">
+            
+            {/* Imagen base */}
+            <Image
+              src="/womanesfera+halo.png"
+              alt="Mujer con esfera"
+              fill
+              className="object-contain max-sm:scale-120 "
+              unoptimized
+            />
+  
+            {/* Red giratoria */}
+            <div className="
+              absolute inset-0 m-auto z-30
+              sm:w-full sm:h-[336px]
+              lg:w-[386px] lg:h-[386px]
+              xl:w-[556px] xl:h-[556px]
+              2xl:w-[756px] 2xl:h-[756px] 
+              animate-spin  custom-red
+              [animation-direction:reverse] [animation-duration:120s]
+            ">
+              <Image
+                src="/redfucsia.png"
+                alt="Red giratoria"
+                fill
+                className="object-contain max-sm:scale-95 "
+                priority
+              />
+            </div>
+          </div>
+        </div>
 
     </div>
   );
