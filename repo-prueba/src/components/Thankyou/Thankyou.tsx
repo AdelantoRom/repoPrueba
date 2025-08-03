@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Thank() {
     return (
-        <div className="relative w-full h-[1080px] flex flex-col max-md:justify-start items-center justify-center text-white overflow-hidden">
+        <div className="relative w-full h-[676px] flex flex-col max-md:justify-start items-center justify-center text-white overflow-hidden">
             <div className="absolute inset-0 -z-10">
                 <Image
-                    src="/Gradiente-Home-6.png"
+                    src="/gradiente1.png"
                     alt=""
                     fill
                     className="object-cover object-top"
@@ -44,6 +44,8 @@ export default function Thank() {
                 <h1 className="text-[48px] font-bold leading-[40px] max-md:text-[24px] max-md:leading-[24px]">¡Gracias por ponerte en <br className="md:hidden" /> contacto!</h1>
                 <h2 className="text-[40px] leading-[50px] max-lg:text-[20px] max-lg:leading-[24px] mt-4">En breve nos comunicaremos <br className="md:hidden" /> contigo.</h2>
             </div>
+            
         </div>
+        
     );
 }
