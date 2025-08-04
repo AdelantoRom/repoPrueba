@@ -15,56 +15,53 @@ export default function Formulario() {
           Te acompañamos en tu desarrollo digital
         </h1>
 
-        <h2 className="text-[#D81FB9] text-[24px] leading-[60px] font-normal w-[336px] text-left mt-[20px]
+        <h2 className="text-[#D81FB9] text-[24px] leading-[60px] font-medium w-[336px] text-left mt-[20px]
                        lg:text-left lg:text-[48px] lg:leading-[60px] lg:mt-[75px]
                        2xl:text-[48px] 2xl:leading-[48px]">
           Contáctanos
         </h2>
 
         <form className="mt-[29px] flex flex-col space-y-[25px] items-center lg:items-start">
-          {["Nombre*", "Apellido*", "Email*", "Teléfono*", "Empresa*"].map((placeholder, idx) => (
+          {["Nombre y Apellido*", "Email*", "Teléfono*", "Empresa*"].map((placeholder, idx) => (
             <input
               key={idx}
               type="text"
               placeholder={placeholder}
-              className="w-full max-w-[336px] h-[41px] border border-[#707070] rounded-[5px]
-                         text-[18px] leading-[18px] font-semibold text-[#707070] 
-                         placeholder:text-[#707070] bg-white pl-[16px]
+              className="w-full max-w-[336px] h-[41px] border border-[#707070] rounded-[5px] text-[#4B4B4B]
+                         text-[16px] leading-[24px] font-medium 
+                         placeholder:text-gray-600 bg-white pl-[16px]
                          lg:max-w-none lg:w-[610px] lg:h-[60px] lg:text-[18px] lg:leading-[32px]
-                         2xl:w-[638px] 2xl:h-[48px]"
+                         2xl:w-[638px] 2xl:h-[48px] 2xl:text-[16px]"
+
+                        
             />
           ))}
-
-          {/* Área/s de servicios requeridos */}
-          <div className="w-full max-w-[336px] lg:max-w-none border border-[#707070] rounded-[5px] bg-white
-                          lg:w-[610px] 2xl:w-[638px] py-[16px]">
-            <p className="text-[18px] leading-[18px] font-semibold text-[#707070] mb-[16px] pl-[16px]">
+  {/* Área/s de servicios requeridos */}
+          <div className="w-[638px] h-[340px] border border-[#707070] rounded-[5px] pt-[26px] pl-6 space-y-8 bg-white mt-8 max-sm:w-[336px] max-sm:space-y-6 max-sm:pl-3 max-sm:mt-2 max-sm:pt-[15px]">
+            <p className="text-[16px] font-medium text-black mb-[26px] leading-[24px] tracking-normal max-sm:text-[18px]">
               Área/s de servicios requeridos*
             </p>
-            <div className="flex flex-col gap-y-[12px] px-[16px]">
-              {[
-                { bold: "Benchmarking", rest: " / Investigación de mercado y propuesta de valor." },
-                { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
-                { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
-                { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
-                { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
-              ].map(({ bold, rest }, idx) => (
-                <label key={idx} className="flex items-center gap-x-[16px] text-[#707070]">
-                  <input
-                    type="checkbox"
-                    className="w-[23px] h-[23px] rounded-[5px] border-2 border-[#707070] appearance-none bg-white
-                               flex items-center justify-center relative
-                               checked:bg-[#D81FB9] checked:after:content-['✔'] checked:after:text-white checked:after:text-[14px]
-                               checked:after:absolute checked:after:top-[50%] checked:after:left-[50%] 
-                               checked:after:transform checked:after:-translate-x-1/2 checked:after:-translate-y-1/2"
-                  />
-                  <div className="leading-[16px] text-[14px] flex-1">
-                    <strong className="font-semibold">{bold}</strong>
-                    <span className="font-normal">{rest}</span>
-                  </div>
-                </label>
-              ))}
-            </div>
+            {[
+              { bold: "Benchmarking", rest: " / Investigación de mercado y propuesta de valor." },
+              { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
+              { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
+              { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
+              { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
+            ].map(({ bold, rest }, idx) => (
+              <label key={idx} className="flex items-start space-x-[27px] text-[16px] text-black -mt-[2px] max-sm:leading-[16px] max-sm:space-x-[15px]">
+                <input
+                  type="checkbox"
+                  className="w-[25px] h-[25px] border-2 border-gray-400 rounded-md appearance-none bg-white max-sm:w-[23px] max-sm:h-[23px]
+                             checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
+                             checked:after:flex checked:after:items-center checked:after:justify-center
+                             checked:after:w-full checked:after:h-full"
+                />
+                <span className='max-sm:text-[14px] max-sm:w-[262px]'>
+                  <strong className="font-semibold">{bold}</strong>
+                  {rest}
+                </span>
+              </label>
+            ))}
           </div>
 
           {/* Textarea */}
