@@ -21,14 +21,14 @@ export default function TransformacionDigital() {
       <div className="max-md:hidden translate-y-5 max-lg:mt-15 max-lg:w-[360px] max-2xl:w-[440px] xl:mb-15 xl:ml-12 2xl:ml-0">
         <h2 className="font-normal
           text-[24px] leading-[25px] mb-2
-          2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-10 2xl:mt-28 text-left">
+          2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-10 2xl:mt-28 xl:mb-7 text-left">
           Transformación Digital
         </h2>
 
         <p className="font-normal max-lg:w-[345px] text-left
           lg:text-[20px] lg:leading-[25px] xl:w-[450px]
           2xl:text-[20px] 2xl:leading-[28px] 
-          2xl:w-[570px] max-xl:mb-10">
+          2xl:w-[500px] max-xl:mb-10">
           En un entorno que evoluciona aceleradamente, la transformación digital permite a las empresas adaptarse 
           rápidamente a las demandas del mercado. Rombux es tu socio estratégico en el mundo online, ofreciéndote soluciones integrales y personalizadas para impulsar tu crecimiento y consolidar tu posición.
         </p>
