@@ -12,7 +12,7 @@ export default function BenchmarkingCards() {
       </div>
 
       {/* Grid container */}
-      <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7 max-sm:mb-[80px]">
+      <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7 max-sm:mb-[80px] 2xl:gap-x-10 xl:gap-x-5">
 
         <div
           className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center max-xl:h-[207px] pt-6 max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[219px] max-lg:mt-1 max-md:max-w-[292px] max-md:top-0 max-md:h-[170px]"
@@ -33,7 +33,7 @@ export default function BenchmarkingCards() {
         </div>
 
         <div
-          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] mt-[25px] max-xl:w-[300px] max-xl:h-[253px] max-lg:max-w-[230px] max-lg:mr-4 max-md:max-w-[292px] max-md:mt-0 max-md:ml-0 max-md:mr-0 max-md:h-[225px]"
+          className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  max-xl:ml-[27px] mt-[25px] max-xl:w-[300px] max-xl:h-[253px] max-lg:max-w-[230px] max-lg:mr-4 max-md:max-w-[292px] max-md:mt-0 max-md:ml-0 max-md:mr-0 max-md:h-[225px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-9 max-w-[351px] max-xl:max-w-[239px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-7 max-lg:text-[16px] max-lg:max-w-[200px] max-md:max-w-[239px] max-lg:pt-6 max-md:pl-1 ">

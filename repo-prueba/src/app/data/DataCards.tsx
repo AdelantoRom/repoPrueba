@@ -7,7 +7,7 @@ export default function DataCards() {
       <div className="mb-24 text-center -mt-[140px] ml-[15px] max-md:ml-0 max-sm:mb-8">
         <h1 className="font-light text-black text-[80px] leading-[80px] max-2xl:text-[67px] max-2xl:leading-[70px] max-lg:text-[36px] max-lg:leading-[40px] max-sm:px-5">
           Información estratégica <br className="md:hidden" /> para <br className="max-sm:hidden"/>
-          la <br className="max-sm:hidden"/> toma de decisiones
+          la toma de decisiones
         </h1>
       </div>
 

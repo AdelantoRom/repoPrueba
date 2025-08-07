@@ -5,7 +5,7 @@ import CarouselMarcas from './CarouselMarcas/CarouselMarcas'
 function Enfoques() {
     return (
         <div className='bg-[#F4F0F0] text-black overflow-x-hidden'>
-            <div className="mx-auto w-[1544px] max-2xl:w-[1200px] max-xl:w-[900px] pt-[216px] max-2xl:pt-[200px]  max-md:w-full max-md:pt-[105px]">
+            <div className=" max-2xl:mx-auto 2xl:mx-40 max-2xl:w-[1200px] max-xl:w-[900px] pt-[216px] max-2xl:pt-[200px]  max-md:w-full max-md:pt-[105px]">
                 <div className="flex justify-between items-start relative">
                     {/* Texto izquierda */}
                     <div className="relative -top-[46px] flex flex-col leading-[36px] w-[629px] ml-27 max-xl:hidden">
@@ -16,7 +16,7 @@ function Enfoques() {
                     </div>
 
                     {/* Texto derecha */}
-                    <div className="relative top-[3px] leading-none -mt-[20px] w-[720px] text-right mr-24 max-2xl:w-[600px] max-xl:w-[450px] max-2xl:mr-10 max-xl:mr-0  max-xl:mx-auto max-lg:text-left max-lg:ml-5 max-sm:ml-8">
+                    <div className="relative top-[3px] leading-none -mt-[20px] w-[720px] text-right mr-24 max-2xl:w-[600px] max-xl:w-[450px] max-2xl:mr-10 max-xl:mr-0  max-xl:mx-auto max-lg:text-left max-lg:ml-20 max-sm:ml-8">
                         <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-md:leading-[40px] max-sm:mb-3 ">Casos/</h2>
                         <h2 className="text-[80px] leading-[80px] max-2xl:text-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-md:leading-[40px]">Testimonios</h2>
                     </div>
@@ -29,7 +29,7 @@ function Enfoques() {
                     <Grid />
                 </div>
             </div>
-            <div className="lg:hidden flex items-center justify-center bg-[#F4F0F0] w-full">
+            <div className="lg:hidden flex items-center justify-center bg-[#F4F0F0] md:ml-20 rounded-l-2">
 
                 <CarouselMarcas />
             </div>
