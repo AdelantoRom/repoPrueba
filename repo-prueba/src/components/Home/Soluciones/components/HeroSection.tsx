@@ -46,7 +46,7 @@ export default function HeroSection() {
               xl:w-[556px] xl:h-[556px]
               2xl:w-[756px] 2xl:h-[756px] 
               animate-spin  custom-red
-              [animation-direction:reverse] [animation-duration:120s]
+              [animation-direction:reverse] [animation-duration:90s]
             ">
               <Image
                 src="/redfucsia.png"

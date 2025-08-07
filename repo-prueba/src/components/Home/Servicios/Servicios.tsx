@@ -28,7 +28,7 @@ export default function Servicios() {
                                     priority
                                 />
                             </div>
-                            <div className="absolute top-1/2 left-1/2 w-[580px] max-2xl:w-[435px] max-xl:w-[335px] h-[510px] -translate-x-1/2 -translate-y-1/2 z-10 animate-spin [animation-duration:120s]">
+                            <div className="absolute top-1/2 left-1/2 w-[580px] max-2xl:w-[435px] max-xl:w-[335px] h-[510px] -translate-x-1/2 -translate-y-1/2 z-10 animate-spin [animation-duration:90s]">
                                 <Image
                                     src="/redfucsia.png"
                                     alt="Decoración giratoria"
@@ -42,7 +42,7 @@ export default function Servicios() {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-[702px] ml-[69px] mr-5 max-2xl:ml-[100px] mt-[169px]  text-black max-2xl:w-[557px] max-2xl:mt-[80px] max-xl:w-[550px] max-xl:-ml-30 max-lg:mr-10 max-lg:-ml-0 max-md:mx-2 max-md:w-[500px] max-sm:items-center max-sm:w-full  ">
+                <div className="flex flex-col w-[520px] ml-[69px] mr-5 max-2xl:ml-[100px] mt-[169px]  text-black max-2xl:w-[557px] max-2xl:mt-[80px] max-xl:w-[490px] max-xl:-ml-30 max-lg:mr-10 max-lg:-ml-0 max-md:mx-2 max-md:w-[500px] max-sm:items-center max-sm:w-full  ">
                     <ServicioItem
                         title="Benchmarking"
                         icon="/diamante.png"

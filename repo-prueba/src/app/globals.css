@@ -78,6 +78,7 @@ body {
   font-family: var(--font-albert-sans), sans-serif;
   background-color: white;
   overflow-x: hidden;
+  overscroll-behavior: none;
   /* si querés tener un fondo base por detrás */
 }
 
