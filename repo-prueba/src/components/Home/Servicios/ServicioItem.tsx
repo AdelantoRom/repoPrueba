@@ -44,7 +44,7 @@ export default function ServicioItem({ icon, title, description, link }: Props) 
                         initial={{ opacity: 0, scaleY: 0 }}
                         animate={{ opacity: 1, scaleY: 1 }}
                         exit={{ opacity: 0, scaleY: 0 }}
-                        transition={{ duration: 0.4, ease: "easeInOut" }}
+                        transition={{ duration: 0.1, ease: "easeInOut" }}
                         className="overflow-hidden px-[83px] pb-4 mt-[16px] text-[24px] max-2xl:text-[24px] max-xl:text-[20px] text-gray-800 ml-[21px] max-xl:px-6 origin-top max-lg:text-[20px] max-lg:leading-[26px] max-md:text-[18px] max-md:leading-[22px] max-lg:mt-1"
                     >
                         <p className="italic font-light -mt-1 leading-[28px]">{description}</p>

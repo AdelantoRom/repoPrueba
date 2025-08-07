@@ -9,7 +9,7 @@ export default function Botones() {
                 max-w-[336px] lg:max-w-[900px] 2xl:max-w-[1343px]">
 
                 {/* Botón 1 - Calendly */}
-                <div className="flex flex-col items-center cursor-pointer">
+                <div className="flex flex-col items-center cursor-pointer w-[151px]">
                     <Image
                         src="/Calendly.gif"
                         alt="Calendario"
@@ -25,7 +25,7 @@ export default function Botones() {
                 </div>
 
                 {/* Botón 2 - Email */}
-                <div className="flex flex-col items-center cursor-pointer">
+                <div className="flex flex-col items-center cursor-pointer w-[151px]">
                     <Image
                         src="/Mensaje.gif"
                         alt="Mensaje"
