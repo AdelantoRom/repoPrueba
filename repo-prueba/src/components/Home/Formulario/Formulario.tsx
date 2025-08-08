@@ -37,7 +37,10 @@ export default function Formulario() {
             />
           ))}
   {/* Área/s de servicios requeridos */}
-          <div className="w-[638px] h-[340px] border border-[#707070] rounded-[5px] pt-[26px] pl-6 space-y-8 bg-white mt-8 max-sm:w-[336px] max-sm:space-y-6 max-sm:pl-3 max-sm:mt-2 max-sm:pt-[15px]">
+        <div className="w-full max-w-[336px] lg:max-w-none lg:w-[610px] 2xl:w-[638px]
+                h-[340px] border border-[#707070] rounded-[5px] pt-[26px] pl-6 space-y-8 bg-white
+                mt-8 max-sm:space-y-6 max-sm:pl-3 max-sm:mt-2 max-sm:pt-[15px]">
+
             <p className="text-[16px] font-medium text-black mb-[26px] leading-[24px] tracking-normal max-sm:text-[18px]">
               Área/s de servicios requeridos*
             </p>

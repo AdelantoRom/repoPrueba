@@ -36,33 +36,39 @@ export default function Page() {
                 />
               ))}
 
-          {/* Checkbox Area */}
-<div className="w-full border border-[#707070] rounded-[5px] pt-[18px] pl-6 lg:space-y-8 space-y-6 bg-white h-[340px] lg:h-[280px] 2xl:h-[344px] lg:w-[605px] 2xl:w-[638px] 2xl:mt-[30px]">
- <p className="text-[16px] font-medium text-black mb-[26px] leading-[24px] tracking-normal max-sm:text-[18px]">
-                        Área/s de servicios requeridos*
-                    </p>
-                    {[
-                        { bold: "Benchmarking", rest: " / Investigación de mercado y propuesta de valor." },
-                        { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
-                        { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
-                        { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
-                        { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
-                    ].map(({ bold, rest }, idx) => (
-                        <label key={idx} className="flex items-start space-x-[27px] text-[16px] text-black        -mt-[2px] max-sm:leading-[16px] max-sm:space-x-[15px] ">
-                            <input
-                                type="checkbox"
-                                className="w-[25px] h-[25px] border-2 border-gray-400 rounded-md appearance-none bg-white max-sm:w-[23px] max-sm:h-[23px]
-                                checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
-                                checked:after:flex checked:after:items-center checked:after:justify-center
-                                checked:after:w-full checked:after:h-full"
-                            />
-                            <span className='max-sm:text-[14px] max-sm:w-[262px]'>
-                                <strong className="font-semibold">{bold}</strong>
-                                {rest}
-                            </span>
-                              </label>
-                    ))}
-                </div>
+        {/* Checkbox Area */}
+<div className="w-full min-h-[340px] border border-[#707070] rounded-[5px] pt-[18px] pl-6 pb-6 lg:space-y-8 space-y-6 bg-white lg:min-h-[280px] 2xl:min-h-[344px] lg:w-[605px] 2xl:w-[638px] 2xl:mt-[30px]">
+
+  <p className="text-[16px] font-medium text-black mb-[26px] leading-[24px] tracking-normal max-sm:text-[18px]">
+    Área/s de servicios requeridos*
+  </p>
+  {[
+    { bold: "Benchmarking", rest: " / Investigación de mercado y propuesta de valor." },
+    { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
+    { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
+    { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
+    { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
+  ].map(({ bold, rest }, idx) => (
+    <label
+      key={idx}
+      className="flex items-start gap-[27px] text-[16px] text-black -mt-[2px] max-sm:leading-[16px] max-sm:gap-[15px]"
+    >
+      <input
+        type="checkbox"
+        className="w-[25px] h-[25px] border-2 border-gray-400 rounded-md appearance-none bg-white max-sm:w-[23px] max-sm:h-[23px]
+        checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
+        checked:after:flex checked:after:items-center checked:after:justify-center
+        checked:after:w-full checked:after:h-full"
+      />
+      <span className="max-sm:text-[14px] max-sm:w-[262px]">
+        <strong className="font-semibold">{bold}</strong>
+        {rest}
+      </span>
+    </label>
+  ))}
+</div>
+
+            
 
               {/* Textarea */}
               <div className="w-full h-[113px] border border-[#707070] rounded-[5px] p-3 bg-white mt-0 lg:w-[605px] lg:h-[222px] 2xl:w-[638px] 2xl:h-[212px] 2xl:mt-[40px]">
