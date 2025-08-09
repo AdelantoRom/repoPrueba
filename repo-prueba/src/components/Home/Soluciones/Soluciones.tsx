@@ -8,8 +8,8 @@ export default function Soluciones() {
     <main className="relative w-full min-h-screen text-white overflow-hidden">
       {/* Fondo visual separado del layout */}
       <div
-        className="absolute inset-0 bg-no-repeat bg-top bg-cover z-[-1]"
-        style={{ backgroundImage: "url('/gradiente13.png')" }}
+        className="absolute inset-0 bg-[url('/gradiente13.png')] 2xl:bg-[url('/gradiente13prueba.png')] bg-no-repeat bg-top bg-cover z-[-1]"
+        
       />
 
       {/* Contenido */}
