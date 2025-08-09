@@ -40,6 +40,12 @@
   }
 }
 
+@media (max-width: 1690px) and (min-width: 1532px) {
+  .custom-contact-form {
+    transform: translateX(-120px);
+  }
+}
+
 @media (max-width: 1060px) {
   .custom-woman {
     width: 380px;
