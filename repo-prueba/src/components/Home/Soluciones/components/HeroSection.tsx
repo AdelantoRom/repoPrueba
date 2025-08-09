@@ -5,11 +5,11 @@ export default function HeroSection() {
     <div className="w-full  flex max-md:flex-col-reverse items-start lg:items-center justify-between relative md:ml-16 lg:ml-0 xl:ml-12 2xl:ml-0 sm:-translate-y-10 lg:translate-y-0">
       {/* Bloque de texto */}
       <div className="
-        lg:order-1 max-lg:h-[240px] justify-end flex flex-col lg:space-y-0 2xl:space-y-12 2xl:mt-[12px]
+        lg:order-1 max-lg:h-[240px] justify-end flex flex-col lg:space-y-0 2xl:space-y-12 2xl:mt-[272px] xl:mt-[210px]
         w-[338px] h-[30px]
         max-lg:mt-[60px]  pl-7
         md:pl-5  lg:translate-x-[-20px] lg:w-[520px] 2xl:translate-x-0
-        2xl:-ml-[25px] 2xl:w-[575px] max-sm:-translate-y-14 lg:translate-y-40 2xl:-translate-y-50
+        2xl:-ml-[25px] 2xl:w-[575px] max-sm:-translate-y-14 lg:translate-y-40 2xl:-translate-y-50 custom-hero-text
         ">
         <h2 className="text-[20px] leading-[20px] font-normal mb-[34px] lg:text-[32px] lg:leading-[30px] lg:mb-[50px] 2xl:text-[32px] 2xl:leading-[36px] 2xl:mb-[48px]">
           Soluciones Digitales de Negocios

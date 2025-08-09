@@ -25,7 +25,7 @@ export default function Soluciones() {
 {/* MOBILE: título + texto debajo */}
           <div className="flex  max-md:flex-col-reverse justify-between md:mx-16 lg:hidden items-end text-right px-6 mr-3 max-md:mt-[250px] mb-10 max-sm:mt-50 max-lg:-mt-30">
             <TransformacionDigital />
-            <h2 className="text-[40px] max-lg:text-[36px] max-lg: leading-[40px] font-normal sm:mb-6 -translate-y-5 sm:-translate-y-10">
+            <h2 className="text-[40px] max-lg:text-[36px] max-lg: leading-[40px] font-normal sm:mb-6 -translate-y-5 sm:-translate-y-10 drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">
               Impulsando <br /> tus Negocios <br /> al Futuro
             </h2>
           </div>
@@ -39,12 +39,12 @@ export default function Soluciones() {
             <div className="w-full max-2xl:mr-6 flex justify-end lg:order-1 2xl:order-2 lg:mt-4 2xl:mt-12 2xl:translate-x-0 xl:mr-22 2xl:mr-60 2xl:min-w-[630px]">
               <h2 className="relative z-10 text-right drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]
                 font-normal lg:text-[70px] lg:leading-[70px] lg:max-w-[487px] 2xl:text-[102px] 2xl:leading-[110px] 2xl:max-w-[630px]">
-                <span className="hidden lg:inline 2xl:hidden">
+                <span className="hidden lg:inline 2xl:hidden ">
                   Impulsando<br />
                   tus Negocios<br />
                   al Futuro
                 </span>
-                <span className="hidden 2xl:inline ">
+                <span className="hidden 2xl:inline drop-shadow-[2px_2px_2px_rgba(0,0,0,0.2)]">
                   Impulsando<br/> tus Negocios<br /> al Futuro
                 </span>
               </h2>
