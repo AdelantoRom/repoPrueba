@@ -69,7 +69,7 @@ export default function Formulario() {
               <div className="w-[638px] flex justify-start max-sm:w-full max-sm:justify-center">
                 <button
                   type="submit"
-                  className="bg-[#D81FB9] text-white text-[18px] font-semibold h-[46px] w-[186px] rounded-[50px] mt-[29px] mb-[40px] max-sm:mb-0"
+                  className="bg-[#D81FB9] text-white text-[18px] font-semibold h-[46px] w-[186px] rounded-[50px] mt-[29px] 2xl:mb-[170px] max-2xl:mb-[170px] max-sm:mb-[100px]"
                 >
                   Enviar
                 </button>
@@ -94,7 +94,7 @@ export default function Formulario() {
           alt="Trama Formulario"
           width={500}
           height={450}
-          className="xl:translate-y-20 xl:translate-x-20 max-xl:w-[260px] max-xl:translate-y-11 max-xl:translate-x-11"
+          className="xl:translate-y-20 xl:translate-x-20 max-xl:w-[260px] max-xl:translate-y-11 max-xl:translate-x-11  animate-spin  [animation-direction:reverse] [animation-duration:90s]"
         />
       </div>
 
