@@ -24,7 +24,7 @@ export default function Footer() {
           </Link>
 
           {/* Texto centrado */}
-          <div className="text-[12px] leading-[20px] text-white text-center w-[793px]">
+          <div className="text-[12px] leading-[20px] text-white text-center ">
             <p>
               © 2024 Rombus Global SAS. Todos los derechos reservados.{" "}
               <Link href="/tyc" className="hover:underline">
@@ -45,8 +45,8 @@ export default function Footer() {
       </div>
 
       {/* LG - Tablet / Laptop */}
-      <div className="hidden lg:flex 2xl:hidden relative w-full h-[232px] bg-[#060114] px-6 pt-6 pb-14">
-        <div className="max-w-[944px] mx-auto flex flex-col w-full h-full">
+      <div className="hidden sm:flex 2xl:hidden relative w-full h-[232px] bg-[#060114] px-6 pt-6 pb-14">
+        <div className="max-w-[944px] max-lg:w-full max-lg:px-10 mx-auto flex flex-col w-full h-full">
           <div className="flex justify-between items-start w-full px-3">
             <Link href="/">
               <div className="flex flex-col mt-6 mb-2">
@@ -56,13 +56,14 @@ export default function Footer() {
                   width={244}
                   height={52}
                   priority
+                  className="max-lg:w-[150px]"
                 />
                 <Image
                   src="/footersoluciones.png"
                   alt="Soluciones"
                   width={245}
                   height={27}
-                  className="-mt-6 mb-8"
+                  className="-mt-6 mb-8 max-lg:w-[220px] max-lg:-mt-4"
                   priority
                 />
               </div>
@@ -75,11 +76,12 @@ export default function Footer() {
                 width={40}
                 height={40}
                 priority
+                className="max-lg:w-[30px]"
               />
             </div>
           </div>
 
-          <div className="absolute left-1/2 -translate-x-1/2 bottom-[50px] w-[944px] h-[18px] text-[14px] leading-[18px] text-white text-center">
+          <div className="absolute left-1/2 -translate-x-1/2 bottom-[50px] max-lg:w-full max-lg:px-10 w-[944px] h-[18px] text-[14px] leading-[18px] text-white text-center max-lg:-translate-y-10 max-lg:text-[12px]">
             <p className="w-full h-full leading-inherit">
               © 2024 Rombus Global SAS. Todos los derechos reservados.{" "}
               <Link href="/tyc" className="hover:underline">
@@ -95,7 +97,7 @@ export default function Footer() {
       </div>
 
       {/* Mobile */}
-      <div className="block lg:hidden relative w-full h-[240px] bg-[#060114] px-4 py-6">
+      <div className="block sm:hidden relative w-full h-[240px] bg-[#060114] px-4 py-6">
         <div className="max-w-[393px] mx-auto">
           <div className="flex justify-between items-center mb-2">
             {/* <- Mueve Rombux a la derecha */}
