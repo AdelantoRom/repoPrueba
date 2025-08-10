@@ -7,7 +7,6 @@ function Politics() {
             <main className="flex-grow">
                 <Politicas />
             </main>
-
             <Footer />
         </div>
     )

@@ -3,7 +3,6 @@ import React from "react";
 export default function BenchmarkingCards() {
   return (
     <div>
-      {/* Título */}
       <div className="mb-2 text-center mt-[2px] max-sm:mb-8">
         <h1 className="font-light text-black text-[80px] leading-[80px] max-2xl:text-[67px] max-2xl:leading-[70px] max-lg:text-[36px] max-lg:leading-[40px]">
           Análisis del negocio <br className="sm:hidden max-sm:inline"/> y <br className="max-2xl:hidden max-xl:inline max-sm:hidden " /> propuesta de<br className="max-xl:hidden"/>
@@ -11,7 +10,6 @@ export default function BenchmarkingCards() {
         </h1>
       </div>
 
-      {/* Grid container */}
       <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7 max-sm:mb-[80px] 2xl:gap-x-10 xl:gap-x-5">
 
         <div

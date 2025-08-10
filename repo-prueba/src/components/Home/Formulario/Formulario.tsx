@@ -17,8 +17,6 @@ export default function Formulario() {
         <h2 className="text-[#D81FB9] text-[24px] leading-[60px] font-medium w-[336px] text-left lg:text-left lg:text-[48px] lg:leading-[60px]  2xl:text-[48px] 2xl:leading-[48px]">
           Contáctanos
         </h2>
-
-
         <div>
           <div className="relative z-10 flex flex-col items-center">
             <form className="mt-[30px] flex flex-col space-y-[25px] items-center max-sm:mt-[25px] ">

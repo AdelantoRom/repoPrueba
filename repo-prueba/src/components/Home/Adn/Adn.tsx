@@ -7,12 +7,11 @@ import Botones from "@/components/BotonesInteractivos/Botones";
 
 export default function Adn() {
   return (
-    <div className="w-full overflow-x-hidden">  {/* <- WRAPPER GLOBAL */}
+    <div className="w-full overflow-x-hidden">
 
       <div className="bg-[url('/gradiente1.png')] bg-cover w-full text-white flex flex-col items-center 
       pt-[40px] pb-[270px] min-h-auto lg:min-h-[1434px] 2xl:min-h-[1394px] lg:pt-[100px] 2xl:pt-[131px] lg:pb-[240px] 2xl:pb-[330px]">
 
-        {/* Títulos */}
         <div className="text-center drop-shadow-[2px_2px_4px_rgba(0,0,0,0.5)] tracking-normal leading-[40px] mt-[60px] 
         lg:leading-[70px] lg:mt-[60px] 2xl:leading-[120px] 2xl:mt-[64px]">
           <h1 className="text-[40px] font-medium w-[336px] mx-auto 
@@ -25,14 +24,12 @@ export default function Adn() {
           </h2>
         </div>
 
-        {/* Descripción */}
         <h3 className="text-[20px] font-normal text-center leading-[24px] mt-[25px] mb-[40px] w-[336px] 
         lg:text-[36px] lg:font-medium lg:leading-[36px] lg:w-[910px] lg:mt-[34px] 
         2xl:text-[24px] 2xl:leading-[28px] 2xl:w-[1049px] 2xl:h-[56px] 2xl:mt-[30px] 2xl:mb-[10px]">
           Somos un grupo de profesionales especializados en escalar empresas y startups, unidos bajo una misma cultura: lograr el liderazgo desde una sólida propuesta de valor.
         </h3>
 
-        {/* Botón Conócenos */}
         <div className="mb-0 mt-[6px] lg:mb-[20px] 2xl:mb-0 2xl:mt-5">
           <Link href="/about_us">
             <button
@@ -45,8 +42,7 @@ export default function Adn() {
         </div>
 
         {/* Esferas decorativas MOBILE */}
-        <div className="relative w-full h-[300px] mb-[80px] sm:hidden"> {/* QUITAMOS overflow-hidden */}
-          {/* Esfera grande */}
+        <div className="relative w-full h-[300px] mb-[80px] sm:hidden">
           <div className="absolute w-[296px] h-[296px] translate-x-[-70px] top-[80px]">
             <Image
               src="/Trama esfera negra.png"

@@ -35,7 +35,7 @@ function TyC() {
                 <p >Para cualquier pregunta o inquietud relacionada con estos términos y condiciones, puedes contactarnos en admin@rombux.com.</p>
             </div>
 
-            <BotonesCirculares/>
+            <BotonesCirculares />
 
         </div>
     )

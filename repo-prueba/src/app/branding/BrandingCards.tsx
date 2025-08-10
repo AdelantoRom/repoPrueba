@@ -10,9 +10,7 @@ export default function BrandingCards() {
         </h1>
       </div>
 
-
       <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7 max-sm:mb-[80px]">
-        {/* Tarjeta 1 */}
         <div
           className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center pt-6 max-xl:h-[212px] max-xl:mt-2 max-xl:w-[292px] max-lg:max-w-[230px] max-lg:h-[200px] max-md:max-w-[292px] max-md:top-0 max-md:h-[170px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
@@ -22,7 +20,6 @@ export default function BrandingCards() {
           </p>
         </div>
 
-        {/* Tarjeta 2 */}
         <div
           className="relative top-[30px] left-1 w-[427px] h-[238px] bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center pt-6 mt-[2px]  max-2xl:mt-1 max-xl:w-[292px] max-lg:max-w-[230px] max-2xl:h-[233px]  max-xl:h-[236px] max-lg:h-[270px] max-md:max-w-[292px] max-md:top-0 max-md:left-0 max-md:h-[222px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
@@ -32,7 +29,6 @@ export default function BrandingCards() {
           </p>
         </div>
 
-        {/* Tarjeta 3 */}
         <div
           className="bg-cover bg-center w-[427px] h-[243px] text-white rounded-[29px] overflow-hidden flex items-start justify-center ml-[22px] mt-[30px] max-xl:h-[258px] max-xl:mt-[22px] max-xl:p-2 max-xl:w-[292px] max-lg:h-[264px] max-lg:mt-[34px] max-lg:max-w-[230px] max-lg:p-0 max-md:max-w-[292px] max-md:mt-0 max-md:ml-0 max-md:h-[252px]"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}

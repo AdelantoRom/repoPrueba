@@ -17,8 +17,7 @@ export default function Page() {
         <div>
           <BenchmarkingForm/>
         </div>
-      </main>
-      
+      </main>   
     </div>
   );
 }
