@@ -26,7 +26,6 @@ export default function Home() {
 
       <Adn />
 
-      {/* Footer posicionado absoluto */}
       <div className="absolute bottom-0 left-0 w-full z-50">
         <Footer />
       </div>

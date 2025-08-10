@@ -69,9 +69,9 @@ export default function Formulario() {
                       <input
                         type="checkbox"
                         className="w-[25px] h-[25px] border-2 border-gray-400 rounded-md appearance-none bg-white max-sm:w-[23px] max-sm:h-[23px]
-                                               checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
-                                               checked:after:flex checked:after:items-center checked:after:justify-center
-                                               checked:after:w-full checked:after:h-full"
+                                              checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
+                                              checked:after:flex checked:after:items-center checked:after:justify-center
+                                              checked:after:w-full checked:after:h-full"
                       />
                       <span className="max-sm:text-[14px] max-sm:w-[262px]">
                         <strong className="font-semibold">{bold}</strong>

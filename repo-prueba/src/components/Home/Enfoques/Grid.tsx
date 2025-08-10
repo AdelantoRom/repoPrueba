@@ -5,7 +5,6 @@ import ButtonClinic from "./Marcas/TheClinic/BotónClinic";
 import ButtonNatreon from "./Marcas/Natreon/ButtonNatreon";
 import ButtonHotel from "./Marcas/Hotel/BotonHotel";
 import ButtonBintelligenz from "./Marcas/Bintelligenz.tsx/BotonBintelligenz";
-import CarouselMarcas from "./CarouselMarcas/CarouselMarcas";
 
 export default function Grid() {
     return (

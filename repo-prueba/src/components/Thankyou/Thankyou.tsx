@@ -46,9 +46,9 @@ export default function Thank() {
                 <h2 className="text-[40px] leading-[50px] max-lg:text-[20px] max-lg:leading-[24px] mt-4">En breve nos comunicaremos <br className="md:hidden" /> contigo.</h2>
             </div>
             <div className="absolute bottom-0 left-0 w-full z-50">
-                                <Footer />
-                        </div>
+                <Footer />
+            </div>
         </div>
-        
+
     );
 }

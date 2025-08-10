@@ -3,7 +3,6 @@ import React from "react";
 export default function DataCards() {
   return (
     <div>
-      {/* Título */}
       <div className="mb-24 text-center -mt-[140px] ml-[15px] max-md:ml-0 max-sm:mb-8">
         <h1 className="font-light text-black text-[80px] leading-[80px] max-2xl:text-[67px] max-2xl:leading-[70px] max-lg:text-[36px] max-lg:leading-[40px] max-sm:px-5">
           Información estratégica <br className="md:hidden" /> para <br className="max-sm:hidden"/>
@@ -11,9 +10,7 @@ export default function DataCards() {
         </h1>
       </div>
 
-      {/* Grid container */}
       <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7 max-sm:mb-[80px]">
-        {/* Tarjeta 1 */}
         <div
           className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center max-xl:mt-3 max-xl:w-[292px] max-xl:h-[207px] max-lg:max-w-[230px] max-lg:h-[240px] max-md:h-[170px] max-md:max-w-[292px] max-md:top-0 max-md:mt-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
@@ -23,7 +20,6 @@ export default function DataCards() {
           </p>
         </div>
 
-        {/* Tarjeta 2 */}
         <div
           className="relative top-[40px] left-1 w-[427px] h-[218px]  bg-cover bg-center text-white rounded-[28px] overflow-hidden flex items-start justify-center  max-xl:w-[292px] max-xl:h-[228px] max-lg:max-w-[230px] max-lg:h-[240px] max-lg:top-[50px] max-md:h-[190px] max-md:max-w-[292px] max-md:top-0 max-md:left-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
@@ -33,7 +29,6 @@ export default function DataCards() {
           </p>
         </div>
 
-        {/* Tarjeta 3 */}
         <div
           className="bg-cover bg-center w-[427px] h-[303px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] max-xl:w-[292px] max-xl:mt-3 max-xl:h-[280px] max-lg:max-w-[230px] max-lg:h-[340px] max-md:h-[240px] max-md:max-w-[292px] max-md:ml-0 max-md:mt-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}

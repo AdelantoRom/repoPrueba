@@ -24,8 +24,6 @@ export default function Benchmarking() {
           </p>
         </div>
 
-
-
         <div className="relative w-full h-[550px] mt-4 max-sm:hidden">
           <Image
             src="/Trama Servicios Desktop.png"
@@ -36,7 +34,6 @@ export default function Benchmarking() {
           />
         </div>
 
-        {/* Icono Benchmarking */}
         <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px] max-sm:mt-130">
           <Image
             src="/Benchmarking.png"

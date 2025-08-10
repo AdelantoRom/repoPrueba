@@ -3,7 +3,6 @@ import Image from "next/image";
 
 export default function Growth() {
   return (
-    // ⬇️ CONTENEDOR QUE BLOQUEA ESPACIO Y AÍSLA LOS ELEMENTOS ABSOLUTOS
     <div className="relative w-full">
       <div className="relative flex flex-col pt-[100px] max-2xl:pt-[50px] max-xl:pt-[20px] overflow-x-hidden">
         <div className=" mt-10 sm:hidden flex justify-center translate-x-5">
@@ -23,7 +22,6 @@ export default function Growth() {
           </p>
         </div>
 
-        {/* Sección visual con imágenes */}
         <div className="relative w-full h-[550px] mt-4 max-sm:hidden">
           <Image
             src="/Trama Servicios Desktop.png"
@@ -34,7 +32,6 @@ export default function Growth() {
           />
         </div>
 
-        {/* Icono Branding */}
         <div className="relative h-[100px] mt-[179px] max-lg:mt-[50px] max-lg:mb-[50px] max-sm:mt-130">
           <Image
             src="/Growth.png"

@@ -10,7 +10,6 @@ export default function BrandingForm() {
       className="relative w-full bg-cover bg-center flex flex-col items-center min-h-screen overflow-x-hidden"
       style={{ backgroundImage: "url('/Gradiente-Home-5.png')" }}
     >
-      {/* Título principal */}
       <div className="mt-[175px] w-full max-w-[1393px]  flex flex-col items-center justify-center mb-9 max-sm:mt-[80px]">
         <h2 className="font-bold text-[64px] leading-[64px] text-center text-white max-lg:text-[40px] max-lg:leading-[40px]">
           Growth:
@@ -20,7 +19,6 @@ export default function BrandingForm() {
         </p>
       </div>
 
-      {/* Párrafo */}
       <div className="w-full max-w-[1145px] flex items-center justify-center max-sm:mt-5">
         <h3 className="relative text-[24px] leading-[28px] text-center text-white max-sm:w-[336px] max-sm:z-10 max-lg:text-[20px]">
           Somos un grupo de profesionales especializados en escalar<br />
@@ -29,7 +27,6 @@ export default function BrandingForm() {
         </h3>
       </div>
 
-      {/* Imagen decorativa + logo */}
       <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px]
       max-sm:ml-0 max-sm:mt-[60px] z-10">
         <Image

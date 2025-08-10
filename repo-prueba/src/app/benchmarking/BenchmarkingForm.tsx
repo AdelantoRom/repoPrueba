@@ -20,7 +20,6 @@ export default function BenchmarkingForm() {
         </p>
       </div>
 
-
       <div className="w-full max-w-[1145px] flex items-center justify-center ml-6 max-sm:ml-0 max-sm:mt-5">
         <h3 className="relative text-[24px] leading-[28px] max-sm:w-[336px] text-center text-white max-lg:text-[20px] max-sm:z-10">
           Somos un grupo de profesionales especializados en <br className="2xl:hidden max-sm:hidden"/> escalar
@@ -28,7 +27,6 @@ export default function BenchmarkingForm() {
           liderazgo desde una sólida propuesta <br className="2xl:hidden max-sm:hidden"/> de valor.
         </h3>
       </div>
-
 
       <div className="mt-[132px] relative ml-[15px] max-lg:mt-[100px] max-sm:ml-0 max-sm:mt-[60px] z-10">
         <Image
