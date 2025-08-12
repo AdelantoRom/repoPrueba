@@ -11,12 +11,13 @@ export default function DataCards() {
       </div>
 
       <div className="grid grid-cols-3 max-md:grid-cols-1 pt-[51px] w-fit mx-auto mb-[167px] justify-items-center max-lg:pt-[15px] max-md:gap-y-7 max-sm:mb-[80px]">
+        
         <div
           className="relative top-[40px] w-[427px] h-[218px] bg-cover bg-center text-white rounded-3xl overflow-hidden flex items-start justify-center max-xl:mt-3 max-xl:w-[292px] max-xl:h-[207px] max-lg:max-w-[230px] max-lg:h-[240px] max-md:h-[170px] max-md:max-w-[292px] max-md:top-0 max-md:mt-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left -ml-[6px] py-10 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:py-7 max-lg:text-[16px] max-lg:pl-2 max-lg:max-w-[190px] max-md:max-w-[239px] max-lg:pt-5 max-md:ml-2 max-md:pl-0">
-            Los datos son las claves de tu crecimiento. Implementamos una cultura data-driven para optimizar tu posicionamiento y potenciar tus capacidades.
+            <span className="font-semibold">Los datos son las claves de tu crecimiento.</span> Implementamos una cultura data-driven para optimizar tu posicionamiento y potenciar tus capacidades.
           </p>
         </div>
 
@@ -25,7 +26,7 @@ export default function DataCards() {
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left py-10 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:py-7 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pl-2 max-md:max-w-[239px] max-lg:pt-5 max-md:ml-2 max-md:pl-0">
-            Decisiones basadas en insights. Transformamos los datos en conocimientos de valor accionables, que te permiten tomar decisiones informadas y con alto impacto.
+            <span className="font-semibold">Decisiones basadas en insights.</span> Transformamos los datos en conocimientos de valor accionables, que te permiten tomar decisiones informadas y con alto impacto.
           </p>
         </div>
 
@@ -34,12 +35,11 @@ export default function DataCards() {
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left py-10 max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pl-2 max-xl:py-7 max-lg:text-[16px] max-lg:max-w-[200px] max-md:max-w-[239px] max-lg:pt-5 max-md:pl-1">
-            El poder de la IA en tu empresa. Aplicamos IA para automatizar procesos, optimizar campañas,
-            predecir comportamientos y personalizar la experiencia de tus consumidores, logrando una performance superior que te coloca a la vanguardia.
+            <span className="font-semibold">El poder de la IA en tu empresa.</span> Aplicamos IA para automatizar procesos, optimizar campañas, predecir comportamientos y personalizar la experiencia de tus consumidores, logrando una performance superior que te coloca a la vanguardia.
           </p>
         </div>
+
       </div>
     </div>
   );
 }
-

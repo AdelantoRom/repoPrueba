@@ -37,6 +37,13 @@ export default function BrandingForm() {
                 unoptimized
                 className="max-lg:w-[479px] max-sm:w-[336px]"
               />
+
+ <a
+          href="https://www.linkedin.com/in/abelfernandogarcia/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
               <Image
                 src="/logoin.png"
                 alt="Logo In"
@@ -44,6 +51,7 @@ export default function BrandingForm() {
                 height={35}
                 className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px] max-sm:w-[25px] max-sm:h-[25px] max-sm:top-[50px] max-sm:left-[60px]"
               />
+              </a>
             </div>
       
             <div className="absolute top-[688px] left-[1389px] max-2xl:left-[970px] max-xl:w-[200px]  max-xl:left-[870px] max-sm:hidden">

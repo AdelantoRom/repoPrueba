@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Footer from "@/components/Footer/Footer";
-import { div } from "framer-motion/client";
+
 
 export default function Formulario() {
   return (
@@ -122,10 +122,10 @@ export default function Formulario() {
             />
           </div>
           <div className="mt-80 custom-contact-form max-xl:-translate-x-15 max-xl:mt-120 max-lg:mt-0 max-lg:mr-70 max-md:mr-60 max-sm:mr-0 max-sm:ml-5 max-lg:mb-40 max-sm:mb-20">
-            <a href="mailto:info@rombux.com">
+            <a href="mailto:hola@rombux.com">
               <p className="text-[20px] leading-[32px] font-semibold cursor-pointer mt-[20px] mb-12 2xl:text-[24px] 2xl:font-normal 2xl:leading-[28px]">
                 <span className="text-[#707070]">Email:</span>{" "}
-                <span className="text-[#D81FB9]">info@rombux.com</span>
+                <span className="text-[#D81FB9]">hola@rombux.com</span>
               </p>
             </a>
 
@@ -141,15 +141,22 @@ export default function Formulario() {
                 (1202AAI) Argentina
               </p>
             </div>
+<div className="mt-10 max-md:hidden">
+  <a
+    href="https://www.linkedin.com/company/rombux"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      src="/logoin.png"
+      alt="LinkedIn Rombux"
+      width={46}
+      height={46}
+      className="cursor-pointer"
+    />
+  </a>
+</div>
 
-            <div className="mt-10 max-md:hidden">
-              <Image
-                src="/logoin.png"
-                alt="Logo institucional"
-                width={46}
-                height={46}
-              />
-            </div>
           </div>
         </div>
       </div>

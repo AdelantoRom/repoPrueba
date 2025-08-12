@@ -37,10 +37,14 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Logo IN */}
-          <div>
-            <Image src="/logoin.png" alt="Logo IN" width={32} height={32} />
-          </div>
+          {/* Logo IN con link */}
+          <Link
+            href="https://www.linkedin.com/company/rombux"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/logoin.png" alt="LinkedIn Rombux" width={32} height={32} />
+          </Link>
         </div>
       </div>
 
@@ -70,14 +74,20 @@ export default function Footer() {
             </Link>
 
             <div className="mt-12">
-              <Image
-                src="/logoin.png"
-                alt="Logo IN Tablet"
-                width={40}
-                height={40}
-                priority
-                className="max-lg:w-[30px]"
-              />
+              <Link
+                href="https://www.linkedin.com/company/rombux"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/logoin.png"
+                  alt="LinkedIn Rombux Tablet"
+                  width={40}
+                  height={40}
+                  priority
+                  className="max-lg:w-[30px]"
+                />
+              </Link>
             </div>
           </div>
 
@@ -100,7 +110,7 @@ export default function Footer() {
       <div className="block sm:hidden relative w-full h-[240px] bg-[#060114] px-4 py-6">
         <div className="max-w-[393px] mx-auto">
           <div className="flex justify-between items-center mb-2">
-            {/* <- Mueve Rombux a la derecha */}
+            {/* Logo Rombux */}
             <Link href="/" className="ml-4">
               <Image
                 src="/Logo Rombux fucsia footer.png"
@@ -110,18 +120,23 @@ export default function Footer() {
               />
             </Link>
 
-            {/* <- Mueve logoin a la izquierda */}
+            {/* Logo IN con link */}
             <div className="mr-4">
-              <Image
-                src="/logoin.png"
-                alt="Logo IN Mobile"
-                width={30}
-                height={30}
-              />
+              <Link
+                href="https://www.linkedin.com/company/rombux"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/logoin.png"
+                  alt="LinkedIn Rombux Mobile"
+                  width={30}
+                  height={30}
+                />
+              </Link>
             </div>
           </div>
 
-          {/* <- Mueve <p> a la derecha */}
           <div
             className="w-[336px] text-[9.3px] leading-[20px] text-white mt-12 leading-tight ml-4"
             style={{ lineHeight: "12px" }}

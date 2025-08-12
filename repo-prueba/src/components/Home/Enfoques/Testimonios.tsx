@@ -36,7 +36,7 @@ function Testimonios() {
                         </p>
             
                         <p className="mt-[70px] text-[16px] mb-5 leading-[28px] text-black max-2xl:mt-[40px] max-xl:leading-[22px] max-xl:mt-[20px]">
-                            “En Rombux encontramos una respuesta <br /> de alta calidad, flexible y de rápida resolución para la presentación en <br /> nuestro país del programa de <span className="font-bold">HP, PremierA3</span>.”
+                            “En Rombux encontramos una respuesta de alta calidad, flexible y de rápida resolución para la presentación en <br /> nuestro país del programa de <span className="font-bold">HP, PremierA3</span>.”
                         </p>
             
                         <div className="flex flex-col text-[16px] max-2xl:mt-[22px] max-xl:mb-[10px] max-xl:mt-10">
@@ -61,7 +61,7 @@ function Testimonios() {
                         </p>
             
                         <p className="mt-[70px] text-[16px] mb-5 leading-[28px] text-black max-2xl:mt-[40px] max-xl:leading-[22px] max-xl:mt-[12px] max-xl:mb-0">
-                            “Coordinamos campañas para empresas agroalimentarias de primera línea como <span className="font-bold">Dow Agroscienes, Granix, Advanta Semillas y Fargo</span>, con óptimos resultados en la difusión y posicionamiento de sus productos”.
+                            “Coordinamos campañas para empresas agroalimentarias de primera línea como <span className="font-bold">Dow AgroSciences, Granix, Advanta Semillas y Fargo</span>, con óptimos resultados en la difusión y posicionamiento de sus productos”.
                         </p>
             
                         <div className="flex flex-col text-[16px] max-2xl:mt-[22px] max-xl:mt-4">

@@ -53,6 +53,12 @@ export default function DataForm() {
           className="absolute top-[45px] left-[169px] max-lg:top-[30px] max-lg:left-[145px] max-lg:w-[180px] max-lg:h-[40px] max-sm:w-[110px] max-sm:h-[25px] max-sm:top-[23px] max-sm:left-[102px]"
         />
 
+<a
+          href="https://www.linkedin.com/in/hugodamianplaniscig/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
         <Image
           src="/logoin.png"
           alt="Logo In"
@@ -60,6 +66,8 @@ export default function DataForm() {
           height={35}
           className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px] max-sm:w-[25px] max-sm:h-[25px] max-sm:top-[50px] max-sm:left-[60px]"
         />
+        </a>
+
       </div>
 
     <div className="absolute top-[688px] left-[1389px] max-2xl:left-[970px] max-xl:w-[200px]  max-xl:left-[870px] max-sm:hidden">
