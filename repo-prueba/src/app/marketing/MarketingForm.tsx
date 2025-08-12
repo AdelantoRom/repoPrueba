@@ -47,8 +47,8 @@ export default function BrandingForm() {
         <Image
           src="/logoin.png"
           alt="Logo In"
-          width={45}
-          height={45}
+          width={35}
+          height={35}
           className="absolute top-[81px] left-[109px] max-lg:top-[70px] max-lg:left-[90px] max-lg:w-[30px] max-lg:h-[30px] max-sm:w-[25px] max-sm:h-[25px] max-sm:top-[50px] max-sm:left-[60px]"
         />
         </a>
