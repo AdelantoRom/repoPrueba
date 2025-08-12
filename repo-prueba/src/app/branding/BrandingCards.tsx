@@ -16,7 +16,7 @@ export default function BrandingCards() {
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left -ml-[2px] pt-5 max-w-[351px] max-xl:max-w-[239px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-2 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pl-2 max-lg:pt-0 max-md:max-w-[239px] max-md:ml-2 max-md:pl-0">
-            La identidad digital, tu mayor activo. Diseñamos e instalamos tu marca en el ámbito virtual apelando a los diferenciales de tu propuesta de valor.
+            <span className="font-semibold">La identidad digital, tu mayor activo.</span> Diseñamos e instalamos tu marca en el ámbito virtual apelando a los diferenciales de tu propuesta de valor.
           </p>
         </div>
 
@@ -25,7 +25,7 @@ export default function BrandingCards() {
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-3 max-w-[357px] max-xl:max-w-[246px] max-xl:text-[18px] max-xl:leading-[25px] max-xl:pt-2 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pl-2 max-lg:pt-0 max-md:max-w-[239px] max-md:ml-2">
-            Identidades y narrativas que conectan con tu audiencia. Generamos impacto positivo y una sólida reputación, percepción de confianza y lealtad hacia tu empresa y oferta en el mercado.
+            <span className="font-semibold">Identidades y narrativas que conectan con tu audiencia.</span> Generamos impacto positivo y una sólida reputación, percepción de confianza y lealtad hacia tu empresa y oferta en el mercado.
           </p>
         </div>
 
@@ -34,11 +34,10 @@ export default function BrandingCards() {
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left pt-[39px] max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-2xl:pl-2 max-xl:leading-[25px] max-xl:pt-6 max-lg:text-[16px] max-lg:max-w-[200px] max-lg:pt-5 max-md:pt-7 max-md:max-w-[239px] max-md:pl-3 ">
-            Tu presencia online, sólida y eficiente Construimos tus activos digitales en base a los criterios de tu marca, la experiencia del usuario, interfaces atractivas y capacidades tecnológicas avanzadas.
+            <span className="font-semibold">Tu presencia online, sólida y eficiente.</span> Construimos tus activos digitales en base a los criterios de tu marca, la experiencia del usuario, interfaces atractivas y capacidades tecnológicas avanzadas.
           </p>
         </div>
       </div>
     </div>
   );
 }
-
