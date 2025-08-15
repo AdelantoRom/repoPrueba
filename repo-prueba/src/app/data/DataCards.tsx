@@ -31,7 +31,7 @@ export default function DataCards() {
         </div>
 
         <div
-          className="bg-cover bg-center w-[427px] h-[303px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] max-xl:w-[292px] max-xl:mt-3 max-xl:h-[280px] max-lg:max-w-[230px] max-lg:h-[340px] max-md:h-[240px] max-md:max-w-[292px] max-md:ml-0 max-md:mt-0"
+          className="bg-cover bg-center w-[427px] h-[303px] text-white rounded-[29px] overflow-hidden flex items-start justify-center  ml-[22px] max-xl:w-[292px] max-xl:mt-3 max-xl:h-[280px] max-lg:max-w-[230px] max-lg:h-[340px] max-md:h-[265px] max-md:max-w-[292px] max-md:ml-0 max-md:mt-0"
           style={{ backgroundImage: "url('/gradiente-desktop.png')" }}
         >
           <p className="text-[20px] leading-[28px] text-left py-10 max-w-[351px] max-xl:max-w-[259px] mx-auto max-xl:text-[18px] max-xl:leading-[25px] max-xl:pl-2 max-xl:py-7 max-lg:text-[16px] max-lg:max-w-[200px] max-md:max-w-[239px] max-lg:pt-5 max-md:pl-1">
