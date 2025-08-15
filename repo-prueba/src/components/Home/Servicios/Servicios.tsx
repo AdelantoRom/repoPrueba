@@ -10,7 +10,7 @@ export default function Servicios() {
             <div className="w-[911px] ml-[293px] mt-[149px] max-xl:ml-[80px] max-2xl:ml-[120px] max-md:ml-5 max-md:mt-[85px] max-lg:w-[400px] max-md:w-[285px] max-sm:ml-8">
                 <h2 className="text-[#D81FB9] text-[80px] leading-[80px] max-xl:text-[70px] max-xl:leading-[70px] max-lg:text-[55px] max-lg:leading-[55px] max-md:text-[40px] max-lg:leading-[40px] max-lg:w-[200px] ">Servicios</h2>
                 <h3 className="text-black text-[48px] leading-none pt-[26px] max-xl:text-[36px] max-xl:leading-[36px] max-xl:w-[543px]  max-lg:text-[30px] max-lg:leading-[30px]  max-md:text-[25px] max-md:leading-[25px] max-md:pt-3 max-md:font-light max-sm:w-[285px]">
-                    Soluciones híperpersonalizadas <br className="block md:hidden lg:block"/>para tu empresa
+                    Soluciones híperpersonalizadas <br className="block md:hidden lg:block" />para tu empresa
                 </h3>
             </div>
 
@@ -19,7 +19,7 @@ export default function Servicios() {
                     <div className="relative w-[700px] h-[630px] overflow-visible mt-34 max-2xl:w-[600px] max-2xl:mt-10 max-xl:w-[450px] ">
 
                         <div className="relative ml-[76px] w-[725px] max-2xl:w-[580px] max-xl:-ml-[60px] max-xl:w-[480px] h-[725px] flex justify-center items-center -mt-[76px] max-xl:-mt-[110px] max-lg:hidden">
-                            <div className="w-[1000px] h-[1000px]">
+                            <div className="w-full h-full relative">
                                 <Image
                                     src="/man2.png"
                                     alt="Fondo"
