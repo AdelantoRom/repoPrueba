@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
 import NavbarPrueba from "@/components/Navbar/Navbar";
 import "./globals.css";
+import { Toaster } from 'react-hot-toast';
 
 const albertSans = Albert_Sans({
   subsets: ['latin'],
@@ -29,6 +30,7 @@ export default function RootLayout({
         className={`${albertSans.variable} antialiased`}
       >
         <NavbarPrueba />
+        <Toaster position="top-right" />
         {children}
 
       </body>
