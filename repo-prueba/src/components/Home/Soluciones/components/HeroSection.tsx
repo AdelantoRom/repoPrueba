@@ -41,7 +41,7 @@ export default function HeroSection() {
             {/* Red giratoria */}
             <div className="
               absolute inset-0 m-auto z-30
-              sm:w-full sm:h-[336px]
+              sm:w-[336px] sm:h-[336px]
               lg:w-[386px] lg:h-[386px]
               xl:w-[556px] xl:h-[556px]
               2xl:w-[756px] 2xl:h-[756px] 
@@ -51,7 +51,8 @@ export default function HeroSection() {
               <Image
                 src="/redfucsia.png"
                 alt="Red giratoria"
-                fill
+                width={756}
+                height={756}
                 className="object-contain max-sm:scale-95 "
                 priority
               />
