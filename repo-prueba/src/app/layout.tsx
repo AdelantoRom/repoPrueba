@@ -12,8 +12,8 @@ const albertSans = Albert_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Soluciones Digitales de Negocios para Empresas.",
-  description: "Impulsamos tu empresa en el universo digital con estrategias de Marketing, Data e IA, 100% personalizadas.",
+  title: "Rombux | Soluciones 360° en Marketing, Data e IA para Empresas",
+  description: "Impulsamos a tu empresa en el universo digital con Servicios Integrales de Benchmarking, Branding, Marketing Digital, Growth, Data e IA, 100% personalizados.",
   icons: {
     icon: "/isotipo.png"
   }
