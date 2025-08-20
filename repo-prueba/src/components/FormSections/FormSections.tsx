@@ -2,13 +2,14 @@
 
 import React, { useState } from 'react'
 import { submitContactForm } from "@/services/contactService";
-import { regexNombre, regexEmail, regexEmpresa, regexMensaje, validarServicios } from "@/utils/regex";
-import toast, { Toaster } from "react-hot-toast";
+import { regexNombre, regexEmail, regexEmpresa, regexTelefono, regexMensaje, validarServicios } from "@/utils/regex";
+import toast from "react-hot-toast";
 
 function FormSections() {
     const [nombre, setNombre] = useState("");
     const [apellido, setApellido] = useState("");
     const [email, setEmail] = useState("");
+    const [telefono, setTelefono] = useState("");
     const [empresa, setEmpresa] = useState("");
     const [mensaje, setMensaje] = useState("");
     const [serviciosSeleccionados, setServiciosSeleccionados] = useState<string[]>([]);
@@ -28,6 +29,7 @@ function FormSections() {
         if (!regexNombre.test(nombre)) return toast.error("Nombre inválido");
         if (!regexNombre.test(apellido)) return toast.error("Apellido inválido");
         if (!regexEmail.test(email)) return toast.error("Email inválido");
+        if (!regexTelefono.test(telefono)) return toast.error("Teléfono inválido");
         if (!regexEmpresa.test(empresa)) return toast.error("Empresa inválida");
         if (!regexMensaje.test(mensaje)) return toast.error("Mensaje inválido");
         if (!validarServicios(serviciosSeleccionados)) return toast.error("Debes seleccionar al menos un servicio");
@@ -39,6 +41,7 @@ function FormSections() {
             empresa,
             mensaje,
             area_de_servicio: serviciosSeleccionados,
+            telefono,
         };
 
         const toastId = toast.loading("Enviando respuesta...");
@@ -68,7 +71,7 @@ function FormSections() {
             });
 
             // Limpiar formulario
-            setNombre(""); setApellido(""); setEmail(""); setEmpresa(""); setMensaje(""); setServiciosSeleccionados([]);
+            setNombre(""); setApellido(""); setEmail(""); setTelefono(""); setEmpresa(""); setMensaje(""); setServiciosSeleccionados([]);
         } catch (error) {
             toast.error("Error al enviar el formulario", { id: toastId });
             console.error(error);
@@ -77,7 +80,7 @@ function FormSections() {
 
     return (
         <div className="relative z-10 mt-[107px] flex flex-col items-center max-sm:mt-[60px]">
-            <Toaster position="top-right" />
+
             <h2 className="text-white text-[32px] leading-[36px] text-center max-sm:text-[38px]">¿Conectamos?</h2>
             <form
                 className="mt-[56px] flex flex-col space-y-[25px] items-center max-sm:mt-[45px]"
@@ -106,6 +109,13 @@ function FormSections() {
                 />
                 <input
                     type="text"
+                    placeholder="Teléfono*"
+                    value={telefono}
+                    onChange={(e) => setTelefono(e.target.value)}
+                    className="w-[638px] h-[48px] border border-[#707070] rounded-[5px] font-medium text-[16px] leading-[24px] placeholder:text-gray-600 text-[#4B4B4B] bg-white pl-[24px] max-sm:w-[336px] max-sm:pl-4"
+                />
+                <input
+                    type="text"
                     placeholder="Empresa*"
                     value={empresa}
                     onChange={(e) => setEmpresa(e.target.value)}
@@ -122,7 +132,7 @@ function FormSections() {
                         { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
                         { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
                         { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
-                        { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
+                        { bold: "Data&AI", rest: " / Información clave y automatización de procesos." },
                     ].map(({ bold, rest }, idx) => (
                         <label key={idx} className="flex items-start space-x-[27px] text-[16px] text-black -mt-[2px] max-sm:leading-[16px] max-sm:space-x-[15px]">
                             <input

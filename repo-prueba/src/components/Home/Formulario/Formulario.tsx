@@ -3,13 +3,16 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { submitContactForm } from "@/services/contactService";
-import { regexNombre, regexEmail, regexEmpresa, regexMensaje, validarServicios } from "@/utils/regex";
+import { regexNombre, regexEmail, regexEmpresa, regexTelefono, regexMensaje, validarServicios } from "@/utils/regex";
 import toast, { Toaster } from "react-hot-toast";
+
+// Si tenías regexTelefono en utils/regex, usalo en vez de este
 
 export default function Formulario() {
   const [nombre, setNombre] = useState("");
   const [apellido, setApellido] = useState("");
   const [email, setEmail] = useState("");
+  const [telefono, setTelefono] = useState(""); // 👈 nuevo estado
   const [empresa, setEmpresa] = useState("");
   const [mensaje, setMensaje] = useState("");
   const [serviciosSeleccionados, setServiciosSeleccionados] = useState<string[]>([]);
@@ -29,6 +32,7 @@ export default function Formulario() {
     if (!regexNombre.test(nombre)) return toast.error("Nombre inválido");
     if (!regexNombre.test(apellido)) return toast.error("Apellido inválido");
     if (!regexEmail.test(email)) return toast.error("Email inválido");
+    if (!regexTelefono.test(telefono)) return toast.error("Teléfono inválido"); // 👈 validación nueva
     if (!regexEmpresa.test(empresa)) return toast.error("Empresa inválida");
     if (!regexMensaje.test(mensaje)) return toast.error("Mensaje inválido");
     if (!validarServicios(serviciosSeleccionados)) return toast.error("Debes seleccionar al menos un servicio");
@@ -37,6 +41,7 @@ export default function Formulario() {
       nombre,
       apellido,
       email,
+      telefono, // 👈 se envía al backend
       empresa,
       mensaje,
       area_de_servicio: serviciosSeleccionados,
@@ -45,26 +50,28 @@ export default function Formulario() {
     const toastId = toast.loading("Enviando respuesta...");
 
     try {
-      const response = await submitContactForm(data);
-      toast.success("¡Gracias! ¡En breve estaremos comunicandonos!", { id: toastId, duration: 4000,  icon: (
-    <div
-      style={{
-        backgroundColor: "#D81FB9",
-        borderRadius: "50%",
-        width: "24px",
-        height: "24px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        color: "#fff",
-        fontSize: "16px",
-      }}
-    >
-      ✔
-    </div>
-  ), });
+      await submitContactForm(data);
+      toast.success("¡Gracias! ¡En breve estaremos comunicandonos!", {
+        id: toastId, duration: 4000, icon: (
+          <div
+            style={{
+              backgroundColor: "#D81FB9",
+              borderRadius: "50%",
+              width: "24px",
+              height: "24px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              color: "#fff",
+              fontSize: "16px",
+            }}
+          >
+            ✔
+          </div>
+        ),
+      });
       // Limpiar formulario
-      setNombre(""); setApellido(""); setEmail(""); setEmpresa(""); setMensaje(""); setServiciosSeleccionados([]);
+      setNombre(""); setApellido(""); setEmail(""); setTelefono(""); setEmpresa(""); setMensaje(""); setServiciosSeleccionados([]);
     } catch (error) {
       toast.error("Error al enviar el formulario", { id: toastId });
       console.error(error);
@@ -107,6 +114,13 @@ export default function Formulario() {
           />
           <input
             type="text"
+            placeholder="Teléfono*"
+            value={telefono}
+            onChange={(e) => setTelefono(e.target.value)}
+            className="w-[638px] h-[48px] border border-[#707070] rounded-[5px] font-medium text-[16px] leading-[24px] placeholder:text-gray-600 text-[#4B4B4B] bg-white pl-[24px] max-sm:w-[336px] max-sm:pl-4"
+          />
+          <input
+            type="text"
             placeholder="Empresa*"
             value={empresa}
             onChange={(e) => setEmpresa(e.target.value)}
@@ -123,7 +137,7 @@ export default function Formulario() {
               { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
               { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
               { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
-              { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
+              { bold: "Data&AI", rest: " / Información clave y automatización de procesos." },
             ].map(({ bold, rest }, idx) => (
               <label key={idx} className="flex items-start space-x-[27px] text-[16px] text-black -mt-[2px] max-sm:leading-[16px] max-sm:space-x-[15px]">
                 <input

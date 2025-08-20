@@ -4,13 +4,14 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Footer from "@/components/Footer/Footer";
 import { submitContactForm } from "@/services/contactService";
-import { regexNombre, regexEmail, regexEmpresa, regexMensaje, validarServicios } from "@/utils/regex";
+import { regexNombre, regexEmail, regexEmpresa, regexTelefono, regexMensaje, validarServicios } from "@/utils/regex";
 import toast, { Toaster } from "react-hot-toast";
 
 export default function Formulario() {
   const [nombre, setNombre] = useState("");
   const [apellido, setApellido] = useState("");
   const [email, setEmail] = useState("");
+  const [telefono, setTelefono] = useState("");
   const [empresa, setEmpresa] = useState("");
   const [mensaje, setMensaje] = useState("");
   const [serviciosSeleccionados, setServiciosSeleccionados] = useState<string[]>([]);
@@ -30,6 +31,7 @@ export default function Formulario() {
     if (!regexNombre.test(nombre)) return toast.error("Nombre inválido");
     if (!regexNombre.test(apellido)) return toast.error("Apellido inválido");
     if (!regexEmail.test(email)) return toast.error("Email inválido");
+    if (!regexTelefono.test(telefono)) return toast.error("Teléfono inválido");
     if (!regexEmpresa.test(empresa)) return toast.error("Empresa inválida");
     if (!regexMensaje.test(mensaje)) return toast.error("Mensaje inválido");
     if (!validarServicios(serviciosSeleccionados)) return toast.error("Debes seleccionar al menos un servicio");
@@ -41,6 +43,7 @@ export default function Formulario() {
       empresa,
       mensaje,
       area_de_servicio: serviciosSeleccionados,
+      telefono,
     };
 
     const toastId = toast.loading("Enviando respuesta...");
@@ -82,7 +85,7 @@ export default function Formulario() {
     { bold: "Branding", rest: " / Identidad, presencia digital, reputación." },
     { bold: "Marketing Digital", rest: " / Conexión y adquisición de clientes." },
     { bold: "Growth", rest: " / Crecimiento y posicionamiento de mercado." },
-    { bold: "Data + IA", rest: " / Información clave y automatización de procesos." },
+    { bold: "Data&AI", rest: " / Información clave y automatización de procesos." },
   ];
 
   return (
@@ -109,6 +112,7 @@ export default function Formulario() {
               { placeholder: "Nombre*", value: nombre, setValue: setNombre },
               { placeholder: "Apellido*", value: apellido, setValue: setApellido },
               { placeholder: "Email*", value: email, setValue: setEmail },
+              { placeholder: "Teléfono*", value: telefono, setValue: setTelefono },
               { placeholder: "Empresa*", value: empresa, setValue: setEmpresa },
             ].map((field, idx) => (
               <input

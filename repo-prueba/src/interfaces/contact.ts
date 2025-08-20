@@ -6,4 +6,5 @@ export interface ContactFormData {
     empresa: string;
     mensaje: string;
     area_de_servicio: string[];
+    telefono: string;
 }
