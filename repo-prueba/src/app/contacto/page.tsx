@@ -73,7 +73,7 @@ export default function Formulario() {
       });
 
       // Limpiar formulario
-      setNombre(""); setApellido(""); setEmail(""); setEmpresa(""); setMensaje(""); setServiciosSeleccionados([]);
+      setNombre(""); setApellido(""); setEmail(""); setEmpresa(""); setTelefono(""); setMensaje(""); setServiciosSeleccionados([]);
     } catch (error) {
       toast.error("Error al enviar el formulario", { id: toastId });
       console.error(error);
