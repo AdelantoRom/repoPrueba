@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${albertSans.variable} antialiased`}
       >
         <NavbarPrueba />
-        <Toaster position="top-right" />
+        <Toaster position="bottom-right" />
         {children}
 
       </body>

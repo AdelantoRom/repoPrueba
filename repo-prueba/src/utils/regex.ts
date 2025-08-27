@@ -12,7 +12,7 @@ export const regexTelefono = /^(\+?\d{1,4}[-.\s]?)?(\d{7,15})$/;
 export const regexEmpresa = /^[a-zA-Z0-9À-ÿ\s.,'-]{2,100}$/;
 
 // Mensaje: cualquier carácter, mínimo 5, máximo 500
-export const regexMensaje = /^.{5,500}$/;
+export const regexMensaje = /^.{50,500}$/;
 
 // Servicios seleccionados: como es un array de strings, no hace falta regex, pero podés validar que no esté vacío
 export const validarServicios = (servicios: string[]) => servicios.length > 0;
