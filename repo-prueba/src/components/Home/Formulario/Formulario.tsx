@@ -36,7 +36,7 @@ export default function Formulario() {
     if (!regexEmail.test(email)) newErrors.email = "Correo con formato incorrecto";
     if (!regexTelefono.test(telefono)) newErrors.telefono = "Número de teléfono incorrecto";
     if (!regexEmpresa.test(empresa)) newErrors.empresa = "Rellena este campo obligatorio";
-    if (!regexMensaje.test(mensaje)) newErrors.mensaje = "Mensaje inválido";
+    if (!regexMensaje.test(mensaje)) newErrors.mensaje = "Mensaje inválido, mínimo 50 caracteres";
     if (!validarServicios(serviciosSeleccionados)) newErrors.servicios = "Debes seleccionar al menos un servicio";
 
     setErrors(newErrors);
@@ -171,7 +171,7 @@ export default function Formulario() {
                   checked={serviciosSeleccionados.includes(bold)}
                   onChange={() => handleCheckboxChange(bold)}
                   className="w-[25px] h-[25px] border-2 border-gray-400 rounded-md appearance-none bg-white max-sm:w-[23px] max-sm:h-[23px]
-                     checked:after:content-['✔'] checked:after:text-[#D81FB9] checked:after:text-lg
+                    checked:bg-[#D81FB9] checked:after:text-[#D81FB9] checked:after:text-lg
                      checked:after:flex checked:after:items-center checked:after:justify-center
                      checked:after:w-full checked:after:h-full"
                 />
@@ -192,7 +192,7 @@ export default function Formulario() {
               className="w-full h-full pl-4 pt-[3px] text-[16px] font-bold placeholder:text-gray-500 text-[#4B4B4B] resize-none focus:outline-none bg-transparent max-sm:pl-1"
               placeholder="¿Por qué tema nos consultas?*"
             />
-          {errors.mensaje && <p className="text-red-500 text-sm mt-4 ml-[-12px] text-left">{errors.mensaje}</p>}
+            {errors.mensaje && <p className="text-red-500 text-sm mt-4 ml-[-12px] text-left">{errors.mensaje}</p>}
           </div>
 
           {/* Botón */}
